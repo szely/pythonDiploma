@@ -1,0 +1,30 @@
+{
+  "object": "my_files",
+  "type": "directory",
+  "children": [
+    {
+      "object": "1.jpeg"
+    },
+    {
+      "object": "5.jpeg"
+    },
+    {
+      "object": "folder_1",
+      "type": "directory",
+      "children": [
+        {
+          "object": "folder_2",
+          "type": "directory",
+          "children": [
+            {
+              "object": "3.jpeg"
+            }
+          ]
+        },
+        {
+          "object": "2.jpeg"
+        }
+      ]
+    }
+  ]
+}

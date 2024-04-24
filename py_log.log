@@ -1,0 +1,29 @@
+INFO:root:An INFO
+WARNING:root:A WARNING
+ERROR:root:An ERROR
+CRITICAL:root:A message of CRITICAL severity
+INFO:aiogram.dispatcher:Start polling
+INFO:aiogram.dispatcher:Run polling for bot @Our_HandyBOT id=6941628121 - 'HandyBOT'
+INFO:aiogram.event:Update id=542209739 is handled. Duration 6140 ms by bot id=6941628121
+INFO:aiogram.event:Update id=542209740 is handled. Duration 142 ms by bot id=6941628121
+INFO:aiogram.event:Update id=542209741 is handled. Duration 231 ms by bot id=6941628121
+INFO:aiogram.event:Update id=542209742 is handled. Duration 145 ms by bot id=6941628121
+INFO:aiogram.event:Update id=542209743 is handled. Duration 526 ms by bot id=6941628121
+INFO:aiogram.event:Update id=542209744 is handled. Duration 214 ms by bot id=6941628121
+INFO:aiogram.event:Update id=542209745 is handled. Duration 291 ms by bot id=6941628121
+INFO:aiogram.event:Update id=542209746 is handled. Duration 155 ms by bot id=6941628121
+INFO:aiogram.event:Update id=542209747 is handled. Duration 567 ms by bot id=6941628121
+INFO:aiogram.event:Update id=542209748 is handled. Duration 141 ms by bot id=6941628121
+INFO:aiogram.event:Update id=542209749 is handled. Duration 151 ms by bot id=6941628121
+INFO:aiogram.event:Update id=542209750 is handled. Duration 165 ms by bot id=6941628121
+INFO:aiogram.event:Update id=542209751 is handled. Duration 79 ms by bot id=6941628121
+INFO:aiogram.event:Update id=542209752 is handled. Duration 280 ms by bot id=6941628121
+INFO:aiogram.event:Update id=542209753 is handled. Duration 158 ms by bot id=6941628121
+INFO:aiogram.event:Update id=542209754 is handled. Duration 299 ms by bot id=6941628121
+INFO:aiogram.event:Update id=542209755 is handled. Duration 914 ms by bot id=6941628121
+INFO:aiogram.event:Update id=542209756 is handled. Duration 313 ms by bot id=6941628121
+INFO:aiogram.event:Update id=542209757 is handled. Duration 78 ms by bot id=6941628121
+INFO:aiogram.event:Update id=542209758 is handled. Duration 80 ms by bot id=6941628121
+WARNING:aiogram.dispatcher:Received SIGINT signal
+INFO:aiogram.dispatcher:Polling stopped for bot @Our_HandyBOT id=6941628121 - 'HandyBOT'
+INFO:aiogram.dispatcher:Polling stopped
