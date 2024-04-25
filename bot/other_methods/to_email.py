@@ -3,11 +3,13 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 from email.mime.application import MIMEApplication
 from os.path import basename
-import reg_data
+from dotenv import load_dotenv
+import os
 
-from_addr = reg_data.from_addr
-to_addr = reg_data.to_addr
-password = reg_data.password
+load_dotenv('.env')
+from_addr = os.getenv("FROM_ADDR")
+to_addr = os.getenv("TO_ADDR")
+password = os.getenv("PASSWORD")
 
 def email(f, t):
     global from_addr
