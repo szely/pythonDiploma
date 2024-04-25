@@ -5,8 +5,6 @@ from aiogram.filters.command import Command
 from aiogram.utils.keyboard import InlineKeyboardBuilder, ReplyKeyboardBuilder
 from aiogram.types import CallbackQuery, FSInputFile
 from pathlib import Path
-
-import reg_data
 from to_email import send_email
 import reg_data
 
