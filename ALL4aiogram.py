@@ -5,6 +5,7 @@ from aiogram.filters.command import Command
 from aiogram.utils.keyboard import InlineKeyboardBuilder, ReplyKeyboardBuilder
 from aiogram.types import CallbackQuery, FSInputFile
 from pathlib import Path
+from to_email import send_email
 
 # Включаем логирование, чтобы не пропустить важные сообщения
 # logging.basicConfig(level=logging.INFO)
@@ -26,6 +27,7 @@ dp = Dispatcher()
 # Указываем путь к корневой директории
 my_directory = '/Users/a1234/Downloads/my_files'
 
+# Указываем первую папку
 first_dir = '/folder_1'
 
 ignore = '.DS_Store'
@@ -33,6 +35,7 @@ number_path = {}
 path_number = {}
 path_buttons = {}
 buttons = {}
+message_choose = ''
 
 
 # Создаем словари сопоставлений, присваиваем номера кажому элементу - файл папка и связываем его с путем к этому элементу
@@ -109,13 +112,20 @@ async def cmd_start(message: types.Message):
 async def instrument(message: types.Message):
     global buttons
     global first_dir
-    if message.text == 'Файловый менеджер':
-    #     number_path = create_dirs_files_map(my_directory)[0]
-    #     path_number = create_dirs_files_map(my_directory)[1]
-    #     path_buttons = create_path_buttons(my_directory)
-    #     buttons = create_buttons(path_buttons, number_path, path_number)
+    global message_choose
+    message_choose = message.text
+    if message_choose == 'Файловый менеджер':
+        builder_type_send = ReplyKeyboardBuilder()
+        builder_type_send.button(text='В бот')
+        builder_type_send.button(text='На почту')
+        builder_type_send.adjust(2)
+        await message.answer("Куда отправлять файлы?", reply_markup=builder_type_send.as_markup(one_time_keyboard=True, resize_keyboard=True))
+    if message_choose == 'В бот':
         this_button = buttons.get(str(my_directory + first_dir))
-        await message.answer("Привет! Выберите файл или папку", reply_markup=this_button.as_markup())
+        await message.answer("Выберите файл или папку", reply_markup=this_button.as_markup())
+    if message_choose == 'На почту':
+        this_button = buttons.get(str(my_directory + first_dir))
+        await message.answer("Выберите файл или папку", reply_markup=this_button.as_markup())
 
 
 @dp.callback_query()
@@ -124,6 +134,7 @@ async def call(callback):
     global path_number
     global path_buttons
     global buttons
+    global message_choose
 
     if Path(number_path.get(int(callback.data))).is_dir():
         path = number_path.get(int(callback.data))
@@ -131,10 +142,13 @@ async def call(callback):
         await callback.message.answer('Выберите папку или файл', reply_markup=markup.as_markup())
         await bot.delete_message(callback.message.chat.id, callback.message.message_id)
 
-    elif Path(number_path.get(int(callback.data))).is_file():
+    if Path(number_path.get(int(callback.data))).is_file() and message_choose == 'В бот':
         file = FSInputFile(number_path.get(int(callback.data)))
         await bot.send_document(callback.message.chat.id, file)
-
+    if Path(number_path.get(int(callback.data))).is_file() and message_choose == 'На почту':
+        file_name = str(Path(number_path.get(int(callback.data)))).split('/')[-1]
+        status = send_email(str(Path(number_path.get(int(callback.data)))), file_name)
+        await callback.message.answer(f'{status} "{file_name}"')
 
 # Запуск процесса поллинга новых апдейтов
 async def main():
