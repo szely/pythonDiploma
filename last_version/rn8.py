@@ -19,7 +19,7 @@ def main():
             except ValueError:
                 continue
             print(f'Номер вагона: {item}')
-            with open("log.txt", "a") as file:
+            with open("../log.txt", "a") as file:
                 file.write(item+'\n')
 
 

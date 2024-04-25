@@ -5,7 +5,10 @@ from aiogram.filters.command import Command
 from aiogram.utils.keyboard import InlineKeyboardBuilder, ReplyKeyboardBuilder
 from aiogram.types import CallbackQuery, FSInputFile
 from pathlib import Path
+
+import reg_data
 from to_email import send_email
+import reg_data
 
 # Включаем логирование, чтобы не пропустить важные сообщения
 # logging.basicConfig(level=logging.INFO)
@@ -18,14 +21,14 @@ from to_email import send_email
 
 
 #  Токен
-TOKEN = "6941628121:AAHT8TIRFVFZT3U6mgNwqQjYdMYyVgqkT5I"
+TOKEN = reg_data.TOKEN
 # Объект бота
 bot = Bot(TOKEN)
 # Диспетчер
 dp = Dispatcher()
 
 # Указываем путь к корневой директории
-my_directory = '/Users/a1234/Downloads/my_files'
+my_directory = reg_data.my_directory
 
 # Указываем первую папку
 first_dir = '/folder_1'

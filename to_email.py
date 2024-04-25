@@ -3,9 +3,7 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 from email.mime.application import MIMEApplication
 from os.path import basename
-
 import reg_data
-from reg_data import from_addr, to_addr, password
 
 from_addr = reg_data.from_addr
 to_addr = reg_data.to_addr
