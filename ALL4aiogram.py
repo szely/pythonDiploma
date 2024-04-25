@@ -31,7 +31,7 @@ dp = Dispatcher()
 my_directory = reg_data.my_directory
 
 # Указываем первую папку
-first_dir = '/folder_1'
+first_dir = reg_data.first_dir
 
 ignore = '.DS_Store'
 number_path = {}
