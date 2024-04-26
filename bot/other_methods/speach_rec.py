@@ -1,5 +1,6 @@
 from pydub import AudioSegment
 import os
+import speech_recognition as sr
 
 def convert_to_wav(filename):
     # Load the audio file
@@ -13,3 +14,10 @@ def convert_to_wav(filename):
     audio.export(output_filename, format="wav")
 
     return output_filename
+
+def speach_rec(file):
+    r = sr.Recognizer()
+    with sr.AudioFile(file) as sourse:
+        audio = r.record(sourse)
+    text = r.recognize_google(audio, language='ru')
+    return text

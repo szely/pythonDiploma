@@ -12,13 +12,7 @@ from bot.other_methods.to_email import send_email
 from bot.other_methods.find_file import search_dict_by_key_part, swapped_dict
 from aiogram.fsm.context import FSMContext
 from aiogram.types import Message
-from aiogram.filters import CommandStart
-from aiogram import MagicFilter
-import speech_recognition as sr
-import subprocess
-from bot.other_methods.convert_to_wav import convert_to_wav
-
-r = sr.Recognizer()
+from bot.other_methods.speach_rec import convert_to_wav, speach_rec
 
 class Form(StatesGroup):
     MAIN_MENU = State()
@@ -35,7 +29,6 @@ buttons = {}
 message_choose = ''
 
 router = Router()
-
 @router.message(Command("start"))
 async def cmd_start(message: types.Message) -> None:
     global number_path
@@ -47,12 +40,10 @@ async def cmd_start(message: types.Message) -> None:
 
     await message.answer("Выберите инструмент",
                          reply_markup=tools_buttoms().as_markup(resize_keyboard=True, one_time_keyboard=True))
-
     number_path = create_dirs_files_map(my_directory)[0]
     path_number = create_dirs_files_map(my_directory)[1]
     path_buttons = create_path_buttons(my_directory)
     buttons = create_buttons(path_buttons, number_path, path_number)
-
 
 @router.message(F.text.lower() == "поиск файла")
 async def find_file(message: Message, state: FSMContext) -> None:
@@ -79,7 +70,6 @@ async def search(message: Message, state: FSMContext, bot: Bot) -> None:
 @router.message(F.text)
 async def instrument(message: types.Message):
     global buttons
-    # global first_dir
     global message_choose
     load_dotenv('.env')
     my_directory = os.getenv("MY_DIRECTORY")
@@ -101,7 +91,6 @@ async def call(callback: CallbackQuery, bot: Bot):
     global path_buttons
     global buttons
     global message_choose
-
     if Path(number_path.get(int(callback.data))).is_dir():
         path = number_path.get(int(callback.data))
         markup = buttons.get(path)
@@ -120,26 +109,11 @@ async def voice_message_handler(message: types.Message, bot: Bot):
     file_id = message.voice.file_id
     file = await bot.get_file(file_id)
     file_path = file.file_path
-    # file_on_disk = Path("", f"{file_id}.")
-    # await bot.download_file(file_path, destination=file_on_disk, timeout=0)
-    # await message.reply("Аудио получено")
-    # split_tup = os.path.splitext(message.audio.file_name)
-    # file_name = f'{split_tup[0]}_{message.from_user.first_name}{split_tup[1]}'
-    # await bot.download(message.audio.file_id, file_name)
-    # file_name_wav = f'{split_tup[0]}_{message.from_user.first_name}{split_tup[1]}.wav'
-
     file_name = Path("", f"{file_id}.ogg")
     await bot.download_file(file_path, destination=file_name, timeout=0)
     file_name_wav = convert_to_wav(file_name)
-    # file_name_wav = Path("", f"{file_id}.wave")
-    # subprocess.call(['ffmpeg', '-i', file_name, file_name_wav])
     await message.answer('Ищу файлы')
-    with sr.AudioFile(file_name_wav) as sourse:
-        audio = r.record(sourse)
-    text = r.recognize_google(audio, language='ru')
-    print(text)
-    # await message.answer(text)
-
+    text = speach_rec(file_name_wav)
     global number_path
     global path_number
     global path_buttons
@@ -151,18 +125,7 @@ async def voice_message_handler(message: types.Message, bot: Bot):
     found_files_n_p = swapped_dict(found_files_p_n)
     await message.answer('Получите файл(ы)!')
     for key in found_files_p_n:
-        # print(key)
         file = FSInputFile(key)
         await bot.send_document(message.chat.id, file)
     os.remove(file_name)
     os.remove(file_name_wav)
-
-
-#
-# # Function to convert audio file to wav format
-# w = '/Users/a1234/PycharmProjects/pythonDiploma/2.wav'
-# #
-# # with sr.AudioFile(w) as sourse:
-# #     audio = r.record(sourse)
-# # text = r.recognize_google(audio, language='ru')
-# # print(text)
