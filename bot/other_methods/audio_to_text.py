@@ -18,13 +18,13 @@ class STT:
     default_init = {
         "model_path": "/Users/a1234/PycharmProjects/pythonDiploma/bot/models/vosk/model",  # путь к папке с файлами STT модели Vosk
         "sample_rate": 16000,
-        "ffmpeg_path": "/Users/a1234/PycharmProjects/pythonDiploma/bot/models/vosk"  # путь к ffmpeg
+        # "ffmpeg_path": "/Users/a1234/PycharmProjects/pythonDiploma/bot/models/vosk"  # путь к ffmpeg
     }
 
     def __init__(self,
                  model_path=None,
                  sample_rate=None,
-                 ffmpeg_path=None
+                 # ffmpeg_path=None
                  ) -> None:
         """
         Настройка модели Vosk для распознования аудио и
@@ -36,7 +36,7 @@ class STT:
         """
         self.model_path = model_path if model_path else STT.default_init["model_path"]
         self.sample_rate = sample_rate if sample_rate else STT.default_init["sample_rate"]
-        self.ffmpeg_path = ffmpeg_path if ffmpeg_path else STT.default_init["ffmpeg_path"]
+        # self.ffmpeg_path = ffmpeg_path if ffmpeg_path else STT.default_init["ffmpeg_path"]
 
         self._check_model()
 
@@ -54,17 +54,17 @@ class STT:
                 "Скачайте модель по ссылке https://alphacephei.com/vosk/models"
                             )
 
-        isffmpeg_here = False
-        for file in os.listdir(self.ffmpeg_path):
-            if file.startswith('ffmpeg'):
-                isffmpeg_here = True
+        # isffmpeg_here = False
+        # for file in os.listdir(self.ffmpeg_path):
+        #     if file.startswith('ffmpeg'):
+        #         isffmpeg_here = True
 
-        if not isffmpeg_here:
-            raise Exception(
-                "Ffmpeg: сохраните ffmpeg.exe в папку ffmpeg\n"
-                "Скачайте ffmpeg.exe по ссылке https://ffmpeg.org/download.html"
-                            )
-        self.ffmpeg_path = self.ffmpeg_path + '/ffmpeg'
+        # if not isffmpeg_here:
+        #     raise Exception(
+        #         "Ffmpeg: сохраните ffmpeg.exe в папку ffmpeg\n"
+        #         "Скачайте ffmpeg.exe по ссылке https://ffmpeg.org/download.html"
+        #                     )
+        # self.ffmpeg_path = self.ffmpeg_path + '/ffmpeg'
 
     def audio_to_text(self, audio_file_name=None) -> str:
         """
