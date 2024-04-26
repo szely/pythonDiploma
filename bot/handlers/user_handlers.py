@@ -13,6 +13,10 @@ from bot.other_methods.other_methods import create_dirs_files_map, create_path_b
 from bot.other_methods.to_email import send_email
 from bot.other_methods.find_file import search_dict_by_key_part, swapped_dict
 from bot.other_methods.speach_rec import convert_to_wav, speach_rec
+import logging
+logger = logging.getLogger(__name__)
+
+
 
 class Form(StatesGroup):
     # MAIN_MENU = State()
@@ -35,7 +39,7 @@ router = Router()
 async def cmd_start(message: types.Message) -> None:
     await message.answer("Выберите инструмент",
                          reply_markup=tools_buttoms().as_markup(resize_keyboard=True, one_time_keyboard=True))
-
+    logger.info("User %s started the conversation.", message.from_user)
 @router.message(F.text == 'Файловый менеджер')
 async def file_manager(message: types.Message):
     global number_path
@@ -104,12 +108,8 @@ async def search(message: Message, state: FSMContext, bot: Bot) -> None:
     global message_choose
     if message.text:
         await state.update_data(name=message.text)
-        found_files_p_n = search_dict_by_key_part(path_number, message.text)
-        await message.answer('Получите файл(ы)!')
-        for key in found_files_p_n:
-            print(key)
-            file = FSInputFile(key)
-            await bot.send_document(message.chat.id, file)
+        text = message.text
+        logger.info("User %s search file.", [message.from_user, message.text])
     else:
         file_id = message.voice.file_id
         file = await bot.get_file(file_id)
@@ -121,14 +121,11 @@ async def search(message: Message, state: FSMContext, bot: Bot) -> None:
         text = speach_rec(file_name_wav)
         os.remove(file_name)
         os.remove(file_name_wav)
-        found_files_p_n = search_dict_by_key_part(path_number, text)
-        if found_files_p_n == {}:
-            await message.answer('Файл(ы) не найдены!')
-        else:
-            await message.answer('Получите файл(ы)!')
-            for key in found_files_p_n:
-                file = FSInputFile(key)
-                await bot.send_document(message.chat.id, file)
+    found_files_p_n = search_dict_by_key_part(path_number, text)
+    await message.answer('Получите файл(ы)!')
+    for key in found_files_p_n:
+        file = FSInputFile(key)
+        await bot.send_document(message.chat.id, file)
     await message.answer("Можете изменить метод отправки, найти файл, или вернуться в меню",
                          reply_markup=back_choose_send_find_buttoms().as_markup(one_time_keyboard=True,
                                                                                 resize_keyboard=True))

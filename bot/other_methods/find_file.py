@@ -1,10 +1,4 @@
 import re
-# def search_phrases(text, phrases):
-#     matched_phrases = []
-#     for phrase in phrases:
-#         if phrase in text:
-#             matched_phrases.append(phrase)
-#     return matched_phrases
 
 def search_dict_by_key_part(original_dict, key_part):
     result_dict = {}
@@ -16,6 +10,13 @@ def search_dict_by_key_part(original_dict, key_part):
         matches = list(matches)
         if len(matches) > 0:
             result_dict[key] = original_dict[key]
+        else:
+            for key in original_dict:
+                key_spl = re.split(r"\s+|,|\n|_|/", key.lower())
+                for one_part in key_part:
+                    for one_word in key_spl:
+                        if one_part in one_word:
+                            result_dict[key] = original_dict[key]
     return result_dict
 
 def swapped_dict(dict):
