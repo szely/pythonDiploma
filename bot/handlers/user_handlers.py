@@ -114,6 +114,8 @@ async def voice_message_handler(message: types.Message, bot: Bot):
     file_name_wav = convert_to_wav(file_name)
     await message.answer('Ищу файлы')
     text = speach_rec(file_name_wav)
+    os.remove(file_name)
+    os.remove(file_name_wav)
     global number_path
     global path_number
     global path_buttons
@@ -127,5 +129,3 @@ async def voice_message_handler(message: types.Message, bot: Bot):
     for key in found_files_p_n:
         file = FSInputFile(key)
         await bot.send_document(message.chat.id, file)
-    os.remove(file_name)
-    os.remove(file_name_wav)

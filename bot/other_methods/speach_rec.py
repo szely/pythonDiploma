@@ -20,4 +20,5 @@ def speach_rec(file):
     with sr.AudioFile(file) as sourse:
         audio = r.record(sourse)
     text = r.recognize_google(audio, language='ru')
+    print(text)
     return text
