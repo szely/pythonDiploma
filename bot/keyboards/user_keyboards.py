@@ -38,7 +38,15 @@ def tools_buttoms():
 
 def choose_send_buttoms():
     builder_type_send = ReplyKeyboardBuilder()
-    builder_type_send.button(text='В бот')
-    builder_type_send.button(text='На почту')
+    builder_type_send.button(text='В бот 🤖')
+    builder_type_send.button(text='На почту 📩')
+    builder_type_send.adjust(2)
+    return builder_type_send
+
+def back_choose_send_find_buttoms():
+    builder_type_send = ReplyKeyboardBuilder()
+    builder_type_send.button(text='Метод отправки 📨')
+    builder_type_send.button(text='Назад в меню ↩️')
+    builder_type_send.button(text='Поиск файлов 🔎')
     builder_type_send.adjust(2)
     return builder_type_send
