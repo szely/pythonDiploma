@@ -14,6 +14,8 @@ from bot.other_methods.to_email import send_email
 from bot.other_methods.find_file import search_dict_by_key_part, swapped_dict
 from bot.other_methods.speach_rec import convert_to_wav, speach_rec
 import logging
+import sqlite3
+from bot.db.db import db_table_val, find_user_id
 logger = logging.getLogger(__name__)
 
 
@@ -26,6 +28,7 @@ class Form(StatesGroup):
     # HELP_MENU = State()
     # FAQ_MENU = State()
     # TO_BOT = State()
+    EMAIL_ADR = State()
 
 number_path = {}
 path_number = {}
@@ -35,25 +38,30 @@ message_choose = ''
 
 router = Router()
 
-@router.message(Command("start"))
+@router.message(Command("start"), )
+async def cmd_start(message: types.Message, state: FSMContext) -> None:
+    await state.set_state(Form.EMAIL_ADR)
+    await message.answer(f'Привет {message.from_user.first_name}! Для возможности получения файлов на электронную почту, укажите ее адрес!')
+    logger.info("User %s started the conversation.", message.from_user)
+
+@router.message(Form.EMAIL_ADR)
+async def reg_email(message: types.Message, state: FSMContext) -> None:
+    await state.update_data(name=message.text)
+    if find_user_id(int(message.from_user.id)):
+        await message.answer(f'{message.from_user.first_name}, ты уж есть в базе!')
+    us_id = message.from_user.id
+    us_name = message.from_user.first_name
+    us_sname = message.from_user.last_name
+    username = message.from_user.username
+    email = message.text
+    db_table_val(user_id=us_id, user_name=us_name, user_surname=us_sname, username=username, email=email)
+    await message.answer(f'Спасибо, {message.from_user.first_name}, адрес зарегистрирован!')
+
+@router.message(Command("menu"))
 async def cmd_start(message: types.Message) -> None:
     await message.answer("Выберите инструмент",
                          reply_markup=tools_buttoms().as_markup(resize_keyboard=True, one_time_keyboard=True))
     logger.info("User %s started the conversation.", message.from_user)
-@router.message(F.text == 'Файловый менеджер 🗄')
-async def file_manager(message: types.Message):
-    global number_path
-    global path_number
-    global path_buttons
-    global buttons
-    load_dotenv('.env')
-    my_directory = os.getenv("MY_DIRECTORY")
-    load_dotenv('.env')
-    number_path = create_dirs_files_map(my_directory)[0]
-    path_number = create_dirs_files_map(my_directory)[1]
-    path_buttons = create_path_buttons(my_directory)
-    buttons = create_buttons(path_buttons, number_path, path_number)
-    await message.answer("Куда отправлять файлы?", reply_markup=choose_send_buttoms().as_markup(one_time_keyboard=True, resize_keyboard=True))
 
 @router.message(F.text == 'Файловый менеджер 🗄')
 async def file_manager(message: types.Message):
@@ -69,8 +77,6 @@ async def file_manager(message: types.Message):
     path_buttons = create_path_buttons(my_directory)
     buttons = create_buttons(path_buttons, number_path, path_number)
     await message.answer("Куда отправлять файлы?", reply_markup=choose_send_buttoms().as_markup(one_time_keyboard=True, resize_keyboard=True))
-
-
 
 @router.message(F.text == 'В бот 🤖')
 async def file_manager(message: types.Message):

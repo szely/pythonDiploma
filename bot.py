@@ -2,9 +2,10 @@ import os
 from dotenv import load_dotenv
 import asyncio
 from aiogram import Bot, Dispatcher
-from bot.handlers import user_handlers
+from bot.handlers import user_handlers, scaner_handlers
 import logging
 from logging.handlers import RotatingFileHandler
+import sqlite3
 
 
 logging.basicConfig(filename='bot.log', level=logging.INFO,
@@ -28,14 +29,13 @@ async def main():
     bot = Bot(token)
     dp = Dispatcher()
 
-    dp.include_routers(user_handlers.router)
+    dp.include_routers(user_handlers.router, scaner_handlers.router)
 
     await bot.delete_webhook(drop_pending_updates=True)
     # try:
     await dp.start_polling(bot)
     # except Exception as _ex:
     #     print(f'There is an exception - {_ex}')
-
 
 
 if __name__ == "__main__":
