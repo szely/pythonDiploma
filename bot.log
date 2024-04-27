@@ -7108,3 +7108,1208 @@ sqlite3.IntegrityError: UNIQUE constraint failed: users.user_id
 2024-04-27 18:29:56,565 - aiogram.dispatcher - WARNING - Received SIGINT signal
 2024-04-27 18:29:56,577 - aiogram.dispatcher - INFO - Polling stopped for bot @test2323werwe2_bot id=7152099013 - 'test2'
 2024-04-27 18:29:56,577 - aiogram.dispatcher - INFO - Polling stopped
+2024-04-27 19:46:27,494 - aiogram.dispatcher - INFO - Start polling
+2024-04-27 19:46:27,560 - aiogram.dispatcher - INFO - Run polling for bot @test2323werwe2_bot id=7152099013 - 'test2'
+2024-04-27 19:46:31,763 - bot.handlers.user_handlers - INFO - User id=1071020716 is_bot=False first_name='Sergei' last_name='Zelenin' username='szely' language_code='ru' is_premium=None added_to_attachment_menu=None can_join_groups=None can_read_all_group_messages=None supports_inline_queries=None started the conversation.
+2024-04-27 19:46:31,764 - aiogram.event - INFO - Update id=537263501 is handled. Duration 285 ms by bot id=7152099013
+2024-04-27 19:46:36,507 - aiogram.event - INFO - Update id=537263502 is not handled. Duration 107 ms by bot id=7152099013
+2024-04-27 19:46:36,507 - aiogram.event - ERROR - Cause exception while process update id=537263502 by bot id=7152099013
+IntegrityError: UNIQUE constraint failed: users.user_id
+Traceback (most recent call last):
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/fsm/middleware.py", line 41, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 123, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 156, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 123, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 148, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/bot/handlers/user_handlers.py", line 49, in reg_email
+    db_table_val(user_id=us_id, user_name=us_name, user_surname=us_sname, username=username, email=email)
+  File "/Users/a1234/PycharmProjects/pythonDiploma/bot/db/db.py", line 7, in db_table_val
+    cursor.execute('INSERT INTO users (user_id, user_name, user_surname, username, email) VALUES (?, ?, ?, ?, ?)', (user_id, user_name, user_surname, username, email))
+sqlite3.IntegrityError: UNIQUE constraint failed: users.user_id
+2024-04-27 19:46:52,775 - aiogram.event - INFO - Update id=537263503 is not handled. Duration 5331 ms by bot id=7152099013
+2024-04-27 19:46:52,775 - aiogram.event - ERROR - Cause exception while process update id=537263503 by bot id=7152099013
+OperationalError: database is locked
+Traceback (most recent call last):
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/fsm/middleware.py", line 41, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 123, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 156, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 123, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 148, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/bot/handlers/user_handlers.py", line 49, in reg_email
+    db_table_val(user_id=us_id, user_name=us_name, user_surname=us_sname, username=username, email=email)
+  File "/Users/a1234/PycharmProjects/pythonDiploma/bot/db/db.py", line 7, in db_table_val
+    cursor.execute('INSERT INTO users (user_id, user_name, user_surname, username, email) VALUES (?, ?, ?, ?, ?)', (user_id, user_name, user_surname, username, email))
+sqlite3.OperationalError: database is locked
+2024-04-27 19:46:53,768 - aiogram.event - INFO - Update id=537263504 is not handled. Duration 122 ms by bot id=7152099013
+2024-04-27 19:46:53,768 - aiogram.event - ERROR - Cause exception while process update id=537263504 by bot id=7152099013
+IntegrityError: UNIQUE constraint failed: users.user_id
+Traceback (most recent call last):
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/fsm/middleware.py", line 41, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 123, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 156, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 123, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 148, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/bot/handlers/user_handlers.py", line 49, in reg_email
+    db_table_val(user_id=us_id, user_name=us_name, user_surname=us_sname, username=username, email=email)
+  File "/Users/a1234/PycharmProjects/pythonDiploma/bot/db/db.py", line 7, in db_table_val
+    cursor.execute('INSERT INTO users (user_id, user_name, user_surname, username, email) VALUES (?, ?, ?, ?, ?)', (user_id, user_name, user_surname, username, email))
+sqlite3.IntegrityError: UNIQUE constraint failed: users.user_id
+2024-04-27 19:47:29,040 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2024-04-27 19:47:29,053 - aiogram.dispatcher - INFO - Polling stopped for bot @test2323werwe2_bot id=7152099013 - 'test2'
+2024-04-27 19:47:29,055 - aiogram.dispatcher - INFO - Polling stopped
+2024-04-27 19:47:35,025 - aiogram.dispatcher - INFO - Start polling
+2024-04-27 19:47:35,088 - aiogram.dispatcher - INFO - Run polling for bot @test2323werwe2_bot id=7152099013 - 'test2'
+2024-04-27 19:47:35,776 - bot.handlers.user_handlers - INFO - User id=1071020716 is_bot=False first_name='Sergei' last_name='Zelenin' username='szely' language_code='ru' is_premium=None added_to_attachment_menu=None can_join_groups=None can_read_all_group_messages=None supports_inline_queries=None started the conversation.
+2024-04-27 19:47:35,777 - aiogram.event - INFO - Update id=537263509 is handled. Duration 242 ms by bot id=7152099013
+2024-04-27 19:47:36,479 - aiogram.event - INFO - Update id=537263510 is handled. Duration 168 ms by bot id=7152099013
+2024-04-27 19:48:10,426 - aiogram.event - INFO - Update id=537263511 is not handled. Duration 5 ms by bot id=7152099013
+2024-04-27 19:48:10,426 - aiogram.event - ERROR - Cause exception while process update id=537263511 by bot id=7152099013
+ValidationError: 1 validation error for SendMessage
+text
+  Input should be a valid string [type=string_type, input_value=[(1, 28068724, 'Крыт...ерирование')], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.5/v/string_type
+Traceback (most recent call last):
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/fsm/middleware.py", line 41, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 123, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 156, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 123, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 148, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/bot/handlers/scaner_handlers.py", line 40, in vagon_number
+    await message.answer(res)
+          ^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/types/message.py", line 1903, in answer
+    return SendMessage(
+           ^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/pydantic/main.py", line 164, in __init__
+    __pydantic_self__.__pydantic_validator__.validate_python(data, self_instance=__pydantic_self__)
+pydantic_core._pydantic_core.ValidationError: 1 validation error for SendMessage
+text
+  Input should be a valid string [type=string_type, input_value=[(1, 28068724, 'Крыт...ерирование')], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.5/v/string_type
+2024-04-27 19:48:36,407 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2024-04-27 19:48:36,416 - aiogram.dispatcher - INFO - Polling stopped for bot @test2323werwe2_bot id=7152099013 - 'test2'
+2024-04-27 19:48:36,417 - aiogram.dispatcher - INFO - Polling stopped
+2024-04-27 20:28:50,976 - aiogram.dispatcher - INFO - Start polling
+2024-04-27 20:28:51,116 - aiogram.dispatcher - INFO - Run polling for bot @test2323werwe2_bot id=7152099013 - 'test2'
+2024-04-27 20:28:54,132 - bot.handlers.user_handlers - INFO - User id=1071020716 is_bot=False first_name='Sergei' last_name='Zelenin' username='szely' language_code='ru' is_premium=None added_to_attachment_menu=None can_join_groups=None can_read_all_group_messages=None supports_inline_queries=None started the conversation.
+2024-04-27 20:28:54,132 - aiogram.event - INFO - Update id=537263513 is handled. Duration 330 ms by bot id=7152099013
+2024-04-27 20:28:55,966 - aiogram.event - INFO - Update id=537263514 is handled. Duration 111 ms by bot id=7152099013
+2024-04-27 20:29:08,279 - aiogram.event - INFO - Update id=537263515 is not handled. Duration 7 ms by bot id=7152099013
+2024-04-27 20:29:08,280 - aiogram.event - ERROR - Cause exception while process update id=537263515 by bot id=7152099013
+TypeError: 'dict' object is not callable
+Traceback (most recent call last):
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/fsm/middleware.py", line 41, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 123, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 156, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 123, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 148, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/bot/handlers/scaner_handlers.py", line 42, in vagon_number
+    res = find_wagon(message.text)
+          ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/bot/db/db.py", line 33, in find_wagon
+    dictionary = dict(zip(names, results))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'dict' object is not callable
+2024-04-27 20:30:16,196 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2024-04-27 20:30:16,199 - aiogram.dispatcher - INFO - Polling stopped for bot @test2323werwe2_bot id=7152099013 - 'test2'
+2024-04-27 20:30:16,200 - aiogram.dispatcher - INFO - Polling stopped
+2024-04-27 20:30:26,970 - aiogram.dispatcher - INFO - Start polling
+2024-04-27 20:30:27,032 - aiogram.dispatcher - INFO - Run polling for bot @test2323werwe2_bot id=7152099013 - 'test2'
+2024-04-27 20:30:28,162 - bot.handlers.user_handlers - INFO - User id=1071020716 is_bot=False first_name='Sergei' last_name='Zelenin' username='szely' language_code='ru' is_premium=None added_to_attachment_menu=None can_join_groups=None can_read_all_group_messages=None supports_inline_queries=None started the conversation.
+2024-04-27 20:30:28,163 - aiogram.event - INFO - Update id=537263521 is handled. Duration 332 ms by bot id=7152099013
+2024-04-27 20:30:29,901 - aiogram.event - INFO - Update id=537263522 is handled. Duration 117 ms by bot id=7152099013
+2024-04-27 20:30:35,853 - aiogram.event - INFO - Update id=537263523 is handled. Duration 1449 ms by bot id=7152099013
+2024-04-27 20:31:00,303 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2024-04-27 20:31:00,304 - aiogram.dispatcher - INFO - Polling stopped for bot @test2323werwe2_bot id=7152099013 - 'test2'
+2024-04-27 20:31:00,305 - aiogram.dispatcher - INFO - Polling stopped
+2024-04-27 20:31:10,398 - aiogram.dispatcher - INFO - Start polling
+2024-04-27 20:31:10,459 - aiogram.dispatcher - INFO - Run polling for bot @test2323werwe2_bot id=7152099013 - 'test2'
+2024-04-27 20:31:14,068 - aiogram.event - INFO - Update id=537263524 is not handled. Duration 47 ms by bot id=7152099013
+2024-04-27 20:31:19,013 - bot.handlers.user_handlers - INFO - User id=1071020716 is_bot=False first_name='Sergei' last_name='Zelenin' username='szely' language_code='ru' is_premium=None added_to_attachment_menu=None can_join_groups=None can_read_all_group_messages=None supports_inline_queries=None started the conversation.
+2024-04-27 20:31:19,013 - aiogram.event - INFO - Update id=537263525 is handled. Duration 296 ms by bot id=7152099013
+2024-04-27 20:31:20,457 - aiogram.event - INFO - Update id=537263526 is handled. Duration 135 ms by bot id=7152099013
+2024-04-27 20:31:23,248 - aiogram.event - INFO - Update id=537263527 is handled. Duration 1558 ms by bot id=7152099013
+2024-04-27 20:33:42,094 - bot.handlers.user_handlers - INFO - User id=1071020716 is_bot=False first_name='Sergei' last_name='Zelenin' username='szely' language_code='ru' is_premium=None added_to_attachment_menu=None can_join_groups=None can_read_all_group_messages=None supports_inline_queries=None started the conversation.
+2024-04-27 20:33:42,095 - aiogram.event - INFO - Update id=537263528 is handled. Duration 331 ms by bot id=7152099013
+2024-04-27 20:33:43,837 - aiogram.event - INFO - Update id=537263529 is handled. Duration 130 ms by bot id=7152099013
+2024-04-27 20:33:47,184 - aiogram.event - INFO - Update id=537263530 is handled. Duration 1004 ms by bot id=7152099013
+2024-04-27 20:34:48,988 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2024-04-27 20:34:48,997 - aiogram.dispatcher - INFO - Polling stopped for bot @test2323werwe2_bot id=7152099013 - 'test2'
+2024-04-27 20:34:48,999 - aiogram.dispatcher - INFO - Polling stopped
+2024-04-27 20:34:56,204 - aiogram.dispatcher - INFO - Start polling
+2024-04-27 20:34:56,266 - aiogram.dispatcher - INFO - Run polling for bot @test2323werwe2_bot id=7152099013 - 'test2'
+2024-04-27 20:34:57,108 - bot.handlers.user_handlers - INFO - User id=1071020716 is_bot=False first_name='Sergei' last_name='Zelenin' username='szely' language_code='ru' is_premium=None added_to_attachment_menu=None can_join_groups=None can_read_all_group_messages=None supports_inline_queries=None started the conversation.
+2024-04-27 20:34:57,109 - aiogram.event - INFO - Update id=537263533 is handled. Duration 275 ms by bot id=7152099013
+2024-04-27 20:34:58,452 - aiogram.event - INFO - Update id=537263534 is handled. Duration 105 ms by bot id=7152099013
+2024-04-27 20:35:01,285 - aiogram.event - INFO - Update id=537263535 is handled. Duration 1037 ms by bot id=7152099013
+2024-04-27 20:35:43,988 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2024-04-27 20:35:43,990 - aiogram.dispatcher - INFO - Polling stopped for bot @test2323werwe2_bot id=7152099013 - 'test2'
+2024-04-27 20:35:43,992 - aiogram.dispatcher - INFO - Polling stopped
+2024-04-27 20:35:55,390 - aiogram.dispatcher - INFO - Start polling
+2024-04-27 20:35:55,451 - aiogram.dispatcher - INFO - Run polling for bot @test2323werwe2_bot id=7152099013 - 'test2'
+2024-04-27 20:35:57,059 - bot.handlers.user_handlers - INFO - User id=1071020716 is_bot=False first_name='Sergei' last_name='Zelenin' username='szely' language_code='ru' is_premium=None added_to_attachment_menu=None can_join_groups=None can_read_all_group_messages=None supports_inline_queries=None started the conversation.
+2024-04-27 20:35:57,059 - aiogram.event - INFO - Update id=537263544 is handled. Duration 267 ms by bot id=7152099013
+2024-04-27 20:35:58,617 - aiogram.event - INFO - Update id=537263545 is handled. Duration 117 ms by bot id=7152099013
+2024-04-27 20:36:03,660 - aiogram.event - INFO - Update id=537263546 is handled. Duration 1963 ms by bot id=7152099013
+2024-04-27 20:36:10,522 - bot.handlers.user_handlers - INFO - User id=1071020716 is_bot=False first_name='Sergei' last_name='Zelenin' username='szely' language_code='ru' is_premium=None added_to_attachment_menu=None can_join_groups=None can_read_all_group_messages=None supports_inline_queries=None started the conversation.
+2024-04-27 20:36:10,522 - aiogram.event - INFO - Update id=537263547 is handled. Duration 110 ms by bot id=7152099013
+2024-04-27 20:40:19,045 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2024-04-27 20:40:19,050 - aiogram.dispatcher - INFO - Polling stopped for bot @test2323werwe2_bot id=7152099013 - 'test2'
+2024-04-27 20:40:19,051 - aiogram.dispatcher - INFO - Polling stopped
+2024-04-27 20:40:32,055 - aiogram.dispatcher - INFO - Start polling
+2024-04-27 20:40:32,190 - aiogram.dispatcher - INFO - Run polling for bot @test2323werwe2_bot id=7152099013 - 'test2'
+2024-04-27 20:41:16,512 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2024-04-27 20:41:16,513 - aiogram.dispatcher - INFO - Polling stopped for bot @test2323werwe2_bot id=7152099013 - 'test2'
+2024-04-27 20:41:16,514 - aiogram.dispatcher - INFO - Polling stopped
+2024-04-27 20:41:23,104 - aiogram.dispatcher - INFO - Start polling
+2024-04-27 20:41:23,177 - aiogram.dispatcher - INFO - Run polling for bot @test2323werwe2_bot id=7152099013 - 'test2'
+2024-04-27 20:41:23,577 - bot.handlers.user_handlers - INFO - User id=1071020716 is_bot=False first_name='Sergei' last_name='Zelenin' username='szely' language_code='ru' is_premium=None added_to_attachment_menu=None can_join_groups=None can_read_all_group_messages=None supports_inline_queries=None started the conversation.
+2024-04-27 20:41:23,577 - aiogram.event - INFO - Update id=537263551 is handled. Duration 303 ms by bot id=7152099013
+2024-04-27 20:41:31,310 - aiogram.event - INFO - Update id=537263552 is handled. Duration 177 ms by bot id=7152099013
+2024-04-27 20:41:33,989 - aiogram.event - INFO - Update id=537263553 is handled. Duration 195 ms by bot id=7152099013
+2024-04-27 20:41:36,065 - aiogram.event - INFO - Update id=537263554 is handled. Duration 229 ms by bot id=7152099013
+2024-04-27 20:41:39,917 - aiogram.event - INFO - Update id=537263555 is handled. Duration 207 ms by bot id=7152099013
+2024-04-27 20:42:09,580 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2024-04-27 20:42:09,588 - aiogram.dispatcher - INFO - Polling stopped for bot @test2323werwe2_bot id=7152099013 - 'test2'
+2024-04-27 20:42:09,589 - aiogram.dispatcher - INFO - Polling stopped
+2024-04-27 20:42:18,655 - aiogram.dispatcher - INFO - Start polling
+2024-04-27 20:42:18,722 - aiogram.dispatcher - INFO - Run polling for bot @test2323werwe2_bot id=7152099013 - 'test2'
+2024-04-27 20:42:19,046 - bot.handlers.user_handlers - INFO - User id=1071020716 is_bot=False first_name='Sergei' last_name='Zelenin' username='szely' language_code='ru' is_premium=None added_to_attachment_menu=None can_join_groups=None can_read_all_group_messages=None supports_inline_queries=None started the conversation.
+2024-04-27 20:42:19,047 - aiogram.event - INFO - Update id=537263560 is handled. Duration 233 ms by bot id=7152099013
+2024-04-27 20:42:21,404 - aiogram.event - INFO - Update id=537263561 is not handled. Duration 150 ms by bot id=7152099013
+2024-04-27 20:42:21,404 - aiogram.event - ERROR - Cause exception while process update id=537263561 by bot id=7152099013
+TypeError: main_menu() missing 1 required positional argument: 'message'
+Traceback (most recent call last):
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/fsm/middleware.py", line 41, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 123, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 156, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 123, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 148, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/bot/handlers/user_handlers.py", line 53, in reg_email
+    reply_markup=main_menu().as_markup(one_time_keyboard=True,
+                 ^^^^^^^^^^^
+TypeError: main_menu() missing 1 required positional argument: 'message'
+2024-04-27 20:42:23,895 - aiogram.event - INFO - Update id=537263562 is not handled. Duration 92 ms by bot id=7152099013
+2024-04-27 20:42:23,895 - aiogram.event - ERROR - Cause exception while process update id=537263562 by bot id=7152099013
+TypeError: main_menu() missing 1 required positional argument: 'message'
+Traceback (most recent call last):
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/fsm/middleware.py", line 41, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 123, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 156, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 123, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 148, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/bot/handlers/user_handlers.py", line 53, in reg_email
+    reply_markup=main_menu().as_markup(one_time_keyboard=True,
+                 ^^^^^^^^^^^
+TypeError: main_menu() missing 1 required positional argument: 'message'
+2024-04-27 20:42:53,786 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2024-04-27 20:42:53,787 - aiogram.dispatcher - INFO - Polling stopped for bot @test2323werwe2_bot id=7152099013 - 'test2'
+2024-04-27 20:42:53,788 - aiogram.dispatcher - INFO - Polling stopped
+2024-04-27 20:43:01,212 - aiogram.dispatcher - INFO - Start polling
+2024-04-27 20:43:01,268 - aiogram.dispatcher - INFO - Run polling for bot @test2323werwe2_bot id=7152099013 - 'test2'
+2024-04-27 20:43:02,270 - bot.handlers.user_handlers - INFO - User id=1071020716 is_bot=False first_name='Sergei' last_name='Zelenin' username='szely' language_code='ru' is_premium=None added_to_attachment_menu=None can_join_groups=None can_read_all_group_messages=None supports_inline_queries=None started the conversation.
+2024-04-27 20:43:02,270 - aiogram.event - INFO - Update id=537263566 is handled. Duration 310 ms by bot id=7152099013
+2024-04-27 20:43:05,050 - aiogram.event - INFO - Update id=537263567 is not handled. Duration 180 ms by bot id=7152099013
+2024-04-27 20:43:05,051 - aiogram.event - ERROR - Cause exception while process update id=537263567 by bot id=7152099013
+TypeError: main_menu() missing 1 required positional argument: 'message'
+Traceback (most recent call last):
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/fsm/middleware.py", line 41, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 123, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 156, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 123, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 148, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/bot/handlers/user_handlers.py", line 55, in reg_email
+    reply_markup=main_menu().as_markup(one_time_keyboard=True,
+                 ^^^^^^^^^^^
+TypeError: main_menu() missing 1 required positional argument: 'message'
+2024-04-27 20:43:08,930 - aiogram.event - INFO - Update id=537263568 is not handled. Duration 276 ms by bot id=7152099013
+2024-04-27 20:43:08,930 - aiogram.event - ERROR - Cause exception while process update id=537263568 by bot id=7152099013
+TypeError: main_menu() missing 1 required positional argument: 'message'
+Traceback (most recent call last):
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/fsm/middleware.py", line 41, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 123, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 156, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 123, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 148, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/bot/handlers/user_handlers.py", line 55, in reg_email
+    reply_markup=main_menu().as_markup(one_time_keyboard=True,
+                 ^^^^^^^^^^^
+TypeError: main_menu() missing 1 required positional argument: 'message'
+2024-04-27 20:43:20,971 - aiogram.event - INFO - Update id=537263569 is not handled. Duration 167 ms by bot id=7152099013
+2024-04-27 20:43:20,978 - aiogram.event - ERROR - Cause exception while process update id=537263569 by bot id=7152099013
+TypeError: main_menu() missing 1 required positional argument: 'message'
+Traceback (most recent call last):
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/fsm/middleware.py", line 41, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 123, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 156, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 123, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 148, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/bot/handlers/user_handlers.py", line 55, in reg_email
+    reply_markup=main_menu().as_markup(one_time_keyboard=True,
+                 ^^^^^^^^^^^
+TypeError: main_menu() missing 1 required positional argument: 'message'
+2024-04-27 20:45:11,697 - aiogram.event - INFO - Update id=537263570 is not handled. Duration 343 ms by bot id=7152099013
+2024-04-27 20:45:11,698 - aiogram.event - ERROR - Cause exception while process update id=537263570 by bot id=7152099013
+TypeError: main_menu() missing 1 required positional argument: 'message'
+Traceback (most recent call last):
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/fsm/middleware.py", line 41, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 123, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 156, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 123, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 148, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/bot/handlers/user_handlers.py", line 55, in reg_email
+    reply_markup=main_menu().as_markup(one_time_keyboard=True,
+                 ^^^^^^^^^^^
+TypeError: main_menu() missing 1 required positional argument: 'message'
+2024-04-27 20:45:13,350 - aiogram.event - INFO - Update id=537263571 is not handled. Duration 240 ms by bot id=7152099013
+2024-04-27 20:45:13,350 - aiogram.event - ERROR - Cause exception while process update id=537263571 by bot id=7152099013
+TypeError: main_menu() missing 1 required positional argument: 'message'
+Traceback (most recent call last):
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/fsm/middleware.py", line 41, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 123, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 156, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 123, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 148, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/bot/handlers/user_handlers.py", line 55, in reg_email
+    reply_markup=main_menu().as_markup(one_time_keyboard=True,
+                 ^^^^^^^^^^^
+TypeError: main_menu() missing 1 required positional argument: 'message'
+2024-04-27 20:45:14,884 - aiogram.event - INFO - Update id=537263572 is not handled. Duration 306 ms by bot id=7152099013
+2024-04-27 20:45:14,884 - aiogram.event - ERROR - Cause exception while process update id=537263572 by bot id=7152099013
+TypeError: main_menu() missing 1 required positional argument: 'message'
+Traceback (most recent call last):
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/fsm/middleware.py", line 41, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 123, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 156, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 123, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 148, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/bot/handlers/user_handlers.py", line 55, in reg_email
+    reply_markup=main_menu().as_markup(one_time_keyboard=True,
+                 ^^^^^^^^^^^
+TypeError: main_menu() missing 1 required positional argument: 'message'
+2024-04-27 20:45:16,552 - aiogram.event - INFO - Update id=537263573 is not handled. Duration 331 ms by bot id=7152099013
+2024-04-27 20:45:16,554 - aiogram.event - ERROR - Cause exception while process update id=537263573 by bot id=7152099013
+TypeError: main_menu() missing 1 required positional argument: 'message'
+Traceback (most recent call last):
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/fsm/middleware.py", line 41, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 123, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 156, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 123, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 148, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/bot/handlers/user_handlers.py", line 55, in reg_email
+    reply_markup=main_menu().as_markup(one_time_keyboard=True,
+                 ^^^^^^^^^^^
+TypeError: main_menu() missing 1 required positional argument: 'message'
+2024-04-27 20:46:49,464 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2024-04-27 20:46:49,483 - aiogram.dispatcher - INFO - Polling stopped for bot @test2323werwe2_bot id=7152099013 - 'test2'
+2024-04-27 20:46:49,484 - aiogram.dispatcher - INFO - Polling stopped
+2024-04-27 20:47:06,864 - aiogram.dispatcher - INFO - Start polling
+2024-04-27 20:47:06,940 - aiogram.dispatcher - INFO - Run polling for bot @test2323werwe2_bot id=7152099013 - 'test2'
+2024-04-27 20:47:12,122 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2024-04-27 20:47:12,123 - aiogram.dispatcher - INFO - Polling stopped for bot @test2323werwe2_bot id=7152099013 - 'test2'
+2024-04-27 20:47:12,123 - aiogram.dispatcher - INFO - Polling stopped
+2024-04-27 20:47:23,283 - aiogram.dispatcher - INFO - Start polling
+2024-04-27 20:47:23,367 - aiogram.dispatcher - INFO - Run polling for bot @test2323werwe2_bot id=7152099013 - 'test2'
+2024-04-27 20:47:54,926 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2024-04-27 20:47:54,927 - aiogram.dispatcher - INFO - Polling stopped for bot @test2323werwe2_bot id=7152099013 - 'test2'
+2024-04-27 20:47:54,928 - aiogram.dispatcher - INFO - Polling stopped
+2024-04-27 20:48:04,571 - aiogram.dispatcher - INFO - Start polling
+2024-04-27 20:48:04,635 - aiogram.dispatcher - INFO - Run polling for bot @NiHao_scl_bot id=5839759149 - 'NiHao'
+2024-04-27 20:48:19,688 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2024-04-27 20:48:19,689 - aiogram.dispatcher - INFO - Polling stopped for bot @NiHao_scl_bot id=5839759149 - 'NiHao'
+2024-04-27 20:48:19,690 - aiogram.dispatcher - INFO - Polling stopped
+2024-04-27 20:48:32,969 - aiogram.dispatcher - INFO - Start polling
+2024-04-27 20:48:33,039 - aiogram.dispatcher - INFO - Run polling for bot @test2323werwe2_bot id=7152099013 - 'test2'
+2024-04-27 20:48:35,977 - bot.handlers.user_handlers - INFO - User id=1071020716 is_bot=False first_name='Sergei' last_name='Zelenin' username='szely' language_code='ru' is_premium=None added_to_attachment_menu=None can_join_groups=None can_read_all_group_messages=None supports_inline_queries=None started the conversation.
+2024-04-27 20:48:35,978 - aiogram.event - INFO - Update id=537263588 is handled. Duration 303 ms by bot id=7152099013
+2024-04-27 20:48:38,333 - aiogram.event - INFO - Update id=537263589 is not handled. Duration 242 ms by bot id=7152099013
+2024-04-27 20:48:38,333 - aiogram.event - ERROR - Cause exception while process update id=537263589 by bot id=7152099013
+TypeError: main_menu() missing 1 required positional argument: 'message'
+Traceback (most recent call last):
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/fsm/middleware.py", line 41, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 123, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 156, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 123, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 148, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/bot/handlers/user_handlers.py", line 55, in reg_email
+    reply_markup=main_menu().as_markup(one_time_keyboard=True,
+                 ^^^^^^^^^^^
+TypeError: main_menu() missing 1 required positional argument: 'message'
+2024-04-27 20:48:43,505 - aiogram.event - INFO - Update id=537263590 is not handled. Duration 254 ms by bot id=7152099013
+2024-04-27 20:48:43,506 - aiogram.event - ERROR - Cause exception while process update id=537263590 by bot id=7152099013
+TypeError: main_menu() missing 1 required positional argument: 'message'
+Traceback (most recent call last):
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/fsm/middleware.py", line 41, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 123, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 156, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 123, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 148, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/bot/handlers/user_handlers.py", line 55, in reg_email
+    reply_markup=main_menu().as_markup(one_time_keyboard=True,
+                 ^^^^^^^^^^^
+TypeError: main_menu() missing 1 required positional argument: 'message'
+2024-04-27 20:48:45,700 - aiogram.event - INFO - Update id=537263591 is not handled. Duration 364 ms by bot id=7152099013
+2024-04-27 20:48:45,701 - aiogram.event - ERROR - Cause exception while process update id=537263591 by bot id=7152099013
+TypeError: main_menu() missing 1 required positional argument: 'message'
+Traceback (most recent call last):
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/fsm/middleware.py", line 41, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 123, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 156, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 123, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 148, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/bot/handlers/user_handlers.py", line 55, in reg_email
+    reply_markup=main_menu().as_markup(one_time_keyboard=True,
+                 ^^^^^^^^^^^
+TypeError: main_menu() missing 1 required positional argument: 'message'
+2024-04-27 20:48:47,315 - aiogram.event - INFO - Update id=537263592 is not handled. Duration 212 ms by bot id=7152099013
+2024-04-27 20:48:47,316 - aiogram.event - ERROR - Cause exception while process update id=537263592 by bot id=7152099013
+TypeError: main_menu() missing 1 required positional argument: 'message'
+Traceback (most recent call last):
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/fsm/middleware.py", line 41, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 123, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 156, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 123, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 148, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/bot/handlers/user_handlers.py", line 55, in reg_email
+    reply_markup=main_menu().as_markup(one_time_keyboard=True,
+                 ^^^^^^^^^^^
+TypeError: main_menu() missing 1 required positional argument: 'message'
+2024-04-27 20:48:49,733 - aiogram.event - INFO - Update id=537263593 is not handled. Duration 274 ms by bot id=7152099013
+2024-04-27 20:48:49,733 - aiogram.event - ERROR - Cause exception while process update id=537263593 by bot id=7152099013
+TypeError: main_menu() missing 1 required positional argument: 'message'
+Traceback (most recent call last):
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/fsm/middleware.py", line 41, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 123, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 156, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 123, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 148, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/bot/handlers/user_handlers.py", line 55, in reg_email
+    reply_markup=main_menu().as_markup(one_time_keyboard=True,
+                 ^^^^^^^^^^^
+TypeError: main_menu() missing 1 required positional argument: 'message'
+2024-04-27 20:49:18,585 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2024-04-27 20:49:18,586 - aiogram.dispatcher - INFO - Polling stopped for bot @test2323werwe2_bot id=7152099013 - 'test2'
+2024-04-27 20:49:18,587 - aiogram.dispatcher - INFO - Polling stopped
+2024-04-27 20:49:30,979 - aiogram.dispatcher - INFO - Start polling
+2024-04-27 20:49:31,051 - aiogram.dispatcher - INFO - Run polling for bot @test2323werwe2_bot id=7152099013 - 'test2'
+2024-04-27 20:49:40,702 - aiogram.event - INFO - Update id=537263596 is handled. Duration 2698 ms by bot id=7152099013
+2024-04-27 20:49:41,207 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2024-04-27 20:49:41,208 - aiogram.dispatcher - INFO - Polling stopped for bot @test2323werwe2_bot id=7152099013 - 'test2'
+2024-04-27 20:49:41,209 - aiogram.dispatcher - INFO - Polling stopped

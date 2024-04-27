@@ -51,3 +51,9 @@ def back_choose_send_find_buttoms():
     builder_type_send.button(text='Структура 🗄')
     builder_type_send.adjust(2)
     return builder_type_send
+
+def main_menu():
+    builder_type_send = ReplyKeyboardBuilder()
+    builder_type_send.button(text='МЕНЮ')
+    builder_type_send.adjust(2)
+    return builder_type_send
