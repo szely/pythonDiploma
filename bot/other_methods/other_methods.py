@@ -1,12 +1,12 @@
 from pathlib import Path
-
-ignore = '.DS_Store'
+from dotenv import load_dotenv
+import os
 
 # Создаем словари сопоставлений, присваиваем номера кажому элементу - файл папка и связываем его с путем к этому элементу
 def create_dirs_files_map(path):
     path = Path(path)
     number_path = {}
-    path_number ={}
+    path_number = {}
     i = 0
     for item in path.rglob("*"):
         number_path[i] = str(item)
@@ -17,7 +17,8 @@ def create_dirs_files_map(path):
 
 # Создаем заготовку для формирования кнопок
 def create_path_buttons(path):
-    global ignore
+    load_dotenv('.env')
+    ignore = os.getenv("IGNORE")
     path = Path(path)
     dict = {}
     for item in path.rglob("*"):

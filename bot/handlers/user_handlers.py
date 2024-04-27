@@ -40,7 +40,7 @@ async def cmd_start(message: types.Message) -> None:
     await message.answer("Выберите инструмент",
                          reply_markup=tools_buttoms().as_markup(resize_keyboard=True, one_time_keyboard=True))
     logger.info("User %s started the conversation.", message.from_user)
-@router.message(F.text == 'Файловый менеджер')
+@router.message(F.text == 'Файловый менеджер 🗄')
 async def file_manager(message: types.Message):
     global number_path
     global path_number
@@ -54,6 +54,23 @@ async def file_manager(message: types.Message):
     path_buttons = create_path_buttons(my_directory)
     buttons = create_buttons(path_buttons, number_path, path_number)
     await message.answer("Куда отправлять файлы?", reply_markup=choose_send_buttoms().as_markup(one_time_keyboard=True, resize_keyboard=True))
+
+@router.message(F.text == 'Файловый менеджер 🗄')
+async def file_manager(message: types.Message):
+    global number_path
+    global path_number
+    global path_buttons
+    global buttons
+    load_dotenv('.env')
+    my_directory = os.getenv("MY_DIRECTORY")
+    load_dotenv('.env')
+    number_path = create_dirs_files_map(my_directory)[0]
+    path_number = create_dirs_files_map(my_directory)[1]
+    path_buttons = create_path_buttons(my_directory)
+    buttons = create_buttons(path_buttons, number_path, path_number)
+    await message.answer("Куда отправлять файлы?", reply_markup=choose_send_buttoms().as_markup(one_time_keyboard=True, resize_keyboard=True))
+
+
 
 @router.message(F.text == 'В бот 🤖')
 async def file_manager(message: types.Message):
@@ -85,6 +102,7 @@ async def file_manager(message: types.Message):
     this_button = buttons.get(str(my_directory + first_dir))
     await message.answer("Выберите файл или папку", reply_markup=this_button.as_markup())
     await message.answer("Можете изменить метод отправки, найти файл, или вернуться в меню", reply_markup=back_choose_send_find_buttoms().as_markup(one_time_keyboard=True, resize_keyboard=True))
+
 @router.message(F.text == "Метод отправки 📨")
 async def methods_send(message: types.Message):
     await message.answer("Куда отправлять файлы?", reply_markup=choose_send_buttoms().as_markup(one_time_keyboard=True, resize_keyboard=True))
@@ -93,6 +111,21 @@ async def methods_send(message: types.Message):
 async def methods_send(message: types.Message):
     await message.answer("Выберите инструмент",
                          reply_markup=tools_buttoms().as_markup(resize_keyboard=True, one_time_keyboard=True))
+@router.message(F.text == "Структура 🗄")
+async def structure(message: Message) -> None:
+    global number_path
+    global path_number
+    global path_buttons
+    global buttons
+    load_dotenv('.env')
+    my_directory = os.getenv("MY_DIRECTORY")
+    load_dotenv('.env')
+    first_dir = os.getenv("FIRST_DIR")
+    this_button = buttons.get(str(my_directory + first_dir))
+    await message.answer("Выберите файл или папку", reply_markup=this_button.as_markup())
+    await message.answer("Можете изменить метод отправки, найти файл, или вернуться в меню",
+                         reply_markup=back_choose_send_find_buttoms().as_markup(one_time_keyboard=True,
+                                                                                resize_keyboard=True))
 
 @router.message(F.text == "Поиск файлов 🔎")
 async def find_file(message: Message, state: FSMContext) -> None:
@@ -106,9 +139,11 @@ async def search(message: Message, state: FSMContext, bot: Bot) -> None:
     global path_buttons
     global buttons
     global message_choose
+    await state.update_data(name=message.text)
     if message.text:
-        await state.update_data(name=message.text)
+        # await state.update_data(name=message.text)
         text = message.text
+        await message.answer('Ищу файлы')
         logger.info("User %s search file.", [message.from_user, message.text])
     else:
         file_id = message.voice.file_id
@@ -122,10 +157,19 @@ async def search(message: Message, state: FSMContext, bot: Bot) -> None:
         os.remove(file_name)
         os.remove(file_name_wav)
     found_files_p_n = search_dict_by_key_part(path_number, text)
-    await message.answer('Получите файл(ы)!')
-    for key in found_files_p_n:
-        file = FSInputFile(key)
-        await bot.send_document(message.chat.id, file)
+    if found_files_p_n:
+        await message.answer('Получите файл(ы)!')
+        if message_choose == 'В бот 🤖':
+            for key in found_files_p_n:
+                file = FSInputFile(key)
+                await bot.send_document(message.chat.id, file)
+        if message_choose == 'На почту 📩':
+            for key in found_files_p_n:
+                file_name = key.split('/')[-1]
+                status = send_email(key, file_name)
+                await message.answer(f'{status} "{file_name}"')
+    else:
+        await message.answer('Файл(ы) не найден(ы)!')
     await message.answer("Можете изменить метод отправки, найти файл, или вернуться в меню",
                          reply_markup=back_choose_send_find_buttoms().as_markup(one_time_keyboard=True,
                                                                                 resize_keyboard=True))

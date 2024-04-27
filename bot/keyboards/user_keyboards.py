@@ -30,7 +30,7 @@ def create_buttons(path_buttons, number_path, path_number):
 
 def tools_buttoms():
     builder = ReplyKeyboardBuilder()
-    builder.button(text='Файловый менеджер')
+    builder.button(text='Файловый менеджер 🗄')
     builder.button(text='Сканер номера вагона')
     builder.button(text='Сканер номера паспорта вагона')
     builder.adjust(1)
@@ -48,5 +48,6 @@ def back_choose_send_find_buttoms():
     builder_type_send.button(text='Метод отправки 📨')
     builder_type_send.button(text='Назад в меню ↩️')
     builder_type_send.button(text='Поиск файлов 🔎')
+    builder_type_send.button(text='Структура 🗄')
     builder_type_send.adjust(2)
     return builder_type_send
