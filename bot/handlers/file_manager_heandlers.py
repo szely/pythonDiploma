@@ -14,7 +14,7 @@ from bot.other_methods.to_email import send_email
 from bot.other_methods.find_file import search_dict_by_key_part, swapped_dict
 from bot.other_methods.speach_rec import convert_to_wav, speach_rec
 import logging
-from bot.db.db import db_table_val, find_user_id
+from bot.db.db import db_table_val, find_user_id, get_user_email
 logger = logging.getLogger(__name__)
 
 
@@ -26,7 +26,7 @@ class Form(StatesGroup):
 
 
 
-@router.message(F.text == 'Файловый менеджер 🗄')
+@router.message(F.text == 'Файлы 🗄')
 async def file_manager(message: types.Message):
     global number_path
     global path_number
@@ -96,6 +96,53 @@ async def structure(message: Message) -> None:
                          reply_markup=back_choose_send_find_buttoms().as_markup(one_time_keyboard=True,
                                                                                 resize_keyboard=True))
 
+
+@router.message(F.text == "Поиск файлов 🔎")
+async def find_file(message: Message, state: FSMContext) -> None:
+    await state.set_state(Form.SEARCH)
+    await message.answer('Напишите название файла или пришлите аудиосообщение!')
+
+@router.message(Form.SEARCH)
+async def search(message: Message, state: FSMContext, bot: Bot) -> None:
+    global number_path
+    global path_number
+    global path_buttons
+    global buttons
+    global message_choose
+    await state.update_data(name=message.text)
+    if message.text:
+        text = message.text
+        await message.answer('Ищу файлы')
+        logger.info("User %s search file.", [message.from_user, message.text])
+    else:
+        file_id = message.voice.file_id
+        file = await bot.get_file(file_id)
+        file_path = file.file_path
+        file_name = Path("", f"{file_id}.ogg")
+        await bot.download_file(file_path, destination=file_name, timeout=0)
+        file_name_wav = convert_to_wav(file_name)
+        await message.answer('Ищу файлы')
+        text = speach_rec(file_name_wav)
+        os.remove(file_name)
+        os.remove(file_name_wav)
+    found_files_p_n = search_dict_by_key_part(path_number, text)
+    if found_files_p_n:
+        await message.answer('Получите файл(ы)!')
+        if message_choose == 'В бот 🤖':
+            for key in found_files_p_n:
+                file = FSInputFile(key)
+                await bot.send_document(message.chat.id, file)
+        if message_choose == 'На почту 📩':
+            for key in found_files_p_n:
+                file_name = key.split('/')[-1]
+                status = send_email(key, file_name)
+                await message.answer(f'{status} "{file_name}"')
+    else:
+        await message.answer('Файл(ы) не найден(ы)!')
+    await message.answer("Можете изменить метод отправки, найти файл, или вернуться в меню",
+                         reply_markup=back_choose_send_find_buttoms().as_markup(one_time_keyboard=True,
+                                                                                resize_keyboard=True))
+    await state.clear()
 @router.callback_query()
 async def call(callback: CallbackQuery, bot: Bot):
     global number_path
@@ -108,20 +155,13 @@ async def call(callback: CallbackQuery, bot: Bot):
         markup = buttons.get(path)
         await callback.message.answer('Выберите папку или файл', reply_markup=markup.as_markup())
         await bot.delete_message(callback.message.chat.id, callback.message.message_id)
-        # await callback.message.answer("Можете изменить метод отправки или вернуться в меню",
-        #                      reply_markup=back_choose_send_find_buttoms().as_markup(one_time_keyboard=True,
-        #                                                                             resize_keyboard=True))
     if Path(number_path.get(int(callback.data))).is_file()and message_choose == 'В бот 🤖':
         file = FSInputFile(number_path.get(int(callback.data)))
         await bot.send_document(callback.message.chat.id, file)
-        # await callback.message.answer("Можете изменить метод отправки или вернуться в меню",
-                             # reply_markup=back_choose_send_find_buttoms().as_markup(one_time_keyboard=True,
-                             #                                                        resize_keyboard=True))
     if Path(number_path.get(int(callback.data))).is_file() and message_choose == 'На почту 📩':
+        user_email = get_user_email(callback.from_user.id)
         file_name = str(Path(number_path.get(int(callback.data)))).split('/')[-1]
-        status = send_email(str(Path(number_path.get(int(callback.data)))), file_name)
+        status = send_email(str(Path(number_path.get(int(callback.data)))), file_name, user_email)
         await callback.message.answer(f'{status} "{file_name}"')
-        # await callback.message.answer("Можете изменить метод отправки или вернуться в меню",
-        #                      reply_markup=back_choose_send_find_buttoms().as_markup(one_time_keyboard=True,
-        #                                                                             resize_keyboard=True))
+
 

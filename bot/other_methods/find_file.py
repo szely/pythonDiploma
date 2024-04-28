@@ -2,35 +2,47 @@ import re
 from pathlib import Path
 from dotenv import load_dotenv
 import os
+import spacy
+
+# Загрузка модели spaCy для русского языка
+nlp = spacy.load("ru_core_news_sm")
 
 def search_dict_by_key_part(original_dict, key_part):
     load_dotenv('.env')
     ignore = os.getenv("IGNORE")
     result_dict = {}
-    key_part = re.split(r"\s+|,|\n|_|/", key_part.lower())
-
+    key_part_to = re.sub(r"[,?!._]", " ", key_part.lower()).split(' ')
     max_len = 0
     for key in original_dict:
+        count = 0
         if Path(key).is_file() and (Path(key).stem != ignore):
-            key_spl = re.split(r"\s+|,|\n|_|/", key.lower())
-            matches = set(key_part) & set(key_spl)
-            len_matches = len(list(matches))
-            if len_matches > max_len:
-                max_len = len_matches
-                result_dict = {}
-                result_dict[key] = original_dict[key]
-            if len_matches == max_len:
-                result_dict[key] = original_dict[key]
-            # else:
-            #     for key in original_dict:
-            #         if Path(key).is_file() and (Path(key).stem != ignore):
-            #             key_spl = re.split(r"\s+|,|\n|_|/", key.lower())
-            #             for one_part in key_part:
-            #                 for one_word in key_spl:
-            #                     if one_part in one_word:
-            #                         result_dict[key] = original_dict[key]
+            file_name = Path(key).stem.lower()
+            file_name = re.sub(r"[,?!._]", " ", file_name)
+            for part in key_part_to:
+                if check_word_part_in_text(file_name, part):
+                    count += 1
+                    if count > max_len:
+                        max_len = count
+                        result_dict = {}
+                        result_dict[key] = original_dict[key]
+                    elif count == max_len:
+                        max_len = count
+                        result_dict[key] = original_dict[key]
+
+    #                 print(file_name)
+    print(max_len)
+    print(result_dict)
     return result_dict
+
 
 def swapped_dict(dict):
     swapped_dict = {v: k for k, v in dict.items()}
     return swapped_dict
+
+
+def check_word_part_in_text(text, part_word):
+    doc = nlp(text)
+    for token in doc:
+        if part_word.lower() in token.text.lower():
+            return True
+    return False

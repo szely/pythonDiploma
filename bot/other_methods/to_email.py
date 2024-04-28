@@ -7,17 +7,17 @@ from dotenv import load_dotenv
 import os
 
 load_dotenv('.env')
-from_addr = os.getenv("FROM_ADDR")
-to_addr = os.getenv("TO_ADDR")
+from_adr = os.getenv("FROM_ADDR")
+to_adr = os.getenv("TO_ADDR")
 password = os.getenv("PASSWORD")
 
-def email(f, t):
-    global from_addr
-    global to_addr
+def email(f, t, user_email):
+    global from_adr
+    global to_adr
     global password
     msg = MIMEMultipart()
-    msg['From'] = from_addr
-    msg['To'] = to_addr
+    msg['From'] = from_adr
+    msg['To'] = user_email
     msg['Subject'] = t
     message = 'Спасибо, что выбрали HandyBOT!'
     msg.attach(MIMEText(message))
@@ -42,11 +42,11 @@ def email(f, t):
         mailserver.starttls()
     # Повторно идентифицируем себя как зашифрованное соединение перед аутентификацией.
         mailserver.ehlo()
-        mailserver.login(user=from_addr, password=password)
-        mailserver.sendmail(f'{from_addr}',f'{to_addr}',msg.as_string())
+        mailserver.login(user=from_adr, password=password)
+        mailserver.sendmail(f'{from_adr}', f'{user_email}', msg.as_string())
         msg.attach(part)
         mailserver.quit()
-        status = "На Вашу почту успешно отправлен файл "
+        status = f"На Вашу почту {user_email} успешно отправлен файл "
         print(status)
     except smtplib.SMTPException:
         status = "Ошибка: Невозможно отправить файл "
@@ -54,9 +54,9 @@ def email(f, t):
     return status
 
 
-def send_email(file_path, file_name):
+def send_email(file_path, file_name, user_email):
     file = open(f"{file_path}", "rb")
     g = str(file_path)
-    status = email(g, file_name)
+    status = email(g, file_name, user_email)
     file.close()
     return status

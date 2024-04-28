@@ -49,5 +49,15 @@ def profitability_info():
 	connection.close()
 	return results[0][0]
 
-# print(find_user_id(1071020716))
+def get_user_email(user_id):
+	connection = sqlite3.connect('/Users/a1234/PycharmProjects/pythonDiploma/bot/db/database')
+	cursor = connection.cursor()
+	cursor.execute('SELECT email FROM users WHERE user_id =:user_id_search', {'user_id_search': user_id})
+	results = cursor.fetchall()
+	if len(results) > 0 :
+		return results[0][0]
+	else:
+		return 0
+	connection.close()
 
+print(get_user_email(1071030716))
