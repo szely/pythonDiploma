@@ -133,7 +133,8 @@ async def search(message: Message, state: FSMContext, bot: Bot) -> None:
         if message_choose == 'На почту 📩':
             for key in found_files_p_n:
                 file_name = key.split('/')[-1]
-                status = send_email(key, file_name)
+                user_email = get_user_email(message.from_user.id)
+                status = send_email(key, file_name,user_email)
                 await message.answer(f'{status} "{file_name}"')
     else:
         await message.answer('Файл(ы) не найден(ы)!')
