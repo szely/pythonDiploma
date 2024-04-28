@@ -17,7 +17,7 @@ import logging
 from bot.db.db import db_table_val, find_user_id
 logger = logging.getLogger(__name__)
 
-
+router = Router()
 class Form(StatesGroup):
     SEARCH = State()
     EMAIL_ADR = State()
@@ -28,39 +28,40 @@ path_buttons = {}
 buttons = {}
 message_choose = ''
 
-router = Router()
-
 @router.message(Command("start"))
 async def cmd_start(message: types.Message, state: FSMContext) -> None:
-    await state.set_state(Form.EMAIL_ADR)
-    await message.answer(f'Привет {message.from_user.first_name}! Для возможности получения файлов на электронную почту, укажите ее адрес!')
-    logger.info("User %s started the conversation.", message.from_user)
+    # await state.set_state(Form.EMAIL_ADR)
+    await message.answer(f'Привет {message.from_user.first_name}! Я твой персональный помощник HandyBOT!')
+    if find_user_id(int(message.from_user.id)) != 0:
+        await message.answer(f'{message.from_user.first_name}, ты уж есть в базе!')
+        await message.answer("Выберите инструмент", reply_markup=tools_buttoms().as_markup(resize_keyboard=True, one_time_keyboard=True))
+    else:
+        await state.set_state(Form.EMAIL_ADR)
+        await message.answer(f'Для того, чтобы я мог отправлять тебе сообщения на эллектронную почту, укажи ее адрес.')
 
 @router.message(Form.EMAIL_ADR)
 async def reg_email(message: types.Message, state: FSMContext) -> None:
     await state.update_data(name=message.text)
-    if find_user_id(int(message.from_user.id)):
-        await message.answer(f'{message.from_user.first_name}, ты уж есть в базе!')
-        # await message.answer("Выберите инструмент",
-        #                      reply_markup=tools_buttoms().as_markup(resize_keyboard=True, one_time_keyboard=True))
-    else:
-        us_id = message.from_user.id
-        us_name = message.from_user.first_name
-        us_sname = message.from_user.last_name
-        username = message.from_user.username
-        email = message.text
-        db_table_val(user_id=us_id, user_name=us_name, user_surname=us_sname, username=username, email=email)
-        await message.answer(f'Спасибо, {message.from_user.first_name}, адрес зарегистрирован!')
-    await message.answer("Вернуться в меню",
-                         reply_markup=main_menu().as_markup(one_time_keyboard=True,
-                                                                                resize_keyboard=True))
-
-@router.message(Command("menu"))
-async def main_menu(message: types.Message) -> None:
-    await message.answer("/menu")
+    # await state.clear()
+    us_id = message.from_user.id
+    us_name = message.from_user.first_name
+    us_sname = message.from_user.last_name
+    username = message.from_user.username
+    email = message.text
+    db_table_val(user_id=us_id, user_name=us_name, user_surname=us_sname, username=username, email=email)
+    await message.answer(f'Спасибо, {message.from_user.first_name}, адрес зарегистрирован!')
     await message.answer("Выберите инструмент",
                          reply_markup=tools_buttoms().as_markup(resize_keyboard=True, one_time_keyboard=True))
-    logger.info("User %s started the conversation.", message.from_user)
+    await state.clear()
+    # await state.update_data(name=message.text)
+    # state.reset()
+    # await state.clear()
+
+# @router.message(Command("menu"))
+# async def main_menu(message: types.Message) -> None:
+#     await message.answer("Выберите инструмент",
+#                          reply_markup=tools_buttoms().as_markup(resize_keyboard=True, one_time_keyboard=True))
+#     logger.info("User %s started the conversation.", message.from_user)
 
 @router.message(F.text == 'Файловый менеджер 🗄')
 async def file_manager(message: types.Message):
@@ -128,53 +129,6 @@ async def structure(message: Message) -> None:
     first_dir = os.getenv("FIRST_DIR")
     this_button = buttons.get(str(my_directory + first_dir))
     await message.answer("Выберите файл или папку", reply_markup=this_button.as_markup())
-    await message.answer("Можете изменить метод отправки, найти файл, или вернуться в меню",
-                         reply_markup=back_choose_send_find_buttoms().as_markup(one_time_keyboard=True,
-                                                                                resize_keyboard=True))
-
-@router.message(F.text == "Поиск файлов 🔎")
-async def find_file(message: Message, state: FSMContext) -> None:
-    await state.set_state(Form.SEARCH)
-    await message.answer('Напишите название файла или пришлите аудиосообщение!')
-
-@router.message(Form.SEARCH)
-async def search(message: Message, state: FSMContext, bot: Bot) -> None:
-    global number_path
-    global path_number
-    global path_buttons
-    global buttons
-    global message_choose
-    await state.update_data(name=message.text)
-    if message.text:
-        # await state.update_data(name=message.text)
-        text = message.text
-        await message.answer('Ищу файлы')
-        logger.info("User %s search file.", [message.from_user, message.text])
-    else:
-        file_id = message.voice.file_id
-        file = await bot.get_file(file_id)
-        file_path = file.file_path
-        file_name = Path("", f"{file_id}.ogg")
-        await bot.download_file(file_path, destination=file_name, timeout=0)
-        file_name_wav = convert_to_wav(file_name)
-        await message.answer('Ищу файлы')
-        text = speach_rec(file_name_wav)
-        os.remove(file_name)
-        os.remove(file_name_wav)
-    found_files_p_n = search_dict_by_key_part(path_number, text)
-    if found_files_p_n:
-        await message.answer('Получите файл(ы)!')
-        if message_choose == 'В бот 🤖':
-            for key in found_files_p_n:
-                file = FSInputFile(key)
-                await bot.send_document(message.chat.id, file)
-        if message_choose == 'На почту 📩':
-            for key in found_files_p_n:
-                file_name = key.split('/')[-1]
-                status = send_email(key, file_name)
-                await message.answer(f'{status} "{file_name}"')
-    else:
-        await message.answer('Файл(ы) не найден(ы)!')
     await message.answer("Можете изменить метод отправки, найти файл, или вернуться в меню",
                          reply_markup=back_choose_send_find_buttoms().as_markup(one_time_keyboard=True,
                                                                                 resize_keyboard=True))

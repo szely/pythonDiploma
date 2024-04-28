@@ -22,7 +22,7 @@ logger = logging.getLogger(__name__)
 
 class Form(StatesGroup):
     # MAIN_MENU = State()
-    SEARCH = State()
+    # SEARCH = State()
     # PARSING_WORD = State()
     # PARSING_NUMBER = State()
     # HELP_MENU = State()
