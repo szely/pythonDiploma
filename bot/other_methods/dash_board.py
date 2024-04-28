@@ -1,10 +1,13 @@
 import plotly.graph_objects as go
 import os
+import pathlib
 
-y_list = [2451, 2, -397, 68, 132, -10]
-x_list = ['Плановая<br>доходность', 'Парк', 'Выполнение<br>плана погрузки', 'Средняя ставка<br>на 1 груж в/о',
-          'Порожние<br>ваг/отпр', 'Средняя ставка<br>на 1 пор в/о', 'Фактическая<br>доходность']
-def paint_waterfall_chart(x_list, y_list, name):
+# y_list = [2451, 2, -397, 68, 132, -10]
+# x_list = ['Плановая<br>доходность', 'Парк', 'Выполнение<br>плана погрузки', 'Средняя ставка<br>на 1 груж в/о',
+          # 'Порожние<br>ваг/отпр', 'Средняя ставка<br>на 1 пор в/о', 'Фактическая<br>доходность']
+def paint_waterfall_chart(data, name):
+    y_list = list(data.values())[2:-1]
+    x_list = list(data.keys())[2:]
     total = round(sum(y_list))
     y_list.append(total)
 
@@ -72,8 +75,10 @@ def paint_waterfall_chart(x_list, y_list, name):
     fig.update_yaxes(tickangle=0, tickfont=dict(family='Open Sans, light', color='black', size=14))
 
     # fig.show()
+    file = f"{name}.png"
+    fig.write_image(file)
+    path = os.path.realpath(file)
+    return path
 
-    fig.write_image(f"{name}.png")
 
-
-paint_waterfall_chart(x_list, y_list, 1111111)
+# paint_waterfall_chart(x_list, y_list, 1111111)

@@ -30,7 +30,7 @@ def create_buttons(path_buttons, number_path, path_number):
 
 def tools_buttoms():
     builder = ReplyKeyboardBuilder()
-    builder.button(text='Файлы 🗄')
+    builder.button(text='Отчетность 🗄')
     builder.button(text='Аналитика 📊')
     builder.button(text='Сканер номера вагона 🖋')
     builder.button(text='Сканер паспорта вагона 🖨')

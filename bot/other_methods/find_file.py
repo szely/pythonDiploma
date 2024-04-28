@@ -28,10 +28,6 @@ def search_dict_by_key_part(original_dict, key_part):
                     elif count == max_len:
                         max_len = count
                         result_dict[key] = original_dict[key]
-
-    #                 print(file_name)
-    print(max_len)
-    print(result_dict)
     return result_dict
 
 
