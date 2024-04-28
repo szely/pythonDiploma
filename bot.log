@@ -15279,3 +15279,60 @@ TypeError: 'int' object is not iterable
 2024-04-28 20:16:36,918 - aiogram.event - INFO - Update id=488816020 is handled. Duration 334 ms by bot id=6984627184
 2024-04-28 20:16:42,667 - aiogram.event - INFO - Update id=488816021 is handled. Duration 3015 ms by bot id=6984627184
 2024-04-28 20:16:57,087 - aiogram.event - INFO - Update id=488816022 is handled. Duration 969 ms by bot id=6984627184
+2024-04-28 20:17:42,615 - aiogram.event - INFO - Update id=488816023 is handled. Duration 1226 ms by bot id=6984627184
+2024-04-28 20:17:44,457 - aiogram.event - INFO - Update id=488816024 is handled. Duration 333 ms by bot id=6984627184
+2024-04-28 20:17:48,858 - aiogram.event - INFO - Update id=488816025 is handled. Duration 161 ms by bot id=6984627184
+2024-04-28 20:17:59,141 - aiogram.event - INFO - Update id=488816026 is handled. Duration 6185 ms by bot id=6984627184
+2024-04-28 20:18:09,708 - aiogram.event - INFO - Update id=488816027 is handled. Duration 297 ms by bot id=6984627184
+2024-04-28 20:18:20,421 - aiogram.event - INFO - Update id=488816028 is handled. Duration 6194 ms by bot id=6984627184
+2024-04-28 20:18:26,171 - aiogram.event - INFO - Update id=488816029 is handled. Duration 126 ms by bot id=6984627184
+2024-04-28 20:18:39,995 - aiogram.event - INFO - Update id=488816030 is handled. Duration 5010 ms by bot id=6984627184
+2024-04-28 20:18:44,535 - aiogram.event - INFO - Update id=488816031 is handled. Duration 123 ms by bot id=6984627184
+2024-04-28 20:18:45,814 - aiogram.event - INFO - Update id=488816032 is handled. Duration 210 ms by bot id=6984627184
+2024-04-28 20:20:05,440 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2024-04-28 20:20:05,474 - aiogram.dispatcher - INFO - Polling stopped for bot @test78797_bot id=6984627184 - 'test7'
+2024-04-28 20:20:05,480 - aiogram.dispatcher - INFO - Polling stopped
+2024-04-28 20:20:26,155 - aiogram.dispatcher - INFO - Start polling
+2024-04-28 20:20:26,347 - aiogram.dispatcher - INFO - Run polling for bot @test78797_bot id=6984627184 - 'test7'
+2024-04-28 20:20:26,888 - aiogram.event - INFO - Update id=488816033 is handled. Duration 456 ms by bot id=6984627184
+2024-04-28 20:20:32,136 - aiogram.event - INFO - Update id=488816034 is handled. Duration 3025 ms by bot id=6984627184
+2024-04-28 20:20:37,217 - aiogram.event - INFO - Update id=488816035 is handled. Duration 705 ms by bot id=6984627184
+2024-04-28 20:20:39,058 - aiogram.event - INFO - Update id=488816036 is not handled. Duration 14 ms by bot id=6984627184
+2024-04-28 20:20:48,552 - aiogram.event - INFO - Update id=488816037 is handled. Duration 253 ms by bot id=6984627184
+2024-04-28 20:20:50,726 - aiogram.event - INFO - Update id=488816038 is handled. Duration 218 ms by bot id=6984627184
+2024-04-28 20:20:52,971 - aiogram.event - INFO - Update id=488816039 is handled. Duration 1073 ms by bot id=6984627184
+2024-04-28 20:20:59,285 - aiogram.event - INFO - Update id=488816040 is handled. Duration 111 ms by bot id=6984627184
+2024-04-28 20:21:19,955 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2024-04-28 20:21:19,960 - aiogram.dispatcher - INFO - Polling stopped for bot @test78797_bot id=6984627184 - 'test7'
+2024-04-28 20:21:19,960 - aiogram.dispatcher - INFO - Polling stopped
+2024-04-28 20:21:33,898 - aiogram.dispatcher - INFO - Start polling
+2024-04-28 20:21:34,128 - aiogram.dispatcher - INFO - Run polling for bot @test78797_bot id=6984627184 - 'test7'
+2024-04-28 20:21:36,724 - aiogram.event - INFO - Update id=488816041 is handled. Duration 563 ms by bot id=6984627184
+2024-04-28 20:21:42,616 - aiogram.event - INFO - Update id=488816042 is handled. Duration 535 ms by bot id=6984627184
+2024-04-28 20:21:44,362 - aiogram.event - INFO - Update id=488816043 is handled. Duration 256 ms by bot id=6984627184
+2024-04-28 20:21:46,304 - aiogram.event - INFO - Update id=488816044 is handled. Duration 498 ms by bot id=6984627184
+2024-04-28 20:21:48,965 - aiogram.event - INFO - Update id=488816045 is handled. Duration 119 ms by bot id=6984627184
+2024-04-28 20:21:52,022 - aiogram.event - INFO - Update id=488816046 is handled. Duration 565 ms by bot id=6984627184
+2024-04-28 20:21:53,978 - aiogram.event - INFO - Update id=488816047 is handled. Duration 184 ms by bot id=6984627184
+2024-04-28 20:21:58,069 - aiogram.event - INFO - Update id=488816048 is handled. Duration 2817 ms by bot id=6984627184
+2024-04-28 20:22:41,391 - aiogram.event - INFO - Update id=488816049 is handled. Duration 595 ms by bot id=6984627184
+2024-04-28 20:22:43,235 - aiogram.event - INFO - Update id=488816050 is handled. Duration 290 ms by bot id=6984627184
+2024-04-28 20:22:44,644 - aiogram.event - INFO - Update id=488816051 is handled. Duration 163 ms by bot id=6984627184
+2024-04-28 20:22:46,280 - aiogram.event - INFO - Update id=488816052 is handled. Duration 223 ms by bot id=6984627184
+2024-04-28 20:22:47,276 - aiogram.event - INFO - Update id=488816053 is handled. Duration 233 ms by bot id=6984627184
+2024-04-28 20:22:49,222 - aiogram.event - INFO - Update id=488816054 is handled. Duration 1130 ms by bot id=6984627184
+2024-04-28 20:23:22,053 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2024-04-28 20:23:22,065 - aiogram.dispatcher - INFO - Polling stopped for bot @test78797_bot id=6984627184 - 'test7'
+2024-04-28 20:23:22,066 - aiogram.dispatcher - INFO - Polling stopped
+2024-04-28 20:23:37,020 - aiogram.dispatcher - INFO - Start polling
+2024-04-28 20:23:37,235 - aiogram.dispatcher - INFO - Run polling for bot @test78797_bot id=6984627184 - 'test7'
+2024-04-28 20:23:37,845 - aiogram.event - INFO - Update id=488816055 is handled. Duration 505 ms by bot id=6984627184
+2024-04-28 20:23:37,893 - aiogram.event - INFO - Update id=488816056 is handled. Duration 552 ms by bot id=6984627184
+2024-04-28 20:23:37,897 - aiogram.event - INFO - Update id=488816057 is handled. Duration 554 ms by bot id=6984627184
+2024-04-28 20:23:41,507 - aiogram.event - INFO - Update id=488816058 is handled. Duration 603 ms by bot id=6984627184
+2024-04-28 20:23:43,449 - aiogram.event - INFO - Update id=488816059 is handled. Duration 236 ms by bot id=6984627184
+2024-04-28 20:23:50,671 - aiogram.event - INFO - Update id=488816060 is handled. Duration 243 ms by bot id=6984627184
+2024-04-28 20:23:52,464 - aiogram.event - INFO - Update id=488816061 is handled. Duration 90 ms by bot id=6984627184
+2024-04-28 20:23:55,278 - aiogram.event - INFO - Update id=488816062 is handled. Duration 551 ms by bot id=6984627184
+2024-04-28 20:23:56,551 - aiogram.event - INFO - Update id=488816063 is handled. Duration 82 ms by bot id=6984627184
+2024-04-28 20:24:00,914 - aiogram.event - INFO - Update id=488816064 is handled. Duration 2994 ms by bot id=6984627184
