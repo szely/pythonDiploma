@@ -3,7 +3,7 @@ import telebot
 
 bot = telebot.TeleBot("7152099013:AAGj6y9iCwq5gB00FxtCvfCePkxd8a9oW40")
 
-conn = sqlite3.connect('/Users/a1234/PycharmProjects/pythonDiploma/bot/db/database', check_same_thread=False)
+conn = sqlite3.connect('/bot/db/database', check_same_thread=False)
 cursor = conn.cursor()
 
 

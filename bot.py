@@ -2,7 +2,7 @@ import os
 from dotenv import load_dotenv
 import asyncio
 from aiogram import Bot, Dispatcher
-from bot.handlers import user_handlers, wagon_info_handlers, file_manager_handlers, analitics_handlers, macro_info_handlers
+from bot.handlers import user_handlers, wagon_info_handlers, file_manager_handlers, analitics_handlers, macro_info_handlers, wagon_valuation_handlers
 import logging
 from logging.handlers import RotatingFileHandler
 import sqlite3
@@ -29,7 +29,7 @@ async def main():
     bot = Bot(token)
     dp = Dispatcher()
 
-    dp.include_routers( user_handlers.router, file_manager_handlers.router, wagon_info_handlers.router, analitics_handlers.router, macro_info_handlers.router)
+    dp.include_routers( user_handlers.router, file_manager_handlers.router, wagon_info_handlers.router, analitics_handlers.router, macro_info_handlers.router,  wagon_valuation_handlers.router)
 
     # await bot.delete_webhook(drop_pending_updates=True)
     # try:

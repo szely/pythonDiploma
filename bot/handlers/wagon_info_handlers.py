@@ -52,6 +52,7 @@ async def vagon_number(message: types.Message, state: FSMContext):
     await message.answer("Вернуться в меню:",
                          reply_markup=back_menu().as_markup(one_time_keyboard=True,
                                                                                 resize_keyboard=True))
+    await state.clear()
 
 
 

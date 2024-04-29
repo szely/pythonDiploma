@@ -89,7 +89,7 @@ def paint_tree_chart(df, name):
                   values=df['Количество'],
                   color=df['Количество'],
                      color_continuous_scale='tempo',
-                     color_continuous_midpoint=np.average(df['Количество'])
+                     # color_continuous_midpoint=np.average(df['Количество'])
                 )
     fig.update_layout(margin = dict(t=50, l=25, r=25, b=25))
     # fig.show()
