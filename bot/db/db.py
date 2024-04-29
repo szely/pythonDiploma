@@ -1,5 +1,5 @@
 import sqlite3
-import pandas
+import pandas as pd
 import datetime
 from bot.other_methods.dash_board import paint_waterfall_chart
 
@@ -42,12 +42,16 @@ def find_wagon(number):
 	cursor = connection.execute('select * from wagons')
 	row = cursor.fetchone()
 	names = row.keys()
-	dictionary = dict(zip(names, results))
 	connection.close()
-	info = {}
-	for key in dictionary:
-		info[trans_wag[key]] = dictionary[key]
-	return info
+	if len(results) > 0:
+		names = row.keys()
+		dictionary = dict(zip(names, results))
+		info = {}
+		for key in dictionary:
+			info[trans_wag[key]] = dictionary[key]
+		return info
+	else:
+		return 0
 
 
 def profitability_info(date):
@@ -82,4 +86,16 @@ def get_user_email(user_id):
 		return results[0][0]
 	else:
 		return 0
+
+def get_wagon_info():
+	cnx = sqlite3.connect('/Users/a1234/PycharmProjects/pythonDiploma/bot/db/database')
+	df = pd.read_sql_query("SELECT wagon_type, wagon_number FROM wagons", cnx)
+	df_drp = pd.pivot_table(df,
+							index=["wagon_type"],
+							values=["wagon_number"],
+							aggfunc=[len])
+	df_drp = df_drp.reset_index()
+	df_drp.columns = ['РПС', 'Количество']
+	df_drp['Количество'] = round(df_drp['Количество'] / 1000, 2)
+	return df_drp
 

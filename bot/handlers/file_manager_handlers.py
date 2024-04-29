@@ -23,7 +23,6 @@ class Form(StatesGroup):
     SEARCH = State()
     EMAIL_ADR = State()
 
-
 @router.message(F.text == 'Отчетность 🗄')
 async def file_manager(message: types.Message):
     global number_path
@@ -54,6 +53,7 @@ async def file_manager(message: types.Message):
     this_button = buttons.get(str(my_directory + first_dir))
     await message.answer("Выберите файл или папку", reply_markup=this_button.as_markup())
     await message.answer("Можете изменить метод отправки, найти файл, или вернуться в меню", reply_markup=back_choose_send_find_buttoms().as_markup(one_time_keyboard=True, resize_keyboard=True))
+
 @router.message(F.text == "На почту 📩")
 async def file_manager(message: types.Message):
     global number_path
@@ -78,6 +78,7 @@ async def methods_send(message: types.Message):
 async def methods_send(message: types.Message):
     await message.answer("Выберите инструмент",
                          reply_markup=tools_buttoms().as_markup(resize_keyboard=True, one_time_keyboard=True))
+
 @router.message(F.text == "Структура 🗄")
 async def structure(message: Message) -> None:
     global number_path
@@ -93,7 +94,6 @@ async def structure(message: Message) -> None:
     await message.answer("Можете изменить метод отправки, найти файл, или вернуться в меню",
                          reply_markup=back_choose_send_find_buttoms().as_markup(one_time_keyboard=True,
                                                                                 resize_keyboard=True))
-
 
 @router.message(F.text == "Поиск файлов 🔎")
 async def find_file(message: Message, state: FSMContext) -> None:
@@ -142,6 +142,7 @@ async def search(message: Message, state: FSMContext, bot: Bot) -> None:
                          reply_markup=back_choose_send_find_buttoms().as_markup(one_time_keyboard=True,
                                                                                 resize_keyboard=True))
     await state.clear()
+
 @router.callback_query()
 async def call(callback: CallbackQuery, bot: Bot):
     global number_path
@@ -162,5 +163,3 @@ async def call(callback: CallbackQuery, bot: Bot):
         file_name = str(Path(number_path.get(int(callback.data)))).split('/')[-1]
         status = send_email(str(Path(number_path.get(int(callback.data)))), file_name, user_email)
         await callback.message.answer(f'{status} "{file_name}"')
-
-

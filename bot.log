@@ -15836,3 +15836,833 @@ TypeError: send_email() missing 1 required positional argument: 'user_email'
 2024-04-28 23:24:19,405 - aiogram.dispatcher - WARNING - Received SIGINT signal
 2024-04-28 23:24:19,426 - aiogram.dispatcher - INFO - Polling stopped for bot @test78797_bot id=6984627184 - 'test7'
 2024-04-28 23:24:19,429 - aiogram.dispatcher - INFO - Polling stopped
+2024-04-29 00:03:28,671 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2024-04-29 00:03:28,673 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7152099013)
+2024-04-29 00:07:18,048 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2024-04-29 00:07:18,077 - aiogram.dispatcher - WARNING - Sleep for 1.405943 seconds and try again... (tryings = 1, bot id = 7152099013)
+2024-04-29 00:07:29,666 - aiogram.dispatcher - INFO - Connection established (tryings = 2, bot id = 7152099013)
+2024-04-29 01:47:27,151 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2024-04-29 01:47:27,161 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7152099013)
+2024-04-29 01:47:38,235 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7152099013)
+2024-04-29 03:25:57,066 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2024-04-29 03:25:57,092 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7152099013)
+2024-04-29 03:26:08,008 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7152099013)
+2024-04-29 05:14:22,029 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2024-04-29 05:14:22,061 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7152099013)
+2024-04-29 05:14:42,157 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7152099013)
+2024-04-29 07:02:46,050 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2024-04-29 07:02:46,065 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7152099013)
+2024-04-29 07:02:58,018 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7152099013)
+2024-04-29 08:51:10,124 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2024-04-29 08:51:10,139 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7152099013)
+2024-04-29 08:51:34,062 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7152099013)
+2024-04-29 09:46:22,753 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2024-04-29 09:46:22,755 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7152099013)
+2024-04-29 09:46:33,953 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7152099013)
+2024-04-29 10:07:24,149 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2024-04-29 10:07:24,151 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7152099013)
+2024-04-29 10:07:35,382 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7152099013)
+2024-04-29 10:42:37,389 - aiogram.dispatcher - INFO - Start polling
+2024-04-29 10:42:37,598 - aiogram.dispatcher - INFO - Run polling for bot @test78797_bot id=6984627184 - 'test7'
+2024-04-29 10:42:38,892 - aiogram.event - INFO - Update id=488816125 is handled. Duration 534 ms by bot id=6984627184
+2024-04-29 10:42:48,702 - aiogram.event - INFO - Update id=488816126 is handled. Duration 2345 ms by bot id=6984627184
+2024-04-29 10:42:56,222 - aiogram.event - INFO - Update id=488816127 is handled. Duration 602 ms by bot id=6984627184
+2024-04-29 10:43:03,529 - aiogram.event - INFO - Update id=488816128 is handled. Duration 159 ms by bot id=6984627184
+2024-04-29 10:50:54,974 - aiogram.event - INFO - Update id=488816129 is handled. Duration 814 ms by bot id=6984627184
+2024-04-29 10:50:55,025 - aiogram.event - INFO - Update id=488816130 is handled. Duration 862 ms by bot id=6984627184
+2024-04-29 10:50:55,186 - aiogram.event - INFO - Update id=488816132 is handled. Duration 1018 ms by bot id=6984627184
+2024-04-29 10:50:55,250 - aiogram.event - INFO - Update id=488816131 is handled. Duration 1085 ms by bot id=6984627184
+2024-04-29 10:50:57,762 - aiogram.event - INFO - Update id=488816133 is handled. Duration 518 ms by bot id=6984627184
+2024-04-29 10:50:59,947 - aiogram.event - INFO - Update id=488816134 is handled. Duration 111 ms by bot id=6984627184
+2024-04-29 10:53:34,746 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2024-04-29 10:53:34,767 - aiogram.dispatcher - INFO - Polling stopped for bot @test78797_bot id=6984627184 - 'test7'
+2024-04-29 10:53:34,769 - aiogram.dispatcher - INFO - Polling stopped
+2024-04-29 10:57:14,152 - aiogram.dispatcher - INFO - Start polling
+2024-04-29 10:57:50,129 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2024-04-29 10:57:50,135 - aiogram.dispatcher - INFO - Polling stopped
+2024-04-29 10:57:57,536 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2024-04-29 10:57:57,553 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7152099013)
+2024-04-29 10:58:05,887 - aiogram.dispatcher - INFO - Start polling
+2024-04-29 10:58:07,265 - aiogram.dispatcher - INFO - Run polling for bot @test78797_bot id=6984627184 - 'test7'
+2024-04-29 10:58:07,921 - aiogram.event - INFO - Update id=488816135 is handled. Duration 507 ms by bot id=6984627184
+2024-04-29 10:58:23,539 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7152099013)
+2024-04-29 10:59:30,361 - aiogram.event - INFO - Update id=488816136 is handled. Duration 25284 ms by bot id=6984627184
+2024-04-29 10:59:31,272 - aiogram.event - INFO - Update id=488816137 is handled. Duration 26194 ms by bot id=6984627184
+2024-04-29 10:59:36,884 - aiogram.event - INFO - Update id=488816138 is handled. Duration 31804 ms by bot id=6984627184
+2024-04-29 10:59:51,727 - aiogram.event - INFO - Update id=488816139 is handled. Duration 5117 ms by bot id=6984627184
+2024-04-29 10:59:56,577 - aiogram.event - INFO - Update id=488816140 is handled. Duration 779 ms by bot id=6984627184
+2024-04-29 11:00:47,532 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2024-04-29 11:00:47,545 - aiogram.dispatcher - INFO - Polling stopped for bot @test78797_bot id=6984627184 - 'test7'
+2024-04-29 11:00:47,549 - aiogram.dispatcher - INFO - Polling stopped
+2024-04-29 11:01:04,257 - aiogram.dispatcher - INFO - Start polling
+2024-04-29 11:01:34,274 - aiogram.dispatcher - INFO - Polling stopped
+2024-04-29 11:01:56,529 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2024-04-29 11:01:56,532 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7152099013)
+2024-04-29 11:01:56,796 - aiogram.dispatcher - INFO - Start polling
+2024-04-29 11:02:57,530 - aiogram.dispatcher - INFO - Polling stopped
+2024-04-29 11:03:00,935 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [None]
+2024-04-29 11:03:00,939 - aiogram.dispatcher - WARNING - Sleep for 1.205194 seconds and try again... (tryings = 1, bot id = 7152099013)
+2024-04-29 11:03:12,425 - aiogram.dispatcher - INFO - Connection established (tryings = 2, bot id = 7152099013)
+2024-04-29 11:05:07,680 - aiogram.dispatcher - INFO - Start polling
+2024-04-29 11:05:13,309 - aiogram.dispatcher - INFO - Run polling for bot @test78797_bot id=6984627184 - 'test7'
+2024-04-29 11:05:14,304 - aiogram.event - INFO - Update id=488816144 is handled. Duration 895 ms by bot id=6984627184
+2024-04-29 11:05:14,323 - aiogram.event - INFO - Update id=488816143 is handled. Duration 915 ms by bot id=6984627184
+2024-04-29 11:05:14,345 - aiogram.event - INFO - Update id=488816141 is handled. Duration 941 ms by bot id=6984627184
+2024-04-29 11:05:14,379 - aiogram.event - INFO - Update id=488816142 is handled. Duration 972 ms by bot id=6984627184
+2024-04-29 11:05:14,392 - aiogram.event - INFO - Update id=488816145 is handled. Duration 983 ms by bot id=6984627184
+2024-04-29 11:05:22,932 - aiogram.event - INFO - Update id=488816146 is handled. Duration 126 ms by bot id=6984627184
+2024-04-29 11:05:40,712 - aiogram.event - INFO - Update id=488816147 is handled. Duration 1289 ms by bot id=6984627184
+2024-04-29 11:07:53,345 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2024-04-29 11:07:53,354 - aiogram.dispatcher - INFO - Polling stopped for bot @test78797_bot id=6984627184 - 'test7'
+2024-04-29 11:07:53,356 - aiogram.dispatcher - INFO - Polling stopped
+2024-04-29 11:08:06,659 - aiogram.dispatcher - INFO - Start polling
+2024-04-29 11:08:06,866 - aiogram.dispatcher - INFO - Run polling for bot @test78797_bot id=6984627184 - 'test7'
+2024-04-29 11:08:07,435 - aiogram.event - INFO - Update id=488816148 is handled. Duration 486 ms by bot id=6984627184
+2024-04-29 11:08:10,209 - aiogram.event - INFO - Update id=488816149 is handled. Duration 214 ms by bot id=6984627184
+2024-04-29 11:08:25,867 - aiogram.event - INFO - Update id=488816150 is handled. Duration 616 ms by bot id=6984627184
+2024-04-29 11:10:04,545 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2024-04-29 11:10:04,556 - aiogram.dispatcher - INFO - Polling stopped for bot @test78797_bot id=6984627184 - 'test7'
+2024-04-29 11:10:04,561 - aiogram.dispatcher - INFO - Polling stopped
+2024-04-29 11:10:17,683 - aiogram.dispatcher - INFO - Start polling
+2024-04-29 11:10:17,913 - aiogram.dispatcher - INFO - Run polling for bot @test78797_bot id=6984627184 - 'test7'
+2024-04-29 11:10:18,622 - aiogram.event - INFO - Update id=488816151 is handled. Duration 576 ms by bot id=6984627184
+2024-04-29 11:10:23,766 - aiogram.event - INFO - Update id=488816152 is handled. Duration 127 ms by bot id=6984627184
+2024-04-29 11:10:26,484 - aiogram.event - INFO - Update id=488816153 is handled. Duration 352 ms by bot id=6984627184
+2024-04-29 11:10:55,371 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2024-04-29 11:10:55,374 - aiogram.dispatcher - INFO - Polling stopped for bot @test78797_bot id=6984627184 - 'test7'
+2024-04-29 11:10:55,376 - aiogram.dispatcher - INFO - Polling stopped
+2024-04-29 11:11:12,834 - aiogram.dispatcher - INFO - Start polling
+2024-04-29 11:11:13,106 - aiogram.dispatcher - INFO - Run polling for bot @test78797_bot id=6984627184 - 'test7'
+2024-04-29 11:12:17,157 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2024-04-29 11:12:17,168 - aiogram.dispatcher - INFO - Polling stopped for bot @test78797_bot id=6984627184 - 'test7'
+2024-04-29 11:12:17,169 - aiogram.dispatcher - INFO - Polling stopped
+2024-04-29 11:12:28,744 - aiogram.dispatcher - INFO - Start polling
+2024-04-29 11:12:28,965 - aiogram.dispatcher - INFO - Run polling for bot @test78797_bot id=6984627184 - 'test7'
+2024-04-29 11:12:29,696 - aiogram.event - INFO - Update id=488816154 is handled. Duration 643 ms by bot id=6984627184
+2024-04-29 11:12:50,817 - aiogram.event - INFO - Update id=488816155 is handled. Duration 330 ms by bot id=6984627184
+2024-04-29 11:13:04,908 - aiogram.event - INFO - Update id=488816156 is handled. Duration 332 ms by bot id=6984627184
+2024-04-29 11:13:08,182 - aiogram.event - INFO - Update id=488816157 is handled. Duration 172 ms by bot id=6984627184
+2024-04-29 11:13:10,779 - aiogram.event - INFO - Update id=488816158 is handled. Duration 793 ms by bot id=6984627184
+2024-04-29 11:13:13,686 - aiogram.event - INFO - Update id=488816159 is handled. Duration 324 ms by bot id=6984627184
+2024-04-29 11:13:16,813 - aiogram.event - INFO - Update id=488816160 is handled. Duration 164 ms by bot id=6984627184
+2024-04-29 11:13:23,384 - bot.handlers.file_manager_handlers - INFO - User [User(id=1071020716, is_bot=False, first_name='Sergei', last_name='Zelenin', username='szely', language_code='ru', is_premium=None, added_to_attachment_menu=None, can_join_groups=None, can_read_all_group_messages=None, supports_inline_queries=None), 'бюдж'] search file.
+2024-04-29 11:14:13,688 - aiogram.event - INFO - Update id=488816161 is handled. Duration 50423 ms by bot id=6984627184
+2024-04-29 11:16:52,406 - aiogram.event - INFO - Update id=488816162 is handled. Duration 247 ms by bot id=6984627184
+2024-04-29 11:17:33,558 - aiogram.event - INFO - Update id=488816163 is handled. Duration 510 ms by bot id=6984627184
+2024-04-29 11:17:35,485 - aiogram.event - INFO - Update id=488816164 is handled. Duration 189 ms by bot id=6984627184
+2024-04-29 11:17:38,345 - aiogram.event - INFO - Update id=488816165 is handled. Duration 181 ms by bot id=6984627184
+2024-04-29 11:17:39,556 - aiogram.event - INFO - Update id=488816166 is handled. Duration 162 ms by bot id=6984627184
+2024-04-29 11:17:42,222 - aiogram.event - INFO - Update id=488816167 is handled. Duration 164 ms by bot id=6984627184
+2024-04-29 11:17:43,265 - aiogram.event - INFO - Update id=488816168 is handled. Duration 211 ms by bot id=6984627184
+2024-04-29 11:17:55,622 - aiogram.event - INFO - Update id=488816169 is handled. Duration 118 ms by bot id=6984627184
+2024-04-29 11:18:06,429 - aiogram.event - INFO - Update id=488816170 is handled. Duration 94 ms by bot id=6984627184
+2024-04-29 11:18:10,365 - aiogram.event - INFO - Update id=488816171 is not handled. Duration 269 ms by bot id=6984627184
+2024-04-29 11:18:10,365 - aiogram.event - ERROR - Cause exception while process update id=488816171 by bot id=6984627184
+TelegramBadRequest: Telegram server says - Bad Request: message text is empty
+Traceback (most recent call last):
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/fsm/middleware.py", line 41, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 123, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 156, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 123, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 148, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/bot/handlers/wagon_info_handlers.py", line 47, in vagon_number
+    await message.answer(info_str)
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/methods/base.py", line 84, in emit
+    return await bot(self)
+           ^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/client/bot.py", line 492, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/client/session/base.py", line 254, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/client/session/aiohttp.py", line 178, in make_request
+    response = self.check_response(
+               ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/client/session/base.py", line 120, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: message text is empty
+2024-04-29 11:19:16,600 - aiogram.event - INFO - Update id=488816172 is handled. Duration 215 ms by bot id=6984627184
+2024-04-29 11:24:16,553 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2024-04-29 11:24:16,573 - aiogram.dispatcher - INFO - Polling stopped for bot @test78797_bot id=6984627184 - 'test7'
+2024-04-29 11:24:16,575 - aiogram.dispatcher - INFO - Polling stopped
+2024-04-29 11:24:32,414 - aiogram.dispatcher - INFO - Start polling
+2024-04-29 11:24:32,833 - aiogram.dispatcher - INFO - Run polling for bot @test78797_bot id=6984627184 - 'test7'
+2024-04-29 11:24:33,519 - aiogram.event - INFO - Update id=488816173 is handled. Duration 533 ms by bot id=6984627184
+2024-04-29 11:24:46,600 - aiogram.event - INFO - Update id=488816174 is handled. Duration 192 ms by bot id=6984627184
+2024-04-29 11:24:50,425 - aiogram.event - INFO - Update id=488816175 is handled. Duration 442 ms by bot id=6984627184
+2024-04-29 11:25:34,339 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2024-04-29 11:25:34,340 - aiogram.dispatcher - INFO - Polling stopped for bot @test78797_bot id=6984627184 - 'test7'
+2024-04-29 11:25:34,341 - aiogram.dispatcher - INFO - Polling stopped
+2024-04-29 11:25:47,757 - aiogram.dispatcher - INFO - Start polling
+2024-04-29 11:25:47,976 - aiogram.dispatcher - INFO - Run polling for bot @test78797_bot id=6984627184 - 'test7'
+2024-04-29 11:25:48,698 - aiogram.event - INFO - Update id=488816178 is handled. Duration 621 ms by bot id=6984627184
+2024-04-29 11:25:48,768 - aiogram.event - INFO - Update id=488816176 is handled. Duration 696 ms by bot id=6984627184
+2024-04-29 11:25:48,795 - aiogram.event - INFO - Update id=488816177 is handled. Duration 719 ms by bot id=6984627184
+2024-04-29 11:25:50,862 - aiogram.event - INFO - Update id=488816179 is handled. Duration 149 ms by bot id=6984627184
+2024-04-29 11:25:52,933 - aiogram.event - INFO - Update id=488816180 is handled. Duration 276 ms by bot id=6984627184
+2024-04-29 11:25:55,184 - aiogram.event - INFO - Update id=488816181 is handled. Duration 144 ms by bot id=6984627184
+2024-04-29 11:25:56,483 - aiogram.event - INFO - Update id=488816182 is handled. Duration 239 ms by bot id=6984627184
+2024-04-29 11:26:05,286 - aiogram.event - INFO - Update id=488816183 is handled. Duration 295 ms by bot id=6984627184
+2024-04-29 11:26:09,185 - aiogram.event - INFO - Update id=488816184 is handled. Duration 118 ms by bot id=6984627184
+2024-04-29 11:29:39,764 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2024-04-29 11:29:39,771 - aiogram.dispatcher - INFO - Polling stopped for bot @test78797_bot id=6984627184 - 'test7'
+2024-04-29 11:29:39,772 - aiogram.dispatcher - INFO - Polling stopped
+2024-04-29 11:40:34,336 - aiogram.dispatcher - INFO - Start polling
+2024-04-29 11:40:34,542 - aiogram.dispatcher - INFO - Run polling for bot @test78797_bot id=6984627184 - 'test7'
+2024-04-29 11:40:35,090 - aiogram.event - INFO - Update id=488816185 is handled. Duration 460 ms by bot id=6984627184
+2024-04-29 11:40:53,962 - aiogram.event - INFO - Update id=488816186 is handled. Duration 247 ms by bot id=6984627184
+2024-04-29 11:41:10,714 - aiogram.event - INFO - Update id=488816187 is not handled. Duration 4 ms by bot id=6984627184
+2024-04-29 11:41:31,905 - aiogram.event - INFO - Update id=488816188 is not handled. Duration 15 ms by bot id=6984627184
+2024-04-29 11:41:36,861 - aiogram.event - INFO - Update id=488816189 is not handled. Duration 37 ms by bot id=6984627184
+2024-04-29 11:41:44,350 - aiogram.event - INFO - Update id=488816190 is not handled. Duration 39 ms by bot id=6984627184
+2024-04-29 11:43:10,203 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2024-04-29 11:43:10,210 - aiogram.dispatcher - INFO - Polling stopped for bot @test78797_bot id=6984627184 - 'test7'
+2024-04-29 11:43:10,211 - aiogram.dispatcher - INFO - Polling stopped
+2024-04-29 11:43:24,147 - aiogram.dispatcher - INFO - Start polling
+2024-04-29 11:43:24,380 - aiogram.dispatcher - INFO - Run polling for bot @test78797_bot id=6984627184 - 'test7'
+2024-04-29 11:43:24,903 - aiogram.event - INFO - Update id=488816192 is handled. Duration 431 ms by bot id=6984627184
+2024-04-29 11:43:24,969 - aiogram.event - INFO - Update id=488816191 is handled. Duration 499 ms by bot id=6984627184
+2024-04-29 11:43:28,129 - aiogram.event - INFO - Update id=488816193 is handled. Duration 88 ms by bot id=6984627184
+2024-04-29 11:44:09,239 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2024-04-29 11:44:09,240 - aiogram.dispatcher - INFO - Polling stopped for bot @test78797_bot id=6984627184 - 'test7'
+2024-04-29 11:44:09,241 - aiogram.dispatcher - INFO - Polling stopped
+2024-04-29 11:44:21,466 - aiogram.dispatcher - INFO - Start polling
+2024-04-29 11:44:21,663 - aiogram.dispatcher - INFO - Run polling for bot @test78797_bot id=6984627184 - 'test7'
+2024-04-29 11:44:22,314 - aiogram.event - INFO - Update id=488816195 is handled. Duration 552 ms by bot id=6984627184
+2024-04-29 11:44:22,337 - aiogram.event - INFO - Update id=488816194 is handled. Duration 576 ms by bot id=6984627184
+2024-04-29 11:44:22,357 - aiogram.event - INFO - Update id=488816196 is handled. Duration 594 ms by bot id=6984627184
+2024-04-29 11:44:25,241 - aiogram.event - INFO - Update id=488816197 is handled. Duration 211 ms by bot id=6984627184
+2024-04-29 11:52:02,819 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2024-04-29 11:52:02,919 - aiogram.dispatcher - INFO - Polling stopped for bot @test78797_bot id=6984627184 - 'test7'
+2024-04-29 11:52:02,927 - aiogram.dispatcher - INFO - Polling stopped
+2024-04-29 12:11:08,655 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2024-04-29 12:11:08,669 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7152099013)
+2024-04-29 12:12:13,608 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7152099013)
+2024-04-29 12:12:45,659 - aiogram.dispatcher - INFO - Start polling
+2024-04-29 12:12:45,869 - aiogram.dispatcher - INFO - Run polling for bot @test78797_bot id=6984627184 - 'test7'
+2024-04-29 12:12:46,480 - aiogram.event - INFO - Update id=488816199 is handled. Duration 510 ms by bot id=6984627184
+2024-04-29 12:12:46,554 - aiogram.event - INFO - Update id=488816201 is handled. Duration 581 ms by bot id=6984627184
+2024-04-29 12:12:46,591 - aiogram.event - INFO - Update id=488816202 is handled. Duration 617 ms by bot id=6984627184
+2024-04-29 12:12:46,637 - aiogram.event - INFO - Update id=488816200 is handled. Duration 666 ms by bot id=6984627184
+2024-04-29 12:12:46,649 - aiogram.event - INFO - Update id=488816198 is handled. Duration 680 ms by bot id=6984627184
+2024-04-29 12:12:49,903 - aiogram.event - INFO - Update id=488816203 is handled. Duration 911 ms by bot id=6984627184
+2024-04-29 12:13:35,758 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2024-04-29 12:13:35,760 - aiogram.dispatcher - INFO - Polling stopped for bot @test78797_bot id=6984627184 - 'test7'
+2024-04-29 12:13:35,760 - aiogram.dispatcher - INFO - Polling stopped
+2024-04-29 12:13:55,356 - aiogram.dispatcher - INFO - Start polling
+2024-04-29 12:14:07,928 - aiogram.dispatcher - INFO - Run polling for bot @test78797_bot id=6984627184 - 'test7'
+2024-04-29 12:14:09,284 - aiogram.event - INFO - Update id=488816205 is handled. Duration 1167 ms by bot id=6984627184
+2024-04-29 12:14:09,303 - aiogram.event - INFO - Update id=488816206 is handled. Duration 1185 ms by bot id=6984627184
+2024-04-29 12:14:09,531 - aiogram.event - INFO - Update id=488816204 is handled. Duration 1416 ms by bot id=6984627184
+2024-04-29 12:14:33,102 - aiogram.event - INFO - Update id=488816207 is handled. Duration 3143 ms by bot id=6984627184
+2024-04-29 12:14:35,620 - aiogram.event - INFO - Update id=488816208 is handled. Duration 281 ms by bot id=6984627184
+2024-04-29 12:14:37,904 - aiogram.event - INFO - Update id=488816209 is handled. Duration 580 ms by bot id=6984627184
+2024-04-29 12:14:59,172 - aiogram.event - INFO - Update id=488816210 is handled. Duration 1431 ms by bot id=6984627184
+2024-04-29 12:15:16,552 - aiogram.event - INFO - Update id=488816211 is handled. Duration 4003 ms by bot id=6984627184
+2024-04-29 12:38:28,171 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2024-04-29 12:38:28,475 - aiogram.dispatcher - INFO - Polling stopped for bot @test78797_bot id=6984627184 - 'test7'
+2024-04-29 12:38:28,492 - aiogram.dispatcher - INFO - Polling stopped
+2024-04-29 14:40:29,531 - aiogram.dispatcher - INFO - Start polling
+2024-04-29 14:40:29,766 - aiogram.dispatcher - INFO - Run polling for bot @test78797_bot id=6984627184 - 'test7'
+2024-04-29 14:40:30,401 - aiogram.event - INFO - Update id=488816213 is handled. Duration 479 ms by bot id=6984627184
+2024-04-29 14:40:30,422 - aiogram.event - INFO - Update id=488816212 is handled. Duration 503 ms by bot id=6984627184
+2024-04-29 14:40:33,990 - aiogram.event - INFO - Update id=488816214 is handled. Duration 918 ms by bot id=6984627184
+2024-04-29 14:40:36,156 - aiogram.event - INFO - Update id=488816215 is handled. Duration 115 ms by bot id=6984627184
+2024-04-29 14:40:42,213 - aiogram.event - INFO - Update id=488816216 is handled. Duration 3785 ms by bot id=6984627184
+2024-04-29 14:41:40,519 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2024-04-29 14:41:40,540 - aiogram.dispatcher - INFO - Polling stopped for bot @test78797_bot id=6984627184 - 'test7'
+2024-04-29 14:41:40,541 - aiogram.dispatcher - INFO - Polling stopped
+2024-04-29 14:41:54,716 - aiogram.dispatcher - INFO - Start polling
+2024-04-29 14:41:54,904 - aiogram.dispatcher - INFO - Run polling for bot @test78797_bot id=6984627184 - 'test7'
+2024-04-29 14:41:55,787 - aiogram.event - INFO - Update id=488816219 is handled. Duration 788 ms by bot id=6984627184
+2024-04-29 14:41:55,819 - aiogram.event - INFO - Update id=488816217 is handled. Duration 823 ms by bot id=6984627184
+2024-04-29 14:41:55,849 - aiogram.event - INFO - Update id=488816218 is handled. Duration 852 ms by bot id=6984627184
+2024-04-29 14:42:00,241 - aiogram.event - INFO - Update id=488816220 is not handled. Duration 2349 ms by bot id=6984627184
+2024-04-29 14:42:00,242 - aiogram.event - ERROR - Cause exception while process update id=488816220 by bot id=6984627184
+ValueError: 
+    Invalid value of type 'builtins.str' received for the 'colorscale' property of make_figure
+        Received value: 'Open Sans'
+
+    The 'colorscale' property is a colorscale and may be
+    specified as:
+      - A list of colors that will be spaced evenly to create the colorscale.
+        Many predefined colorscale lists are included in the sequential, diverging,
+        and cyclical modules in the plotly.colors package.
+      - A list of 2-element lists where the first element is the
+        normalized color level value (starting at 0 and ending at 1),
+        and the second item is a valid color string.
+        (e.g. [[0, 'green'], [0.5, 'red'], [1.0, 'rgb(0, 0, 255)']])
+      - One of the following named colorscales:
+            ['aggrnyl', 'agsunset', 'algae', 'amp', 'armyrose', 'balance',
+             'blackbody', 'bluered', 'blues', 'blugrn', 'bluyl', 'brbg',
+             'brwnyl', 'bugn', 'bupu', 'burg', 'burgyl', 'cividis', 'curl',
+             'darkmint', 'deep', 'delta', 'dense', 'earth', 'edge', 'electric',
+             'emrld', 'fall', 'geyser', 'gnbu', 'gray', 'greens', 'greys',
+             'haline', 'hot', 'hsv', 'ice', 'icefire', 'inferno', 'jet',
+             'magenta', 'magma', 'matter', 'mint', 'mrybm', 'mygbm', 'oranges',
+             'orrd', 'oryel', 'oxy', 'peach', 'phase', 'picnic', 'pinkyl',
+             'piyg', 'plasma', 'plotly3', 'portland', 'prgn', 'pubu', 'pubugn',
+             'puor', 'purd', 'purp', 'purples', 'purpor', 'rainbow', 'rdbu',
+             'rdgy', 'rdpu', 'rdylbu', 'rdylgn', 'redor', 'reds', 'solar',
+             'spectral', 'speed', 'sunset', 'sunsetdark', 'teal', 'tealgrn',
+             'tealrose', 'tempo', 'temps', 'thermal', 'tropic', 'turbid',
+             'turbo', 'twilight', 'viridis', 'ylgn', 'ylgnbu', 'ylorbr',
+             'ylorrd'].
+        Appending '_r' to a named colorscale reverses it.
+Traceback (most recent call last):
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/fsm/middleware.py", line 41, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 123, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 156, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 123, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 148, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/bot/handlers/analitics_handlers.py", line 39, in file_manager
+    image_path_wg = paint_tree_chart(data_for_image_wg, f'{message.message_id}_wg')
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/bot/other_methods/dash_board.py", line 88, in paint_tree_chart
+    fig = px.treemap(df, path=[px.Constant('Количество вагонов по РПС, тыс. ед.'), 'РПС', 'Количество'],
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/plotly/express/_chart_types.py", line 1591, in treemap
+    return make_figure(
+           ^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/plotly/express/_core.py", line 2289, in make_figure
+    colorscale=colorscale_validator.validate_coerce(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/_plotly_utils/basevalidators.py", line 1651, in validate_coerce
+    self.raise_invalid_val(v)
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/_plotly_utils/basevalidators.py", line 296, in raise_invalid_val
+    raise ValueError(
+ValueError: 
+    Invalid value of type 'builtins.str' received for the 'colorscale' property of make_figure
+        Received value: 'Open Sans'
+
+    The 'colorscale' property is a colorscale and may be
+    specified as:
+      - A list of colors that will be spaced evenly to create the colorscale.
+        Many predefined colorscale lists are included in the sequential, diverging,
+        and cyclical modules in the plotly.colors package.
+      - A list of 2-element lists where the first element is the
+        normalized color level value (starting at 0 and ending at 1),
+        and the second item is a valid color string.
+        (e.g. [[0, 'green'], [0.5, 'red'], [1.0, 'rgb(0, 0, 255)']])
+      - One of the following named colorscales:
+            ['aggrnyl', 'agsunset', 'algae', 'amp', 'armyrose', 'balance',
+             'blackbody', 'bluered', 'blues', 'blugrn', 'bluyl', 'brbg',
+             'brwnyl', 'bugn', 'bupu', 'burg', 'burgyl', 'cividis', 'curl',
+             'darkmint', 'deep', 'delta', 'dense', 'earth', 'edge', 'electric',
+             'emrld', 'fall', 'geyser', 'gnbu', 'gray', 'greens', 'greys',
+             'haline', 'hot', 'hsv', 'ice', 'icefire', 'inferno', 'jet',
+             'magenta', 'magma', 'matter', 'mint', 'mrybm', 'mygbm', 'oranges',
+             'orrd', 'oryel', 'oxy', 'peach', 'phase', 'picnic', 'pinkyl',
+             'piyg', 'plasma', 'plotly3', 'portland', 'prgn', 'pubu', 'pubugn',
+             'puor', 'purd', 'purp', 'purples', 'purpor', 'rainbow', 'rdbu',
+             'rdgy', 'rdpu', 'rdylbu', 'rdylgn', 'redor', 'reds', 'solar',
+             'spectral', 'speed', 'sunset', 'sunsetdark', 'teal', 'tealgrn',
+             'tealrose', 'tempo', 'temps', 'thermal', 'tropic', 'turbid',
+             'turbo', 'twilight', 'viridis', 'ylgn', 'ylgnbu', 'ylorbr',
+             'ylorrd'].
+        Appending '_r' to a named colorscale reverses it.
+
+2024-04-29 14:42:54,527 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2024-04-29 14:42:54,551 - aiogram.dispatcher - INFO - Polling stopped for bot @test78797_bot id=6984627184 - 'test7'
+2024-04-29 14:42:54,557 - aiogram.dispatcher - INFO - Polling stopped
+2024-04-29 14:43:09,299 - aiogram.dispatcher - INFO - Start polling
+2024-04-29 14:43:09,480 - aiogram.dispatcher - INFO - Run polling for bot @test78797_bot id=6984627184 - 'test7'
+2024-04-29 14:43:10,043 - aiogram.event - INFO - Update id=488816221 is handled. Duration 475 ms by bot id=6984627184
+2024-04-29 14:43:14,483 - aiogram.event - INFO - Update id=488816222 is not handled. Duration 2653 ms by bot id=6984627184
+2024-04-29 14:43:14,483 - aiogram.event - ERROR - Cause exception while process update id=488816222 by bot id=6984627184
+ValueError: 
+    Invalid value of type 'builtins.str' received for the 'colorscale' property of make_figure
+        Received value: '#2ca02c'
+
+    The 'colorscale' property is a colorscale and may be
+    specified as:
+      - A list of colors that will be spaced evenly to create the colorscale.
+        Many predefined colorscale lists are included in the sequential, diverging,
+        and cyclical modules in the plotly.colors package.
+      - A list of 2-element lists where the first element is the
+        normalized color level value (starting at 0 and ending at 1),
+        and the second item is a valid color string.
+        (e.g. [[0, 'green'], [0.5, 'red'], [1.0, 'rgb(0, 0, 255)']])
+      - One of the following named colorscales:
+            ['aggrnyl', 'agsunset', 'algae', 'amp', 'armyrose', 'balance',
+             'blackbody', 'bluered', 'blues', 'blugrn', 'bluyl', 'brbg',
+             'brwnyl', 'bugn', 'bupu', 'burg', 'burgyl', 'cividis', 'curl',
+             'darkmint', 'deep', 'delta', 'dense', 'earth', 'edge', 'electric',
+             'emrld', 'fall', 'geyser', 'gnbu', 'gray', 'greens', 'greys',
+             'haline', 'hot', 'hsv', 'ice', 'icefire', 'inferno', 'jet',
+             'magenta', 'magma', 'matter', 'mint', 'mrybm', 'mygbm', 'oranges',
+             'orrd', 'oryel', 'oxy', 'peach', 'phase', 'picnic', 'pinkyl',
+             'piyg', 'plasma', 'plotly3', 'portland', 'prgn', 'pubu', 'pubugn',
+             'puor', 'purd', 'purp', 'purples', 'purpor', 'rainbow', 'rdbu',
+             'rdgy', 'rdpu', 'rdylbu', 'rdylgn', 'redor', 'reds', 'solar',
+             'spectral', 'speed', 'sunset', 'sunsetdark', 'teal', 'tealgrn',
+             'tealrose', 'tempo', 'temps', 'thermal', 'tropic', 'turbid',
+             'turbo', 'twilight', 'viridis', 'ylgn', 'ylgnbu', 'ylorbr',
+             'ylorrd'].
+        Appending '_r' to a named colorscale reverses it.
+Traceback (most recent call last):
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/fsm/middleware.py", line 41, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 123, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 156, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 123, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 148, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/bot/handlers/analitics_handlers.py", line 39, in file_manager
+    image_path_wg = paint_tree_chart(data_for_image_wg, f'{message.message_id}_wg')
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/bot/other_methods/dash_board.py", line 88, in paint_tree_chart
+    fig = px.treemap(df, path=[px.Constant('Количество вагонов по РПС, тыс. ед.'), 'РПС', 'Количество'],
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/plotly/express/_chart_types.py", line 1591, in treemap
+    return make_figure(
+           ^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/plotly/express/_core.py", line 2289, in make_figure
+    colorscale=colorscale_validator.validate_coerce(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/_plotly_utils/basevalidators.py", line 1651, in validate_coerce
+    self.raise_invalid_val(v)
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/_plotly_utils/basevalidators.py", line 296, in raise_invalid_val
+    raise ValueError(
+ValueError: 
+    Invalid value of type 'builtins.str' received for the 'colorscale' property of make_figure
+        Received value: '#2ca02c'
+
+    The 'colorscale' property is a colorscale and may be
+    specified as:
+      - A list of colors that will be spaced evenly to create the colorscale.
+        Many predefined colorscale lists are included in the sequential, diverging,
+        and cyclical modules in the plotly.colors package.
+      - A list of 2-element lists where the first element is the
+        normalized color level value (starting at 0 and ending at 1),
+        and the second item is a valid color string.
+        (e.g. [[0, 'green'], [0.5, 'red'], [1.0, 'rgb(0, 0, 255)']])
+      - One of the following named colorscales:
+            ['aggrnyl', 'agsunset', 'algae', 'amp', 'armyrose', 'balance',
+             'blackbody', 'bluered', 'blues', 'blugrn', 'bluyl', 'brbg',
+             'brwnyl', 'bugn', 'bupu', 'burg', 'burgyl', 'cividis', 'curl',
+             'darkmint', 'deep', 'delta', 'dense', 'earth', 'edge', 'electric',
+             'emrld', 'fall', 'geyser', 'gnbu', 'gray', 'greens', 'greys',
+             'haline', 'hot', 'hsv', 'ice', 'icefire', 'inferno', 'jet',
+             'magenta', 'magma', 'matter', 'mint', 'mrybm', 'mygbm', 'oranges',
+             'orrd', 'oryel', 'oxy', 'peach', 'phase', 'picnic', 'pinkyl',
+             'piyg', 'plasma', 'plotly3', 'portland', 'prgn', 'pubu', 'pubugn',
+             'puor', 'purd', 'purp', 'purples', 'purpor', 'rainbow', 'rdbu',
+             'rdgy', 'rdpu', 'rdylbu', 'rdylgn', 'redor', 'reds', 'solar',
+             'spectral', 'speed', 'sunset', 'sunsetdark', 'teal', 'tealgrn',
+             'tealrose', 'tempo', 'temps', 'thermal', 'tropic', 'turbid',
+             'turbo', 'twilight', 'viridis', 'ylgn', 'ylgnbu', 'ylorbr',
+             'ylorrd'].
+        Appending '_r' to a named colorscale reverses it.
+
+2024-04-29 14:44:34,168 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2024-04-29 14:44:34,175 - aiogram.dispatcher - INFO - Polling stopped for bot @test78797_bot id=6984627184 - 'test7'
+2024-04-29 14:44:34,177 - aiogram.dispatcher - INFO - Polling stopped
+2024-04-29 14:44:47,308 - aiogram.dispatcher - INFO - Start polling
+2024-04-29 14:44:47,500 - aiogram.dispatcher - INFO - Run polling for bot @test78797_bot id=6984627184 - 'test7'
+2024-04-29 14:44:48,308 - aiogram.event - INFO - Update id=488816224 is handled. Duration 722 ms by bot id=6984627184
+2024-04-29 14:44:48,340 - aiogram.event - INFO - Update id=488816225 is handled. Duration 753 ms by bot id=6984627184
+2024-04-29 14:44:48,362 - aiogram.event - INFO - Update id=488816223 is handled. Duration 777 ms by bot id=6984627184
+2024-04-29 14:44:52,968 - aiogram.event - INFO - Update id=488816226 is not handled. Duration 2152 ms by bot id=6984627184
+2024-04-29 14:44:52,968 - aiogram.event - ERROR - Cause exception while process update id=488816226 by bot id=6984627184
+ValueError: 
+    Invalid value of type 'builtins.str' received for the 'colorscale' property of make_figure
+        Received value: '"color":"#2ca02c"'
+
+    The 'colorscale' property is a colorscale and may be
+    specified as:
+      - A list of colors that will be spaced evenly to create the colorscale.
+        Many predefined colorscale lists are included in the sequential, diverging,
+        and cyclical modules in the plotly.colors package.
+      - A list of 2-element lists where the first element is the
+        normalized color level value (starting at 0 and ending at 1),
+        and the second item is a valid color string.
+        (e.g. [[0, 'green'], [0.5, 'red'], [1.0, 'rgb(0, 0, 255)']])
+      - One of the following named colorscales:
+            ['aggrnyl', 'agsunset', 'algae', 'amp', 'armyrose', 'balance',
+             'blackbody', 'bluered', 'blues', 'blugrn', 'bluyl', 'brbg',
+             'brwnyl', 'bugn', 'bupu', 'burg', 'burgyl', 'cividis', 'curl',
+             'darkmint', 'deep', 'delta', 'dense', 'earth', 'edge', 'electric',
+             'emrld', 'fall', 'geyser', 'gnbu', 'gray', 'greens', 'greys',
+             'haline', 'hot', 'hsv', 'ice', 'icefire', 'inferno', 'jet',
+             'magenta', 'magma', 'matter', 'mint', 'mrybm', 'mygbm', 'oranges',
+             'orrd', 'oryel', 'oxy', 'peach', 'phase', 'picnic', 'pinkyl',
+             'piyg', 'plasma', 'plotly3', 'portland', 'prgn', 'pubu', 'pubugn',
+             'puor', 'purd', 'purp', 'purples', 'purpor', 'rainbow', 'rdbu',
+             'rdgy', 'rdpu', 'rdylbu', 'rdylgn', 'redor', 'reds', 'solar',
+             'spectral', 'speed', 'sunset', 'sunsetdark', 'teal', 'tealgrn',
+             'tealrose', 'tempo', 'temps', 'thermal', 'tropic', 'turbid',
+             'turbo', 'twilight', 'viridis', 'ylgn', 'ylgnbu', 'ylorbr',
+             'ylorrd'].
+        Appending '_r' to a named colorscale reverses it.
+Traceback (most recent call last):
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/fsm/middleware.py", line 41, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 123, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 156, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 123, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 148, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/bot/handlers/analitics_handlers.py", line 39, in file_manager
+    image_path_wg = paint_tree_chart(data_for_image_wg, f'{message.message_id}_wg')
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/bot/other_methods/dash_board.py", line 88, in paint_tree_chart
+    fig = px.treemap(df, path=[px.Constant('Количество вагонов по РПС, тыс. ед.'), 'РПС', 'Количество'],
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/plotly/express/_chart_types.py", line 1591, in treemap
+    return make_figure(
+           ^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/plotly/express/_core.py", line 2289, in make_figure
+    colorscale=colorscale_validator.validate_coerce(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/_plotly_utils/basevalidators.py", line 1651, in validate_coerce
+    self.raise_invalid_val(v)
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/_plotly_utils/basevalidators.py", line 296, in raise_invalid_val
+    raise ValueError(
+ValueError: 
+    Invalid value of type 'builtins.str' received for the 'colorscale' property of make_figure
+        Received value: '"color":"#2ca02c"'
+
+    The 'colorscale' property is a colorscale and may be
+    specified as:
+      - A list of colors that will be spaced evenly to create the colorscale.
+        Many predefined colorscale lists are included in the sequential, diverging,
+        and cyclical modules in the plotly.colors package.
+      - A list of 2-element lists where the first element is the
+        normalized color level value (starting at 0 and ending at 1),
+        and the second item is a valid color string.
+        (e.g. [[0, 'green'], [0.5, 'red'], [1.0, 'rgb(0, 0, 255)']])
+      - One of the following named colorscales:
+            ['aggrnyl', 'agsunset', 'algae', 'amp', 'armyrose', 'balance',
+             'blackbody', 'bluered', 'blues', 'blugrn', 'bluyl', 'brbg',
+             'brwnyl', 'bugn', 'bupu', 'burg', 'burgyl', 'cividis', 'curl',
+             'darkmint', 'deep', 'delta', 'dense', 'earth', 'edge', 'electric',
+             'emrld', 'fall', 'geyser', 'gnbu', 'gray', 'greens', 'greys',
+             'haline', 'hot', 'hsv', 'ice', 'icefire', 'inferno', 'jet',
+             'magenta', 'magma', 'matter', 'mint', 'mrybm', 'mygbm', 'oranges',
+             'orrd', 'oryel', 'oxy', 'peach', 'phase', 'picnic', 'pinkyl',
+             'piyg', 'plasma', 'plotly3', 'portland', 'prgn', 'pubu', 'pubugn',
+             'puor', 'purd', 'purp', 'purples', 'purpor', 'rainbow', 'rdbu',
+             'rdgy', 'rdpu', 'rdylbu', 'rdylgn', 'redor', 'reds', 'solar',
+             'spectral', 'speed', 'sunset', 'sunsetdark', 'teal', 'tealgrn',
+             'tealrose', 'tempo', 'temps', 'thermal', 'tropic', 'turbid',
+             'turbo', 'twilight', 'viridis', 'ylgn', 'ylgnbu', 'ylorbr',
+             'ylorrd'].
+        Appending '_r' to a named colorscale reverses it.
+
+2024-04-29 14:45:38,623 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2024-04-29 14:45:38,637 - aiogram.dispatcher - INFO - Polling stopped for bot @test78797_bot id=6984627184 - 'test7'
+2024-04-29 14:45:38,638 - aiogram.dispatcher - INFO - Polling stopped
+2024-04-29 14:45:53,094 - aiogram.dispatcher - INFO - Start polling
+2024-04-29 14:45:53,302 - aiogram.dispatcher - INFO - Run polling for bot @test78797_bot id=6984627184 - 'test7'
+2024-04-29 14:45:54,388 - aiogram.event - INFO - Update id=488816227 is handled. Duration 1004 ms by bot id=6984627184
+2024-04-29 14:45:54,407 - aiogram.event - INFO - Update id=488816228 is handled. Duration 1022 ms by bot id=6984627184
+2024-04-29 14:45:54,440 - aiogram.event - INFO - Update id=488816229 is handled. Duration 1055 ms by bot id=6984627184
+2024-04-29 14:45:58,562 - aiogram.event - INFO - Update id=488816230 is not handled. Duration 2551 ms by bot id=6984627184
+2024-04-29 14:45:58,563 - aiogram.event - ERROR - Cause exception while process update id=488816230 by bot id=6984627184
+ValueError: 
+    Invalid value of type 'builtins.str' received for the 'colorscale' property of make_figure
+        Received value: '#2ca02c'
+
+    The 'colorscale' property is a colorscale and may be
+    specified as:
+      - A list of colors that will be spaced evenly to create the colorscale.
+        Many predefined colorscale lists are included in the sequential, diverging,
+        and cyclical modules in the plotly.colors package.
+      - A list of 2-element lists where the first element is the
+        normalized color level value (starting at 0 and ending at 1),
+        and the second item is a valid color string.
+        (e.g. [[0, 'green'], [0.5, 'red'], [1.0, 'rgb(0, 0, 255)']])
+      - One of the following named colorscales:
+            ['aggrnyl', 'agsunset', 'algae', 'amp', 'armyrose', 'balance',
+             'blackbody', 'bluered', 'blues', 'blugrn', 'bluyl', 'brbg',
+             'brwnyl', 'bugn', 'bupu', 'burg', 'burgyl', 'cividis', 'curl',
+             'darkmint', 'deep', 'delta', 'dense', 'earth', 'edge', 'electric',
+             'emrld', 'fall', 'geyser', 'gnbu', 'gray', 'greens', 'greys',
+             'haline', 'hot', 'hsv', 'ice', 'icefire', 'inferno', 'jet',
+             'magenta', 'magma', 'matter', 'mint', 'mrybm', 'mygbm', 'oranges',
+             'orrd', 'oryel', 'oxy', 'peach', 'phase', 'picnic', 'pinkyl',
+             'piyg', 'plasma', 'plotly3', 'portland', 'prgn', 'pubu', 'pubugn',
+             'puor', 'purd', 'purp', 'purples', 'purpor', 'rainbow', 'rdbu',
+             'rdgy', 'rdpu', 'rdylbu', 'rdylgn', 'redor', 'reds', 'solar',
+             'spectral', 'speed', 'sunset', 'sunsetdark', 'teal', 'tealgrn',
+             'tealrose', 'tempo', 'temps', 'thermal', 'tropic', 'turbid',
+             'turbo', 'twilight', 'viridis', 'ylgn', 'ylgnbu', 'ylorbr',
+             'ylorrd'].
+        Appending '_r' to a named colorscale reverses it.
+Traceback (most recent call last):
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/fsm/middleware.py", line 41, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 123, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 156, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 123, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 148, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/bot/handlers/analitics_handlers.py", line 39, in file_manager
+    image_path_wg = paint_tree_chart(data_for_image_wg, f'{message.message_id}_wg')
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/bot/other_methods/dash_board.py", line 88, in paint_tree_chart
+    fig = px.treemap(df, path=[px.Constant('Количество вагонов по РПС, тыс. ед.'), 'РПС', 'Количество'],
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/plotly/express/_chart_types.py", line 1591, in treemap
+    return make_figure(
+           ^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/plotly/express/_core.py", line 2289, in make_figure
+    colorscale=colorscale_validator.validate_coerce(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/_plotly_utils/basevalidators.py", line 1651, in validate_coerce
+    self.raise_invalid_val(v)
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/_plotly_utils/basevalidators.py", line 296, in raise_invalid_val
+    raise ValueError(
+ValueError: 
+    Invalid value of type 'builtins.str' received for the 'colorscale' property of make_figure
+        Received value: '#2ca02c'
+
+    The 'colorscale' property is a colorscale and may be
+    specified as:
+      - A list of colors that will be spaced evenly to create the colorscale.
+        Many predefined colorscale lists are included in the sequential, diverging,
+        and cyclical modules in the plotly.colors package.
+      - A list of 2-element lists where the first element is the
+        normalized color level value (starting at 0 and ending at 1),
+        and the second item is a valid color string.
+        (e.g. [[0, 'green'], [0.5, 'red'], [1.0, 'rgb(0, 0, 255)']])
+      - One of the following named colorscales:
+            ['aggrnyl', 'agsunset', 'algae', 'amp', 'armyrose', 'balance',
+             'blackbody', 'bluered', 'blues', 'blugrn', 'bluyl', 'brbg',
+             'brwnyl', 'bugn', 'bupu', 'burg', 'burgyl', 'cividis', 'curl',
+             'darkmint', 'deep', 'delta', 'dense', 'earth', 'edge', 'electric',
+             'emrld', 'fall', 'geyser', 'gnbu', 'gray', 'greens', 'greys',
+             'haline', 'hot', 'hsv', 'ice', 'icefire', 'inferno', 'jet',
+             'magenta', 'magma', 'matter', 'mint', 'mrybm', 'mygbm', 'oranges',
+             'orrd', 'oryel', 'oxy', 'peach', 'phase', 'picnic', 'pinkyl',
+             'piyg', 'plasma', 'plotly3', 'portland', 'prgn', 'pubu', 'pubugn',
+             'puor', 'purd', 'purp', 'purples', 'purpor', 'rainbow', 'rdbu',
+             'rdgy', 'rdpu', 'rdylbu', 'rdylgn', 'redor', 'reds', 'solar',
+             'spectral', 'speed', 'sunset', 'sunsetdark', 'teal', 'tealgrn',
+             'tealrose', 'tempo', 'temps', 'thermal', 'tropic', 'turbid',
+             'turbo', 'twilight', 'viridis', 'ylgn', 'ylgnbu', 'ylorbr',
+             'ylorrd'].
+        Appending '_r' to a named colorscale reverses it.
+
+2024-04-29 14:46:12,892 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2024-04-29 14:46:12,904 - aiogram.dispatcher - INFO - Polling stopped for bot @test78797_bot id=6984627184 - 'test7'
+2024-04-29 14:46:12,909 - aiogram.dispatcher - INFO - Polling stopped
+2024-04-29 14:46:25,032 - aiogram.dispatcher - INFO - Start polling
+2024-04-29 14:46:25,223 - aiogram.dispatcher - INFO - Run polling for bot @test78797_bot id=6984627184 - 'test7'
+2024-04-29 14:46:25,869 - aiogram.event - INFO - Update id=488816231 is handled. Duration 556 ms by bot id=6984627184
+2024-04-29 14:46:32,182 - aiogram.event - INFO - Update id=488816232 is handled. Duration 3955 ms by bot id=6984627184
+2024-04-29 14:46:36,638 - aiogram.event - INFO - Update id=488816233 is handled. Duration 164 ms by bot id=6984627184
+2024-04-29 14:46:40,001 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2024-04-29 14:46:40,007 - aiogram.dispatcher - INFO - Polling stopped for bot @test78797_bot id=6984627184 - 'test7'
+2024-04-29 14:46:40,008 - aiogram.dispatcher - INFO - Polling stopped

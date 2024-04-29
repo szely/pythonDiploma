@@ -32,8 +32,10 @@ def tools_buttoms():
     builder = ReplyKeyboardBuilder()
     builder.button(text='Отчетность 🗄')
     builder.button(text='Аналитика 📊')
-    builder.button(text='Сканер номера вагона 🖋')
+    builder.button(text='Информация о вагоне ℹ️')
+    builder.button(text='Оценить вагон 🪙')
     builder.button(text='Сканер паспорта вагона 🖨')
+    builder.button(text='Макроинформация 🌎')
     builder.adjust(2)
     return builder
 
@@ -57,5 +59,11 @@ def back_choose_send_find_buttoms():
 def main_menu():
     builder_type_send = ReplyKeyboardBuilder()
     builder_type_send.button(text='МЕНЮ')
+    builder_type_send.adjust(2)
+    return builder_type_send
+
+def back_menu():
+    builder_type_send = ReplyKeyboardBuilder()
+    builder_type_send.button(text='Назад в меню ↩️')
     builder_type_send.adjust(2)
     return builder_type_send

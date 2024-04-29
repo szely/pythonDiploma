@@ -1,10 +1,15 @@
 import plotly.graph_objects as go
 import os
 import pathlib
+import plotly.express as px
+import requests
+import pandas as pd
+from bs4 import BeautifulSoup
+import lxml
+import sqlite3
+import numpy as np
 
-# y_list = [2451, 2, -397, 68, 132, -10]
-# x_list = ['Плановая<br>доходность', 'Парк', 'Выполнение<br>плана погрузки', 'Средняя ставка<br>на 1 груж в/о',
-          # 'Порожние<br>ваг/отпр', 'Средняя ставка<br>на 1 пор в/о', 'Фактическая<br>доходность']
+
 def paint_waterfall_chart(data, name):
     y_list = list(data.values())[2:-1]
     x_list = list(data.keys())[2:]
@@ -73,12 +78,23 @@ def paint_waterfall_chart(data, name):
     )
     fig.update_xaxes(tickangle=-45, tickfont=dict(family='Open Sans, light', color='black', size=14))
     fig.update_yaxes(tickangle=0, tickfont=dict(family='Open Sans, light', color='black', size=14))
-
     # fig.show()
     file = f"{name}.png"
     fig.write_image(file)
     path = os.path.realpath(file)
     return path
 
+def paint_tree_chart(df, name):
+    fig = px.treemap(df, path=[px.Constant('Количество вагонов по РПС, тыс. ед.'), 'РПС', 'Количество'],
+                  values=df['Количество'],
+                  color=df['Количество'],
+                     color_continuous_scale='tempo',
+                     color_continuous_midpoint=np.average(df['Количество'])
+                )
+    fig.update_layout(margin = dict(t=50, l=25, r=25, b=25))
+    # fig.show()
+    file = f"{name}.png"
+    fig.write_image(file)
+    path = os.path.realpath(file)
+    return path
 
-# paint_waterfall_chart(x_list, y_list, 1111111)
