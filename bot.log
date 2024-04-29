@@ -17177,3 +17177,244 @@ AttributeError: 'Message' object has no attribute 'answe'
 2024-04-29 15:57:32,084 - aiogram.dispatcher - INFO - Polling stopped
 2024-04-29 15:57:55,162 - aiogram.dispatcher - INFO - Start polling
 2024-04-29 15:57:55,629 - aiogram.dispatcher - INFO - Run polling for bot @atl_nandy_bot id=7121339655 - 'HandyBOT'
+2024-04-29 15:58:51,091 - aiogram.event - INFO - Update id=824593695 is handled. Duration 577 ms by bot id=7121339655
+2024-04-29 15:59:04,566 - aiogram.event - INFO - Update id=824593696 is handled. Duration 315 ms by bot id=7121339655
+2024-04-29 15:59:15,254 - aiogram.event - INFO - Update id=824593697 is handled. Duration 7191 ms by bot id=7121339655
+2024-04-29 15:59:17,769 - aiogram.event - INFO - Update id=824593698 is handled. Duration 176 ms by bot id=7121339655
+2024-04-29 15:59:19,888 - aiogram.event - INFO - Update id=824593699 is handled. Duration 834 ms by bot id=7121339655
+2024-04-29 15:59:21,486 - aiogram.event - INFO - Update id=824593700 is handled. Duration 276 ms by bot id=7121339655
+2024-04-29 15:59:24,095 - aiogram.event - INFO - Update id=824593701 is handled. Duration 173 ms by bot id=7121339655
+2024-04-29 15:59:26,395 - aiogram.event - INFO - Update id=824593702 is handled. Duration 963 ms by bot id=7121339655
+2024-04-29 15:59:33,630 - aiogram.event - INFO - Update id=824593703 is handled. Duration 486 ms by bot id=7121339655
+2024-04-29 15:59:35,214 - aiogram.event - INFO - Update id=824593704 is handled. Duration 129 ms by bot id=7121339655
+2024-04-29 15:59:36,743 - aiogram.event - INFO - Update id=824593705 is handled. Duration 109 ms by bot id=7121339655
+2024-04-29 15:59:40,165 - aiogram.event - INFO - Update id=824593706 is handled. Duration 1109 ms by bot id=7121339655
+2024-04-29 15:59:41,403 - aiogram.event - INFO - Update id=824593707 is handled. Duration 236 ms by bot id=7121339655
+2024-04-29 15:59:43,836 - aiogram.event - INFO - Update id=824593708 is handled. Duration 192 ms by bot id=7121339655
+2024-04-29 15:59:45,848 - aiogram.event - INFO - Update id=824593709 is handled. Duration 292 ms by bot id=7121339655
+2024-04-29 15:59:49,036 - aiogram.event - INFO - Update id=824593710 is handled. Duration 278 ms by bot id=7121339655
+2024-04-29 15:59:50,890 - aiogram.event - INFO - Update id=824593711 is handled. Duration 362 ms by bot id=7121339655
+2024-04-29 15:59:52,248 - aiogram.event - INFO - Update id=824593712 is handled. Duration 243 ms by bot id=7121339655
+2024-04-29 15:59:53,802 - aiogram.event - INFO - Update id=824593713 is handled. Duration 197 ms by bot id=7121339655
+2024-04-29 15:59:56,590 - aiogram.event - INFO - Update id=824593714 is handled. Duration 158 ms by bot id=7121339655
+2024-04-29 15:59:57,807 - aiogram.event - INFO - Update id=824593715 is handled. Duration 165 ms by bot id=7121339655
+2024-04-29 15:59:59,327 - aiogram.event - INFO - Update id=824593716 is handled. Duration 192 ms by bot id=7121339655
+2024-04-29 16:00:00,598 - aiogram.event - INFO - Update id=824593717 is handled. Duration 423 ms by bot id=7121339655
+2024-04-29 16:00:02,764 - aiogram.event - INFO - Update id=824593718 is handled. Duration 187 ms by bot id=7121339655
+2024-04-29 16:00:05,614 - aiogram.event - INFO - Update id=824593719 is handled. Duration 233 ms by bot id=7121339655
+2024-04-29 16:00:05,960 - aiogram.event - INFO - Update id=824593720 is not handled. Duration 403 ms by bot id=7121339655
+2024-04-29 16:00:05,962 - aiogram.event - ERROR - Cause exception while process update id=824593720 by bot id=7121339655
+TelegramBadRequest: Telegram server says - Bad Request: message to delete not found
+Traceback (most recent call last):
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/fsm/middleware.py", line 41, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 123, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 156, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 123, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 148, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/bot/handlers/file_manager_handlers.py", line 157, in call
+    await bot.delete_message(callback.message.chat.id, callback.message.message_id)
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/client/bot.py", line 1211, in delete_message
+    return await self(call, request_timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/client/bot.py", line 492, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/client/session/base.py", line 254, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/client/session/aiohttp.py", line 178, in make_request
+    response = self.check_response(
+               ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/client/session/base.py", line 120, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: message to delete not found
+2024-04-29 16:00:07,305 - aiogram.event - INFO - Update id=824593721 is handled. Duration 360 ms by bot id=7121339655
+2024-04-29 16:00:07,338 - aiogram.event - INFO - Update id=824593722 is not handled. Duration 206 ms by bot id=7121339655
+2024-04-29 16:00:07,338 - aiogram.event - ERROR - Cause exception while process update id=824593722 by bot id=7121339655
+TelegramBadRequest: Telegram server says - Bad Request: message to delete not found
+Traceback (most recent call last):
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/fsm/middleware.py", line 41, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 123, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 156, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 123, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 148, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/bot/handlers/file_manager_handlers.py", line 157, in call
+    await bot.delete_message(callback.message.chat.id, callback.message.message_id)
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/client/bot.py", line 1211, in delete_message
+    return await self(call, request_timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/client/bot.py", line 492, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/client/session/base.py", line 254, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/client/session/aiohttp.py", line 178, in make_request
+    response = self.check_response(
+               ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/client/session/base.py", line 120, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: message to delete not found
+2024-04-29 16:00:10,342 - aiogram.event - INFO - Update id=824593724 is not handled. Duration 329 ms by bot id=7121339655
+2024-04-29 16:00:10,342 - aiogram.event - ERROR - Cause exception while process update id=824593724 by bot id=7121339655
+TelegramBadRequest: Telegram server says - Bad Request: message to delete not found
+Traceback (most recent call last):
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/fsm/middleware.py", line 41, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 123, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 156, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 123, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 148, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/bot/handlers/file_manager_handlers.py", line 157, in call
+    await bot.delete_message(callback.message.chat.id, callback.message.message_id)
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/client/bot.py", line 1211, in delete_message
+    return await self(call, request_timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/client/bot.py", line 492, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/client/session/base.py", line 254, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/client/session/aiohttp.py", line 178, in make_request
+    response = self.check_response(
+               ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/PycharmProjects/pythonDiploma/venv/lib/python3.11/site-packages/aiogram/client/session/base.py", line 120, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: message to delete not found
+2024-04-29 16:00:10,435 - aiogram.event - INFO - Update id=824593723 is handled. Duration 488 ms by bot id=7121339655
+2024-04-29 16:00:12,277 - aiogram.event - INFO - Update id=824593725 is handled. Duration 246 ms by bot id=7121339655
+2024-04-29 16:00:14,535 - aiogram.event - INFO - Update id=824593726 is handled. Duration 115 ms by bot id=7121339655
+2024-04-29 16:00:18,969 - aiogram.event - INFO - Update id=824593727 is handled. Duration 672 ms by bot id=7121339655
+2024-04-29 16:00:25,478 - aiogram.event - INFO - Update id=824593728 is handled. Duration 106 ms by bot id=7121339655
+2024-04-29 16:00:59,810 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2024-04-29 16:00:59,851 - aiogram.dispatcher - INFO - Polling stopped for bot @atl_nandy_bot id=7121339655 - 'HandyBOT'
+2024-04-29 16:00:59,856 - aiogram.dispatcher - INFO - Polling stopped
