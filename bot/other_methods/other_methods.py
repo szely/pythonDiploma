@@ -2,7 +2,8 @@ from pathlib import Path
 from dotenv import load_dotenv
 import os
 
-# Создаем словари сопоставлений, присваиваем номера кажому элементу - файл папка и связываем его с путем к этому элементу
+
+# Создание словарей сопоставлений, присвоение номера кажому элементу - файл папка и связывание его с путем к этому элементу
 def create_dirs_files_map(path):
     path = Path(path)
     number_path = {}
@@ -14,6 +15,7 @@ def create_dirs_files_map(path):
         i += 1
     result = [number_path, path_number]
     return result
+
 
 # Создаем заготовку для формирования кнопок
 def create_path_buttons(path):

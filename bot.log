@@ -17418,3 +17418,15 @@ aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: messa
 2024-04-29 16:00:59,810 - aiogram.dispatcher - WARNING - Received SIGINT signal
 2024-04-29 16:00:59,851 - aiogram.dispatcher - INFO - Polling stopped for bot @atl_nandy_bot id=7121339655 - 'HandyBOT'
 2024-04-29 16:00:59,856 - aiogram.dispatcher - INFO - Polling stopped
+2024-04-29 16:51:35,070 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2024-04-29 16:51:35,083 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7152099013)
+2024-04-29 16:51:46,443 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7152099013)
+2024-04-29 17:37:09,025 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2024-04-29 17:37:09,049 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7152099013)
+2024-04-29 17:37:20,249 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7152099013)
+2024-04-29 18:08:39,032 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2024-04-29 18:08:39,206 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7152099013)
+2024-04-29 18:08:51,344 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7152099013)
+2024-04-29 18:42:53,624 - aiogram.dispatcher - WARNING - Received SIGTERM signal
+2024-04-29 18:42:53,628 - aiogram.dispatcher - INFO - Polling stopped for bot @test2323werwe2_bot id=7152099013 - 'test2'
+2024-04-29 18:42:53,628 - aiogram.dispatcher - INFO - Polling stopped

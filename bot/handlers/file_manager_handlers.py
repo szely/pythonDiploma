@@ -1,7 +1,6 @@
 from aiogram import Bot, types
 from aiogram.types import CallbackQuery, FSInputFile
 from aiogram import Router, F
-from aiogram.filters import Command
 from aiogram.filters.state import StatesGroup, State
 from aiogram.fsm.context import FSMContext
 from aiogram.types import Message
@@ -15,14 +14,20 @@ from bot.other_methods.find_file import search_dict_by_key_part, swapped_dict
 from bot.other_methods.speach_rec import convert_to_wav, speach_rec
 import logging
 from bot.db.db import db_table_val, find_user_id, get_user_email
+
+
 logger = logging.getLogger(__name__)
 
 router = Router()
 
+
+# Создание экземпляра класса состояний для создания последовательности получения и отправки сообщений
 class Form(StatesGroup):
     SEARCH = State()
     EMAIL_ADR = State()
 
+
+# # Вызов в меня раздела "Отчетность" - проводник по структуре папок с отчетными документами
 @router.message(F.text == 'Отчетность 🗄')
 async def file_manager(message: types.Message):
     global number_path
@@ -38,6 +43,8 @@ async def file_manager(message: types.Message):
     buttons = create_buttons(path_buttons, number_path, path_number)
     await message.answer("Куда отправлять файлы?", reply_markup=choose_send_buttoms().as_markup(one_time_keyboard=True, resize_keyboard=True))
 
+
+# Выбор метода отправки файлов. В бот - файлы отправляются в чат.
 @router.message(F.text == 'В бот 🤖')
 async def file_manager(message: types.Message):
     global number_path
@@ -54,6 +61,8 @@ async def file_manager(message: types.Message):
     await message.answer("Выберите файл или папку", reply_markup=this_button.as_markup())
     await message.answer("Можете изменить метод отправки, найти файл, или вернуться в меню", reply_markup=back_choose_send_find_buttoms().as_markup(one_time_keyboard=True, resize_keyboard=True))
 
+
+# Выбор метода отправки файлов. На почту - файлы отправляются на указанную пользователем при регистрации электронную почту.
 @router.message(F.text == "На почту 📩")
 async def file_manager(message: types.Message):
     global number_path
@@ -70,15 +79,21 @@ async def file_manager(message: types.Message):
     await message.answer("Выберите файл или папку", reply_markup=this_button.as_markup())
     await message.answer("Можете изменить метод отправки, найти файл, или вернуться в меню", reply_markup=back_choose_send_find_buttoms().as_markup(one_time_keyboard=True, resize_keyboard=True))
 
+
+# Данный блок позволяет изменить способ отправки (в бот/на почту)
 @router.message(F.text == "Метод отправки 📨")
 async def methods_send(message: types.Message):
     await message.answer("Куда отправлять файлы?", reply_markup=choose_send_buttoms().as_markup(one_time_keyboard=True, resize_keyboard=True))
 
+
+# Возврат в основное меню
 @router.message(F.text == 'Назад в меню ↩️')
 async def methods_send(message: types.Message):
     await message.answer("Выберите инструмент",
                          reply_markup=tools_buttoms().as_markup(resize_keyboard=True, one_time_keyboard=True))
 
+
+# Заново показывает структуру папок
 @router.message(F.text == "Структура 🗄")
 async def structure(message: Message) -> None:
     global number_path
@@ -95,11 +110,15 @@ async def structure(message: Message) -> None:
                          reply_markup=back_choose_send_find_buttoms().as_markup(one_time_keyboard=True,
                                                                                 resize_keyboard=True))
 
+
+# Вызов поиска файлов по структуре. Реализован и текстовый и голосовой поиск.
 @router.message(F.text == "Поиск файлов 🔎")
 async def find_file(message: Message, state: FSMContext) -> None:
     await state.set_state(Form.SEARCH)
     await message.answer('Напишите название файла или пришлите аудиосообщение!')
 
+
+# ОБработчик поиска
 @router.message(Form.SEARCH)
 async def search(message: Message, state: FSMContext, bot: Bot) -> None:
     global number_path
@@ -143,6 +162,8 @@ async def search(message: Message, state: FSMContext, bot: Bot) -> None:
                                                                                 resize_keyboard=True))
     await state.clear()
 
+
+# Навигация по структуре отчетности (проводник)
 @router.callback_query()
 async def call(callback: CallbackQuery, bot: Bot):
     global number_path

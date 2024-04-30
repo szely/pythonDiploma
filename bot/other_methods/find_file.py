@@ -4,9 +4,12 @@ from dotenv import load_dotenv
 import os
 import spacy
 
+
 # Загрузка модели spaCy для русского языка
 nlp = spacy.load("ru_core_news_sm")
 
+
+# Алгоритм поиска по фразе или части фразы
 def search_dict_by_key_part(original_dict, key_part):
     load_dotenv('.env')
     ignore = os.getenv("IGNORE")
@@ -31,11 +34,13 @@ def search_dict_by_key_part(original_dict, key_part):
     return result_dict
 
 
+# Алгоритм разворота словаря
 def swapped_dict(dict):
     swapped_dict = {v: k for k, v in dict.items()}
     return swapped_dict
 
 
+# Алгоритм проверки вхождения фразы или части фразы в текст
 def check_word_part_in_text(text, part_word):
     doc = nlp(text)
     for token in doc:

@@ -2,23 +2,13 @@ import requests
 import xml.etree.ElementTree as ET
 
 
+# Получение курса валют с сайта ЦБ РФ
 def get_currency_rate(from_to_currency=None):
-    """
-    :param from_to_currency is list ['USD', 'RUB'] whole list char_code_currency see here
-     https://www.cbr.ru/scripts/XML_daily.asp
-    :return: float_number
-    """
-
     list_foreign_currency = [currency for currency in from_to_currency if currency != 'RUB']
     list_ration_currency = []
     current_currency_rate = requests.get('https://www.cbr.ru/scripts/XML_daily.asp')
 
     def get_parameter_currency_from_response(searching_value, char_code_currency):
-        """
-        :param searching_value = "Nominal" or "Value"
-        :param char_code_currency ex('RUB', USD'), char_code_currency see here https://www.cbr.ru/scripts/XML_daily.asp
-        :return: if searching_value is Nominal - int, else is float
-        """
         paramentr = ET.fromstring(current_currency_rate.text). \
             find(f'./Valute[CharCode="{char_code_currency}"]/{searching_value}').text
         if searching_value == 'Nominal':

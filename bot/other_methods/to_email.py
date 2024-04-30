@@ -6,15 +6,13 @@ from os.path import basename
 from dotenv import load_dotenv
 import os
 
-load_dotenv('.env')
-from_adr = os.getenv("FROM_ADDR")
-to_adr = os.getenv("TO_ADDR")
-password = os.getenv("PASSWORD")
 
+# Алгоритм подключения и отправки по email
 def email(f, t, user_email):
-    global from_adr
-    global to_adr
-    global password
+    load_dotenv('.env')
+    from_adr = os.getenv("FROM_ADDR")
+    to_adr = os.getenv("TO_ADDR")
+    password = os.getenv("PASSWORD")
     msg = MIMEMultipart()
     msg['From'] = from_adr
     msg['To'] = user_email
@@ -31,7 +29,6 @@ def email(f, t, user_email):
         # After the file is closed
         part['Content-Disposition'] = 'attachment; filename="%s"' % basename(file)
         msg.attach(part)
-
 
     try:
         mailserver = smtplib.SMTP('smtp.yandex.ru',587)
@@ -54,6 +51,7 @@ def email(f, t, user_email):
     return status
 
 
+# Запуск процесса отправки файла по email
 def send_email(file_path, file_name, user_email):
     file = open(f"{file_path}", "rb")
     g = str(file_path)

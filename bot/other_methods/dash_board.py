@@ -1,15 +1,9 @@
 import plotly.graph_objects as go
 import os
-import pathlib
 import plotly.express as px
-import requests
-import pandas as pd
-from bs4 import BeautifulSoup
-import lxml
-import sqlite3
-import numpy as np
 
 
+# Создание диаграмы "Водопад"
 def paint_waterfall_chart(data, name):
     y_list = list(data.values())[2:-1]
     x_list = list(data.keys())[2:]
@@ -84,6 +78,8 @@ def paint_waterfall_chart(data, name):
     path = os.path.realpath(file)
     return path
 
+
+# Создание диаграммы "дерево"
 def paint_tree_chart(df, name):
     fig = px.treemap(df, path=[px.Constant('Количество вагонов по РПС, тыс. ед.'), 'РПС', 'Количество'],
                   values=df['Количество'],

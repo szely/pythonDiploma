@@ -5,7 +5,6 @@ from aiogram import Bot, Dispatcher
 from bot.handlers import user_handlers, wagon_info_handlers, file_manager_handlers, analitics_handlers, macro_info_handlers, wagon_valuation_handlers
 import logging
 from logging.handlers import RotatingFileHandler
-import sqlite3
 
 
 logging.basicConfig(filename='bot.log', level=logging.INFO,

@@ -4,6 +4,7 @@ from aiogram.utils.keyboard import InlineKeyboardBuilder, ReplyKeyboardBuilder
 from dotenv import load_dotenv
 import os
 
+
 # Создаем кнопки по заранее подготовленной структуре
 def create_buttons(path_buttons, number_path, path_number):
     result = {}
@@ -28,6 +29,8 @@ def create_buttons(path_buttons, number_path, path_number):
             result[key].adjust(1)
     return result
 
+
+# Кнопки основного меню
 def tools_buttoms():
     builder = ReplyKeyboardBuilder()
     builder.button(text='Отчетность 🗄')
@@ -39,6 +42,8 @@ def tools_buttoms():
     builder.adjust(2)
     return builder
 
+
+# Кнопки выбора метода отправки
 def choose_send_buttoms():
     builder_type_send = ReplyKeyboardBuilder()
     builder_type_send.button(text='В бот 🤖')
@@ -47,6 +52,8 @@ def choose_send_buttoms():
     builder_type_send.adjust(2)
     return builder_type_send
 
+
+# Кнопки раздела "Отчетность"
 def back_choose_send_find_buttoms():
     builder_type_send = ReplyKeyboardBuilder()
     builder_type_send.button(text='Метод отправки 📨')
@@ -56,12 +63,16 @@ def back_choose_send_find_buttoms():
     builder_type_send.adjust(2)
     return builder_type_send
 
+
+# Кнопка вызова основного меню
 def main_menu():
     builder_type_send = ReplyKeyboardBuilder()
     builder_type_send.button(text='МЕНЮ')
     builder_type_send.adjust(2)
     return builder_type_send
 
+
+# Кнопка возврата в основное меню
 def back_menu():
     builder_type_send = ReplyKeyboardBuilder()
     builder_type_send.button(text='Назад в меню ↩️')
