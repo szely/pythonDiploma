@@ -18,6 +18,7 @@ class Form(StatesGroup):
     GET_STOKP = State()
     GET_SONK = State()
     GET_SLKP = State()
+    FIND_NUM = State()
 
 
 router = Router()
@@ -36,6 +37,14 @@ max_to = 76 # Максимальная толщина обода колесно�
 min_to = 24 # Минимальная толщина обода колесной пары
 
 
+@router.message(F.text == 'Информация о вагоне ℹ️')
+async def back(message: types.Message, state: FSMContext):
+    await state.clear()
+    logger.info("Пользователь %s id %s зашел в раздел 'Информация о вагоне'", message.from_user.first_name, message.from_user.id)
+    await state.set_state(Form.FIND_NUM)
+    await message.answer("Введите номер вагона или вернитесь в меню:", reply_markup=back_menu().as_markup(one_time_keyboard=True, resize_keyboard=True))
+
+
 # Запуск процесса оценки вагона
 @router.message(F.text == 'Оценить вагон 🪙')
 async def macro_info(message: types.Message,  state: FSMContext):
@@ -49,16 +58,20 @@ async def macro_info(message: types.Message,  state: FSMContext):
 async def get_nss(message: types.Message, state: FSMContext):
     global nss
     await state.update_data(name=message.text)
-    try:
-        nss = float(message.text.replace(',', '.'))
-        await state.set_state(Form.GET_OSS)
-        await message.answer('Введите остаточный срок службы, лет:',
+    if message.text == 'Назад в меню ↩️':
+        await state.clear()
+    #     or message.text == 'Информация о вагоне ℹ️'
+    else:
+        try:
+            nss = float(message.text.replace(',', '.'))
+            await state.set_state(Form.GET_OSS)
+            await message.answer('Введите остаточный срок службы, лет:',
                              reply_markup=back_menu().as_markup(one_time_keyboard=True, resize_keyboard=True))
-    except Exception as e:
-        logger.error(f"Пользователь {message.from_user.first_name} id {message.from_user.id} ввел неверный формат данных: {e}")
-        await message.reply('Некорректный формат данных!')
-        await message.answer('Введите нормативный срок службы вагона, лет:',
-                             reply_markup=back_menu().as_markup(one_time_keyboard=True, resize_keyboard=True))
+        except Exception as e:
+            logger.error(f"Пользователь {message.from_user.first_name} id {message.from_user.id} ввел неверный формат данных: {e}")
+            await message.reply('Некорректный формат данных!')
+            await message.answer('Введите нормативный срок службы вагона, лет:',
+                                 reply_markup=back_menu().as_markup(one_time_keyboard=True, resize_keyboard=True))
 
 
 # Получение остаточного срока вагона
