@@ -149,7 +149,6 @@ async def search(message: Message, state: FSMContext, bot: Bot) -> None:
         os.remove(file_name_wav)
     found_files_p_n = search_dict_by_key_part(path_number, text)
     if found_files_p_n:
-        # file_name_wav = convert_to_wav(file_name)
         await message.answer('Получите файл(ы)!')
         if message_choose == 'В бот 🤖':
             for key in found_files_p_n:
@@ -188,11 +187,14 @@ async def call(callback: CallbackQuery, bot: Bot):
         markup = buttons.get(path)
         await callback.message.answer('Выберите папку или файл', reply_markup=markup.as_markup())
         await bot.delete_message(callback.message.chat.id, callback.message.message_id)
-    if Path(number_path.get(int(callback.data))).is_file()and message_choose == 'В бот 🤖':
+    if Path(number_path.get(int(callback.data))).is_file() and message_choose == 'В бот 🤖':
         file = FSInputFile(number_path.get(int(callback.data)))
+        logger.info("Пользователь %s id %s получил файл '%s' в бот", callback.from_user.first_name,
+                    callback.from_user.id, Path(number_path.get(int(callback.data))))
         await bot.send_document(callback.message.chat.id, file)
     if Path(number_path.get(int(callback.data))).is_file() and message_choose == 'На почту 📩':
         user_email = get_user_email(callback.from_user.id)
         file_name = str(Path(number_path.get(int(callback.data)))).split('/')[-1]
         status = send_email(str(Path(number_path.get(int(callback.data)))), file_name, user_email)
+        logger.info("Статус отправки файла '%s' на почту для пользователя  %s id %s - '%s'",  Path(number_path.get(int(callback.data))), callback.from_user.first_name, callback.from_user.id, status)
         await callback.message.answer(f'{status} "{file_name}"')

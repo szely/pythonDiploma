@@ -17,13 +17,14 @@ async def main():
     bot = Bot(token)
     dp = Dispatcher()
 
-    dp.include_routers( user_handlers.router, file_manager_handlers.router, wagon_info_handlers.router, analitics_handlers.router, macro_info_handlers.router,  wagon_valuation_handlers.router)
+    dp.include_routers(user_handlers.router, file_manager_handlers.router, wagon_info_handlers.router, analitics_handlers.router, macro_info_handlers.router,  wagon_valuation_handlers.router)
 
-    # await bot.delete_webhook(drop_pending_updates=True)
-    # try:
-    await dp.start_polling(bot)
-    # except Exception as _ex:
-    #     print(f'There is an exception - {_ex}')
+    await bot.delete_webhook(drop_pending_updates=True)
+    try:
+        await dp.start_polling(bot)
+    except Exception as e:
+        logger.error(f"Ошибка! {e}")
+        print(f'Произошла ошибка - {e}')
 
 
 if __name__ == "__main__":

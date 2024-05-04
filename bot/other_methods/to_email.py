@@ -5,6 +5,9 @@ from email.mime.application import MIMEApplication
 from os.path import basename
 from dotenv import load_dotenv
 import os
+import logging
+
+logger = logging.getLogger(__name__)
 
 
 # Алгоритм подключения и отправки по email
@@ -45,9 +48,10 @@ def email(f, t, user_email):
         mailserver.quit()
         status = f"На Вашу почту {user_email} успешно отправлен файл "
         print(status)
-    except smtplib.SMTPException:
+    except smtplib.SMTPException as s:
         status = "Ошибка: Невозможно отправить файл "
         print(status)
+        logger.error(f"Ошибка: Невозможно отправить файл - {s}")
     return status
 
 

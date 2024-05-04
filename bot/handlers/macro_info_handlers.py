@@ -13,12 +13,15 @@ router = Router()
 # Вывод информации о текущем курсе валют.
 @router.message(F.text == 'Макроинформация 🌎')
 async def macro_info(message: types.Message):
-    usd_rub = get_currency_rate(['USD', 'RUB'])
-    eur_usd = get_currency_rate(['EUR', 'RUB'])
-    logger.info("Пользователь %s id %s зашел в раздел 'Макроинформация'", message.from_user.first_name, message.from_user.id)
-    await message.answer(f'Текущий курс ЦБ РФ:\nUSD/RUB = {usd_rub} руб.\nEUR/RUB = {eur_usd} руб.')
-    await message.answer("Вернуться в меню:",
-                         reply_markup=back_menu().as_markup(one_time_keyboard=True,
-                                                                                resize_keyboard=True))
-
+    try:
+        usd_rub = get_currency_rate(['USD', 'RUB'])
+        eur_usd = get_currency_rate(['EUR', 'RUB'])
+        logger.info("Пользователь %s id %s зашел в раздел 'Макроинформация'", message.from_user.first_name, message.from_user.id)
+        await message.answer(f'Текущий курс ЦБ РФ:\nUSD/RUB = {usd_rub} руб.\nEUR/RUB = {eur_usd} руб.')
+        await message.answer("Вернуться в меню:", reply_markup=back_menu().as_markup(one_time_keyboard=True, resize_keyboard=True))
+    except Exception as e:
+        logger.error(f"Ошибка! {e}")
+        await message.reply('Произошла ошибка!')
+        await message.answer("Вернуться в меню:",
+                             reply_markup=back_menu().as_markup(one_time_keyboard=True, resize_keyboard=True))
 
