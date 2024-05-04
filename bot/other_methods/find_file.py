@@ -6,7 +6,7 @@ import spacy
 
 
 # Загрузка модели spaCy для русского языка
-nlp = spacy.load("ru_core_news_sm")
+nlp = spacy.blank("ru")
 
 
 # Алгоритм поиска по фразе или части фразы

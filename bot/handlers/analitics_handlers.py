@@ -28,8 +28,11 @@ class Form(StatesGroup):
 async def file_manager(message: types.Message, bot: Bot):
     data_for_image = profitability_info(current_date)
     data_for_image_wg = get_wagon_info()
+    logger.info("Пользователь %s id %s зашел в раздел 'Аналитика'", message.from_user.first_name, message.from_user.id)
     if data_for_image == 0:
         await message.answer(f'На {current_date} данных нет!')
+        await message.answer("Вернуться в основное меню.",
+                             reply_markup=back_menu().as_markup(one_time_keyboard=True, resize_keyboard=True))
     else:
         image_path = paint_waterfall_chart(data_for_image, message.message_id)
         image_path_wg = paint_tree_chart(data_for_image_wg, f'{message.message_id}_wg')

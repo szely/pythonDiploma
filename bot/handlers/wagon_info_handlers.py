@@ -21,6 +21,7 @@ router = Router()
 # Вывод информации о вагоне из БД
 @router.message(F.text == 'Информация о вагоне ℹ️')
 async def scan_wagon_number(message: types.Message, state: FSMContext):
+    logger.info("Пользователь %s id %s зашел в раздел 'Информация о вагоне'", message.from_user.first_name, message.from_user.id)
     await state.set_state(Form.FIND_NUM)
     await message.answer("Введите номер вагона:")
 

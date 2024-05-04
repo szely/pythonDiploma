@@ -41,6 +41,7 @@ async def file_manager(message: types.Message):
     path_number = create_dirs_files_map(my_directory)[1]
     path_buttons = create_path_buttons(my_directory)
     buttons = create_buttons(path_buttons, number_path, path_number)
+    logger.info("Пользователь %s id %s зашел в раздел 'Отчетность'", message.from_user.first_name, message.from_user.id)
     await message.answer("Куда отправлять файлы?", reply_markup=choose_send_buttoms().as_markup(one_time_keyboard=True, resize_keyboard=True))
 
 
@@ -58,6 +59,7 @@ async def file_manager(message: types.Message):
     load_dotenv('.env')
     first_dir = os.getenv("FIRST_DIR")
     this_button = buttons.get(str(my_directory + first_dir))
+    logger.info("Пользователь %s id %s выбрал метод отправки 'В бот'", message.from_user.first_name, message.from_user.id)
     await message.answer("Выберите файл или папку", reply_markup=this_button.as_markup())
     await message.answer("Можете изменить метод отправки, найти файл, или вернуться в меню", reply_markup=back_choose_send_find_buttoms().as_markup(one_time_keyboard=True, resize_keyboard=True))
 
@@ -76,6 +78,7 @@ async def file_manager(message: types.Message):
     load_dotenv('.env')
     first_dir = os.getenv("FIRST_DIR")
     this_button = buttons.get(str(my_directory + first_dir))
+    logger.info("Пользователь %s id %s выбрал метод отправки 'На почту'", message.from_user.first_name, message.from_user.id)
     await message.answer("Выберите файл или папку", reply_markup=this_button.as_markup())
     await message.answer("Можете изменить метод отправки, найти файл, или вернуться в меню", reply_markup=back_choose_send_find_buttoms().as_markup(one_time_keyboard=True, resize_keyboard=True))
 
@@ -115,6 +118,7 @@ async def structure(message: Message) -> None:
 @router.message(F.text == "Поиск файлов 🔎")
 async def find_file(message: Message, state: FSMContext) -> None:
     await state.set_state(Form.SEARCH)
+    logger.info("Пользователь %s id %s запустил поиск файлов", message.from_user.first_name, message.from_user.id)
     await message.answer('Напишите название файла или пришлите аудиосообщение!')
 
 
@@ -129,8 +133,8 @@ async def search(message: Message, state: FSMContext, bot: Bot) -> None:
     await state.update_data(name=message.text)
     if message.text:
         text = message.text
+        logger.info("Пользователь %s id %s ищет файл(ы) '%s' через текстовое сообщение", message.from_user.first_name, message.from_user.id, message.text)
         await message.answer('Ищу файлы')
-        logger.info("User %s search file.", [message.from_user, message.text])
     else:
         file_id = message.voice.file_id
         file = await bot.get_file(file_id)
@@ -138,24 +142,32 @@ async def search(message: Message, state: FSMContext, bot: Bot) -> None:
         file_name = Path("", f"{file_id}.ogg")
         await bot.download_file(file_path, destination=file_name, timeout=0)
         file_name_wav = convert_to_wav(file_name)
+        logger.info("Пользователь %s id %s ищет файл(ы) '%s' через аудио сообщение", message.from_user.first_name, message.from_user.id, message.text)
         await message.answer('Ищу файлы')
         text = speach_rec(file_name_wav)
         os.remove(file_name)
         os.remove(file_name_wav)
     found_files_p_n = search_dict_by_key_part(path_number, text)
     if found_files_p_n:
+        # file_name_wav = convert_to_wav(file_name)
         await message.answer('Получите файл(ы)!')
         if message_choose == 'В бот 🤖':
             for key in found_files_p_n:
                 file = FSInputFile(key)
+                logger.info("Для пользователя %s id %s найден(ы) файл(ы) '%s'", message.from_user.first_name,
+                            message.from_user.id, key)
                 await bot.send_document(message.chat.id, file)
         if message_choose == 'На почту 📩':
             for key in found_files_p_n:
                 file_name = key.split('/')[-1]
                 user_email = get_user_email(message.from_user.id)
                 status = send_email(key, file_name,user_email)
+                logger.info("Для пользователя %s id %s найден(ы) файл(ы) '%s'", message.from_user.first_name,
+                            message.from_user.id, key)
                 await message.answer(f'{status} "{file_name}"')
     else:
+        logger.info("Для пользователя %s id %s не найдены файл(ы)", message.from_user.first_name,
+                    message.from_user.id)
         await message.answer('Файл(ы) не найден(ы)!')
     await message.answer("Можете изменить метод отправки, найти файл, или вернуться в меню",
                          reply_markup=back_choose_send_find_buttoms().as_markup(one_time_keyboard=True,

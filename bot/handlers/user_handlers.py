@@ -31,6 +31,7 @@ message_choose = ''
 @router.message(Command("start"))
 async def cmd_start(message: types.Message, state: FSMContext) -> None:
     # await state.set_state(Form.EMAIL_ADR)
+    logger.info("Пользователь %s id %s начал разговор.", message.from_user.first_name, message.from_user.id)
     await message.answer(f'Привет {message.from_user.first_name}! Я твой персональный помощник HandyBOT!')
     if find_user_id(int(message.from_user.id)) != 0:
         await message.answer(f'{message.from_user.first_name}, ты уж есть в базе!')
@@ -50,6 +51,7 @@ async def reg_email(message: types.Message, state: FSMContext) -> None:
     username = message.from_user.username
     email = message.text
     db_table_val(user_id=us_id, user_name=us_name, user_surname=us_sname, username=username, email=email)
+    logger.info("Пользователь %s id %s зарегистрировал адрес электронной почты.", message.from_user.first_name, message.from_user.id)
     await message.answer(f'Спасибо, {message.from_user.first_name}, адрес зарегистрирован!')
     await message.answer("Выберите инструмент",
                          reply_markup=tools_buttoms().as_markup(resize_keyboard=True, one_time_keyboard=True))
@@ -61,4 +63,4 @@ async def reg_email(message: types.Message, state: FSMContext) -> None:
 async def main_menu(message: types.Message) -> None:
     await message.answer("Выберите инструмент",
                          reply_markup=tools_buttoms().as_markup(resize_keyboard=True, one_time_keyboard=True))
-    logger.info("User %s started the conversation.", message.from_user)
+    logger.info("Пользователь %s id %s начал разговор.", message.from_user.first_name, message.from_user.id)

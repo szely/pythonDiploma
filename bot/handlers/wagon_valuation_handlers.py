@@ -36,6 +36,7 @@ slkp = 0 # Стоимость лома колесной пары, тыс. руб
 # Запуск процесса оценки вагона
 @router.message(F.text == 'Оценить вагон 🪙')
 async def macro_info(message: types.Message,  state: FSMContext):
+    logger.info("Пользователь %s id %s зашел в раздел 'Оценить вагон'", message.from_user.first_name, message.from_user.id)
     await state.set_state(Form.GET_NNS)
     await message.answer('Введите нормативный срок службы вагона, лет:', reply_markup=back_menu().as_markup(one_time_keyboard=True, resize_keyboard=True))
 

@@ -4,22 +4,11 @@ import asyncio
 from aiogram import Bot, Dispatcher
 from bot.handlers import user_handlers, wagon_info_handlers, file_manager_handlers, analitics_handlers, macro_info_handlers, wagon_valuation_handlers
 import logging
-from logging.handlers import RotatingFileHandler
 
-
+# Запуск логирования
 logging.basicConfig(filename='bot.log', level=logging.INFO,
                     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
-
-logger.setLevel(logging.INFO)  # Устанавливаем уровень логирования
-
-# настроим rfl
-handler = RotatingFileHandler('bot.log', maxBytes=1, backupCount=1)
-formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
-handler.setFormatter(formatter)
-
-# Добавляем обработчик к логгеру
-logger.addHandler(handler)
 
 # Запуск бота
 async def main():
