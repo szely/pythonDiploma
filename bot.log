@@ -536,3 +536,19 @@ ValueError: could not convert string to float: 'ddd'
 2024-05-04 15:05:06,536 - aiogram.dispatcher - WARNING - Received SIGINT signal
 2024-05-04 15:05:06,536 - aiogram.dispatcher - INFO - Polling stopped for bot @atl_nandy_bot id=7121339655 - 'HandyBOT'
 2024-05-04 15:05:06,536 - aiogram.dispatcher - INFO - Polling stopped
+2024-05-04 15:11:50,985 - aiogram.dispatcher - INFO - Start polling
+2024-05-04 15:11:51,143 - aiogram.dispatcher - INFO - Run polling for bot @atl_nandy_bot id=7121339655 - 'HandyBOT'
+2024-05-04 15:11:52,592 - bot.handlers.user_handlers - INFO - Пользователь Sergei id 1071020716 начал разговор.
+2024-05-04 15:11:52,975 - aiogram.event - INFO - Update id=824594051 is handled. Duration 383 ms by bot id=7121339655
+2024-05-04 15:11:53,582 - bot.handlers.wagon_valuation_handlers - INFO - Пользователь Sergei id 1071020716 зашел в раздел 'Оценить вагон'
+2024-05-04 15:11:53,670 - aiogram.event - INFO - Update id=824594052 is handled. Duration 91 ms by bot id=7121339655
+2024-05-04 15:11:55,156 - aiogram.event - INFO - Update id=824594053 is handled. Duration 100 ms by bot id=7121339655
+2024-05-04 15:11:55,414 - aiogram.event - INFO - Update id=824594054 is handled. Duration 80 ms by bot id=7121339655
+2024-05-04 15:11:55,633 - aiogram.event - INFO - Update id=824594055 is handled. Duration 93 ms by bot id=7121339655
+2024-05-04 15:11:56,780 - aiogram.event - INFO - Update id=824594056 is handled. Duration 169 ms by bot id=7121339655
+2024-05-04 15:12:00,922 - aiogram.event - INFO - Update id=824594057 is handled. Duration 181 ms by bot id=7121339655
+2024-05-04 15:12:01,997 - aiogram.event - INFO - Update id=824594058 is handled. Duration 81 ms by bot id=7121339655
+2024-05-04 15:12:02,448 - aiogram.event - INFO - Update id=824594059 is handled. Duration 196 ms by bot id=7121339655
+2024-05-04 15:12:06,951 - aiogram.event - INFO - Update id=824594060 is handled. Duration 174 ms by bot id=7121339655
+2024-05-04 15:12:09,226 - bot.handlers.analitics_handlers - INFO - Пользователь Sergei id 1071020716 зашел в раздел 'Аналитика'
+2024-05-04 15:12:12,704 - aiogram.event - INFO - Update id=824594061 is handled. Duration 3555 ms by bot id=7121339655

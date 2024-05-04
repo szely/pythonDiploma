@@ -31,6 +31,9 @@ slv = 0 # Стоимость лома вагона, тыс. руб.
 stokp = 0 # Средняя текущая толщина обода колесной пары, мм
 sonk = 0 # Стоимсоть новой колесной пары (старая ось, новое колесо - СОНК), тыс. руб.
 slkp = 0 # Стоимость лома колесной пары, тыс. руб.
+kol_kp = 4 # Колличество колесных пар на вагоне
+max_to = 76 # Максимальная толщина обода колесной пары
+min_to = 24 # Минимальная толщина обода колесной пары
 
 
 # Запуск процесса оценки вагона
@@ -99,7 +102,7 @@ async def get_slv(message: types.Message, state: FSMContext):
     try:
         slv = float(message.text.replace(',', '.'))
         await state.set_state(Form.GET_STOKP)
-        await message.answer('Введите среднюю толшину обода КП (мин.: 25 мм, макс.: 76 мм), мм:', reply_markup=back_menu().as_markup(one_time_keyboard=True, resize_keyboard=True))
+        await message.answer(f'Введите среднюю толшину обода КП (мин.: {min_to} мм, макс.: {max_to} мм), мм:', reply_markup=back_menu().as_markup(one_time_keyboard=True, resize_keyboard=True))
     except Exception as e:
         logger.error(f"Пользователь {message.from_user.first_name} id {message.from_user.id} ввел неверный формат данных: {e}")
         await message.reply('Некорректный формат данных!')
@@ -110,6 +113,8 @@ async def get_slv(message: types.Message, state: FSMContext):
 @router.message(Form.GET_STOKP)
 async def get_stokp(message: types.Message, state: FSMContext):
     global stokp
+    global max_to
+    global min_to
     await state.update_data(name=message.text)
     try:
         stokp = float(message.text.replace(',', '.'))
@@ -118,7 +123,7 @@ async def get_stokp(message: types.Message, state: FSMContext):
     except Exception as e:
         logger.error(f"Пользователь {message.from_user.first_name} id {message.from_user.id} ввел неверный формат данных: {e}")
         await message.reply('Некорректный формат данных!')
-        await message.answer('Введите среднюю толшину обода КП (мин.: 25 мм, макс.: 76 мм), мм:', reply_markup=back_menu().as_markup(one_time_keyboard=True, resize_keyboard=True))
+        await message.answer(f'Введите среднюю толшину обода КП (мин.: {min_to} мм, макс.: {max_to} мм), мм:', reply_markup=back_menu().as_markup(one_time_keyboard=True, resize_keyboard=True))
 
 
 # Получение стоимости СОНК
@@ -146,11 +151,14 @@ async def get_slkp(message: types.Message, state: FSMContext):
     global stokp
     global sonk
     global slkp
+    global kol_kp
+    global max_to
+    global min_to
     await state.update_data(name=message.text)
     try:
         slkp = float(message.text.replace(',', '.'))
         try:
-            sv = round((snav - slv - sonk * 4) / nss * oss + slv + ((sonk - slkp) / 52 * (stokp - 24) + slkp) * 4, 3)
+            sv = round((snav - slv - sonk * kol_kp) / nss * oss + slv + ((sonk - slkp) / (max_to - min_to) * (stokp - min_to) + slkp) * kol_kp, 3)
             await message.answer(f'Стоимость вагона по оценке затратным подходом: {sv} тыс. руб.')
             await state.clear()
             await message.answer("Вернуться в меню:", reply_markup=back_menu().as_markup(one_time_keyboard=True, resize_keyboard=True))
