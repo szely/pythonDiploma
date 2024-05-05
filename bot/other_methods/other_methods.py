@@ -32,3 +32,11 @@ def create_path_buttons(path):
                         dict[str(item)].append(str(item_in_dir))
                         dict[str(item)].sort()
     return dict
+
+
+def currency_map(key):
+    currency_map = {'RUB 🇷🇺': 'RUB', 'USD 🇺🇸': 'USD', 'EUR 🇪🇺': 'EUR', 'KZT 🇰🇿': 'KZT'}
+    if currency_map.get(key):
+        return currency_map.get(key)
+    else:
+        return False

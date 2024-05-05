@@ -78,3 +78,21 @@ def back_menu():
     builder_type_send.button(text='Назад в меню ↩️')
     builder_type_send.adjust(2)
     return builder_type_send
+
+def currency_cnverter():
+    builder_type_send = ReplyKeyboardBuilder()
+    builder_type_send.button(text='Конвертер валют 💱')
+    builder_type_send.button(text='Назад в меню ↩️')
+    builder_type_send.adjust(2)
+    return builder_type_send
+
+
+def currency():
+    builder_type_send = ReplyKeyboardBuilder()
+    builder_type_send.button(text='RUB 🇷🇺')
+    builder_type_send.button(text='USD 🇺🇸')
+    builder_type_send.button(text='EUR 🇪🇺')
+    builder_type_send.button(text='KZT 🇰🇿')
+    builder_type_send.button(text='Назад в меню ↩️')
+    builder_type_send.adjust(2)
+    return builder_type_send

@@ -37,6 +37,7 @@ max_to = 76 # Максимальная толщина обода колесно�
 min_to = 24 # Минимальная толщина обода колесной пары
 
 
+# Для переключения в роутер 'Информация о вагоне'
 @router.message(F.text == 'Информация о вагоне ℹ️')
 async def back(message: types.Message, state: FSMContext):
     await state.clear()
@@ -47,7 +48,7 @@ async def back(message: types.Message, state: FSMContext):
 
 # Запуск процесса оценки вагона
 @router.message(F.text == 'Оценить вагон 🪙')
-async def macro_info(message: types.Message,  state: FSMContext):
+async def wagon_valuation(message: types.Message,  state: FSMContext):
     logger.info("Пользователь %s id %s зашел в раздел 'Оценить вагон'", message.from_user.first_name, message.from_user.id)
     await state.set_state(Form.GET_NNS)
     await message.answer('Введите нормативный срок службы вагона, лет:', reply_markup=back_menu().as_markup(one_time_keyboard=True, resize_keyboard=True))
