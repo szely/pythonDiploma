@@ -393,3 +393,266 @@
 2024-05-05 17:35:18,597 - aiogram.dispatcher - WARNING - Received SIGINT signal
 2024-05-05 17:35:18,597 - aiogram.dispatcher - INFO - Polling stopped for bot @atl_nandy_bot id=7121339655 - 'HandyBOT'
 2024-05-05 17:35:18,598 - aiogram.dispatcher - INFO - Polling stopped
+2024-05-24 09:08:57,668 - aiogram.dispatcher - INFO - Start polling
+2024-05-24 09:08:57,763 - aiogram.dispatcher - INFO - Run polling for bot @atl_nandy_bot id=7121339655 - 'HandyBOT'
+2024-05-24 09:09:33,902 - bot.handlers.file_manager_handlers - INFO - Пользователь Sergei id 1071020716 зашел в раздел 'Отчетность'
+2024-05-24 09:09:34,301 - aiogram.event - INFO - Update id=824594530 is handled. Duration 511 ms by bot id=7121339655
+2024-05-24 09:09:36,439 - bot.handlers.file_manager_handlers - INFO - Пользователь Sergei id 1071020716 выбрал метод отправки 'В бот'
+2024-05-24 09:09:36,946 - aiogram.event - INFO - Update id=824594531 is handled. Duration 509 ms by bot id=7121339655
+2024-05-24 09:09:38,737 - aiogram.event - INFO - Update id=824594532 is handled. Duration 613 ms by bot id=7121339655
+2024-05-24 09:09:40,608 - aiogram.event - INFO - Update id=824594533 is handled. Duration 677 ms by bot id=7121339655
+2024-05-24 09:09:41,944 - aiogram.event - INFO - Update id=824594534 is handled. Duration 451 ms by bot id=7121339655
+2024-05-24 09:09:43,656 - aiogram.event - INFO - Update id=824594535 is handled. Duration 504 ms by bot id=7121339655
+2024-05-24 09:09:46,032 - aiogram.event - INFO - Update id=824594536 is handled. Duration 869 ms by bot id=7121339655
+2024-05-24 09:09:48,020 - aiogram.event - INFO - Update id=824594537 is handled. Duration 465 ms by bot id=7121339655
+2024-05-24 09:09:48,888 - bot.handlers.file_manager_handlers - INFO - Пользователь Sergei id 1071020716 получил файл '/Users/szely/Yandex.Disk.localized/Финансовый департамент/ОТЧЕТНОСТЬ/02. Отчеты/02. Оперплан/01. Документы/2023/07. Июль Оперплан.pdf' в бот
+2024-05-24 09:09:49,259 - aiogram.event - INFO - Update id=824594538 is handled. Duration 371 ms by bot id=7121339655
+2024-05-24 09:09:58,964 - aiogram.event - INFO - Update id=824594539 is handled. Duration 161 ms by bot id=7121339655
+2024-05-24 09:09:59,731 - bot.handlers.file_manager_handlers - INFO - Пользователь Sergei id 1071020716 выбрал метод отправки 'На почту'
+2024-05-24 09:10:00,041 - aiogram.event - INFO - Update id=824594540 is handled. Duration 313 ms by bot id=7121339655
+2024-05-24 09:10:24,792 - aiogram.event - INFO - Update id=824594541 is handled. Duration 381 ms by bot id=7121339655
+2024-05-24 09:10:25,694 - bot.handlers.file_manager_handlers - INFO - Пользователь Sergei id 1071020716 выбрал метод отправки 'На почту'
+2024-05-24 09:10:25,993 - aiogram.event - INFO - Update id=824594542 is handled. Duration 302 ms by bot id=7121339655
+2024-05-24 09:10:28,350 - aiogram.event - INFO - Update id=824594543 is handled. Duration 235 ms by bot id=7121339655
+2024-05-24 09:10:30,503 - bot.handlers.file_manager_handlers - INFO - Статус отправки файла '/Users/szely/Yandex.Disk.localized/Финансовый департамент/ОТЧЕТНОСТЬ/07. Долг/Долг 2024.xlsx' на почту для пользователя  Sergei id 1071020716 - 'На Вашу почту szely@yandex.ru успешно отправлен файл '
+2024-05-24 09:10:30,681 - aiogram.event - INFO - Update id=824594544 is handled. Duration 1208 ms by bot id=7121339655
+2024-05-24 09:11:01,646 - aiogram.event - INFO - Update id=824594545 is handled. Duration 391 ms by bot id=7121339655
+2024-05-24 09:11:06,160 - bot.handlers.macro_info_handlers - INFO - Пользователь Sergei id 1071020716 зашел в раздел 'Макроинформация'
+2024-05-24 09:11:06,451 - aiogram.event - INFO - Update id=824594546 is handled. Duration 1116 ms by bot id=7121339655
+2024-05-24 09:11:09,596 - aiogram.event - INFO - Update id=824594547 is handled. Duration 132 ms by bot id=7121339655
+2024-05-24 09:11:13,893 - bot.handlers.file_manager_handlers - INFO - Пользователь Sergei id 1071020716 зашел в раздел 'Отчетность'
+2024-05-24 09:11:14,437 - aiogram.event - INFO - Update id=824594548 is handled. Duration 647 ms by bot id=7121339655
+2024-05-24 09:11:18,211 - bot.handlers.file_manager_handlers - INFO - Пользователь Sergei id 1071020716 выбрал метод отправки 'В бот'
+2024-05-24 09:11:19,404 - aiogram.event - INFO - Update id=824594549 is handled. Duration 1196 ms by bot id=7121339655
+2024-05-24 09:11:26,538 - bot.handlers.file_manager_handlers - INFO - Пользователь Sergei id 1071020716 запустил поиск файлов
+2024-05-24 09:11:26,664 - aiogram.event - INFO - Update id=824594550 is handled. Duration 127 ms by bot id=7121339655
+2024-05-24 09:11:33,378 - bot.handlers.file_manager_handlers - INFO - Пользователь Sergei id 1071020716 ищет файл(ы) 'None' через аудио сообщение
+2024-05-24 09:11:34,431 - bot.handlers.file_manager_handlers - INFO - Для пользователя Sergei id 1071020716 найден(ы) файл(ы) '/Users/szely/Yandex.Disk.localized/Финансовый департамент/ОТЧЕТНОСТЬ/02. Отчеты/01. Бюджет/2022/02. Скорректированный/Корректировка бюджета 2022_.pptx'
+2024-05-24 09:11:34,974 - bot.handlers.file_manager_handlers - INFO - Для пользователя Sergei id 1071020716 найден(ы) файл(ы) '/Users/szely/Yandex.Disk.localized/Финансовый департамент/ОТЧЕТНОСТЬ/02. Отчеты/01. Бюджет/2022/02. Скорректированный/Корректировка бюджета 2022.pdf'
+2024-05-24 09:11:35,304 - bot.handlers.file_manager_handlers - INFO - Для пользователя Sergei id 1071020716 найден(ы) файл(ы) '/Users/szely/Yandex.Disk.localized/Финансовый департамент/ОТЧЕТНОСТЬ/02. Отчеты/01. Бюджет/2022/01. Первоначальный/Бюджет.pdf'
+2024-05-24 09:11:35,702 - bot.handlers.file_manager_handlers - INFO - Для пользователя Sergei id 1071020716 найден(ы) файл(ы) '/Users/szely/Yandex.Disk.localized/Финансовый департамент/ОТЧЕТНОСТЬ/02. Отчеты/01. Бюджет/2024/01. Первоначальный/Презентация_Бюджет 2024.pdf'
+2024-05-24 09:11:36,043 - bot.handlers.file_manager_handlers - INFO - Для пользователя Sergei id 1071020716 найден(ы) файл(ы) '/Users/szely/Yandex.Disk.localized/Финансовый департамент/ОТЧЕТНОСТЬ/02. Отчеты/01. Бюджет/2024/01. Первоначальный/Бюджет 2024_утвержденный.pdf'
+2024-05-24 09:11:36,561 - bot.handlers.file_manager_handlers - INFO - Для пользователя Sergei id 1071020716 найден(ы) файл(ы) '/Users/szely/Yandex.Disk.localized/Финансовый департамент/ОТЧЕТНОСТЬ/02. Отчеты/01. Бюджет/2024/01. Первоначальный/Презентация_Бюджет 2024.pptx'
+2024-05-24 09:11:37,326 - bot.handlers.file_manager_handlers - INFO - Для пользователя Sergei id 1071020716 найден(ы) файл(ы) '/Users/szely/Yandex.Disk.localized/Финансовый департамент/ОТЧЕТНОСТЬ/02. Отчеты/01. Бюджет/2023/01. Первоначальный/Бюджет 2023 подписанный.pdf'
+2024-05-24 09:11:37,769 - bot.handlers.file_manager_handlers - INFO - Для пользователя Sergei id 1071020716 найден(ы) файл(ы) '/Users/szely/Yandex.Disk.localized/Финансовый департамент/ОТЧЕТНОСТЬ/02. Отчеты/01. Бюджет/2023/01. Первоначальный/Презентация_Бюджет 2023.pdf'
+2024-05-24 09:11:38,283 - aiogram.event - INFO - Update id=824594551 is handled. Duration 7664 ms by bot id=7121339655
+2024-05-24 09:11:49,404 - aiogram.event - INFO - Update id=824594552 is handled. Duration 123 ms by bot id=7121339655
+2024-05-24 09:12:18,671 - bot.handlers.analitics_handlers - INFO - Пользователь Sergei id 1071020716 зашел в раздел 'Аналитика'
+2024-05-24 09:12:25,470 - aiogram.event - INFO - Update id=824594553 is handled. Duration 6874 ms by bot id=7121339655
+2024-05-24 09:12:42,639 - aiogram.event - INFO - Update id=824594554 is handled. Duration 470 ms by bot id=7121339655
+2024-05-24 09:14:24,882 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2024-05-24 09:14:24,882 - aiogram.dispatcher - INFO - Polling stopped for bot @atl_nandy_bot id=7121339655 - 'HandyBOT'
+2024-05-24 09:14:24,882 - aiogram.dispatcher - INFO - Polling stopped
+2024-05-24 19:38:46,455 - aiogram.dispatcher - INFO - Start polling
+2024-05-24 19:38:46,507 - aiogram.dispatcher - INFO - Run polling for bot @atl_nandy_bot id=7121339655 - 'HandyBOT'
+2024-05-24 19:39:40,923 - bot.handlers.file_manager_handlers - INFO - Пользователь Sergei id 1071020716 зашел в раздел 'Отчетность'
+2024-05-24 19:39:41,110 - aiogram.event - INFO - Update id=824594555 is handled. Duration 294 ms by bot id=7121339655
+2024-05-24 19:39:42,981 - bot.handlers.file_manager_handlers - INFO - Пользователь Sergei id 1071020716 выбрал метод отправки 'В бот'
+2024-05-24 19:39:43,364 - aiogram.event - INFO - Update id=824594556 is handled. Duration 385 ms by bot id=7121339655
+2024-05-24 19:39:45,351 - aiogram.event - INFO - Update id=824594557 is handled. Duration 290 ms by bot id=7121339655
+2024-05-24 19:39:47,089 - aiogram.event - INFO - Update id=824594558 is handled. Duration 168 ms by bot id=7121339655
+2024-05-24 19:40:55,953 - aiogram.event - INFO - Update id=824594559 is handled. Duration 336 ms by bot id=7121339655
+2024-05-24 19:40:57,724 - aiogram.event - INFO - Update id=824594560 is handled. Duration 342 ms by bot id=7121339655
+2024-05-24 19:40:59,750 - aiogram.event - INFO - Update id=824594561 is handled. Duration 133 ms by bot id=7121339655
+2024-05-24 19:41:00,798 - bot.handlers.file_manager_handlers - INFO - Пользователь Sergei id 1071020716 получил файл '/Users/szely/Yandex.Disk.localized/Финансовый департамент/ОТЧЕТНОСТЬ/04. Бух. отчетность/2023/Год/АЗ_2023г.pdf' в бот
+2024-05-24 19:41:01,034 - aiogram.event - INFO - Update id=824594562 is handled. Duration 236 ms by bot id=7121339655
+2024-05-24 19:41:05,552 - bot.handlers.file_manager_handlers - INFO - Пользователь Sergei id 1071020716 запустил поиск файлов
+2024-05-24 19:41:05,634 - aiogram.event - INFO - Update id=824594563 is handled. Duration 83 ms by bot id=7121339655
+2024-05-24 19:41:13,047 - bot.handlers.file_manager_handlers - INFO - Пользователь Sergei id 1071020716 ищет файл(ы) 'Прогноз' через текстовое сообщение
+2024-05-24 19:41:13,253 - bot.handlers.file_manager_handlers - INFO - Для пользователя Sergei id 1071020716 найден(ы) файл(ы) '/Users/szely/Yandex.Disk.localized/Финансовый департамент/ОТЧЕТНОСТЬ/02. Отчеты/03. Прогноз/02. Презентации/2024/3. Прогноз февраля и оперативный план марта 2024 года.pdf'
+2024-05-24 19:41:13,650 - bot.handlers.file_manager_handlers - INFO - Для пользователя Sergei id 1071020716 найден(ы) файл(ы) '/Users/szely/Yandex.Disk.localized/Финансовый департамент/ОТЧЕТНОСТЬ/02. Отчеты/03. Прогноз/02. Презентации/2024/2. Прогноз января и оперативный план февраля 2024 года.pdf'
+2024-05-24 19:41:13,952 - bot.handlers.file_manager_handlers - INFO - Для пользователя Sergei id 1071020716 найден(ы) файл(ы) '/Users/szely/Yandex.Disk.localized/Финансовый департамент/ОТЧЕТНОСТЬ/02. Отчеты/03. Прогноз/02. Презентации/2024/4. Прогноз марта и оперативный план апреля 2024 года.pdf'
+2024-05-24 19:41:14,345 - bot.handlers.file_manager_handlers - INFO - Для пользователя Sergei id 1071020716 найден(ы) файл(ы) '/Users/szely/Yandex.Disk.localized/Финансовый департамент/ОТЧЕТНОСТЬ/02. Отчеты/02. Оперплан/02. Презентации/2024/4. Прогноз марта и оперативный план апреля 2024 года.pptx'
+2024-05-24 19:41:14,692 - bot.handlers.file_manager_handlers - INFO - Для пользователя Sergei id 1071020716 найден(ы) файл(ы) '/Users/szely/Yandex.Disk.localized/Финансовый департамент/ОТЧЕТНОСТЬ/02. Отчеты/02. Оперплан/02. Презентации/2024/2. Прогноз января и оперативный план февраля 2024 года.pptx'
+2024-05-24 19:41:15,028 - bot.handlers.file_manager_handlers - INFO - Для пользователя Sergei id 1071020716 найден(ы) файл(ы) '/Users/szely/Yandex.Disk.localized/Финансовый департамент/ОТЧЕТНОСТЬ/02. Отчеты/02. Оперплан/02. Презентации/2024/3. Прогноз февраля и оперативный план марта 2024 года.pptx'
+2024-05-24 19:41:15,426 - aiogram.event - INFO - Update id=824594564 is handled. Duration 2381 ms by bot id=7121339655
+2024-05-24 19:41:21,937 - aiogram.event - INFO - Update id=824594565 is handled. Duration 116 ms by bot id=7121339655
+2024-05-24 19:41:23,471 - bot.handlers.file_manager_handlers - INFO - Пользователь Sergei id 1071020716 выбрал метод отправки 'На почту'
+2024-05-24 19:41:23,723 - aiogram.event - INFO - Update id=824594566 is handled. Duration 256 ms by bot id=7121339655
+2024-05-24 19:41:29,881 - aiogram.event - INFO - Update id=824594567 is handled. Duration 164 ms by bot id=7121339655
+2024-05-24 19:41:31,374 - bot.handlers.file_manager_handlers - INFO - Статус отправки файла '/Users/szely/Yandex.Disk.localized/Финансовый департамент/ОТЧЕТНОСТЬ/08. МСФО/2022 3 кв. Отчетность МСФО_9м2022.pdf' на почту для пользователя  Sergei id 1071020716 - 'На Вашу почту szely@yandex.ru успешно отправлен файл '
+2024-05-24 19:41:31,547 - aiogram.event - INFO - Update id=824594568 is handled. Duration 738 ms by bot id=7121339655
+2024-05-24 19:41:41,333 - aiogram.event - INFO - Update id=824594569 is handled. Duration 85 ms by bot id=7121339655
+2024-05-24 19:41:44,054 - bot.handlers.analitics_handlers - INFO - Пользователь Sergei id 1071020716 зашел в раздел 'Аналитика'
+2024-05-24 19:41:47,038 - aiogram.event - INFO - Update id=824594570 is handled. Duration 3064 ms by bot id=7121339655
+2024-05-24 19:41:57,002 - aiogram.event - INFO - Update id=824594571 is handled. Duration 199 ms by bot id=7121339655
+2024-05-24 19:41:59,178 - bot.handlers.macro_info_handlers - INFO - Пользователь Sergei id 1071020716 зашел в раздел 'Информация о вагоне'
+2024-05-24 19:41:59,248 - aiogram.event - INFO - Update id=824594572 is handled. Duration 72 ms by bot id=7121339655
+2024-05-24 19:42:04,592 - aiogram.event - INFO - Update id=824594573 is handled. Duration 169 ms by bot id=7121339655
+2024-05-24 19:42:35,496 - aiogram.event - INFO - Update id=824594574 is handled. Duration 302 ms by bot id=7121339655
+2024-05-24 19:42:36,906 - bot.handlers.macro_info_handlers - INFO - Пользователь Sergei id 1071020716 зашел в раздел 'Информация о вагоне'
+2024-05-24 19:42:37,040 - aiogram.event - INFO - Update id=824594575 is handled. Duration 136 ms by bot id=7121339655
+2024-05-24 19:42:56,258 - aiogram.event - INFO - Update id=824594576 is handled. Duration 625 ms by bot id=7121339655
+2024-05-24 19:43:43,416 - aiogram.event - INFO - Update id=824594577 is not handled. Duration 5 ms by bot id=7121339655
+2024-05-24 19:43:51,420 - aiogram.event - INFO - Update id=824594578 is handled. Duration 293 ms by bot id=7121339655
+2024-05-24 19:43:52,888 - bot.handlers.macro_info_handlers - INFO - Пользователь Sergei id 1071020716 зашел в раздел 'Информация о вагоне'
+2024-05-24 19:43:52,964 - aiogram.event - INFO - Update id=824594579 is handled. Duration 79 ms by bot id=7121339655
+2024-05-24 19:44:03,047 - aiogram.event - INFO - Update id=824594580 is handled. Duration 193 ms by bot id=7121339655
+2024-05-24 19:44:32,030 - aiogram.event - INFO - Update id=824594581 is handled. Duration 242 ms by bot id=7121339655
+2024-05-24 19:44:36,201 - bot.handlers.macro_info_handlers - INFO - Пользователь Sergei id 1071020716 зашел в раздел 'Информация о вагоне'
+2024-05-24 19:44:36,275 - aiogram.event - INFO - Update id=824594582 is handled. Duration 76 ms by bot id=7121339655
+2024-05-24 19:46:02,388 - aiogram.event - INFO - Update id=824594583 is handled. Duration 277 ms by bot id=7121339655
+2024-05-24 19:46:05,087 - bot.handlers.macro_info_handlers - INFO - Пользователь Sergei id 1071020716 зашел в раздел 'Информация о вагоне'
+2024-05-24 19:46:05,220 - aiogram.event - INFO - Update id=824594584 is handled. Duration 135 ms by bot id=7121339655
+2024-05-24 19:46:08,224 - aiogram.event - INFO - Update id=824594585 is handled. Duration 167 ms by bot id=7121339655
+2024-05-24 19:46:09,574 - bot.handlers.file_manager_handlers - INFO - Пользователь Sergei id 1071020716 зашел в раздел 'Отчетность'
+2024-05-24 19:46:09,729 - aiogram.event - INFO - Update id=824594586 is handled. Duration 273 ms by bot id=7121339655
+2024-05-24 19:46:11,516 - aiogram.event - INFO - Update id=824594587 is handled. Duration 92 ms by bot id=7121339655
+2024-05-24 19:46:12,904 - bot.handlers.macro_info_handlers - INFO - Пользователь Sergei id 1071020716 зашел в раздел 'Информация о вагоне'
+2024-05-24 19:46:13,060 - aiogram.event - INFO - Update id=824594588 is handled. Duration 157 ms by bot id=7121339655
+2024-05-24 19:46:14,277 - aiogram.event - INFO - Update id=824594589 is handled. Duration 80 ms by bot id=7121339655
+2024-05-24 19:46:15,330 - aiogram.event - INFO - Update id=824594590 is handled. Duration 224 ms by bot id=7121339655
+2024-05-24 19:46:16,412 - aiogram.event - INFO - Update id=824594591 is handled. Duration 92 ms by bot id=7121339655
+2024-05-24 19:46:19,873 - bot.handlers.macro_info_handlers - INFO - Пользователь Sergei id 1071020716 зашел в раздел 'Макроинформация'
+2024-05-24 19:46:20,131 - aiogram.event - INFO - Update id=824594592 is handled. Duration 443 ms by bot id=7121339655
+2024-05-24 19:46:22,484 - aiogram.event - INFO - Update id=824594593 is handled. Duration 82 ms by bot id=7121339655
+2024-05-24 19:46:23,656 - bot.handlers.wagon_valuation_handlers - INFO - Пользователь Sergei id 1071020716 зашел в раздел 'Оценить вагон'
+2024-05-24 19:46:23,756 - aiogram.event - INFO - Update id=824594594 is handled. Duration 104 ms by bot id=7121339655
+2024-05-24 19:46:25,263 - aiogram.event - INFO - Update id=824594595 is handled. Duration 168 ms by bot id=7121339655
+2024-05-24 19:47:19,220 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2024-05-24 19:47:19,221 - aiogram.dispatcher - INFO - Polling stopped for bot @atl_nandy_bot id=7121339655 - 'HandyBOT'
+2024-05-24 19:47:19,221 - aiogram.dispatcher - INFO - Polling stopped
+2024-05-24 19:47:21,977 - aiogram.dispatcher - INFO - Start polling
+2024-05-24 19:47:22,024 - aiogram.dispatcher - INFO - Run polling for bot @atl_nandy_bot id=7121339655 - 'HandyBOT'
+2024-05-24 19:48:44,570 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2024-05-24 19:48:44,571 - aiogram.dispatcher - INFO - Polling stopped for bot @atl_nandy_bot id=7121339655 - 'HandyBOT'
+2024-05-24 19:48:44,571 - aiogram.dispatcher - INFO - Polling stopped
+2024-05-24 19:48:47,126 - aiogram.dispatcher - INFO - Start polling
+2024-05-24 19:48:47,179 - aiogram.dispatcher - INFO - Run polling for bot @atl_nandy_bot id=7121339655 - 'HandyBOT'
+2024-05-24 19:48:50,083 - bot.handlers.file_manager_handlers - INFO - Пользователь Sergei id 1071020716 зашел в раздел 'Отчетность'
+2024-05-24 19:48:50,267 - aiogram.event - INFO - Update id=824594596 is handled. Duration 277 ms by bot id=7121339655
+2024-05-24 19:48:51,959 - aiogram.event - INFO - Update id=824594597 is handled. Duration 74 ms by bot id=7121339655
+2024-05-24 19:48:53,378 - bot.handlers.macro_info_handlers - INFO - Пользователь Sergei id 1071020716 зашел в раздел 'Информация о вагоне'
+2024-05-24 19:48:53,483 - aiogram.event - INFO - Update id=824594598 is handled. Duration 107 ms by bot id=7121339655
+2024-05-24 19:48:59,172 - aiogram.event - INFO - Update id=824594599 is handled. Duration 79 ms by bot id=7121339655
+2024-05-24 19:49:00,792 - bot.handlers.macro_info_handlers - INFO - Пользователь Sergei id 1071020716 зашел в раздел 'Информация о вагоне'
+2024-05-24 19:49:00,890 - aiogram.event - INFO - Update id=824594600 is handled. Duration 101 ms by bot id=7121339655
+2024-05-24 19:50:49,083 - aiogram.event - INFO - Update id=824594601 is handled. Duration 207 ms by bot id=7121339655
+2024-05-24 19:50:50,469 - bot.handlers.macro_info_handlers - INFO - Пользователь Sergei id 1071020716 зашел в раздел 'Информация о вагоне'
+2024-05-24 19:50:50,545 - aiogram.event - INFO - Update id=824594602 is handled. Duration 77 ms by bot id=7121339655
+2024-05-24 19:51:44,755 - aiogram.event - INFO - Update id=824594603 is handled. Duration 191 ms by bot id=7121339655
+2024-05-24 19:51:46,252 - bot.handlers.macro_info_handlers - INFO - Пользователь Sergei id 1071020716 зашел в раздел 'Информация о вагоне'
+2024-05-24 19:51:46,388 - aiogram.event - INFO - Update id=824594604 is handled. Duration 138 ms by bot id=7121339655
+2024-05-24 19:51:57,688 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2024-05-24 19:51:57,689 - aiogram.dispatcher - INFO - Polling stopped for bot @atl_nandy_bot id=7121339655 - 'HandyBOT'
+2024-05-24 19:51:57,689 - aiogram.dispatcher - INFO - Polling stopped
+2024-05-24 19:52:00,459 - aiogram.dispatcher - INFO - Start polling
+2024-05-24 19:52:00,509 - aiogram.dispatcher - INFO - Run polling for bot @atl_nandy_bot id=7121339655 - 'HandyBOT'
+2024-05-24 19:52:03,889 - aiogram.event - INFO - Update id=824594605 is handled. Duration 298 ms by bot id=7121339655
+2024-05-24 19:52:04,990 - bot.handlers.macro_info_handlers - INFO - Пользователь Sergei id 1071020716 зашел в раздел 'Информация о вагоне'
+2024-05-24 19:52:05,122 - aiogram.event - INFO - Update id=824594606 is handled. Duration 135 ms by bot id=7121339655
+2024-05-24 19:52:14,442 - bot.handlers.user_handlers - INFO - Пользователь Sergei id 1071020716 начал разговор.
+2024-05-24 19:52:14,674 - aiogram.event - INFO - Update id=824594607 is handled. Duration 232 ms by bot id=7121339655
+2024-05-24 19:52:16,232 - bot.handlers.macro_info_handlers - INFO - Пользователь Sergei id 1071020716 зашел в раздел 'Информация о вагоне'
+2024-05-24 19:52:16,308 - aiogram.event - INFO - Update id=824594608 is handled. Duration 77 ms by bot id=7121339655
+2024-05-24 19:52:18,286 - aiogram.event - INFO - Update id=824594609 is handled. Duration 76 ms by bot id=7121339655
+2024-05-24 19:52:20,013 - bot.handlers.analitics_handlers - INFO - Пользователь Sergei id 1071020716 зашел в раздел 'Аналитика'
+2024-05-24 19:52:21,425 - aiogram.event - INFO - Update id=824594610 is handled. Duration 1483 ms by bot id=7121339655
+2024-05-24 19:52:33,568 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2024-05-24 19:52:33,568 - aiogram.dispatcher - INFO - Polling stopped for bot @atl_nandy_bot id=7121339655 - 'HandyBOT'
+2024-05-24 19:52:33,569 - aiogram.dispatcher - INFO - Polling stopped
+2024-05-24 19:52:38,477 - aiogram.dispatcher - INFO - Start polling
+2024-05-24 19:52:38,526 - aiogram.dispatcher - INFO - Run polling for bot @atl_nandy_bot id=7121339655 - 'HandyBOT'
+2024-05-24 19:52:48,789 - bot.handlers.user_handlers - INFO - Пользователь Sergei id 1071020716 начал разговор.
+2024-05-24 19:52:49,392 - aiogram.event - INFO - Update id=824594611 is handled. Duration 603 ms by bot id=7121339655
+2024-05-24 19:52:51,206 - bot.handlers.file_manager_handlers - INFO - Пользователь Sergei id 1071020716 зашел в раздел 'Отчетность'
+2024-05-24 19:52:51,318 - aiogram.event - INFO - Update id=824594612 is handled. Duration 217 ms by bot id=7121339655
+2024-05-24 19:52:53,341 - bot.handlers.file_manager_handlers - INFO - Пользователь Sergei id 1071020716 выбрал метод отправки 'В бот'
+2024-05-24 19:52:53,520 - aiogram.event - INFO - Update id=824594613 is handled. Duration 181 ms by bot id=7121339655
+2024-05-24 19:52:55,214 - aiogram.event - INFO - Update id=824594614 is handled. Duration 101 ms by bot id=7121339655
+2024-05-24 19:52:56,460 - aiogram.event - INFO - Update id=824594615 is handled. Duration 101 ms by bot id=7121339655
+2024-05-24 19:52:57,882 - aiogram.event - INFO - Update id=824594616 is not handled. Duration 5 ms by bot id=7121339655
+2024-05-24 19:53:00,463 - bot.handlers.macro_info_handlers - INFO - Пользователь Sergei id 1071020716 зашел в раздел 'Макроинформация'
+2024-05-24 19:53:00,638 - aiogram.event - INFO - Update id=824594617 is handled. Duration 344 ms by bot id=7121339655
+2024-05-24 19:53:03,356 - aiogram.event - INFO - Update id=824594618 is handled. Duration 75 ms by bot id=7121339655
+2024-05-24 19:53:08,426 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2024-05-24 19:53:08,426 - aiogram.dispatcher - INFO - Polling stopped for bot @atl_nandy_bot id=7121339655 - 'HandyBOT'
+2024-05-24 19:53:08,427 - aiogram.dispatcher - INFO - Polling stopped
+2024-05-24 19:53:23,902 - aiogram.dispatcher - INFO - Start polling
+2024-05-24 19:53:23,948 - aiogram.dispatcher - INFO - Run polling for bot @atl_nandy_bot id=7121339655 - 'HandyBOT'
+2024-05-24 19:53:28,726 - bot.handlers.file_manager_handlers - INFO - Пользователь Sergei id 1071020716 зашел в раздел 'Отчетность'
+2024-05-24 19:53:28,947 - aiogram.event - INFO - Update id=824594619 is handled. Duration 316 ms by bot id=7121339655
+2024-05-24 19:53:30,021 - bot.handlers.file_manager_handlers - INFO - Пользователь Sergei id 1071020716 выбрал метод отправки 'В бот'
+2024-05-24 19:53:30,292 - aiogram.event - INFO - Update id=824594620 is handled. Duration 275 ms by bot id=7121339655
+2024-05-24 19:53:34,473 - aiogram.event - INFO - Update id=824594621 is handled. Duration 158 ms by bot id=7121339655
+2024-05-24 19:53:35,713 - bot.handlers.macro_info_handlers - INFO - Пользователь Sergei id 1071020716 зашел в раздел 'Информация о вагоне'
+2024-05-24 19:53:35,861 - aiogram.event - INFO - Update id=824594622 is handled. Duration 150 ms by bot id=7121339655
+2024-05-24 19:53:37,509 - aiogram.event - INFO - Update id=824594623 is handled. Duration 109 ms by bot id=7121339655
+2024-05-24 19:53:38,488 - bot.handlers.macro_info_handlers - INFO - Пользователь Sergei id 1071020716 зашел в раздел 'Информация о вагоне'
+2024-05-24 19:53:38,617 - aiogram.event - INFO - Update id=824594624 is handled. Duration 131 ms by bot id=7121339655
+2024-05-24 19:53:41,590 - aiogram.event - INFO - Update id=824594625 is handled. Duration 191 ms by bot id=7121339655
+2024-05-24 19:54:28,053 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2024-05-24 19:54:28,053 - aiogram.dispatcher - INFO - Polling stopped for bot @atl_nandy_bot id=7121339655 - 'HandyBOT'
+2024-05-24 19:54:28,053 - aiogram.dispatcher - INFO - Polling stopped
+2024-05-24 19:54:30,715 - aiogram.dispatcher - INFO - Start polling
+2024-05-24 19:54:30,763 - aiogram.dispatcher - INFO - Run polling for bot @atl_nandy_bot id=7121339655 - 'HandyBOT'
+2024-05-24 19:54:50,256 - bot.handlers.macro_info_handlers - INFO - Пользователь Sergei id 1071020716 зашел в раздел 'Информация о вагоне'
+2024-05-24 19:54:50,447 - aiogram.event - INFO - Update id=824594626 is handled. Duration 193 ms by bot id=7121339655
+2024-05-24 19:54:51,709 - aiogram.event - INFO - Update id=824594627 is handled. Duration 80 ms by bot id=7121339655
+2024-05-24 19:54:52,897 - bot.handlers.macro_info_handlers - INFO - Пользователь Sergei id 1071020716 зашел в раздел 'Информация о вагоне'
+2024-05-24 19:54:53,005 - aiogram.event - INFO - Update id=824594628 is handled. Duration 109 ms by bot id=7121339655
+2024-05-24 19:54:58,602 - aiogram.event - INFO - Update id=824594629 is handled. Duration 330 ms by bot id=7121339655
+2024-05-24 19:55:07,850 - aiogram.event - INFO - Update id=824594630 is handled. Duration 197 ms by bot id=7121339655
+2024-05-24 19:55:14,671 - aiogram.event - INFO - Update id=824594631 is handled. Duration 422 ms by bot id=7121339655
+2024-05-24 19:55:39,664 - aiogram.event - INFO - Update id=824594632 is handled. Duration 254 ms by bot id=7121339655
+2024-05-24 19:56:34,105 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2024-05-24 19:56:34,105 - aiogram.dispatcher - INFO - Polling stopped for bot @atl_nandy_bot id=7121339655 - 'HandyBOT'
+2024-05-24 19:56:34,105 - aiogram.dispatcher - INFO - Polling stopped
+2024-05-24 19:56:36,838 - aiogram.dispatcher - INFO - Start polling
+2024-05-24 19:56:36,885 - aiogram.dispatcher - INFO - Run polling for bot @atl_nandy_bot id=7121339655 - 'HandyBOT'
+2024-05-24 19:56:42,500 - aiogram.event - INFO - Update id=824594633 is handled. Duration 197 ms by bot id=7121339655
+2024-05-24 19:56:43,522 - bot.handlers.macro_info_handlers - INFO - Пользователь Sergei id 1071020716 зашел в раздел 'Информация о вагоне'
+2024-05-24 19:56:43,663 - aiogram.event - INFO - Update id=824594634 is handled. Duration 144 ms by bot id=7121339655
+2024-05-24 19:56:52,161 - aiogram.event - INFO - Update id=824594635 is handled. Duration 226 ms by bot id=7121339655
+2024-05-24 19:56:58,704 - bot.handlers.macro_info_handlers - INFO - Пользователь Sergei id 1071020716 зашел в раздел 'Информация о вагоне'
+2024-05-24 19:56:58,823 - aiogram.event - INFO - Update id=824594636 is handled. Duration 120 ms by bot id=7121339655
+2024-05-24 19:57:02,815 - aiogram.event - INFO - Update id=824594637 is handled. Duration 158 ms by bot id=7121339655
+2024-05-24 19:57:07,385 - aiogram.event - INFO - Update id=824594638 is handled. Duration 243 ms by bot id=7121339655
+2024-05-24 19:59:56,894 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2024-05-24 19:59:56,894 - aiogram.dispatcher - INFO - Polling stopped for bot @atl_nandy_bot id=7121339655 - 'HandyBOT'
+2024-05-24 19:59:56,895 - aiogram.dispatcher - INFO - Polling stopped
+2024-05-24 19:59:59,564 - aiogram.dispatcher - INFO - Start polling
+2024-05-24 19:59:59,611 - aiogram.dispatcher - INFO - Run polling for bot @atl_nandy_bot id=7121339655 - 'HandyBOT'
+2024-05-24 20:00:06,988 - aiogram.event - INFO - Update id=824594639 is handled. Duration 254 ms by bot id=7121339655
+2024-05-24 20:00:07,940 - bot.handlers.macro_info_handlers - INFO - Пользователь Sergei id 1071020716 зашел в раздел 'Информация о вагоне'
+2024-05-24 20:00:08,145 - aiogram.event - INFO - Update id=824594640 is handled. Duration 206 ms by bot id=7121339655
+2024-05-24 20:00:19,001 - aiogram.event - INFO - Update id=824594641 is handled. Duration 246 ms by bot id=7121339655
+2024-05-24 20:00:20,439 - bot.handlers.macro_info_handlers - INFO - Пользователь Sergei id 1071020716 зашел в раздел 'Информация о вагоне'
+2024-05-24 20:00:20,564 - aiogram.event - INFO - Update id=824594642 is handled. Duration 127 ms by bot id=7121339655
+2024-05-24 20:00:23,463 - aiogram.event - INFO - Update id=824594643 is handled. Duration 713 ms by bot id=7121339655
+2024-05-24 20:00:27,354 - aiogram.event - INFO - Update id=824594644 is handled. Duration 94 ms by bot id=7121339655
+2024-05-24 20:00:29,295 - bot.handlers.macro_info_handlers - INFO - Пользователь Sergei id 1071020716 зашел в раздел 'Макроинформация'
+2024-05-24 20:00:29,501 - aiogram.event - INFO - Update id=824594645 is handled. Duration 376 ms by bot id=7121339655
+2024-05-24 20:00:34,077 - aiogram.event - INFO - Update id=824594646 is handled. Duration 95 ms by bot id=7121339655
+2024-05-24 20:00:35,872 - aiogram.event - INFO - Update id=824594647 is handled. Duration 83 ms by bot id=7121339655
+2024-05-24 20:00:38,014 - aiogram.event - INFO - Update id=824594648 is handled. Duration 83 ms by bot id=7121339655
+2024-05-24 20:00:40,556 - aiogram.event - INFO - Update id=824594649 is handled. Duration 160 ms by bot id=7121339655
+2024-05-24 20:00:58,424 - aiogram.event - INFO - Update id=824594650 is handled. Duration 309 ms by bot id=7121339655
+2024-05-24 20:01:00,968 - bot.handlers.analitics_handlers - INFO - Пользователь Sergei id 1071020716 зашел в раздел 'Аналитика'
+2024-05-24 20:01:02,675 - aiogram.event - INFO - Update id=824594651 is handled. Duration 1790 ms by bot id=7121339655
+2024-05-24 20:01:03,883 - aiogram.event - INFO - Update id=824594652 is handled. Duration 100 ms by bot id=7121339655
+2024-05-24 20:01:07,712 - bot.handlers.wagon_valuation_handlers - INFO - Пользователь Sergei id 1071020716 зашел в раздел 'Оценить вагон'
+2024-05-24 20:01:08,174 - aiogram.event - INFO - Update id=824594653 is handled. Duration 465 ms by bot id=7121339655
+2024-05-24 20:01:10,591 - aiogram.event - INFO - Update id=824594654 is handled. Duration 110 ms by bot id=7121339655
+2024-05-24 20:01:11,726 - aiogram.event - INFO - Update id=824594655 is handled. Duration 113 ms by bot id=7121339655
+2024-05-24 20:01:13,874 - aiogram.event - INFO - Update id=824594656 is handled. Duration 85 ms by bot id=7121339655
+2024-05-24 20:01:15,439 - aiogram.event - INFO - Update id=824594657 is handled. Duration 86 ms by bot id=7121339655
+2024-05-24 20:01:16,945 - aiogram.event - INFO - Update id=824594658 is handled. Duration 102 ms by bot id=7121339655
+2024-05-24 20:01:18,015 - aiogram.event - INFO - Update id=824594659 is handled. Duration 95 ms by bot id=7121339655
+2024-05-24 20:01:19,103 - aiogram.event - INFO - Update id=824594660 is handled. Duration 175 ms by bot id=7121339655
+2024-05-24 20:01:32,768 - aiogram.event - INFO - Update id=824594661 is handled. Duration 126 ms by bot id=7121339655
+2024-05-24 20:01:34,361 - bot.handlers.file_manager_handlers - INFO - Пользователь Sergei id 1071020716 зашел в раздел 'Отчетность'
+2024-05-24 20:01:34,435 - aiogram.event - INFO - Update id=824594662 is handled. Duration 180 ms by bot id=7121339655
+2024-05-24 20:01:35,660 - bot.handlers.file_manager_handlers - INFO - Пользователь Sergei id 1071020716 выбрал метод отправки 'В бот'
+2024-05-24 20:01:35,997 - aiogram.event - INFO - Update id=824594663 is handled. Duration 342 ms by bot id=7121339655
+2024-05-24 20:01:36,737 - aiogram.event - INFO - Update id=824594664 is handled. Duration 338 ms by bot id=7121339655
+2024-05-24 20:01:37,216 - bot.handlers.file_manager_handlers - INFO - Пользователь Sergei id 1071020716 получил файл '/Users/szely/Yandex.Disk.localized/Финансовый департамент/ОТЧЕТНОСТЬ/08. МСФО/2022 3 кв. Отчетность МСФО_9м2022.pdf' в бот
+2024-05-24 20:01:37,565 - aiogram.event - INFO - Update id=824594665 is handled. Duration 350 ms by bot id=7121339655
+2024-05-24 20:01:38,701 - bot.handlers.file_manager_handlers - INFO - Пользователь Sergei id 1071020716 получил файл '/Users/szely/Yandex.Disk.localized/Финансовый департамент/ОТЧЕТНОСТЬ/08. МСФО/2022 4 кв. Отчетность МСФО рус_12м2022.pdf' в бот
+2024-05-24 20:01:38,953 - aiogram.event - INFO - Update id=824594666 is handled. Duration 253 ms by bot id=7121339655
+2024-05-24 20:01:41,109 - bot.handlers.file_manager_handlers - INFO - Пользователь Sergei id 1071020716 получил файл '/Users/szely/Yandex.Disk.localized/Финансовый департамент/ОТЧЕТНОСТЬ/08. МСФО/2022 2 кв. Отчетность_МСФО_1пг2022.pdf' в бот
+2024-05-24 20:01:41,350 - aiogram.event - INFO - Update id=824594667 is handled. Duration 241 ms by bot id=7121339655
+2024-05-24 20:01:44,972 - aiogram.event - INFO - Update id=824594668 is handled. Duration 460 ms by bot id=7121339655
+2024-05-24 20:01:45,928 - bot.handlers.file_manager_handlers - INFO - Пользователь Sergei id 1071020716 выбрал метод отправки 'На почту'
+2024-05-24 20:01:46,556 - aiogram.event - INFO - Update id=824594669 is handled. Duration 631 ms by bot id=7121339655
+2024-05-24 20:01:47,792 - aiogram.event - INFO - Update id=824594670 is handled. Duration 132 ms by bot id=7121339655

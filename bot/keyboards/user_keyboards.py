@@ -79,6 +79,13 @@ def back_menu():
     builder_type_send.adjust(2)
     return builder_type_send
 
+def back_menu_info():
+    builder_type_send = ReplyKeyboardBuilder()
+    builder_type_send.button(text='Информация о вагоне ℹ️')
+    builder_type_send.button(text='Назад в меню ↩️')
+    builder_type_send.adjust(2)
+    return builder_type_send
+
 def currency_cnverter():
     builder_type_send = ReplyKeyboardBuilder()
     builder_type_send.button(text='Конвертер валют 💱')

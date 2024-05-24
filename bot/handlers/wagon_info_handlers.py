@@ -2,7 +2,7 @@ from aiogram import Bot, types
 from aiogram import Router, F
 from aiogram.filters.state import StatesGroup, State
 from aiogram.fsm.context import FSMContext
-from bot.keyboards.user_keyboards import create_buttons, tools_buttoms, choose_send_buttoms, back_choose_send_find_buttoms, main_menu, back_menu
+from bot.keyboards.user_keyboards import create_buttons, tools_buttoms, choose_send_buttoms, back_choose_send_find_buttoms, main_menu, back_menu, back_menu_info
 import logging
 from bot.db.db import find_wagon
 from bot.other_methods.check_wagon_number import check_wagon_number, get_wagon_type
@@ -43,12 +43,12 @@ async def wagon_number(message: types.Message, state: FSMContext):
                     for key, value in res.items():
                         info_str += f'{key}: {value}\n'
                     await message.answer(info_str)
-                    await message.answer("Вернуться в меню:", reply_markup=back_menu().as_markup(one_time_keyboard=True, resize_keyboard=True))
+                    await message.answer("Запустите поиск заново или вернитесь в меню:", reply_markup=back_menu_info().as_markup(one_time_keyboard=True, resize_keyboard=True))
                     await state.clear()
                 else:
                     wagon_type = get_wagon_type(number)
                     await message.answer(f'Информация по вагону {message.text} в базе данных не найдена! Этот вагон отностится к типу {wagon_type}.')
-                    await message.answer("Вернуться в меню:", reply_markup=back_menu().as_markup(one_time_keyboard=True, resize_keyboard=True))
+                    await message.answer("Запустите поиск заново или вернитесь в меню:", reply_markup=back_menu_info().as_markup(one_time_keyboard=True, resize_keyboard=True))
                     await state.clear()
             else:
                 await message.reply('Это не номер вагона!')
