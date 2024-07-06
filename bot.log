@@ -656,3 +656,901 @@
 2024-05-24 20:01:45,928 - bot.handlers.file_manager_handlers - INFO - Пользователь Sergei id 1071020716 выбрал метод отправки 'На почту'
 2024-05-24 20:01:46,556 - aiogram.event - INFO - Update id=824594669 is handled. Duration 631 ms by bot id=7121339655
 2024-05-24 20:01:47,792 - aiogram.event - INFO - Update id=824594670 is handled. Duration 132 ms by bot id=7121339655
+2024-05-24 20:02:59,152 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2024-05-24 20:02:59,153 - aiogram.dispatcher - INFO - Polling stopped for bot @atl_nandy_bot id=7121339655 - 'HandyBOT'
+2024-05-24 20:02:59,153 - aiogram.dispatcher - INFO - Polling stopped
+2024-07-05 16:14:02,302 - aiogram.dispatcher - INFO - Start polling
+2024-07-05 16:14:02,402 - aiogram.dispatcher - INFO - Run polling for bot @atl_nandy_bot id=7121339655 - 'HandyBOT'
+2024-07-05 16:14:13,751 - bot.handlers.file_manager_handlers - INFO - Пользователь Sergei id 1071020716 зашел в раздел 'Отчетность'
+2024-07-05 16:14:14,210 - aiogram.event - INFO - Update id=824594671 is handled. Duration 571 ms by bot id=7121339655
+2024-07-05 16:14:16,581 - bot.handlers.file_manager_handlers - INFO - Пользователь Sergei id 1071020716 выбрал метод отправки 'В бот'
+2024-07-05 16:14:16,841 - aiogram.event - INFO - Update id=824594672 is handled. Duration 264 ms by bot id=7121339655
+2024-07-05 16:14:22,448 - aiogram.event - INFO - Update id=824594673 is handled. Duration 161 ms by bot id=7121339655
+2024-07-05 16:14:35,577 - bot.handlers.file_manager_handlers - INFO - Пользователь Sergei id 1071020716 зашел в раздел 'Отчетность'
+2024-07-05 16:14:35,821 - aiogram.event - INFO - Update id=824594674 is handled. Duration 353 ms by bot id=7121339655
+2024-07-05 16:14:44,772 - bot.handlers.file_manager_handlers - INFO - Пользователь Sergei id 1071020716 выбрал метод отправки 'В бот'
+2024-07-05 16:14:45,089 - aiogram.event - INFO - Update id=824594675 is handled. Duration 321 ms by bot id=7121339655
+2024-07-05 16:14:51,796 - aiogram.event - INFO - Update id=824594676 is handled. Duration 231 ms by bot id=7121339655
+2024-07-05 16:14:54,204 - bot.handlers.file_manager_handlers - INFO - Пользователь Sergei id 1071020716 получил файл '/Users/szely/Yandex.Disk.localized/Финансовый департамент/ОТЧЕТНОСТЬ/07. Долг/Долг 2024.xlsx' в бот
+2024-07-05 16:14:54,413 - aiogram.event - INFO - Update id=824594677 is handled. Duration 209 ms by bot id=7121339655
+2024-07-05 16:15:34,627 - aiogram.event - INFO - Update id=824594678 is handled. Duration 558 ms by bot id=7121339655
+2024-07-05 16:15:36,022 - bot.handlers.analitics_handlers - INFO - Пользователь Sergei id 1071020716 зашел в раздел 'Аналитика'
+2024-07-05 16:15:40,667 - aiogram.event - INFO - Update id=824594679 is handled. Duration 4682 ms by bot id=7121339655
+2024-07-05 16:15:50,213 - aiogram.event - INFO - Update id=824594680 is handled. Duration 165 ms by bot id=7121339655
+2024-07-05 16:15:52,910 - bot.handlers.file_manager_handlers - INFO - Пользователь Sergei id 1071020716 зашел в раздел 'Отчетность'
+2024-07-05 16:15:53,123 - aiogram.event - INFO - Update id=824594681 is handled. Duration 332 ms by bot id=7121339655
+2024-07-05 16:15:54,233 - bot.handlers.file_manager_handlers - INFO - Пользователь Sergei id 1071020716 выбрал метод отправки 'В бот'
+2024-07-05 16:15:54,696 - aiogram.event - INFO - Update id=824594682 is handled. Duration 469 ms by bot id=7121339655
+2024-07-05 16:15:56,585 - bot.handlers.file_manager_handlers - INFO - Пользователь Sergei id 1071020716 запустил поиск файлов
+2024-07-05 16:15:56,877 - aiogram.event - INFO - Update id=824594683 is handled. Duration 296 ms by bot id=7121339655
+2024-07-05 16:16:03,940 - bot.handlers.file_manager_handlers - INFO - Пользователь Sergei id 1071020716 ищет файл(ы) 'None' через аудио сообщение
+2024-07-05 16:16:05,060 - bot.handlers.file_manager_handlers - INFO - Для пользователя Sergei id 1071020716 найден(ы) файл(ы) '/Users/szely/Yandex.Disk.localized/Финансовый департамент/ОТЧЕТНОСТЬ/02. Отчеты/01. Бюджет/2022/02. Скорректированный/Корректировка бюджета 2022_.pptx'
+2024-07-05 16:16:05,336 - bot.handlers.file_manager_handlers - INFO - Для пользователя Sergei id 1071020716 найден(ы) файл(ы) '/Users/szely/Yandex.Disk.localized/Финансовый департамент/ОТЧЕТНОСТЬ/02. Отчеты/01. Бюджет/2022/02. Скорректированный/Корректировка бюджета 2022.pdf'
+2024-07-05 16:16:05,621 - bot.handlers.file_manager_handlers - INFO - Для пользователя Sergei id 1071020716 найден(ы) файл(ы) '/Users/szely/Yandex.Disk.localized/Финансовый департамент/ОТЧЕТНОСТЬ/02. Отчеты/01. Бюджет/2022/01. Первоначальный/Бюджет.pdf'
+2024-07-05 16:16:06,238 - bot.handlers.file_manager_handlers - INFO - Для пользователя Sergei id 1071020716 найден(ы) файл(ы) '/Users/szely/Yandex.Disk.localized/Финансовый департамент/ОТЧЕТНОСТЬ/02. Отчеты/01. Бюджет/2024/01. Первоначальный/Презентация_Бюджет 2024.pdf'
+2024-07-05 16:16:06,715 - bot.handlers.file_manager_handlers - INFO - Для пользователя Sergei id 1071020716 найден(ы) файл(ы) '/Users/szely/Yandex.Disk.localized/Финансовый департамент/ОТЧЕТНОСТЬ/02. Отчеты/01. Бюджет/2024/01. Первоначальный/Бюджет 2024_утвержденный.pdf'
+2024-07-05 16:16:07,063 - bot.handlers.file_manager_handlers - INFO - Для пользователя Sergei id 1071020716 найден(ы) файл(ы) '/Users/szely/Yandex.Disk.localized/Финансовый департамент/ОТЧЕТНОСТЬ/02. Отчеты/01. Бюджет/2024/01. Первоначальный/Презентация_Бюджет 2024.pptx'
+2024-07-05 16:16:07,287 - bot.handlers.file_manager_handlers - INFO - Для пользователя Sergei id 1071020716 найден(ы) файл(ы) '/Users/szely/Yandex.Disk.localized/Финансовый департамент/ОТЧЕТНОСТЬ/02. Отчеты/01. Бюджет/2023/01. Первоначальный/Бюджет 2023 подписанный.pdf'
+2024-07-05 16:16:07,656 - bot.handlers.file_manager_handlers - INFO - Для пользователя Sergei id 1071020716 найден(ы) файл(ы) '/Users/szely/Yandex.Disk.localized/Финансовый департамент/ОТЧЕТНОСТЬ/02. Отчеты/01. Бюджет/2023/01. Первоначальный/Презентация_Бюджет 2023.pdf'
+2024-07-05 16:16:08,149 - aiogram.event - INFO - Update id=824594684 is handled. Duration 7142 ms by bot id=7121339655
+2024-07-05 16:16:22,962 - aiogram.event - INFO - Update id=824594685 is handled. Duration 293 ms by bot id=7121339655
+2024-07-05 16:16:25,678 - aiogram.event - INFO - Update id=824594686 is handled. Duration 421 ms by bot id=7121339655
+2024-07-05 16:16:27,224 - aiogram.event - INFO - Update id=824594687 is handled. Duration 127 ms by bot id=7121339655
+2024-07-05 16:16:30,217 - bot.handlers.macro_info_handlers - INFO - Пользователь Sergei id 1071020716 зашел в раздел 'Информация о вагоне'
+2024-07-05 16:16:30,433 - aiogram.event - INFO - Update id=824594688 is handled. Duration 220 ms by bot id=7121339655
+2024-07-05 16:16:35,862 - aiogram.event - INFO - Update id=824594689 is handled. Duration 460 ms by bot id=7121339655
+2024-07-05 16:16:47,442 - aiogram.event - INFO - Update id=824594690 is handled. Duration 176 ms by bot id=7121339655
+2024-07-05 16:16:51,918 - bot.handlers.macro_info_handlers - INFO - Пользователь Sergei id 1071020716 зашел в раздел 'Макроинформация'
+2024-07-05 16:16:52,158 - aiogram.event - INFO - Update id=824594691 is handled. Duration 995 ms by bot id=7121339655
+2024-07-05 16:16:54,565 - aiogram.event - INFO - Update id=824594692 is handled. Duration 118 ms by bot id=7121339655
+2024-07-05 16:16:56,314 - aiogram.event - INFO - Update id=824594693 is handled. Duration 137 ms by bot id=7121339655
+2024-07-05 16:16:57,943 - aiogram.event - INFO - Update id=824594694 is handled. Duration 126 ms by bot id=7121339655
+2024-07-05 16:17:02,239 - aiogram.event - INFO - Update id=824594695 is handled. Duration 394 ms by bot id=7121339655
+2024-07-05 16:17:04,663 - aiogram.event - INFO - Update id=824594696 is handled. Duration 193 ms by bot id=7121339655
+2024-07-05 16:31:54,694 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2024-07-05 16:31:54,694 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7121339655)
+2024-07-05 16:31:55,703 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [nodename nor servname provided, or not known]
+2024-07-05 16:31:55,703 - aiogram.dispatcher - WARNING - Sleep for 1.309028 seconds and try again... (tryings = 1, bot id = 7121339655)
+2024-07-05 16:31:57,017 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [nodename nor servname provided, or not known]
+2024-07-05 16:31:57,018 - aiogram.dispatcher - WARNING - Sleep for 1.637300 seconds and try again... (tryings = 2, bot id = 7121339655)
+2024-07-05 16:31:58,661 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [nodename nor servname provided, or not known]
+2024-07-05 16:31:58,662 - aiogram.dispatcher - WARNING - Sleep for 2.046454 seconds and try again... (tryings = 3, bot id = 7121339655)
+2024-07-05 16:32:00,714 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [nodename nor servname provided, or not known]
+2024-07-05 16:32:00,714 - aiogram.dispatcher - WARNING - Sleep for 2.673311 seconds and try again... (tryings = 4, bot id = 7121339655)
+2024-07-05 16:32:03,394 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [nodename nor servname provided, or not known]
+2024-07-05 16:32:03,394 - aiogram.dispatcher - WARNING - Sleep for 3.457129 seconds and try again... (tryings = 5, bot id = 7121339655)
+2024-07-05 16:32:06,858 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [nodename nor servname provided, or not known]
+2024-07-05 16:32:06,858 - aiogram.dispatcher - WARNING - Sleep for 4.339679 seconds and try again... (tryings = 6, bot id = 7121339655)
+2024-07-05 16:32:11,203 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [nodename nor servname provided, or not known]
+2024-07-05 16:32:11,204 - aiogram.dispatcher - WARNING - Sleep for 5.086899 seconds and try again... (tryings = 7, bot id = 7121339655)
+2024-07-05 16:32:16,297 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [nodename nor servname provided, or not known]
+2024-07-05 16:32:16,297 - aiogram.dispatcher - WARNING - Sleep for 5.047710 seconds and try again... (tryings = 8, bot id = 7121339655)
+2024-07-05 16:32:21,350 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [nodename nor servname provided, or not known]
+2024-07-05 16:32:21,350 - aiogram.dispatcher - WARNING - Sleep for 5.160415 seconds and try again... (tryings = 9, bot id = 7121339655)
+2024-07-05 16:32:26,516 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [nodename nor servname provided, or not known]
+2024-07-05 16:32:26,516 - aiogram.dispatcher - WARNING - Sleep for 5.103457 seconds and try again... (tryings = 10, bot id = 7121339655)
+2024-07-05 16:32:31,626 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [nodename nor servname provided, or not known]
+2024-07-05 16:32:31,626 - aiogram.dispatcher - WARNING - Sleep for 5.015097 seconds and try again... (tryings = 11, bot id = 7121339655)
+2024-07-05 16:32:36,649 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [nodename nor servname provided, or not known]
+2024-07-05 16:32:36,649 - aiogram.dispatcher - WARNING - Sleep for 5.089646 seconds and try again... (tryings = 12, bot id = 7121339655)
+2024-07-05 16:32:41,745 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [nodename nor servname provided, or not known]
+2024-07-05 16:32:41,745 - aiogram.dispatcher - WARNING - Sleep for 4.910944 seconds and try again... (tryings = 13, bot id = 7121339655)
+2024-07-05 16:32:46,661 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [nodename nor servname provided, or not known]
+2024-07-05 16:32:46,661 - aiogram.dispatcher - WARNING - Sleep for 5.019566 seconds and try again... (tryings = 14, bot id = 7121339655)
+2024-07-05 16:32:51,687 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [nodename nor servname provided, or not known]
+2024-07-05 16:32:51,688 - aiogram.dispatcher - WARNING - Sleep for 4.921424 seconds and try again... (tryings = 15, bot id = 7121339655)
+2024-07-05 16:32:56,615 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [nodename nor servname provided, or not known]
+2024-07-05 16:32:56,616 - aiogram.dispatcher - WARNING - Sleep for 4.981171 seconds and try again... (tryings = 16, bot id = 7121339655)
+2024-07-05 16:33:01,603 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [nodename nor servname provided, or not known]
+2024-07-05 16:33:01,603 - aiogram.dispatcher - WARNING - Sleep for 4.991310 seconds and try again... (tryings = 17, bot id = 7121339655)
+2024-07-05 16:33:06,599 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [nodename nor servname provided, or not known]
+2024-07-05 16:33:06,600 - aiogram.dispatcher - WARNING - Sleep for 4.783231 seconds and try again... (tryings = 18, bot id = 7121339655)
+2024-07-05 16:33:11,388 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [nodename nor servname provided, or not known]
+2024-07-05 16:33:11,388 - aiogram.dispatcher - WARNING - Sleep for 4.905290 seconds and try again... (tryings = 19, bot id = 7121339655)
+2024-07-05 16:33:16,299 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [nodename nor servname provided, or not known]
+2024-07-05 16:33:16,299 - aiogram.dispatcher - WARNING - Sleep for 5.079064 seconds and try again... (tryings = 20, bot id = 7121339655)
+2024-07-05 16:33:21,384 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [nodename nor servname provided, or not known]
+2024-07-05 16:33:21,384 - aiogram.dispatcher - WARNING - Sleep for 5.037779 seconds and try again... (tryings = 21, bot id = 7121339655)
+2024-07-05 16:33:26,428 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [nodename nor servname provided, or not known]
+2024-07-05 16:33:26,428 - aiogram.dispatcher - WARNING - Sleep for 4.969295 seconds and try again... (tryings = 22, bot id = 7121339655)
+2024-07-05 16:33:31,403 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [nodename nor servname provided, or not known]
+2024-07-05 16:33:31,404 - aiogram.dispatcher - WARNING - Sleep for 4.944319 seconds and try again... (tryings = 23, bot id = 7121339655)
+2024-07-05 16:33:36,353 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [nodename nor servname provided, or not known]
+2024-07-05 16:33:36,353 - aiogram.dispatcher - WARNING - Sleep for 5.215760 seconds and try again... (tryings = 24, bot id = 7121339655)
+2024-07-05 16:33:41,579 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [nodename nor servname provided, or not known]
+2024-07-05 16:33:41,579 - aiogram.dispatcher - WARNING - Sleep for 4.870045 seconds and try again... (tryings = 25, bot id = 7121339655)
+2024-07-05 16:33:46,455 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [nodename nor servname provided, or not known]
+2024-07-05 16:33:46,455 - aiogram.dispatcher - WARNING - Sleep for 5.008279 seconds and try again... (tryings = 26, bot id = 7121339655)
+2024-07-05 16:33:51,470 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [nodename nor servname provided, or not known]
+2024-07-05 16:33:51,470 - aiogram.dispatcher - WARNING - Sleep for 4.994543 seconds and try again... (tryings = 27, bot id = 7121339655)
+2024-07-05 16:33:56,470 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [nodename nor servname provided, or not known]
+2024-07-05 16:33:56,471 - aiogram.dispatcher - WARNING - Sleep for 5.025391 seconds and try again... (tryings = 28, bot id = 7121339655)
+2024-07-05 16:34:01,501 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [nodename nor servname provided, or not known]
+2024-07-05 16:34:01,501 - aiogram.dispatcher - WARNING - Sleep for 5.021417 seconds and try again... (tryings = 29, bot id = 7121339655)
+2024-07-05 16:34:06,528 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [nodename nor servname provided, or not known]
+2024-07-05 16:34:06,529 - aiogram.dispatcher - WARNING - Sleep for 4.815890 seconds and try again... (tryings = 30, bot id = 7121339655)
+2024-07-05 16:34:11,349 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [nodename nor servname provided, or not known]
+2024-07-05 16:34:11,350 - aiogram.dispatcher - WARNING - Sleep for 4.926860 seconds and try again... (tryings = 31, bot id = 7121339655)
+2024-07-05 16:34:16,281 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [nodename nor servname provided, or not known]
+2024-07-05 16:34:16,281 - aiogram.dispatcher - WARNING - Sleep for 4.994803 seconds and try again... (tryings = 32, bot id = 7121339655)
+2024-07-05 16:34:21,281 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [nodename nor servname provided, or not known]
+2024-07-05 16:34:21,281 - aiogram.dispatcher - WARNING - Sleep for 5.135102 seconds and try again... (tryings = 33, bot id = 7121339655)
+2024-07-05 16:34:26,422 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [nodename nor servname provided, or not known]
+2024-07-05 16:34:26,422 - aiogram.dispatcher - WARNING - Sleep for 5.018532 seconds and try again... (tryings = 34, bot id = 7121339655)
+2024-07-05 16:34:31,446 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [nodename nor servname provided, or not known]
+2024-07-05 16:34:31,447 - aiogram.dispatcher - WARNING - Sleep for 4.839597 seconds and try again... (tryings = 35, bot id = 7121339655)
+2024-07-05 16:34:36,305 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [nodename nor servname provided, or not known]
+2024-07-05 16:34:36,306 - aiogram.dispatcher - WARNING - Sleep for 4.933504 seconds and try again... (tryings = 36, bot id = 7121339655)
+2024-07-05 16:34:37,815 - aiogram.dispatcher - WARNING - Received SIGTERM signal
+2024-07-05 16:34:37,816 - aiogram.dispatcher - INFO - Polling stopped for bot @atl_nandy_bot id=7121339655 - 'HandyBOT'
+2024-07-05 16:34:37,817 - aiogram.dispatcher - INFO - Polling stopped
+2024-07-06 19:32:10,910 - aiogram.dispatcher - INFO - Start polling
+2024-07-06 19:32:11,020 - aiogram.dispatcher - INFO - Run polling for bot @atl_nandy_bot id=7121339655 - 'HandyBOT'
+2024-07-06 19:32:22,305 - bot.handlers.file_manager_handlers - INFO - Пользователь Sergei id 1071020716 зашел в раздел 'Отчетность'
+2024-07-06 19:32:22,865 - aiogram.event - INFO - Update id=824594697 is handled. Duration 671 ms by bot id=7121339655
+2024-07-06 19:32:24,950 - aiogram.event - INFO - Update id=824594698 is handled. Duration 226 ms by bot id=7121339655
+2024-07-06 19:32:36,510 - aiogram.event - INFO - Update id=824594699 is handled. Duration 2109 ms by bot id=7121339655
+2024-07-06 19:33:40,982 - aiogram.event - INFO - Update id=824594700 is handled. Duration 960 ms by bot id=7121339655
+2024-07-06 19:33:46,796 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2024-07-06 19:33:46,796 - aiogram.dispatcher - INFO - Polling stopped for bot @atl_nandy_bot id=7121339655 - 'HandyBOT'
+2024-07-06 19:33:46,796 - aiogram.dispatcher - INFO - Polling stopped
+2024-07-06 19:36:29,819 - aiogram.dispatcher - INFO - Start polling
+2024-07-06 19:36:29,939 - aiogram.dispatcher - INFO - Run polling for bot @atl_nandy_bot id=7121339655 - 'HandyBOT'
+2024-07-06 19:36:55,575 - aiogram.event - INFO - Update id=824594701 is handled. Duration 4460 ms by bot id=7121339655
+2024-07-06 19:37:09,087 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2024-07-06 19:37:09,088 - aiogram.dispatcher - INFO - Polling stopped for bot @atl_nandy_bot id=7121339655 - 'HandyBOT'
+2024-07-06 19:37:09,088 - aiogram.dispatcher - INFO - Polling stopped
+2024-07-06 19:37:30,036 - aiogram.dispatcher - INFO - Start polling
+2024-07-06 19:37:30,235 - aiogram.dispatcher - INFO - Run polling for bot @atl_nandy_bot id=7121339655 - 'HandyBOT'
+2024-07-06 19:37:45,953 - aiogram.event - INFO - Update id=824594702 is handled. Duration 3548 ms by bot id=7121339655
+2024-07-06 19:38:07,503 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2024-07-06 19:38:07,504 - aiogram.dispatcher - INFO - Polling stopped for bot @atl_nandy_bot id=7121339655 - 'HandyBOT'
+2024-07-06 19:38:07,504 - aiogram.dispatcher - INFO - Polling stopped
+2024-07-06 19:39:23,581 - aiogram.dispatcher - INFO - Start polling
+2024-07-06 19:39:23,678 - aiogram.dispatcher - INFO - Run polling for bot @atl_nandy_bot id=7121339655 - 'HandyBOT'
+2024-07-06 19:39:26,144 - bot.handlers.file_manager_handlers - INFO - Пользователь Sergei id 1071020716 зашел в раздел 'Отчетность'
+2024-07-06 19:39:26,742 - aiogram.event - INFO - Update id=824594703 is handled. Duration 690 ms by bot id=7121339655
+2024-07-06 19:39:28,485 - aiogram.event - INFO - Update id=824594704 is handled. Duration 257 ms by bot id=7121339655
+2024-07-06 19:39:51,239 - aiogram.event - INFO - Update id=824594705 is handled. Duration 5385 ms by bot id=7121339655
+2024-07-06 19:40:37,195 - aiogram.event - INFO - Update id=824594706 is handled. Duration 3462 ms by bot id=7121339655
+2024-07-06 19:40:53,860 - aiogram.event - INFO - Update id=824594707 is handled. Duration 3655 ms by bot id=7121339655
+2024-07-06 19:41:21,241 - aiogram.event - INFO - Update id=824594708 is handled. Duration 3389 ms by bot id=7121339655
+2024-07-06 19:41:42,360 - aiogram.event - INFO - Update id=824594709 is handled. Duration 3618 ms by bot id=7121339655
+2024-07-06 19:42:05,131 - aiogram.event - INFO - Update id=824594710 is handled. Duration 5911 ms by bot id=7121339655
+2024-07-06 19:42:17,185 - aiogram.event - INFO - Update id=824594711 is handled. Duration 3880 ms by bot id=7121339655
+2024-07-06 19:43:17,937 - aiogram.event - INFO - Update id=824594712 is handled. Duration 3314 ms by bot id=7121339655
+2024-07-06 19:44:38,562 - bot.handlers.macro_info_handlers - INFO - Пользователь Sergei id 1071020716 зашел в раздел 'Информация о вагоне'
+2024-07-06 19:44:39,071 - aiogram.event - INFO - Update id=824594713 is handled. Duration 513 ms by bot id=7121339655
+2024-07-06 19:44:44,330 - aiogram.event - INFO - Update id=824594714 is handled. Duration 245 ms by bot id=7121339655
+2024-07-06 19:49:33,621 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2024-07-06 19:49:33,623 - aiogram.dispatcher - INFO - Polling stopped for bot @atl_nandy_bot id=7121339655 - 'HandyBOT'
+2024-07-06 19:49:33,623 - aiogram.dispatcher - INFO - Polling stopped
+2024-07-06 19:49:37,487 - aiogram.dispatcher - INFO - Start polling
+2024-07-06 19:49:37,612 - aiogram.dispatcher - INFO - Run polling for bot @atl_nandy_bot id=7121339655 - 'HandyBOT'
+2024-07-06 19:49:40,654 - bot.handlers.file_manager_handlers - INFO - Пользователь Sergei id 1071020716 зашел в раздел 'Отчетность'
+2024-07-06 19:49:41,273 - aiogram.event - INFO - Update id=824594715 is handled. Duration 714 ms by bot id=7121339655
+2024-07-06 19:49:43,792 - aiogram.event - INFO - Update id=824594716 is handled. Duration 126 ms by bot id=7121339655
+2024-07-06 19:49:45,985 - aiogram.event - INFO - Update id=824594717 is handled. Duration 226 ms by bot id=7121339655
+2024-07-06 19:50:00,917 - aiogram.event - INFO - Update id=824594718 is handled. Duration 3048 ms by bot id=7121339655
+2024-07-06 19:54:10,984 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2024-07-06 19:54:10,986 - aiogram.dispatcher - INFO - Polling stopped for bot @atl_nandy_bot id=7121339655 - 'HandyBOT'
+2024-07-06 19:54:10,986 - aiogram.dispatcher - INFO - Polling stopped
+2024-07-06 19:54:44,903 - aiogram.dispatcher - INFO - Start polling
+2024-07-06 19:54:45,049 - aiogram.dispatcher - INFO - Run polling for bot @atl_nandy_bot id=7121339655 - 'HandyBOT'
+2024-07-06 19:54:48,491 - aiogram.event - INFO - Update id=824594719 is handled. Duration 598 ms by bot id=7121339655
+2024-07-06 19:54:53,910 - aiogram.event - INFO - Update id=824594720 is not handled. Duration 695 ms by bot id=7121339655
+2024-07-06 19:54:53,911 - aiogram.event - ERROR - Cause exception while process update id=824594720 by bot id=7121339655
+TypeError: object of type 'coroutine' has no len()
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/fsm/middleware.py", line 41, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 123, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 156, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 123, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 148, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/szely/PycharmProjects/pythonDiploma/bot/handlers/wagon_number_handlers.py", line 27, in get_wagon_number
+    if len(number) == 8:
+       ^^^^^^^^^^^
+TypeError: object of type 'coroutine' has no len()
+2024-07-06 19:55:29,867 - aiogram.event - INFO - Update id=824594721 is handled. Duration 348 ms by bot id=7121339655
+2024-07-06 19:55:36,646 - aiogram.event - INFO - Update id=824594722 is not handled. Duration 883 ms by bot id=7121339655
+2024-07-06 19:55:36,646 - aiogram.event - ERROR - Cause exception while process update id=824594722 by bot id=7121339655
+TypeError: object of type 'coroutine' has no len()
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/fsm/middleware.py", line 41, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 123, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 156, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 123, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 148, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/szely/PycharmProjects/pythonDiploma/bot/handlers/wagon_number_handlers.py", line 27, in get_wagon_number
+    if len(number) == 8:
+       ^^^^^^^^^^^
+TypeError: object of type 'coroutine' has no len()
+2024-07-06 19:55:53,496 - aiogram.event - INFO - Update id=824594723 is not handled. Duration 836 ms by bot id=7121339655
+2024-07-06 19:55:53,496 - aiogram.event - ERROR - Cause exception while process update id=824594723 by bot id=7121339655
+TypeError: object of type 'coroutine' has no len()
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/fsm/middleware.py", line 41, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 123, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 156, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 123, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 148, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/szely/PycharmProjects/pythonDiploma/bot/handlers/wagon_number_handlers.py", line 27, in get_wagon_number
+    if len(number) == 8:
+       ^^^^^^^^^^^
+TypeError: object of type 'coroutine' has no len()
+2024-07-06 19:56:05,171 - aiogram.event - INFO - Update id=824594724 is handled. Duration 175 ms by bot id=7121339655
+2024-07-06 19:56:10,636 - aiogram.event - INFO - Update id=824594725 is not handled. Duration 771 ms by bot id=7121339655
+2024-07-06 19:56:10,637 - aiogram.event - ERROR - Cause exception while process update id=824594725 by bot id=7121339655
+TypeError: object of type 'coroutine' has no len()
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/fsm/middleware.py", line 41, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 123, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 156, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 123, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 148, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/szely/PycharmProjects/pythonDiploma/bot/handlers/wagon_number_handlers.py", line 27, in get_wagon_number
+    if len(number) == 8:
+       ^^^^^^^^^^^
+TypeError: object of type 'coroutine' has no len()
+2024-07-06 19:56:40,831 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2024-07-06 19:56:40,832 - aiogram.dispatcher - INFO - Polling stopped for bot @atl_nandy_bot id=7121339655 - 'HandyBOT'
+2024-07-06 19:56:40,832 - aiogram.dispatcher - INFO - Polling stopped
+2024-07-06 19:56:44,636 - aiogram.dispatcher - INFO - Start polling
+2024-07-06 19:56:44,808 - aiogram.dispatcher - INFO - Run polling for bot @atl_nandy_bot id=7121339655 - 'HandyBOT'
+2024-07-06 19:56:45,543 - aiogram.event - INFO - Update id=824594726 is handled. Duration 588 ms by bot id=7121339655
+2024-07-06 19:56:51,894 - aiogram.event - INFO - Update id=824594727 is handled. Duration 3796 ms by bot id=7121339655
+2024-07-06 19:57:51,431 - aiogram.event - INFO - Update id=824594728 is handled. Duration 392 ms by bot id=7121339655
+2024-07-06 19:59:44,139 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2024-07-06 19:59:44,141 - aiogram.dispatcher - INFO - Polling stopped for bot @atl_nandy_bot id=7121339655 - 'HandyBOT'
+2024-07-06 19:59:44,141 - aiogram.dispatcher - INFO - Polling stopped
+2024-07-06 19:59:48,046 - aiogram.dispatcher - INFO - Start polling
+2024-07-06 19:59:48,173 - aiogram.dispatcher - INFO - Run polling for bot @atl_nandy_bot id=7121339655 - 'HandyBOT'
+2024-07-06 19:59:48,828 - aiogram.event - INFO - Update id=824594729 is handled. Duration 492 ms by bot id=7121339655
+2024-07-06 19:59:55,865 - aiogram.event - INFO - Update id=824594730 is handled. Duration 4056 ms by bot id=7121339655
+2024-07-06 20:01:14,460 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2024-07-06 20:01:14,460 - aiogram.dispatcher - INFO - Polling stopped for bot @atl_nandy_bot id=7121339655 - 'HandyBOT'
+2024-07-06 20:01:14,460 - aiogram.dispatcher - INFO - Polling stopped
+2024-07-06 20:01:18,336 - aiogram.dispatcher - INFO - Start polling
+2024-07-06 20:01:18,475 - aiogram.dispatcher - INFO - Run polling for bot @atl_nandy_bot id=7121339655 - 'HandyBOT'
+2024-07-06 20:01:22,050 - aiogram.event - INFO - Update id=824594732 is handled. Duration 569 ms by bot id=7121339655
+2024-07-06 20:01:24,439 - aiogram.event - INFO - Update id=824594733 is handled. Duration 299 ms by bot id=7121339655
+2024-07-06 20:01:34,052 - aiogram.event - INFO - Update id=824594734 is handled. Duration 3671 ms by bot id=7121339655
+2024-07-06 20:01:52,557 - aiogram.event - INFO - Update id=824594735 is handled. Duration 671 ms by bot id=7121339655
+2024-07-06 20:02:06,808 - aiogram.event - INFO - Update id=824594736 is handled. Duration 3658 ms by bot id=7121339655
+2024-07-06 20:02:15,654 - aiogram.event - INFO - Update id=824594737 is handled. Duration 187 ms by bot id=7121339655
+2024-07-06 20:02:22,029 - aiogram.event - INFO - Update id=824594738 is handled. Duration 243 ms by bot id=7121339655
+2024-07-06 20:02:31,525 - aiogram.event - INFO - Update id=824594739 is handled. Duration 3901 ms by bot id=7121339655
+2024-07-06 20:02:46,803 - aiogram.event - INFO - Update id=824594740 is not handled. Duration 2913 ms by bot id=7121339655
+2024-07-06 20:02:46,804 - aiogram.event - ERROR - Cause exception while process update id=824594740 by bot id=7121339655
+TypeError: object of type 'NoneType' has no len()
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/fsm/middleware.py", line 41, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 123, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 156, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 123, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 148, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/szely/PycharmProjects/pythonDiploma/bot/handlers/wagon_number_handlers.py", line 27, in wagon_number
+    if len(number) == 8:
+       ^^^^^^^^^^^
+TypeError: object of type 'NoneType' has no len()
+2024-07-06 20:02:56,254 - aiogram.event - INFO - Update id=824594741 is handled. Duration 170 ms by bot id=7121339655
+2024-07-06 20:03:00,356 - aiogram.event - INFO - Update id=824594742 is handled. Duration 169 ms by bot id=7121339655
+2024-07-06 20:03:43,692 - aiogram.event - INFO - Update id=824594743 is handled. Duration 3705 ms by bot id=7121339655
+2024-07-06 20:04:19,754 - aiogram.event - INFO - Update id=824594744 is handled. Duration 491 ms by bot id=7121339655
+2024-07-06 20:04:37,102 - aiogram.event - INFO - Update id=824594745 is handled. Duration 3279 ms by bot id=7121339655
+2024-07-06 20:06:12,367 - aiogram.event - INFO - Update id=824594746 is handled. Duration 382 ms by bot id=7121339655
+2024-07-06 20:06:25,424 - aiogram.event - INFO - Update id=824594747 is not handled. Duration 4117 ms by bot id=7121339655
+2024-07-06 20:06:25,425 - aiogram.event - ERROR - Cause exception while process update id=824594747 by bot id=7121339655
+TypeError: object of type 'NoneType' has no len()
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/fsm/middleware.py", line 41, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 123, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 156, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 123, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 148, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/szely/PycharmProjects/pythonDiploma/bot/handlers/wagon_number_handlers.py", line 27, in wagon_number
+    if len(number) == 8:
+       ^^^^^^^^^^^
+TypeError: object of type 'NoneType' has no len()
+2024-07-06 20:07:06,849 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2024-07-06 20:07:06,850 - aiogram.dispatcher - INFO - Polling stopped for bot @atl_nandy_bot id=7121339655 - 'HandyBOT'
+2024-07-06 20:07:06,850 - aiogram.dispatcher - INFO - Polling stopped
+2024-07-06 20:07:10,659 - aiogram.dispatcher - INFO - Start polling
+2024-07-06 20:07:10,747 - aiogram.dispatcher - INFO - Run polling for bot @atl_nandy_bot id=7121339655 - 'HandyBOT'
+2024-07-06 20:07:12,120 - aiogram.event - INFO - Update id=824594748 is handled. Duration 551 ms by bot id=7121339655
+2024-07-06 20:07:13,154 - aiogram.event - INFO - Update id=824594749 is handled. Duration 215 ms by bot id=7121339655
+2024-07-06 20:07:21,034 - aiogram.event - INFO - Update id=824594750 is handled. Duration 3411 ms by bot id=7121339655
+2024-07-06 20:07:26,342 - aiogram.event - INFO - Update id=824594751 is handled. Duration 219 ms by bot id=7121339655
+2024-07-06 20:07:35,393 - aiogram.event - INFO - Update id=824594752 is handled. Duration 3152 ms by bot id=7121339655
+2024-07-06 20:09:23,807 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2024-07-06 20:09:23,809 - aiogram.dispatcher - INFO - Polling stopped for bot @atl_nandy_bot id=7121339655 - 'HandyBOT'
+2024-07-06 20:09:23,809 - aiogram.dispatcher - INFO - Polling stopped
+2024-07-06 20:09:27,611 - aiogram.dispatcher - INFO - Start polling
+2024-07-06 20:09:27,694 - aiogram.dispatcher - INFO - Run polling for bot @atl_nandy_bot id=7121339655 - 'HandyBOT'
+2024-07-06 20:16:32,171 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2024-07-06 20:16:32,172 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7121339655)
+2024-07-06 20:16:33,164 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2024-07-06 20:16:33,165 - aiogram.dispatcher - INFO - Polling stopped for bot @atl_nandy_bot id=7121339655 - 'HandyBOT'
+2024-07-06 20:16:33,165 - aiogram.dispatcher - INFO - Polling stopped
+2024-07-06 20:16:37,014 - aiogram.dispatcher - INFO - Start polling
+2024-07-06 20:16:37,065 - aiogram.dispatcher - INFO - Run polling for bot @atl_nandy_bot id=7121339655 - 'HandyBOT'
+2024-07-06 20:16:39,098 - aiogram.event - INFO - Update id=824594753 is handled. Duration 544 ms by bot id=7121339655
+2024-07-06 20:16:40,691 - aiogram.event - INFO - Update id=824594754 is handled. Duration 203 ms by bot id=7121339655
+2024-07-06 20:16:55,801 - aiogram.event - INFO - Update id=824594755 is not handled. Duration 3714 ms by bot id=7121339655
+2024-07-06 20:16:55,801 - aiogram.event - ERROR - Cause exception while process update id=824594755 by bot id=7121339655
+TypeError: object of type 'NoneType' has no len()
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/fsm/middleware.py", line 41, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 123, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 156, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 123, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 148, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/szely/PycharmProjects/pythonDiploma/bot/handlers/wagon_number_handlers.py", line 27, in wagon_number
+    if len(number) == 8:
+       ^^^^^^^^^^^
+TypeError: object of type 'NoneType' has no len()
+2024-07-06 20:17:03,554 - aiogram.event - INFO - Update id=824594756 is handled. Duration 185 ms by bot id=7121339655
+2024-07-06 20:17:18,892 - aiogram.event - INFO - Update id=824594757 is handled. Duration 3223 ms by bot id=7121339655
+2024-07-06 20:17:26,305 - aiogram.event - INFO - Update id=824594758 is handled. Duration 160 ms by bot id=7121339655
+2024-07-06 20:20:57,055 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2024-07-06 20:20:57,056 - aiogram.dispatcher - INFO - Polling stopped for bot @atl_nandy_bot id=7121339655 - 'HandyBOT'
+2024-07-06 20:20:57,056 - aiogram.dispatcher - INFO - Polling stopped
+2024-07-06 20:21:00,862 - aiogram.dispatcher - INFO - Start polling
+2024-07-06 20:21:00,913 - aiogram.dispatcher - INFO - Run polling for bot @atl_nandy_bot id=7121339655 - 'HandyBOT'
+2024-07-06 20:21:03,584 - aiogram.event - INFO - Update id=824594759 is handled. Duration 424 ms by bot id=7121339655
+2024-07-06 20:21:12,535 - aiogram.event - INFO - Update id=824594760 is handled. Duration 2932 ms by bot id=7121339655
+2024-07-06 20:23:15,852 - aiogram.event - INFO - Update id=824594761 is handled. Duration 208 ms by bot id=7121339655
+2024-07-06 20:23:28,096 - aiogram.event - INFO - Update id=824594762 is not handled. Duration 4745 ms by bot id=7121339655
+2024-07-06 20:23:28,096 - aiogram.event - ERROR - Cause exception while process update id=824594762 by bot id=7121339655
+TypeError: object of type 'NoneType' has no len()
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/fsm/middleware.py", line 41, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 123, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 156, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 123, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 148, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/szely/PycharmProjects/pythonDiploma/bot/handlers/wagon_number_handlers.py", line 29, in wagon_number
+    if len(number) == 8:
+       ^^^^^^^^^^^
+TypeError: object of type 'NoneType' has no len()
+2024-07-06 20:23:28,348 - aiogram.event - INFO - Update id=824594763 is handled. Duration 4997 ms by bot id=7121339655
+2024-07-06 20:23:36,826 - aiogram.event - INFO - Update id=824594764 is handled. Duration 87 ms by bot id=7121339655
+2024-07-06 20:23:48,794 - aiogram.event - INFO - Update id=824594765 is handled. Duration 2498 ms by bot id=7121339655
+2024-07-06 20:25:53,739 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2024-07-06 20:25:53,740 - aiogram.dispatcher - INFO - Polling stopped for bot @atl_nandy_bot id=7121339655 - 'HandyBOT'
+2024-07-06 20:25:53,740 - aiogram.dispatcher - INFO - Polling stopped
+2024-07-06 20:25:57,319 - aiogram.dispatcher - INFO - Start polling
+2024-07-06 20:25:57,370 - aiogram.dispatcher - INFO - Run polling for bot @atl_nandy_bot id=7121339655 - 'HandyBOT'
+2024-07-06 20:27:11,274 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2024-07-06 20:27:11,274 - aiogram.dispatcher - INFO - Polling stopped for bot @atl_nandy_bot id=7121339655 - 'HandyBOT'
+2024-07-06 20:27:11,274 - aiogram.dispatcher - INFO - Polling stopped
+2024-07-06 20:27:14,830 - aiogram.dispatcher - INFO - Start polling
+2024-07-06 20:27:14,882 - aiogram.dispatcher - INFO - Run polling for bot @atl_nandy_bot id=7121339655 - 'HandyBOT'
+2024-07-06 20:27:33,033 - bot.handlers.wagon_number_handlers - INFO - Пользователь Sergei id 1071020716 зашел в раздел 'Сканер номера вагона'
+2024-07-06 20:27:33,340 - aiogram.event - INFO - Update id=824594766 is handled. Duration 313 ms by bot id=7121339655
+2024-07-06 20:27:42,746 - aiogram.event - INFO - Update id=824594767 is handled. Duration 3484 ms by bot id=7121339655
+2024-07-06 20:28:33,057 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 60] Operation timed out
+2024-07-06 20:28:33,057 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7121339655)
+2024-07-06 20:28:35,891 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Connect call failed ('149.154.167.220', 443)]
+2024-07-06 20:28:35,891 - aiogram.dispatcher - WARNING - Sleep for 1.333486 seconds and try again... (tryings = 1, bot id = 7121339655)
+2024-07-06 20:28:38,962 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Connect call failed ('149.154.167.220', 443)]
+2024-07-06 20:28:38,963 - aiogram.dispatcher - WARNING - Sleep for 1.595133 seconds and try again... (tryings = 2, bot id = 7121339655)
+2024-07-06 20:28:42,033 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Connect call failed ('149.154.167.220', 443)]
+2024-07-06 20:28:42,033 - aiogram.dispatcher - WARNING - Sleep for 2.214477 seconds and try again... (tryings = 3, bot id = 7121339655)
+2024-07-06 20:28:45,107 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Connect call failed ('149.154.167.220', 443)]
+2024-07-06 20:28:45,107 - aiogram.dispatcher - WARNING - Sleep for 2.814952 seconds and try again... (tryings = 4, bot id = 7121339655)
+2024-07-06 20:28:51,283 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Connect call failed ('149.154.167.220', 443)]
+2024-07-06 20:28:51,284 - aiogram.dispatcher - WARNING - Sleep for 3.693949 seconds and try again... (tryings = 5, bot id = 7121339655)
+2024-07-06 20:29:12,028 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Connect call failed ('149.154.167.220', 443)]
+2024-07-06 20:29:12,029 - aiogram.dispatcher - WARNING - Sleep for 5.048555 seconds and try again... (tryings = 6, bot id = 7121339655)
+2024-07-06 20:29:18,963 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Connect call failed ('149.154.167.220', 443)]
+2024-07-06 20:29:18,964 - aiogram.dispatcher - WARNING - Sleep for 5.004033 seconds and try again... (tryings = 7, bot id = 7121339655)
+2024-07-06 20:29:25,108 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Connect call failed ('149.154.167.220', 443)]
+2024-07-06 20:29:25,108 - aiogram.dispatcher - WARNING - Sleep for 4.990467 seconds and try again... (tryings = 8, bot id = 7121339655)
+2024-07-06 20:29:31,256 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Connect call failed ('149.154.167.220', 443)]
+2024-07-06 20:29:31,256 - aiogram.dispatcher - WARNING - Sleep for 4.956462 seconds and try again... (tryings = 9, bot id = 7121339655)
+2024-07-06 20:29:37,493 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Connect call failed ('149.154.167.220', 443)]
+2024-07-06 20:29:37,493 - aiogram.dispatcher - WARNING - Sleep for 4.958320 seconds and try again... (tryings = 10, bot id = 7121339655)
+2024-07-06 20:29:43,666 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Connect call failed ('149.154.167.220', 443)]
+2024-07-06 20:29:43,667 - aiogram.dispatcher - WARNING - Sleep for 4.928739 seconds and try again... (tryings = 11, bot id = 7121339655)
+2024-07-06 20:29:49,908 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Connect call failed ('149.154.167.220', 443)]
+2024-07-06 20:29:49,908 - aiogram.dispatcher - WARNING - Sleep for 4.880108 seconds and try again... (tryings = 12, bot id = 7121339655)
+2024-07-06 20:29:56,050 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Connect call failed ('149.154.167.220', 443)]
+2024-07-06 20:29:56,051 - aiogram.dispatcher - WARNING - Sleep for 5.036576 seconds and try again... (tryings = 13, bot id = 7121339655)
+2024-07-06 20:30:11,262 - aiogram.dispatcher - INFO - Connection established (tryings = 14, bot id = 7121339655)
+2024-07-06 20:31:34,803 - aiogram.event - INFO - Update id=824594768 is handled. Duration 3469 ms by bot id=7121339655
+2024-07-06 20:32:53,625 - aiogram.event - INFO - Update id=824594769 is handled. Duration 3713 ms by bot id=7121339655
+2024-07-06 20:33:16,055 - aiogram.event - INFO - Update id=824594770 is not handled. Duration 3979 ms by bot id=7121339655
+2024-07-06 20:33:16,056 - aiogram.event - ERROR - Cause exception while process update id=824594770 by bot id=7121339655
+TypeError: object of type 'NoneType' has no len()
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/fsm/middleware.py", line 41, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 123, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 156, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 123, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 148, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/szely/PycharmProjects/pythonDiploma/bot/handlers/wagon_number_handlers.py", line 32, in wagon_number
+    if len(number) == 8:
+       ^^^^^^^^^^^
+TypeError: object of type 'NoneType' has no len()
+2024-07-06 20:33:34,653 - aiogram.event - INFO - Update id=824594771 is not handled. Duration 5220 ms by bot id=7121339655
+2024-07-06 20:33:34,654 - aiogram.event - ERROR - Cause exception while process update id=824594771 by bot id=7121339655
+TypeError: object of type 'NoneType' has no len()
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/fsm/middleware.py", line 41, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 123, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 156, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 123, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 148, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/szely/PycharmProjects/pythonDiploma/bot/handlers/wagon_number_handlers.py", line 32, in wagon_number
+    if len(number) == 8:
+       ^^^^^^^^^^^
+TypeError: object of type 'NoneType' has no len()
+2024-07-06 20:33:53,630 - aiogram.event - INFO - Update id=824594772 is handled. Duration 3503 ms by bot id=7121339655
+2024-07-06 20:34:17,183 - aiogram.event - INFO - Update id=824594773 is handled. Duration 4091 ms by bot id=7121339655
+2024-07-06 20:34:29,994 - aiogram.event - INFO - Update id=824594774 is handled. Duration 96 ms by bot id=7121339655
+2024-07-06 20:34:31,903 - bot.handlers.file_manager_handlers - INFO - Пользователь Sergei id 1071020716 зашел в раздел 'Отчетность'
+2024-07-06 20:34:32,038 - aiogram.event - INFO - Update id=824594775 is handled. Duration 242 ms by bot id=7121339655
+2024-07-06 20:34:34,473 - bot.handlers.file_manager_handlers - INFO - Пользователь Sergei id 1071020716 выбрал метод отправки 'На почту'
+2024-07-06 20:34:35,068 - aiogram.event - INFO - Update id=824594776 is handled. Duration 600 ms by bot id=7121339655
+2024-07-06 20:34:37,164 - aiogram.event - INFO - Update id=824594777 is handled. Duration 277 ms by bot id=7121339655
+2024-07-06 20:34:40,460 - bot.handlers.file_manager_handlers - INFO - Статус отправки файла '/Users/szely/Yandex.Disk.localized/Финансовый департамент/ОТЧЕТНОСТЬ/08. МСФО/2022 3 кв. Отчетность МСФО_9м2022.pdf' на почту для пользователя  Sergei id 1071020716 - 'На Вашу почту szely@yandex.ru успешно отправлен файл '
+2024-07-06 20:34:40,540 - aiogram.event - INFO - Update id=824594778 is handled. Duration 2586 ms by bot id=7121339655
+2024-07-06 20:34:47,168 - aiogram.event - INFO - Update id=824594779 is handled. Duration 157 ms by bot id=7121339655
+2024-07-06 20:35:05,647 - bot.handlers.wagon_number_handlers - INFO - Пользователь Sergei id 1071020716 зашел в раздел 'Сканер номера вагона'
+2024-07-06 20:35:05,849 - aiogram.event - INFO - Update id=824594780 is handled. Duration 206 ms by bot id=7121339655
+2024-07-06 20:35:08,916 - bot.handlers.file_manager_handlers - INFO - Пользователь Sergei id 1071020716 зашел в раздел 'Отчетность'
+2024-07-06 20:35:09,062 - aiogram.event - INFO - Update id=824594781 is handled. Duration 256 ms by bot id=7121339655
+2024-07-06 20:35:19,163 - aiogram.event - INFO - Update id=824594782 is handled. Duration 123 ms by bot id=7121339655
+2024-07-06 20:35:20,122 - bot.handlers.wagon_number_handlers - INFO - Пользователь Sergei id 1071020716 зашел в раздел 'Сканер номера вагона'
+2024-07-06 20:35:20,197 - aiogram.event - INFO - Update id=824594783 is handled. Duration 80 ms by bot id=7121339655
+2024-07-06 20:35:27,113 - bot.handlers.file_manager_handlers - INFO - Пользователь Sergei id 1071020716 зашел в раздел 'Отчетность'
+2024-07-06 20:35:27,191 - aiogram.event - INFO - Update id=824594784 is handled. Duration 188 ms by bot id=7121339655
+2024-07-06 20:35:29,162 - aiogram.event - INFO - Update id=824594785 is handled. Duration 87 ms by bot id=7121339655
+2024-07-06 20:35:30,635 - bot.handlers.wagon_number_handlers - INFO - Пользователь Sergei id 1071020716 зашел в раздел 'Сканер номера вагона'
+2024-07-06 20:35:30,781 - aiogram.event - INFO - Update id=824594786 is handled. Duration 152 ms by bot id=7121339655
+2024-07-06 20:35:37,993 - aiogram.event - INFO - Update id=824594787 is handled. Duration 3069 ms by bot id=7121339655
+2024-07-06 20:35:42,462 - aiogram.event - INFO - Update id=824594788 is handled. Duration 94 ms by bot id=7121339655
+2024-07-06 20:35:45,663 - bot.handlers.macro_info_handlers - INFO - Пользователь Sergei id 1071020716 зашел в раздел 'Макроинформация'
+2024-07-06 20:35:45,803 - aiogram.event - INFO - Update id=824594789 is handled. Duration 1988 ms by bot id=7121339655
+2024-07-06 20:35:48,842 - aiogram.event - INFO - Update id=824594790 is handled. Duration 74 ms by bot id=7121339655
+2024-07-06 20:35:49,916 - bot.handlers.wagon_number_handlers - INFO - Пользователь Sergei id 1071020716 зашел в раздел 'Сканер номера вагона'
+2024-07-06 20:35:50,261 - aiogram.event - INFO - Update id=824594791 is handled. Duration 350 ms by bot id=7121339655
+2024-07-06 20:35:58,437 - aiogram.event - INFO - Update id=824594792 is handled. Duration 3166 ms by bot id=7121339655
+2024-07-06 20:36:13,327 - bot.handlers.wagon_number_handlers - INFO - Пользователь Sergei id 1071020716 зашел в раздел 'Сканер номера вагона'
+2024-07-06 20:36:13,404 - aiogram.event - INFO - Update id=824594793 is handled. Duration 79 ms by bot id=7121339655
+2024-07-06 20:36:23,225 - aiogram.event - INFO - Update id=824594794 is handled. Duration 4951 ms by bot id=7121339655
+2024-07-06 20:36:28,109 - aiogram.event - INFO - Update id=824594795 is handled. Duration 78 ms by bot id=7121339655
+2024-07-06 20:37:17,506 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2024-07-06 20:37:17,507 - aiogram.dispatcher - INFO - Polling stopped for bot @atl_nandy_bot id=7121339655 - 'HandyBOT'
+2024-07-06 20:37:17,507 - aiogram.dispatcher - INFO - Polling stopped

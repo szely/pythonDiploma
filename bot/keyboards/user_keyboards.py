@@ -37,7 +37,7 @@ def tools_buttoms():
     builder.button(text='Аналитика 📊')
     builder.button(text='Информация о вагоне ℹ️')
     builder.button(text='Оценить вагон 🪙')
-    builder.button(text='Сканер паспорта вагона 🖨')
+    builder.button(text='Сканер номера вагона 📷')
     builder.button(text='Макроинформация 🌎')
     builder.adjust(2)
     return builder
@@ -100,6 +100,13 @@ def currency():
     builder_type_send.button(text='USD 🇺🇸')
     builder_type_send.button(text='EUR 🇪🇺')
     builder_type_send.button(text='KZT 🇰🇿')
+    builder_type_send.button(text='Назад в меню ↩️')
+    builder_type_send.adjust(2)
+    return builder_type_send
+
+def back_menu_wagon_number():
+    builder_type_send = ReplyKeyboardBuilder()
+    builder_type_send.button(text='Сканер номера вагона 📷')
     builder_type_send.button(text='Назад в меню ↩️')
     builder_type_send.adjust(2)
     return builder_type_send
