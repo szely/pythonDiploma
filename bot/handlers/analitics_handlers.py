@@ -31,7 +31,7 @@ async def file_manager(message: types.Message, bot: Bot):
     logger.info("Пользователь %s id %s зашел в раздел 'Аналитика'", message.from_user.first_name, message.from_user.id)
     if data_for_image == 0:
         await message.answer(f'На {current_date} данных нет!')
-        await message.answer("Вернуться в основное меню.",
+        await message.answer("Вернуться в основное меню:",
                              reply_markup=back_menu().as_markup(one_time_keyboard=True, resize_keyboard=True))
     else:
         image_path = paint_waterfall_chart(data_for_image, message.message_id)
@@ -41,5 +41,5 @@ async def file_manager(message: types.Message, bot: Bot):
         await message.answer_photo(FSInputFile(image_path_wg))
         os.remove(image_path)
         os.remove(image_path_wg)
-        await message.answer("Вернуться в основное меню.",
+        await message.answer("Вернуться в основное меню:",
                              reply_markup=back_menu().as_markup(one_time_keyboard=True, resize_keyboard=True))

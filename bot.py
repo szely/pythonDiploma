@@ -17,7 +17,7 @@ async def main():
     bot = Bot(token)
     dp = Dispatcher()
 
-    dp.include_routers(user_handlers.router, file_manager_handlers.router, analitics_handlers.router, macro_info_handlers.router,  wagon_valuation_handlers.router, wagon_info_handlers.router, wagon_number_handlers.router)
+    dp.include_routers(user_handlers.router, file_manager_handlers.router, analitics_handlers.router, macro_info_handlers.router,  wagon_valuation_handlers.router, wagon_number_handlers.router, wagon_info_handlers.router)
 
     await bot.delete_webhook(drop_pending_updates=True)
     try:

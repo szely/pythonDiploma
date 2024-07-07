@@ -38,7 +38,7 @@ async def cmd_start(message: types.Message, state: FSMContext) -> None:
         await message.answer("Выберите инструмент:", reply_markup=tools_buttoms().as_markup(resize_keyboard=True, one_time_keyboard=True))
     else:
         await state.set_state(Form.EMAIL_ADR)
-        await message.answer(f'Для того, чтобы я мог отправлять тебе сообщения на эллектронную почту, укажи ее адрес.')
+        await message.answer(f'Для того, чтобы я мог отправлять тебе сообщения на электронную почту, укажи ее адрес.')
 
 
 # Регистрация адреса электронной почты, необходимого для отправки методом "НА почту".
