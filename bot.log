@@ -1442,3 +1442,79 @@ NameError: name 'e' is not defined
 2024-07-13 19:25:09,130 - aiogram.dispatcher - WARNING - Received SIGINT signal
 2024-07-13 19:25:09,130 - aiogram.dispatcher - INFO - Polling stopped for bot @ourhandy_bot id=6594000811 - 'HandyBOT'
 2024-07-13 19:25:09,130 - aiogram.dispatcher - INFO - Polling stopped
+2024-07-13 19:33:03,262 - aiogram.dispatcher - INFO - Start polling
+2024-07-13 19:33:03,314 - aiogram.dispatcher - INFO - Run polling for bot @ourhandy_bot id=6594000811 - 'HandyBOT'
+2024-07-13 19:33:52,173 - bot.handlers.user_handlers - INFO - Пользователь Sergei id 1071020716 начал разговор.
+2024-07-13 19:33:52,173 - aiogram.event - INFO - Update id=174659931 is handled. Duration 313 ms by bot id=6594000811
+2024-07-13 19:33:54,888 - bot.handlers.file_manager_handlers - INFO - Пользователь Sergei id 1071020716 зашел в раздел 'Отчетность'
+2024-07-13 19:33:55,058 - aiogram.event - INFO - Update id=174659932 is handled. Duration 258 ms by bot id=6594000811
+2024-07-13 19:33:57,046 - bot.handlers.file_manager_handlers - INFO - Пользователь Sergei id 1071020716 выбрал метод отправки 'В бот'
+2024-07-13 19:33:57,222 - aiogram.event - INFO - Update id=174659933 is handled. Duration 178 ms by bot id=6594000811
+2024-07-13 19:33:58,996 - aiogram.event - INFO - Update id=174659934 is handled. Duration 266 ms by bot id=6594000811
+2024-07-13 19:34:00,310 - aiogram.event - INFO - Update id=174659935 is handled. Duration 145 ms by bot id=6594000811
+2024-07-13 19:34:01,874 - aiogram.event - INFO - Update id=174659936 is handled. Duration 142 ms by bot id=6594000811
+2024-07-13 19:34:04,499 - aiogram.event - INFO - Update id=174659937 is handled. Duration 256 ms by bot id=6594000811
+2024-07-13 19:34:05,794 - aiogram.event - INFO - Update id=174659938 is handled. Duration 376 ms by bot id=6594000811
+2024-07-13 19:34:08,831 - aiogram.event - INFO - Update id=174659939 is handled. Duration 136 ms by bot id=6594000811
+2024-07-13 19:34:10,705 - aiogram.event - INFO - Update id=174659940 is handled. Duration 166 ms by bot id=6594000811
+2024-07-13 19:34:12,645 - aiogram.event - INFO - Update id=174659941 is handled. Duration 420 ms by bot id=6594000811
+2024-07-13 19:34:14,596 - aiogram.event - INFO - Update id=174659942 is handled. Duration 289 ms by bot id=6594000811
+2024-07-13 19:34:16,550 - aiogram.event - INFO - Update id=174659943 is handled. Duration 176 ms by bot id=6594000811
+2024-07-13 19:34:18,254 - aiogram.event - INFO - Update id=174659944 is handled. Duration 137 ms by bot id=6594000811
+2024-07-13 19:34:20,369 - bot.handlers.file_manager_handlers - INFO - Пользователь Sergei id 1071020716 получил файл '/Users/szely/Yandex.Disk.localized/Финансовый департамент/ОТЧЕТНОСТЬ/01. Парк/2023/07. Июль/7. Июль Парк.pdf' в бот
+2024-07-13 19:34:20,655 - aiogram.event - INFO - Update id=174659945 is handled. Duration 287 ms by bot id=6594000811
+2024-07-13 19:34:23,686 - aiogram.event - INFO - Update id=174659946 is handled. Duration 143 ms by bot id=6594000811
+2024-07-13 19:34:25,150 - aiogram.event - INFO - Update id=174659947 is handled. Duration 227 ms by bot id=6594000811
+2024-07-13 19:34:27,885 - aiogram.event - INFO - Update id=174659948 is handled. Duration 314 ms by bot id=6594000811
+2024-07-13 19:34:29,333 - aiogram.event - INFO - Update id=174659949 is handled. Duration 260 ms by bot id=6594000811
+2024-07-13 19:34:32,311 - bot.handlers.file_manager_handlers - INFO - Пользователь Sergei id 1071020716 получил файл '/Users/szely/Yandex.Disk.localized/Финансовый департамент/ОТЧЕТНОСТЬ/01. Парк/2023/08. Август/8. Август Парк.pdf' в бот
+2024-07-13 19:34:32,554 - aiogram.event - INFO - Update id=174659950 is handled. Duration 243 ms by bot id=6594000811
+2024-07-13 19:34:35,076 - aiogram.event - INFO - Update id=174659951 is handled. Duration 73 ms by bot id=6594000811
+2024-07-13 19:34:38,248 - bot.handlers.macro_info_handlers - INFO - Пользователь Sergei id 1071020716 зашел в раздел 'Макроинформация'
+2024-07-13 19:34:38,411 - aiogram.event - INFO - Update id=174659952 is handled. Duration 341 ms by bot id=6594000811
+2024-07-13 19:34:43,635 - aiogram.event - INFO - Update id=174659953 is handled. Duration 85 ms by bot id=6594000811
+2024-07-13 19:34:55,164 - bot.handlers.wagon_valuation_handlers - INFO - Пользователь Sergei id 1071020716 зашел в раздел 'Оценить вагон'
+2024-07-13 19:34:55,236 - aiogram.event - INFO - Update id=174659954 is handled. Duration 76 ms by bot id=6594000811
+2024-07-13 19:35:01,771 - aiogram.event - INFO - Update id=174659955 is handled. Duration 160 ms by bot id=6594000811
+2024-07-13 19:35:05,706 - aiogram.event - INFO - Update id=174659956 is handled. Duration 77 ms by bot id=6594000811
+2024-07-13 19:35:10,383 - aiogram.event - INFO - Update id=174659957 is handled. Duration 93 ms by bot id=6594000811
+2024-07-13 19:35:16,200 - aiogram.event - INFO - Update id=174659958 is handled. Duration 139 ms by bot id=6594000811
+2024-07-13 19:35:23,107 - aiogram.event - INFO - Update id=174659959 is handled. Duration 168 ms by bot id=6594000811
+2024-07-13 19:35:26,740 - aiogram.event - INFO - Update id=174659960 is handled. Duration 91 ms by bot id=6594000811
+2024-07-13 19:35:33,229 - aiogram.event - INFO - Update id=174659961 is handled. Duration 157 ms by bot id=6594000811
+2024-07-13 19:35:43,332 - aiogram.event - INFO - Update id=174659962 is handled. Duration 77 ms by bot id=6594000811
+2024-07-13 19:35:46,943 - bot.handlers.macro_info_handlers - INFO - Пользователь Sergei id 1071020716 зашел в раздел 'Информация о вагоне'
+2024-07-13 19:35:47,028 - aiogram.event - INFO - Update id=174659963 is handled. Duration 87 ms by bot id=6594000811
+2024-07-13 19:35:52,036 - aiogram.event - INFO - Update id=174659964 is handled. Duration 224 ms by bot id=6594000811
+2024-07-13 19:35:56,334 - aiogram.event - INFO - Update id=174659965 is handled. Duration 156 ms by bot id=6594000811
+2024-07-13 19:35:57,754 - bot.handlers.wagon_valuation_handlers - INFO - Пользователь Sergei id 1071020716 зашел в раздел 'Сканер номера вагона'
+2024-07-13 19:35:57,876 - aiogram.event - INFO - Update id=174659966 is handled. Duration 126 ms by bot id=6594000811
+2024-07-13 19:36:23,793 - aiogram.event - INFO - Update id=174659967 is handled. Duration 2900 ms by bot id=6594000811
+2024-07-13 19:36:27,765 - bot.handlers.wagon_valuation_handlers - INFO - Пользователь Sergei id 1071020716 зашел в раздел 'Сканер номера вагона'
+2024-07-13 19:36:27,840 - aiogram.event - INFO - Update id=174659968 is handled. Duration 79 ms by bot id=6594000811
+2024-07-13 19:36:40,065 - aiogram.event - INFO - Update id=174659969 is handled. Duration 2890 ms by bot id=6594000811
+2024-07-13 19:46:51,929 - bot.handlers.user_handlers - INFO - Пользователь Sergei id 1071020716 начал разговор.
+2024-07-13 19:46:51,931 - aiogram.event - INFO - Update id=174659970 is handled. Duration 574 ms by bot id=6594000811
+2024-07-13 19:46:53,201 - bot.handlers.analitics_handlers - INFO - Пользователь Sergei id 1071020716 зашел в раздел 'Аналитика'
+2024-07-13 19:46:56,493 - aiogram.event - INFO - Update id=174659971 is handled. Duration 3359 ms by bot id=6594000811
+2024-07-13 19:48:47,269 - aiogram.event - INFO - Update id=174659972 is handled. Duration 292 ms by bot id=6594000811
+2024-07-13 19:48:48,643 - bot.handlers.analitics_handlers - INFO - Пользователь Sergei id 1071020716 зашел в раздел 'Аналитика'
+2024-07-13 19:48:49,415 - aiogram.event - INFO - Update id=174659973 is handled. Duration 812 ms by bot id=6594000811
+2024-07-13 19:55:23,308 - bot.handlers.user_handlers - INFO - Пользователь Sergei id 1071020716 начал разговор.
+2024-07-13 19:55:23,309 - aiogram.event - INFO - Update id=174659974 is handled. Duration 653 ms by bot id=6594000811
+2024-07-13 19:55:24,943 - bot.handlers.macro_info_handlers - INFO - Пользователь Sergei id 1071020716 зашел в раздел 'Информация о вагоне'
+2024-07-13 19:55:25,032 - aiogram.event - INFO - Update id=174659975 is handled. Duration 91 ms by bot id=6594000811
+2024-07-13 19:55:26,520 - aiogram.event - INFO - Update id=174659976 is handled. Duration 264 ms by bot id=6594000811
+2024-07-13 19:55:44,264 - aiogram.event - INFO - Update id=174659977 is not handled. Duration 7 ms by bot id=6594000811
+2024-07-13 19:55:49,749 - bot.handlers.user_handlers - INFO - Пользователь Sergei id 1071020716 начал разговор.
+2024-07-13 19:55:49,749 - aiogram.event - INFO - Update id=174659978 is handled. Duration 186 ms by bot id=6594000811
+2024-07-13 19:55:50,687 - bot.handlers.macro_info_handlers - INFO - Пользователь Sergei id 1071020716 зашел в раздел 'Информация о вагоне'
+2024-07-13 19:55:50,770 - aiogram.event - INFO - Update id=174659979 is handled. Duration 86 ms by bot id=6594000811
+2024-07-13 19:55:52,075 - aiogram.event - INFO - Update id=174659980 is handled. Duration 301 ms by bot id=6594000811
+2024-07-13 19:56:15,317 - bot.handlers.macro_info_handlers - INFO - Пользователь Sergei id 1071020716 зашел в раздел 'Информация о вагоне'
+2024-07-13 19:56:15,541 - aiogram.event - INFO - Update id=174659981 is handled. Duration 226 ms by bot id=6594000811
+2024-07-13 19:56:16,532 - aiogram.event - INFO - Update id=174659982 is handled. Duration 180 ms by bot id=6594000811
+2024-07-13 19:56:27,849 - aiogram.event - INFO - Update id=174659983 is handled. Duration 219 ms by bot id=6594000811
+2024-07-13 20:01:35,092 - bot.handlers.macro_info_handlers - INFO - Пользователь Sergei id 1071020716 зашел в раздел 'Информация о вагоне'
+2024-07-13 20:01:35,645 - aiogram.event - INFO - Update id=174659984 is handled. Duration 558 ms by bot id=6594000811
+2024-07-13 20:01:36,041 - aiogram.event - INFO - Update id=174659985 is handled. Duration 329 ms by bot id=6594000811
