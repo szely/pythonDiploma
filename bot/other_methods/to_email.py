@@ -6,6 +6,8 @@ from os.path import basename
 from dotenv import load_dotenv
 import os
 import logging
+import re
+
 
 logger = logging.getLogger(__name__)
 
@@ -62,3 +64,12 @@ def send_email(file_path, file_name, user_email):
     status = email(g, file_name, user_email)
     file.close()
     return status
+
+
+# Проверка правильности введенного адреса электронной почты
+def check_address(address):
+    subdomain_email_regex = re.compile(r"^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+(\.[a-zA-Z0-9-]+)*\.\w+$")
+    is_valid_with_subdomain = subdomain_email_regex.fullmatch(address)
+    return is_valid_with_subdomain is not None
+
+

@@ -1,5 +1,5 @@
 from aiogram import Router, F
-from bot.keyboards.user_keyboards import create_buttons, tools_buttoms, choose_send_buttoms, back_choose_send_find_buttoms, main_menu, back_menu, currency_cnverter, currency
+from bot.keyboards.user_keyboards import back_menu, currency_cnverter, currency
 from bot.other_methods.get_currency import get_currency_rate
 from bot.other_methods.other_methods import currency_map
 import logging
@@ -49,6 +49,7 @@ async def macro_info(message: types.Message):
         await message.answer("Вернуться в меню:",
                              reply_markup=back_menu().as_markup(one_time_keyboard=True, resize_keyboard=True))
 
+
 # Запуск конвертера валют
 @router.message(F.text == 'Конвертер валют 💱')
 async def currency_cinverter(message: types.Message, state: FSMContext):
@@ -84,6 +85,7 @@ async def second_cur(message: types.Message, state: FSMContext):
         await message.reply('Некорректный ввод, выберите валюту из списка!')
         await message.answer('Выберите валюту в которую хотите конвертировать: ', reply_markup=currency().as_markup(one_time_keyboard=True, resize_keyboard=True))
 
+
 # Получение суммы, которую конвертируем и вывод результата
 @router.message(Form.SUM_CUR)
 async def sum_cur(message: types.Message, state: FSMContext):
@@ -99,8 +101,10 @@ async def sum_cur(message: types.Message, state: FSMContext):
             await state.clear()
         else:
             sum_cur = float(message.text)
-            result = get_currency_rate([first_cur, second_cur]) * sum_cur
-            await message.answer(f'{sum_cur} {first_cur} = {result} {second_cur}\n Вернитесь в меню или снова воспользуйтесь конвертером валют: ',reply_markup=currency_cnverter().as_markup(one_time_keyboard=True, resize_keyboard=True))
+            result = round(get_currency_rate([first_cur, second_cur]) * sum_cur, 4)
+            await message.answer('Результат конвертации (округление до 4-х знаков после запятой):')
+            await message.answer(f'{sum_cur} {first_cur} = {result} {second_cur}')
+            await message.answer('Вернитесь в меню или снова воспользуйтесь конвертером валют: ',reply_markup=currency_cnverter().as_markup(one_time_keyboard=True, resize_keyboard=True))
             await state.clear()
     except Exception as e:
         logger.error(f"Пользователь {message.from_user.first_name} id {message.from_user.id} ввел неверный формат данных: {e}")

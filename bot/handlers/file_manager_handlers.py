@@ -10,10 +10,10 @@ from pathlib import Path
 from bot.keyboards.user_keyboards import create_buttons, tools_buttoms, choose_send_buttoms, back_choose_send_find_buttoms, main_menu
 from bot.other_methods.other_methods import create_dirs_files_map, create_path_buttons
 from bot.other_methods.to_email import send_email
-from bot.other_methods.find_file import search_dict_by_key_part, swapped_dict
+from bot.other_methods.find_file import search_dict_by_key_part
 from bot.other_methods.speach_rec import convert_to_wav, speach_rec
 import logging
-from bot.db.db import db_table_val, find_user_id, get_user_email
+from bot.db.db import get_user_email
 
 
 logger = logging.getLogger(__name__)

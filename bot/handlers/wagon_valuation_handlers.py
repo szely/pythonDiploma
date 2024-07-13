@@ -2,7 +2,7 @@ from aiogram import Bot, types
 from aiogram import Router, F
 from aiogram.filters.state import StatesGroup, State
 from aiogram.fsm.context import FSMContext
-from bot.keyboards.user_keyboards import create_buttons, tools_buttoms, choose_send_buttoms, back_choose_send_find_buttoms, main_menu, back_menu
+from bot.keyboards.user_keyboards import back_menu,  back_menu_valuation
 import logging
 
 
@@ -19,6 +19,7 @@ class Form(StatesGroup):
     GET_SONK = State()
     GET_SLKP = State()
     FIND_NUM = State()
+    REC_NUM = State()
 
 
 router = Router()
@@ -46,12 +47,20 @@ async def back(message: types.Message, state: FSMContext):
     await message.answer("Введите номер вагона или вернитесь в меню:", reply_markup=back_menu().as_markup(one_time_keyboard=True, resize_keyboard=True))
 
 
+@router.message(F.text == 'Сканер номера вагона 📷')
+async def back_wagon_photo(message: types.Message, state: FSMContext):
+    await state.clear()
+    logger.info("Пользователь %s id %s зашел в раздел 'Сканер номера вагона'", message.from_user.first_name, message.from_user.id)
+    await state.set_state(Form.REC_NUM)
+    await message.answer(f'Сфотографируйте номер вагона на кузове или вернитесь в меню:', reply_markup=back_menu().as_markup(one_time_keyboard=True, resize_keyboard=True))
+
+
 # Запуск процесса оценки вагона
 @router.message(F.text == 'Оценить вагон 🪙')
 async def wagon_valuation(message: types.Message,  state: FSMContext):
     logger.info("Пользователь %s id %s зашел в раздел 'Оценить вагон'", message.from_user.first_name, message.from_user.id)
     await state.set_state(Form.GET_NNS)
-    await message.answer('Введите нормативный срок службы вагона, лет:', reply_markup=back_menu().as_markup(one_time_keyboard=True, resize_keyboard=True))
+    await message.answer('Введите нормативный срок службы вагона, лет:', reply_markup=back_menu_valuation().as_markup(one_time_keyboard=True, resize_keyboard=True))
 
 
 # Получение нормативного срока вагона
@@ -67,12 +76,12 @@ async def get_nss(message: types.Message, state: FSMContext):
             nss = float(message.text.replace(',', '.'))
             await state.set_state(Form.GET_OSS)
             await message.answer('Введите остаточный срок службы, лет:',
-                             reply_markup=back_menu().as_markup(one_time_keyboard=True, resize_keyboard=True))
+                             reply_markup=back_menu_valuation().as_markup(one_time_keyboard=True, resize_keyboard=True))
         except Exception as e:
             logger.error(f"Пользователь {message.from_user.first_name} id {message.from_user.id} ввел неверный формат данных: {e}")
             await message.reply('Некорректный формат данных!')
             await message.answer('Введите нормативный срок службы вагона, лет:',
-                                 reply_markup=back_menu().as_markup(one_time_keyboard=True, resize_keyboard=True))
+                                 reply_markup=back_menu_valuation().as_markup(one_time_keyboard=True, resize_keyboard=True))
 
 
 # Получение остаточного срока вагона
@@ -84,12 +93,12 @@ async def get_oss(message: types.Message, state: FSMContext):
         oss = float(message.text.replace(',', '.'))
         await state.set_state(Form.GET_SNAV)
         await message.answer('Введите стоимость нового аналога вагона, тыс. руб.:',
-                             reply_markup=back_menu().as_markup(one_time_keyboard=True, resize_keyboard=True))
+                             reply_markup=back_menu_valuation().as_markup(one_time_keyboard=True, resize_keyboard=True))
     except Exception as e:
         logger.error(f"Пользователь {message.from_user.first_name} id {message.from_user.id} ввел неверный формат данных: {e}")
         await message.reply('Некорректный формат данных!')
         await message.answer('Введите остаточный срок службы, лет:',
-                             reply_markup=back_menu().as_markup(one_time_keyboard=True, resize_keyboard=True))
+                             reply_markup=back_menu_valuation().as_markup(one_time_keyboard=True, resize_keyboard=True))
 
 
 # Получение стоимости нового аналога оцениваемого вагона
@@ -100,12 +109,12 @@ async def get_snav(message: types.Message, state: FSMContext):
     try:
         snav = float(message.text.replace(',', '.'))
         await state.set_state(Form.GET_SLV)
-        await message.answer('Введите стоимость лома вагона, тыс. руб.:', reply_markup=back_menu().as_markup(one_time_keyboard=True, resize_keyboard=True))
+        await message.answer('Введите стоимость лома вагона, тыс. руб.:', reply_markup=back_menu_valuation().as_markup(one_time_keyboard=True, resize_keyboard=True))
     except Exception as e:
         logger.error(f"Пользователь {message.from_user.first_name} id {message.from_user.id} ввел неверный формат данных: {e}")
         await message.reply('Некорректный формат данных!')
         await message.answer('Введите стоимость нового аналога вагона, тыс. руб.:',
-                             reply_markup=back_menu().as_markup(one_time_keyboard=True, resize_keyboard=True))
+                             reply_markup=back_menu_valuation().as_markup(one_time_keyboard=True, resize_keyboard=True))
 
 
 # Получение стоимость лома вагона
@@ -116,11 +125,11 @@ async def get_slv(message: types.Message, state: FSMContext):
     try:
         slv = float(message.text.replace(',', '.'))
         await state.set_state(Form.GET_STOKP)
-        await message.answer(f'Введите среднюю толшину обода КП (мин.: {min_to} мм, макс.: {max_to} мм), мм:', reply_markup=back_menu().as_markup(one_time_keyboard=True, resize_keyboard=True))
+        await message.answer(f'Введите среднюю толшину обода КП (мин.: {min_to} мм, макс.: {max_to} мм), мм:', reply_markup=back_menu_valuation().as_markup(one_time_keyboard=True, resize_keyboard=True))
     except Exception as e:
         logger.error(f"Пользователь {message.from_user.first_name} id {message.from_user.id} ввел неверный формат данных: {e}")
         await message.reply('Некорректный формат данных!')
-        await message.answer('Введите стоимость лома вагона, тыс. руб.:', reply_markup=back_menu().as_markup(one_time_keyboard=True, resize_keyboard=True))
+        await message.answer('Введите стоимость лома вагона, тыс. руб.:', reply_markup=back_menu_valuation().as_markup(one_time_keyboard=True, resize_keyboard=True))
 
 
 # Получение средней толщины обода колеса вагона
@@ -133,7 +142,7 @@ async def get_stokp(message: types.Message, state: FSMContext):
     try:
         stokp = float(message.text.replace(',', '.'))
         await state.set_state(Form.GET_SONK)
-        await message.answer('Введите стоимость СОНК, тыс. руб.:', reply_markup=back_menu().as_markup(one_time_keyboard=True, resize_keyboard=True))
+        await message.answer('Введите стоимость СОНК, тыс. руб.:', reply_markup=back_menu_valuation().as_markup(one_time_keyboard=True, resize_keyboard=True))
     except Exception as e:
         logger.error(f"Пользователь {message.from_user.first_name} id {message.from_user.id} ввел неверный формат данных: {e}")
         await message.reply('Некорректный формат данных!')
@@ -148,11 +157,11 @@ async def get_sonk(message: types.Message, state: FSMContext):
     try:
         sonk = float(message.text.replace(',', '.'))
         await state.set_state(Form.GET_SLKP)
-        await message.answer('Введите стоимость лома КП, тыс. руб.:', reply_markup=back_menu().as_markup(one_time_keyboard=True, resize_keyboard=True))
+        await message.answer('Введите стоимость лома КП, тыс. руб.:', reply_markup=back_menu_valuation().as_markup(one_time_keyboard=True, resize_keyboard=True))
     except Exception as e:
         logger.error(f"Пользователь {message.from_user.first_name} id {message.from_user.id} ввел неверный формат данных: {e}")
         await message.reply('Некорректный формат данных!')
-        await message.answer('Введите стоимость СОНК, тыс. руб.:', reply_markup=back_menu().as_markup(one_time_keyboard=True, resize_keyboard=True))
+        await message.answer('Введите стоимость СОНК, тыс. руб.:', reply_markup=back_menu_valuation().as_markup(one_time_keyboard=True, resize_keyboard=True))
 
 
 # Получение стоимости лома колесной пары и вывод стоимостной оценки вагона
@@ -175,15 +184,15 @@ async def get_slkp(message: types.Message, state: FSMContext):
             sv = round((snav - slv - sonk * kol_kp) / nss * oss + slv + ((sonk - slkp) / (max_to - min_to) * (stokp - min_to) + slkp) * kol_kp, 3)
             await message.answer(f'Стоимость вагона по оценке затратным подходом: {sv} тыс. руб.')
             await state.clear()
-            await message.answer("Вернуться в меню:", reply_markup=back_menu().as_markup(one_time_keyboard=True, resize_keyboard=True))
+            await message.answer("Вернуться в меню или начать новую оценку:", reply_markup=back_menu_valuation().as_markup(one_time_keyboard=True, resize_keyboard=True))
         except Exception as e:
             logger.error(f"Ошибка! {e}")
             await message.reply('Произошла ошибка!')
-            await message.answer("Вернуться в меню:", reply_markup=back_menu().as_markup(one_time_keyboard=True, resize_keyboard=True))
+            await message.answer("Вернуться в меню:", reply_markup=back_menu_valuation().as_markup(one_time_keyboard=True, resize_keyboard=True))
     except Exception as e:
         logger.error(f"Пользователь {message.from_user.first_name} id {message.from_user.id} ввел неверный формат данных: {e}")
         await message.reply('Некорректный формат данных!')
-        await message.answer('Введите стоимость лома КП, тыс. руб.:', reply_markup=back_menu().as_markup(one_time_keyboard=True, resize_keyboard=True))
+        await message.answer('Введите стоимость лома КП, тыс. руб.:', reply_markup=back_menu_valuation().as_markup(one_time_keyboard=True, resize_keyboard=True))
 
 
 

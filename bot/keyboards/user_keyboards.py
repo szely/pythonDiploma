@@ -111,3 +111,11 @@ def back_menu_wagon_number():
     builder_type_send.button(text='Назад в меню ↩️')
     builder_type_send.adjust(2)
     return builder_type_send
+
+
+def back_menu_valuation():
+    builder_type_send = ReplyKeyboardBuilder()
+    builder_type_send.button(text='Оценить вагон 🪙')
+    builder_type_send.button(text='Назад в меню ↩️')
+    builder_type_send.adjust(2)
+    return builder_type_send

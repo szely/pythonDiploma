@@ -996,3 +996,449 @@ speech_recognition.exceptions.UnknownValueError
 2024-07-07 22:47:15,771 - aiogram.dispatcher - WARNING - Received SIGINT signal
 2024-07-07 22:47:15,772 - aiogram.dispatcher - INFO - Polling stopped for bot @ourhandy_bot id=6594000811 - 'HandyBOT'
 2024-07-07 22:47:15,772 - aiogram.dispatcher - INFO - Polling stopped
+2024-07-12 13:43:57,350 - asyncio - ERROR - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x31e73b5f0>
+2024-07-12 13:44:04,708 - aiogram.dispatcher - INFO - Start polling
+2024-07-12 13:44:04,797 - aiogram.dispatcher - INFO - Run polling for bot @ourhandy_bot id=6594000811 - 'HandyBOT'
+2024-07-12 13:44:20,787 - aiogram.event - INFO - Update id=174659790 is handled. Duration 471 ms by bot id=6594000811
+2024-07-12 13:44:51,007 - bot.handlers.analitics_handlers - INFO - Пользователь Sergei id 1071020716 зашел в раздел 'Аналитика'
+2024-07-12 13:44:56,349 - aiogram.event - INFO - Update id=174659791 is handled. Duration 5431 ms by bot id=6594000811
+2024-07-12 13:46:13,648 - aiogram.event - INFO - Update id=174659792 is handled. Duration 342 ms by bot id=6594000811
+2024-07-12 13:47:11,204 - bot.handlers.user_handlers - INFO - Пользователь Sergei id 1071020716 начал разговор.
+2024-07-12 13:47:11,204 - aiogram.event - INFO - Update id=174659793 is handled. Duration 452 ms by bot id=6594000811
+2024-07-12 13:47:13,798 - bot.handlers.analitics_handlers - INFO - Пользователь Sergei id 1071020716 зашел в раздел 'Аналитика'
+2024-07-12 13:47:14,729 - aiogram.event - INFO - Update id=174659794 is handled. Duration 1006 ms by bot id=6594000811
+2024-07-12 13:47:16,818 - aiogram.event - INFO - Update id=174659795 is handled. Duration 126 ms by bot id=6594000811
+2024-07-12 13:47:19,321 - bot.handlers.macro_info_handlers - INFO - Пользователь Sergei id 1071020716 зашел в раздел 'Макроинформация'
+2024-07-12 13:47:19,533 - aiogram.event - INFO - Update id=174659796 is handled. Duration 978 ms by bot id=6594000811
+2024-07-12 13:47:21,900 - aiogram.event - INFO - Update id=174659797 is handled. Duration 189 ms by bot id=6594000811
+2024-07-12 13:47:24,166 - bot.handlers.macro_info_handlers - INFO - Пользователь Sergei id 1071020716 зашел в раздел 'Информация о вагоне'
+2024-07-12 13:47:24,391 - aiogram.event - INFO - Update id=174659798 is handled. Duration 228 ms by bot id=6594000811
+2024-07-12 13:47:28,921 - aiogram.event - INFO - Update id=174659799 is handled. Duration 245 ms by bot id=6594000811
+2024-07-12 13:47:30,428 - aiogram.event - INFO - Update id=174659800 is handled. Duration 113 ms by bot id=6594000811
+2024-07-12 13:47:32,573 - bot.handlers.wagon_number_handlers - INFO - Пользователь Sergei id 1071020716 зашел в раздел 'Сканер номера вагона'
+2024-07-12 13:47:32,674 - aiogram.event - INFO - Update id=174659801 is handled. Duration 110 ms by bot id=6594000811
+2024-07-12 13:47:33,910 - aiogram.event - INFO - Update id=174659802 is handled. Duration 116 ms by bot id=6594000811
+2024-07-12 13:47:34,823 - bot.handlers.macro_info_handlers - INFO - Пользователь Sergei id 1071020716 зашел в раздел 'Информация о вагоне'
+2024-07-12 13:47:34,941 - aiogram.event - INFO - Update id=174659803 is handled. Duration 122 ms by bot id=6594000811
+2024-07-12 13:47:36,152 - aiogram.event - INFO - Update id=174659804 is handled. Duration 107 ms by bot id=6594000811
+2024-07-12 13:49:06,347 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2024-07-12 13:49:06,347 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 6594000811)
+2024-07-12 13:49:07,569 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 6594000811)
+2024-07-12 13:49:07,674 - bot.handlers.file_manager_handlers - INFO - Пользователь Sergei id 1071020716 зашел в раздел 'Отчетность'
+2024-07-12 13:49:07,917 - aiogram.event - INFO - Update id=174659805 is handled. Duration 347 ms by bot id=6594000811
+2024-07-12 13:49:09,514 - aiogram.event - INFO - Update id=174659806 is handled. Duration 172 ms by bot id=6594000811
+2024-07-12 13:49:10,907 - bot.handlers.analitics_handlers - INFO - Пользователь Sergei id 1071020716 зашел в раздел 'Аналитика'
+2024-07-12 13:49:11,695 - aiogram.event - INFO - Update id=174659807 is handled. Duration 850 ms by bot id=6594000811
+2024-07-12 13:49:13,532 - aiogram.event - INFO - Update id=174659808 is handled. Duration 75 ms by bot id=6594000811
+2024-07-12 13:57:49,160 - bot.handlers.file_manager_handlers - INFO - Пользователь Sergei id 1071020716 зашел в раздел 'Отчетность'
+2024-07-12 13:57:49,399 - aiogram.event - INFO - Update id=174659809 is handled. Duration 348 ms by bot id=6594000811
+2024-07-12 13:58:23,318 - bot.handlers.user_handlers - INFO - Пользователь Анна id 917041468 начал разговор.
+2024-07-12 13:58:23,729 - aiogram.event - INFO - Update id=174659810 is handled. Duration 410 ms by bot id=6594000811
+2024-07-12 13:58:46,519 - bot.handlers.user_handlers - INFO - Пользователь Анна id 917041468 зарегистрировал адрес электронной почты.
+2024-07-12 13:58:46,779 - aiogram.event - INFO - Update id=174659811 is handled. Duration 266 ms by bot id=6594000811
+2024-07-12 13:58:51,082 - bot.handlers.analitics_handlers - INFO - Пользователь Анна id 917041468 зашел в раздел 'Аналитика'
+2024-07-12 13:58:51,713 - aiogram.event - INFO - Update id=174659812 is handled. Duration 693 ms by bot id=6594000811
+2024-07-12 14:07:13,225 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2024-07-12 14:07:13,226 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 6594000811)
+2024-07-12 14:07:24,508 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 6594000811)
+2024-07-12 15:29:27,485 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2024-07-12 15:29:27,485 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 6594000811)
+2024-07-12 15:29:28,492 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [nodename nor servname provided, or not known]
+2024-07-12 15:29:28,492 - aiogram.dispatcher - WARNING - Sleep for 1.284945 seconds and try again... (tryings = 1, bot id = 6594000811)
+2024-07-12 15:29:29,782 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [nodename nor servname provided, or not known]
+2024-07-12 15:29:29,782 - aiogram.dispatcher - WARNING - Sleep for 1.642579 seconds and try again... (tryings = 2, bot id = 6594000811)
+2024-07-12 15:29:31,431 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [nodename nor servname provided, or not known]
+2024-07-12 15:29:31,431 - aiogram.dispatcher - WARNING - Sleep for 2.374490 seconds and try again... (tryings = 3, bot id = 6594000811)
+2024-07-12 15:29:33,810 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [nodename nor servname provided, or not known]
+2024-07-12 15:29:33,810 - aiogram.dispatcher - WARNING - Sleep for 2.967870 seconds and try again... (tryings = 4, bot id = 6594000811)
+2024-07-12 15:29:36,784 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [nodename nor servname provided, or not known]
+2024-07-12 15:29:36,784 - aiogram.dispatcher - WARNING - Sleep for 3.787453 seconds and try again... (tryings = 5, bot id = 6594000811)
+2024-07-12 15:29:40,576 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [nodename nor servname provided, or not known]
+2024-07-12 15:29:40,576 - aiogram.dispatcher - WARNING - Sleep for 5.048234 seconds and try again... (tryings = 6, bot id = 6594000811)
+2024-07-12 15:29:45,630 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [nodename nor servname provided, or not known]
+2024-07-12 15:29:45,631 - aiogram.dispatcher - WARNING - Sleep for 4.868708 seconds and try again... (tryings = 7, bot id = 6594000811)
+2024-07-12 15:29:50,505 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [nodename nor servname provided, or not known]
+2024-07-12 15:29:50,505 - aiogram.dispatcher - WARNING - Sleep for 4.896130 seconds and try again... (tryings = 8, bot id = 6594000811)
+2024-07-12 15:29:55,406 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [nodename nor servname provided, or not known]
+2024-07-12 15:29:55,407 - aiogram.dispatcher - WARNING - Sleep for 5.185216 seconds and try again... (tryings = 9, bot id = 6594000811)
+2024-07-12 15:30:00,597 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [nodename nor servname provided, or not known]
+2024-07-12 15:30:00,597 - aiogram.dispatcher - WARNING - Sleep for 4.999825 seconds and try again... (tryings = 10, bot id = 6594000811)
+2024-07-12 15:30:05,603 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [nodename nor servname provided, or not known]
+2024-07-12 15:30:05,604 - aiogram.dispatcher - WARNING - Sleep for 4.993228 seconds and try again... (tryings = 11, bot id = 6594000811)
+2024-07-12 15:30:10,603 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [nodename nor servname provided, or not known]
+2024-07-12 15:30:10,603 - aiogram.dispatcher - WARNING - Sleep for 5.043203 seconds and try again... (tryings = 12, bot id = 6594000811)
+2024-07-12 15:30:15,652 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [nodename nor servname provided, or not known]
+2024-07-12 15:30:15,652 - aiogram.dispatcher - WARNING - Sleep for 5.050134 seconds and try again... (tryings = 13, bot id = 6594000811)
+2024-07-12 15:30:20,707 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [nodename nor servname provided, or not known]
+2024-07-12 15:30:20,708 - aiogram.dispatcher - WARNING - Sleep for 5.000084 seconds and try again... (tryings = 14, bot id = 6594000811)
+2024-07-12 15:30:25,714 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [nodename nor servname provided, or not known]
+2024-07-12 15:30:25,714 - aiogram.dispatcher - WARNING - Sleep for 5.168651 seconds and try again... (tryings = 15, bot id = 6594000811)
+2024-07-12 15:30:30,888 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [nodename nor servname provided, or not known]
+2024-07-12 15:30:30,888 - aiogram.dispatcher - WARNING - Sleep for 5.120861 seconds and try again... (tryings = 16, bot id = 6594000811)
+2024-07-12 15:30:36,015 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [nodename nor servname provided, or not known]
+2024-07-12 15:30:36,015 - aiogram.dispatcher - WARNING - Sleep for 5.042126 seconds and try again... (tryings = 17, bot id = 6594000811)
+2024-07-12 15:30:41,062 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [nodename nor servname provided, or not known]
+2024-07-12 15:30:41,062 - aiogram.dispatcher - WARNING - Sleep for 5.092750 seconds and try again... (tryings = 18, bot id = 6594000811)
+2024-07-12 15:30:46,161 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [nodename nor servname provided, or not known]
+2024-07-12 15:30:46,161 - aiogram.dispatcher - WARNING - Sleep for 4.999832 seconds and try again... (tryings = 19, bot id = 6594000811)
+2024-07-12 15:30:51,166 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [nodename nor servname provided, or not known]
+2024-07-12 15:30:51,166 - aiogram.dispatcher - WARNING - Sleep for 4.805412 seconds and try again... (tryings = 20, bot id = 6594000811)
+2024-07-12 15:30:55,977 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [nodename nor servname provided, or not known]
+2024-07-12 15:30:55,978 - aiogram.dispatcher - WARNING - Sleep for 4.880920 seconds and try again... (tryings = 21, bot id = 6594000811)
+2024-07-12 15:31:00,865 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [nodename nor servname provided, or not known]
+2024-07-12 15:31:00,865 - aiogram.dispatcher - WARNING - Sleep for 4.989025 seconds and try again... (tryings = 22, bot id = 6594000811)
+2024-07-12 15:31:05,860 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [nodename nor servname provided, or not known]
+2024-07-12 15:31:05,861 - aiogram.dispatcher - WARNING - Sleep for 5.018775 seconds and try again... (tryings = 23, bot id = 6594000811)
+2024-07-12 15:31:10,885 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [nodename nor servname provided, or not known]
+2024-07-12 15:31:10,885 - aiogram.dispatcher - WARNING - Sleep for 4.798677 seconds and try again... (tryings = 24, bot id = 6594000811)
+2024-07-12 15:31:15,691 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [nodename nor servname provided, or not known]
+2024-07-12 15:31:15,691 - aiogram.dispatcher - WARNING - Sleep for 4.945940 seconds and try again... (tryings = 25, bot id = 6594000811)
+2024-07-12 15:31:45,608 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [nodename nor servname provided, or not known]
+2024-07-12 15:31:45,608 - aiogram.dispatcher - WARNING - Sleep for 4.941992 seconds and try again... (tryings = 26, bot id = 6594000811)
+2024-07-12 15:31:50,596 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorCertificateError: Cannot connect to host api.telegram.org:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1000)')]
+2024-07-12 15:31:50,596 - aiogram.dispatcher - WARNING - Sleep for 5.045265 seconds and try again... (tryings = 27, bot id = 6594000811)
+2024-07-12 15:31:55,645 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Network is unreachable]
+2024-07-12 15:31:55,645 - aiogram.dispatcher - WARNING - Sleep for 5.068002 seconds and try again... (tryings = 28, bot id = 6594000811)
+2024-07-12 15:32:00,749 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorCertificateError: Cannot connect to host api.telegram.org:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1000)')]
+2024-07-12 15:32:00,749 - aiogram.dispatcher - WARNING - Sleep for 5.032695 seconds and try again... (tryings = 29, bot id = 6594000811)
+2024-07-12 15:32:05,811 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorCertificateError: Cannot connect to host api.telegram.org:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1000)')]
+2024-07-12 15:32:05,811 - aiogram.dispatcher - WARNING - Sleep for 5.102684 seconds and try again... (tryings = 30, bot id = 6594000811)
+2024-07-12 15:32:10,682 - aiogram.dispatcher - WARNING - Received SIGTERM signal
+2024-07-12 15:32:10,684 - aiogram.dispatcher - INFO - Polling stopped for bot @ourhandy_bot id=6594000811 - 'HandyBOT'
+2024-07-12 15:32:10,685 - aiogram.dispatcher - INFO - Polling stopped
+2024-07-13 18:15:20,432 - aiogram.dispatcher - INFO - Start polling
+2024-07-13 18:15:20,493 - aiogram.dispatcher - INFO - Run polling for bot @ourhandy_bot id=6594000811 - 'HandyBOT'
+2024-07-13 18:15:59,757 - aiogram.event - INFO - Update id=174659813 is not handled. Duration 5 ms by bot id=6594000811
+2024-07-13 18:15:59,757 - aiogram.event - ERROR - Cause exception while process update id=174659813 by bot id=6594000811
+NameError: name 'buttons' is not defined
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/fsm/middleware.py", line 41, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 123, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 156, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 123, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 148, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/szely/PycharmProjects/pythonDiploma/bot/handlers/file_manager_handlers.py", line 61, in file_manager
+    this_button = buttons.get(str(my_directory + first_dir))
+                  ^^^^^^^
+NameError: name 'buttons' is not defined
+2024-07-13 18:16:23,204 - bot.handlers.user_handlers - INFO - Пользователь Sergei id 1071020716 начал разговор.
+2024-07-13 18:16:23,206 - aiogram.event - INFO - Update id=174659814 is handled. Duration 387 ms by bot id=6594000811
+2024-07-13 18:16:25,130 - bot.handlers.wagon_valuation_handlers - INFO - Пользователь Sergei id 1071020716 зашел в раздел 'Оценить вагон'
+2024-07-13 18:16:25,208 - aiogram.event - INFO - Update id=174659815 is handled. Duration 80 ms by bot id=6594000811
+2024-07-13 18:16:27,439 - aiogram.event - INFO - Update id=174659816 is handled. Duration 85 ms by bot id=6594000811
+2024-07-13 18:16:31,969 - aiogram.event - INFO - Update id=174659817 is handled. Duration 98 ms by bot id=6594000811
+2024-07-13 18:16:32,688 - aiogram.event - INFO - Update id=174659818 is handled. Duration 103 ms by bot id=6594000811
+2024-07-13 18:16:33,610 - aiogram.event - INFO - Update id=174659819 is handled. Duration 109 ms by bot id=6594000811
+2024-07-13 18:16:34,554 - aiogram.event - INFO - Update id=174659820 is handled. Duration 123 ms by bot id=6594000811
+2024-07-13 18:16:35,855 - aiogram.event - INFO - Update id=174659821 is handled. Duration 238 ms by bot id=6594000811
+2024-07-13 18:16:37,100 - aiogram.event - INFO - Update id=174659822 is handled. Duration 226 ms by bot id=6594000811
+2024-07-13 18:22:31,502 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2024-07-13 18:22:31,503 - aiogram.dispatcher - INFO - Polling stopped for bot @ourhandy_bot id=6594000811 - 'HandyBOT'
+2024-07-13 18:22:31,503 - aiogram.dispatcher - INFO - Polling stopped
+2024-07-13 18:22:35,120 - aiogram.dispatcher - INFO - Start polling
+2024-07-13 18:22:35,168 - aiogram.dispatcher - INFO - Run polling for bot @ourhandy_bot id=6594000811 - 'HandyBOT'
+2024-07-13 18:22:35,915 - aiogram.event - INFO - Update id=174659823 is handled. Duration 329 ms by bot id=6594000811
+2024-07-13 18:22:37,621 - bot.handlers.wagon_valuation_handlers - INFO - Пользователь Sergei id 1071020716 зашел в раздел 'Оценить вагон'
+2024-07-13 18:22:37,699 - aiogram.event - INFO - Update id=174659824 is handled. Duration 79 ms by bot id=6594000811
+2024-07-13 18:22:43,787 - aiogram.event - INFO - Update id=174659825 is handled. Duration 105 ms by bot id=6594000811
+2024-07-13 18:22:44,729 - aiogram.event - INFO - Update id=174659826 is handled. Duration 94 ms by bot id=6594000811
+2024-07-13 18:22:45,676 - aiogram.event - INFO - Update id=174659827 is handled. Duration 82 ms by bot id=6594000811
+2024-07-13 18:22:46,832 - bot.handlers.wagon_valuation_handlers - INFO - Пользователь Sergei id 1071020716 зашел в раздел 'Оценить вагон'
+2024-07-13 18:22:46,935 - aiogram.event - INFO - Update id=174659828 is handled. Duration 106 ms by bot id=6594000811
+2024-07-13 18:22:50,004 - aiogram.event - INFO - Update id=174659829 is handled. Duration 89 ms by bot id=6594000811
+2024-07-13 18:22:51,550 - bot.handlers.wagon_valuation_handlers - INFO - Пользователь Sergei id 1071020716 зашел в раздел 'Оценить вагон'
+2024-07-13 18:22:51,639 - aiogram.event - INFO - Update id=174659830 is handled. Duration 92 ms by bot id=6594000811
+2024-07-13 18:22:54,399 - aiogram.event - INFO - Update id=174659831 is handled. Duration 142 ms by bot id=6594000811
+2024-07-13 18:22:58,338 - bot.handlers.wagon_valuation_handlers - INFO - Пользователь Sergei id 1071020716 зашел в раздел 'Оценить вагон'
+2024-07-13 18:22:58,441 - aiogram.event - INFO - Update id=174659832 is handled. Duration 107 ms by bot id=6594000811
+2024-07-13 18:23:00,502 - aiogram.event - INFO - Update id=174659833 is handled. Duration 114 ms by bot id=6594000811
+2024-07-13 18:23:01,337 - bot.handlers.wagon_valuation_handlers - INFO - Пользователь Sergei id 1071020716 зашел в раздел 'Оценить вагон'
+2024-07-13 18:23:01,436 - aiogram.event - INFO - Update id=174659834 is handled. Duration 102 ms by bot id=6594000811
+2024-07-13 18:23:04,286 - aiogram.event - INFO - Update id=174659835 is handled. Duration 171 ms by bot id=6594000811
+2024-07-13 18:23:05,381 - aiogram.event - INFO - Update id=174659836 is handled. Duration 86 ms by bot id=6594000811
+2024-07-13 18:23:06,839 - bot.handlers.wagon_valuation_handlers - INFO - Пользователь Sergei id 1071020716 зашел в раздел 'Оценить вагон'
+2024-07-13 18:23:06,916 - aiogram.event - INFO - Update id=174659837 is handled. Duration 81 ms by bot id=6594000811
+2024-07-13 18:23:14,748 - aiogram.event - INFO - Update id=174659838 is handled. Duration 101 ms by bot id=6594000811
+2024-07-13 18:23:16,169 - bot.handlers.macro_info_handlers - INFO - Пользователь Sergei id 1071020716 зашел в раздел 'Информация о вагоне'
+2024-07-13 18:23:16,284 - aiogram.event - INFO - Update id=174659839 is handled. Duration 117 ms by bot id=6594000811
+2024-07-13 18:23:21,254 - aiogram.event - INFO - Update id=174659840 is handled. Duration 90 ms by bot id=6594000811
+2024-07-13 18:23:28,934 - bot.handlers.macro_info_handlers - INFO - Пользователь Sergei id 1071020716 зашел в раздел 'Информация о вагоне'
+2024-07-13 18:23:29,030 - aiogram.event - INFO - Update id=174659841 is handled. Duration 97 ms by bot id=6594000811
+2024-07-13 18:23:33,136 - aiogram.event - INFO - Update id=174659842 is handled. Duration 103 ms by bot id=6594000811
+2024-07-13 18:23:41,758 - bot.handlers.wagon_valuation_handlers - INFO - Пользователь Sergei id 1071020716 зашел в раздел 'Оценить вагон'
+2024-07-13 18:23:41,897 - aiogram.event - INFO - Update id=174659843 is handled. Duration 144 ms by bot id=6594000811
+2024-07-13 18:23:44,480 - aiogram.event - INFO - Update id=174659844 is handled. Duration 158 ms by bot id=6594000811
+2024-07-13 18:23:44,994 - aiogram.event - INFO - Update id=174659845 is handled. Duration 84 ms by bot id=6594000811
+2024-07-13 18:23:45,458 - aiogram.event - INFO - Update id=174659846 is handled. Duration 109 ms by bot id=6594000811
+2024-07-13 18:23:45,965 - aiogram.event - INFO - Update id=174659847 is handled. Duration 142 ms by bot id=6594000811
+2024-07-13 18:23:47,313 - aiogram.event - INFO - Update id=174659848 is handled. Duration 168 ms by bot id=6594000811
+2024-07-13 18:23:48,997 - aiogram.event - INFO - Update id=174659849 is handled. Duration 83 ms by bot id=6594000811
+2024-07-13 18:23:50,697 - aiogram.event - INFO - Update id=174659850 is handled. Duration 170 ms by bot id=6594000811
+2024-07-13 18:23:55,172 - bot.handlers.wagon_valuation_handlers - INFO - Пользователь Sergei id 1071020716 зашел в раздел 'Оценить вагон'
+2024-07-13 18:23:55,325 - aiogram.event - INFO - Update id=174659851 is handled. Duration 157 ms by bot id=6594000811
+2024-07-13 18:23:56,890 - aiogram.event - INFO - Update id=174659852 is handled. Duration 177 ms by bot id=6594000811
+2024-07-13 18:40:24,057 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2024-07-13 18:40:24,058 - aiogram.dispatcher - INFO - Polling stopped for bot @ourhandy_bot id=6594000811 - 'HandyBOT'
+2024-07-13 18:40:24,058 - aiogram.dispatcher - INFO - Polling stopped
+2024-07-13 18:55:06,515 - aiogram.dispatcher - INFO - Start polling
+2024-07-13 18:55:06,561 - aiogram.dispatcher - INFO - Run polling for bot @ourhandy_bot id=6594000811 - 'HandyBOT'
+2024-07-13 18:55:37,125 - bot.handlers.user_handlers - INFO - Пользователь Sergei id 1071020716 начал разговор.
+2024-07-13 18:55:37,739 - aiogram.event - INFO - Update id=174659853 is handled. Duration 614 ms by bot id=6594000811
+2024-07-13 18:55:44,329 - bot.handlers.user_handlers - INFO - Пользователь Sergei id 1071020716 зарегистрировал адрес электронной почты.
+2024-07-13 18:55:44,479 - aiogram.event - INFO - Update id=174659854 is handled. Duration 152 ms by bot id=6594000811
+2024-07-13 19:00:40,806 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2024-07-13 19:00:40,806 - aiogram.dispatcher - INFO - Polling stopped for bot @ourhandy_bot id=6594000811 - 'HandyBOT'
+2024-07-13 19:00:40,806 - aiogram.dispatcher - INFO - Polling stopped
+2024-07-13 19:00:44,243 - aiogram.dispatcher - INFO - Start polling
+2024-07-13 19:00:44,296 - aiogram.dispatcher - INFO - Run polling for bot @ourhandy_bot id=6594000811 - 'HandyBOT'
+2024-07-13 19:01:06,782 - bot.handlers.user_handlers - INFO - Пользователь Sergei id 1071020716 начал разговор.
+2024-07-13 19:01:07,204 - aiogram.event - INFO - Update id=174659855 is handled. Duration 421 ms by bot id=6594000811
+2024-07-13 19:01:14,433 - bot.handlers.user_handlers - INFO - Пользователь Sergei id 1071020716 зарегистрировал адрес электронной почты.
+2024-07-13 19:01:14,795 - aiogram.event - INFO - Update id=174659856 is handled. Duration 364 ms by bot id=6594000811
+2024-07-13 19:03:33,200 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2024-07-13 19:03:33,201 - aiogram.dispatcher - INFO - Polling stopped for bot @ourhandy_bot id=6594000811 - 'HandyBOT'
+2024-07-13 19:03:33,201 - aiogram.dispatcher - INFO - Polling stopped
+2024-07-13 19:03:36,752 - aiogram.dispatcher - INFO - Start polling
+2024-07-13 19:03:36,799 - aiogram.dispatcher - INFO - Run polling for bot @ourhandy_bot id=6594000811 - 'HandyBOT'
+2024-07-13 19:03:46,617 - bot.handlers.user_handlers - INFO - Пользователь Sergei id 1071020716 начал разговор.
+2024-07-13 19:03:47,126 - aiogram.event - INFO - Update id=174659857 is handled. Duration 509 ms by bot id=6594000811
+2024-07-13 19:03:49,144 - aiogram.event - INFO - Update id=174659858 is not handled. Duration 0 ms by bot id=6594000811
+2024-07-13 19:03:49,144 - aiogram.event - ERROR - Cause exception while process update id=174659858 by bot id=6594000811
+NameError: name 'e' is not defined
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/fsm/middleware.py", line 41, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 123, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 156, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 123, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 148, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/szely/PycharmProjects/pythonDiploma/bot/handlers/user_handlers.py", line 66, in reg_email
+    logger.error(f"Пользователь {message.from_user.first_name} id {message.from_user.id} ввел некорректный адресс электронной почты: {e}")
+                                                                                                                                      ^
+NameError: name 'e' is not defined
+2024-07-13 19:04:38,103 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2024-07-13 19:04:38,103 - aiogram.dispatcher - INFO - Polling stopped for bot @ourhandy_bot id=6594000811 - 'HandyBOT'
+2024-07-13 19:04:38,103 - aiogram.dispatcher - INFO - Polling stopped
+2024-07-13 19:04:41,610 - aiogram.dispatcher - INFO - Start polling
+2024-07-13 19:04:41,662 - aiogram.dispatcher - INFO - Run polling for bot @ourhandy_bot id=6594000811 - 'HandyBOT'
+2024-07-13 19:04:42,363 - bot.handlers.user_handlers - INFO - Пользователь Sergei id 1071020716 начал разговор.
+2024-07-13 19:04:42,832 - aiogram.event - INFO - Update id=174659859 is handled. Duration 469 ms by bot id=6594000811
+2024-07-13 19:04:44,314 - bot.handlers.user_handlers - ERROR - Пользователь Sergei id 1071020716 ввел некорректный адресс электронной почты
+2024-07-13 19:04:44,411 - aiogram.event - INFO - Update id=174659860 is handled. Duration 97 ms by bot id=6594000811
+2024-07-13 19:04:46,557 - bot.handlers.user_handlers - ERROR - Пользователь Sergei id 1071020716 ввел некорректный адресс электронной почты
+2024-07-13 19:04:46,659 - aiogram.event - INFO - Update id=174659861 is handled. Duration 102 ms by bot id=6594000811
+2024-07-13 19:04:48,380 - bot.handlers.user_handlers - ERROR - Пользователь Sergei id 1071020716 ввел некорректный адресс электронной почты
+2024-07-13 19:04:48,478 - aiogram.event - INFO - Update id=174659862 is handled. Duration 99 ms by bot id=6594000811
+2024-07-13 19:04:50,443 - bot.handlers.user_handlers - ERROR - Пользователь Sergei id 1071020716 ввел некорректный адресс электронной почты
+2024-07-13 19:04:50,550 - aiogram.event - INFO - Update id=174659863 is handled. Duration 108 ms by bot id=6594000811
+2024-07-13 19:05:00,421 - bot.handlers.user_handlers - INFO - Пользователь Sergei id 1071020716 зарегистрировал адрес электронной почты.
+2024-07-13 19:05:00,605 - aiogram.event - INFO - Update id=174659864 is handled. Duration 189 ms by bot id=6594000811
+2024-07-13 19:06:01,180 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2024-07-13 19:06:01,181 - aiogram.dispatcher - INFO - Polling stopped for bot @ourhandy_bot id=6594000811 - 'HandyBOT'
+2024-07-13 19:06:01,181 - aiogram.dispatcher - INFO - Polling stopped
+2024-07-13 19:06:04,909 - aiogram.dispatcher - INFO - Start polling
+2024-07-13 19:06:04,973 - aiogram.dispatcher - INFO - Run polling for bot @ourhandy_bot id=6594000811 - 'HandyBOT'
+2024-07-13 19:06:17,573 - bot.handlers.user_handlers - INFO - Пользователь Sergei id 1071020716 начал разговор.
+2024-07-13 19:06:18,037 - aiogram.event - INFO - Update id=174659865 is handled. Duration 464 ms by bot id=6594000811
+2024-07-13 19:06:26,713 - bot.handlers.user_handlers - ERROR - Пользователь Sergei id 1071020716 ввел некорректный адресс электронной почты
+2024-07-13 19:06:26,791 - aiogram.event - INFO - Update id=174659866 is handled. Duration 78 ms by bot id=6594000811
+2024-07-13 19:06:52,489 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2024-07-13 19:06:52,490 - aiogram.dispatcher - INFO - Polling stopped for bot @ourhandy_bot id=6594000811 - 'HandyBOT'
+2024-07-13 19:06:52,490 - aiogram.dispatcher - INFO - Polling stopped
+2024-07-13 19:06:55,965 - aiogram.dispatcher - INFO - Start polling
+2024-07-13 19:06:56,012 - aiogram.dispatcher - INFO - Run polling for bot @ourhandy_bot id=6594000811 - 'HandyBOT'
+2024-07-13 19:06:56,067 - bot.handlers.user_handlers - INFO - Пользователь Sergei id 1071020716 начал разговор.
+2024-07-13 19:06:56,643 - aiogram.event - INFO - Update id=174659867 is handled. Duration 576 ms by bot id=6594000811
+2024-07-13 19:07:05,433 - bot.handlers.user_handlers - INFO - Пользователь Sergei id 1071020716 зарегистрировал адрес электронной почты.
+2024-07-13 19:07:05,592 - aiogram.event - INFO - Update id=174659868 is handled. Duration 163 ms by bot id=6594000811
+2024-07-13 19:07:07,217 - bot.handlers.file_manager_handlers - INFO - Пользователь Sergei id 1071020716 зашел в раздел 'Отчетность'
+2024-07-13 19:07:07,343 - aiogram.event - INFO - Update id=174659869 is handled. Duration 224 ms by bot id=6594000811
+2024-07-13 19:07:08,266 - bot.handlers.file_manager_handlers - INFO - Пользователь Sergei id 1071020716 выбрал метод отправки 'На почту'
+2024-07-13 19:07:08,556 - aiogram.event - INFO - Update id=174659870 is handled. Duration 291 ms by bot id=6594000811
+2024-07-13 19:07:09,609 - aiogram.event - INFO - Update id=174659871 is handled. Duration 355 ms by bot id=6594000811
+2024-07-13 19:07:10,900 - aiogram.event - INFO - Update id=174659872 is handled. Duration 142 ms by bot id=6594000811
+2024-07-13 19:07:11,580 - aiogram.event - INFO - Update id=174659873 is handled. Duration 140 ms by bot id=6594000811
+2024-07-13 19:07:12,717 - aiogram.event - INFO - Update id=174659874 is handled. Duration 137 ms by bot id=6594000811
+2024-07-13 19:07:13,754 - aiogram.event - INFO - Update id=174659875 is handled. Duration 168 ms by bot id=6594000811
+2024-07-13 19:07:14,841 - bot.handlers.file_manager_handlers - INFO - Статус отправки файла '/Users/szely/Yandex.Disk.localized/Финансовый департамент/ОТЧЕТНОСТЬ/01. Парк/2024/03. Март/3. Март Парк.pdf' на почту для пользователя  Sergei id 1071020716 - 'На Вашу почту szely@yandex.ru успешно отправлен файл '
+2024-07-13 19:07:14,914 - aiogram.event - INFO - Update id=174659876 is handled. Duration 363 ms by bot id=6594000811
+2024-07-13 19:07:16,461 - aiogram.event - INFO - Update id=174659877 is handled. Duration 331 ms by bot id=6594000811
+2024-07-13 19:07:17,798 - aiogram.event - INFO - Update id=174659878 is handled. Duration 232 ms by bot id=6594000811
+2024-07-13 19:07:18,600 - aiogram.event - INFO - Update id=174659879 is handled. Duration 147 ms by bot id=6594000811
+2024-07-13 19:07:20,715 - aiogram.event - INFO - Update id=174659880 is handled. Duration 86 ms by bot id=6594000811
+2024-07-13 19:12:57,181 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2024-07-13 19:12:57,182 - aiogram.dispatcher - INFO - Polling stopped for bot @ourhandy_bot id=6594000811 - 'HandyBOT'
+2024-07-13 19:12:57,182 - aiogram.dispatcher - INFO - Polling stopped
+2024-07-13 19:13:00,796 - aiogram.dispatcher - INFO - Start polling
+2024-07-13 19:13:00,860 - aiogram.dispatcher - INFO - Run polling for bot @ourhandy_bot id=6594000811 - 'HandyBOT'
+2024-07-13 19:13:05,016 - bot.handlers.macro_info_handlers - INFO - Пользователь Sergei id 1071020716 зашел в раздел 'Макроинформация'
+2024-07-13 19:13:05,457 - aiogram.event - INFO - Update id=174659881 is handled. Duration 643 ms by bot id=6594000811
+2024-07-13 19:13:07,766 - aiogram.event - INFO - Update id=174659882 is handled. Duration 144 ms by bot id=6594000811
+2024-07-13 19:13:09,031 - aiogram.event - INFO - Update id=174659883 is handled. Duration 125 ms by bot id=6594000811
+2024-07-13 19:13:10,255 - aiogram.event - INFO - Update id=174659884 is handled. Duration 96 ms by bot id=6594000811
+2024-07-13 19:13:13,402 - aiogram.event - INFO - Update id=174659885 is handled. Duration 222 ms by bot id=6594000811
+2024-07-13 19:13:55,287 - aiogram.event - INFO - Update id=174659886 is handled. Duration 203 ms by bot id=6594000811
+2024-07-13 19:13:57,125 - aiogram.event - INFO - Update id=174659887 is handled. Duration 83 ms by bot id=6594000811
+2024-07-13 19:13:58,300 - aiogram.event - INFO - Update id=174659888 is handled. Duration 99 ms by bot id=6594000811
+2024-07-13 19:14:00,300 - aiogram.event - INFO - Update id=174659889 is handled. Duration 252 ms by bot id=6594000811
+2024-07-13 19:14:07,831 - aiogram.event - INFO - Update id=174659890 is handled. Duration 135 ms by bot id=6594000811
+2024-07-13 19:14:09,385 - aiogram.event - INFO - Update id=174659891 is handled. Duration 101 ms by bot id=6594000811
+2024-07-13 19:14:13,944 - bot.handlers.macro_info_handlers - ERROR - Пользователь Sergei id 1071020716 ввел неверную валюту 100
+2024-07-13 19:14:14,741 - aiogram.event - INFO - Update id=174659892 is handled. Duration 801 ms by bot id=6594000811
+2024-07-13 19:14:16,352 - aiogram.event - INFO - Update id=174659893 is handled. Duration 107 ms by bot id=6594000811
+2024-07-13 19:14:18,810 - aiogram.event - INFO - Update id=174659894 is handled. Duration 300 ms by bot id=6594000811
+2024-07-13 19:15:34,966 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2024-07-13 19:15:34,967 - aiogram.dispatcher - INFO - Polling stopped for bot @ourhandy_bot id=6594000811 - 'HandyBOT'
+2024-07-13 19:15:34,967 - aiogram.dispatcher - INFO - Polling stopped
+2024-07-13 19:15:38,544 - aiogram.dispatcher - INFO - Start polling
+2024-07-13 19:15:38,594 - aiogram.dispatcher - INFO - Run polling for bot @ourhandy_bot id=6594000811 - 'HandyBOT'
+2024-07-13 19:15:39,509 - aiogram.event - INFO - Update id=174659895 is handled. Duration 328 ms by bot id=6594000811
+2024-07-13 19:15:40,515 - aiogram.event - INFO - Update id=174659896 is handled. Duration 123 ms by bot id=6594000811
+2024-07-13 19:15:41,880 - aiogram.event - INFO - Update id=174659897 is handled. Duration 106 ms by bot id=6594000811
+2024-07-13 19:15:43,991 - aiogram.event - INFO - Update id=174659898 is handled. Duration 463 ms by bot id=6594000811
+2024-07-13 19:17:28,582 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2024-07-13 19:17:28,582 - aiogram.dispatcher - INFO - Polling stopped for bot @ourhandy_bot id=6594000811 - 'HandyBOT'
+2024-07-13 19:17:28,582 - aiogram.dispatcher - INFO - Polling stopped
+2024-07-13 19:19:31,484 - aiogram.dispatcher - INFO - Start polling
+2024-07-13 19:19:31,534 - aiogram.dispatcher - INFO - Run polling for bot @ourhandy_bot id=6594000811 - 'HandyBOT'
+2024-07-13 19:19:34,011 - aiogram.event - INFO - Update id=174659900 is handled. Duration 339 ms by bot id=6594000811
+2024-07-13 19:19:36,107 - bot.handlers.wagon_valuation_handlers - INFO - Пользователь Sergei id 1071020716 зашел в раздел 'Оценить вагон'
+2024-07-13 19:19:36,259 - aiogram.event - INFO - Update id=174659901 is handled. Duration 153 ms by bot id=6594000811
+2024-07-13 19:19:38,238 - aiogram.event - INFO - Update id=174659902 is handled. Duration 97 ms by bot id=6594000811
+2024-07-13 19:19:42,454 - bot.handlers.wagon_valuation_handlers - ERROR - Пользователь Sergei id 1071020716 ввел неверный формат данных: could not convert string to float: 'Сканер номера вагона 📷'
+2024-07-13 19:19:42,721 - aiogram.event - INFO - Update id=174659903 is handled. Duration 270 ms by bot id=6594000811
+2024-07-13 19:22:56,185 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2024-07-13 19:22:56,186 - aiogram.dispatcher - INFO - Polling stopped for bot @ourhandy_bot id=6594000811 - 'HandyBOT'
+2024-07-13 19:22:56,186 - aiogram.dispatcher - INFO - Polling stopped
+2024-07-13 19:22:59,631 - aiogram.dispatcher - INFO - Start polling
+2024-07-13 19:22:59,728 - aiogram.dispatcher - INFO - Run polling for bot @ourhandy_bot id=6594000811 - 'HandyBOT'
+2024-07-13 19:23:08,760 - bot.handlers.user_handlers - INFO - Пользователь Sergei id 1071020716 начал разговор.
+2024-07-13 19:23:08,760 - aiogram.event - INFO - Update id=174659904 is handled. Duration 335 ms by bot id=6594000811
+2024-07-13 19:23:10,800 - bot.handlers.wagon_valuation_handlers - INFO - Пользователь Sergei id 1071020716 зашел в раздел 'Оценить вагон'
+2024-07-13 19:23:10,889 - aiogram.event - INFO - Update id=174659905 is handled. Duration 89 ms by bot id=6594000811
+2024-07-13 19:23:13,002 - aiogram.event - INFO - Update id=174659906 is handled. Duration 78 ms by bot id=6594000811
+2024-07-13 19:23:14,524 - bot.handlers.wagon_valuation_handlers - INFO - Пользователь Sergei id 1071020716 зашел в раздел 'Сканер номера вагона'
+2024-07-13 19:23:14,602 - aiogram.event - INFO - Update id=174659907 is handled. Duration 80 ms by bot id=6594000811
+2024-07-13 19:23:16,303 - aiogram.event - INFO - Update id=174659908 is handled. Duration 76 ms by bot id=6594000811
+2024-07-13 19:23:17,699 - bot.handlers.macro_info_handlers - INFO - Пользователь Sergei id 1071020716 зашел в раздел 'Информация о вагоне'
+2024-07-13 19:23:17,772 - aiogram.event - INFO - Update id=174659909 is handled. Duration 75 ms by bot id=6594000811
+2024-07-13 19:23:19,418 - aiogram.event - INFO - Update id=174659910 is handled. Duration 105 ms by bot id=6594000811
+2024-07-13 19:23:21,574 - bot.handlers.wagon_valuation_handlers - INFO - Пользователь Sergei id 1071020716 зашел в раздел 'Оценить вагон'
+2024-07-13 19:23:21,726 - aiogram.event - INFO - Update id=174659911 is handled. Duration 156 ms by bot id=6594000811
+2024-07-13 19:23:25,572 - aiogram.event - INFO - Update id=174659912 is handled. Duration 82 ms by bot id=6594000811
+2024-07-13 19:23:29,976 - bot.handlers.wagon_valuation_handlers - INFO - Пользователь Sergei id 1071020716 зашел в раздел 'Сканер номера вагона'
+2024-07-13 19:23:30,141 - aiogram.event - INFO - Update id=174659913 is handled. Duration 169 ms by bot id=6594000811
+2024-07-13 19:23:35,273 - aiogram.event - INFO - Update id=174659914 is not handled. Duration 6 ms by bot id=6594000811
+2024-07-13 19:23:58,479 - aiogram.event - INFO - Update id=174659915 is handled. Duration 226 ms by bot id=6594000811
+2024-07-13 19:24:00,339 - bot.handlers.wagon_valuation_handlers - INFO - Пользователь Sergei id 1071020716 зашел в раздел 'Сканер номера вагона'
+2024-07-13 19:24:00,496 - aiogram.event - INFO - Update id=174659916 is handled. Duration 160 ms by bot id=6594000811
+2024-07-13 19:24:05,362 - aiogram.event - INFO - Update id=174659917 is not handled. Duration 7 ms by bot id=6594000811
+2024-07-13 19:24:30,943 - aiogram.event - INFO - Update id=174659918 is handled. Duration 2959 ms by bot id=6594000811
+2024-07-13 19:24:33,954 - bot.handlers.wagon_valuation_handlers - INFO - Пользователь Sergei id 1071020716 зашел в раздел 'Сканер номера вагона'
+2024-07-13 19:24:34,082 - aiogram.event - INFO - Update id=174659919 is handled. Duration 130 ms by bot id=6594000811
+2024-07-13 19:24:36,104 - aiogram.event - INFO - Update id=174659920 is handled. Duration 171 ms by bot id=6594000811
+2024-07-13 19:24:38,432 - bot.handlers.wagon_valuation_handlers - INFO - Пользователь Sergei id 1071020716 зашел в раздел 'Оценить вагон'
+2024-07-13 19:24:38,499 - aiogram.event - INFO - Update id=174659921 is handled. Duration 69 ms by bot id=6594000811
+2024-07-13 19:24:40,364 - aiogram.event - INFO - Update id=174659922 is handled. Duration 178 ms by bot id=6594000811
+2024-07-13 19:24:41,317 - bot.handlers.wagon_valuation_handlers - INFO - Пользователь Sergei id 1071020716 зашел в раздел 'Сканер номера вагона'
+2024-07-13 19:24:41,441 - aiogram.event - INFO - Update id=174659923 is handled. Duration 129 ms by bot id=6594000811
+2024-07-13 19:24:41,540 - bot.handlers.wagon_valuation_handlers - INFO - Пользователь Sergei id 1071020716 зашел в раздел 'Сканер номера вагона'
+2024-07-13 19:24:41,639 - aiogram.event - INFO - Update id=174659924 is handled. Duration 104 ms by bot id=6594000811
+2024-07-13 19:24:45,225 - aiogram.event - INFO - Update id=174659925 is handled. Duration 217 ms by bot id=6594000811
+2024-07-13 19:24:46,524 - bot.handlers.wagon_valuation_handlers - INFO - Пользователь Sergei id 1071020716 зашел в раздел 'Оценить вагон'
+2024-07-13 19:24:46,590 - aiogram.event - INFO - Update id=174659926 is handled. Duration 72 ms by bot id=6594000811
+2024-07-13 19:24:48,003 - aiogram.event - INFO - Update id=174659927 is handled. Duration 120 ms by bot id=6594000811
+2024-07-13 19:24:49,901 - bot.handlers.wagon_valuation_handlers - INFO - Пользователь Sergei id 1071020716 зашел в раздел 'Сканер номера вагона'
+2024-07-13 19:24:50,082 - aiogram.event - INFO - Update id=174659928 is handled. Duration 183 ms by bot id=6594000811
+2024-07-13 19:24:52,344 - aiogram.event - INFO - Update id=174659929 is handled. Duration 91 ms by bot id=6594000811
+2024-07-13 19:24:53,588 - bot.handlers.wagon_valuation_handlers - INFO - Пользователь Sergei id 1071020716 зашел в раздел 'Сканер номера вагона'
+2024-07-13 19:24:53,655 - aiogram.event - INFO - Update id=174659930 is handled. Duration 72 ms by bot id=6594000811
+2024-07-13 19:25:09,130 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2024-07-13 19:25:09,130 - aiogram.dispatcher - INFO - Polling stopped for bot @ourhandy_bot id=6594000811 - 'HandyBOT'
+2024-07-13 19:25:09,130 - aiogram.dispatcher - INFO - Polling stopped
