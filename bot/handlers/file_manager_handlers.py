@@ -122,7 +122,7 @@ async def find_file(message: Message, state: FSMContext) -> None:
     await message.answer('Напишите название файла или пришлите аудиосообщение!')
 
 
-# ОБработчик поиска
+# Обработчик поиска
 @router.message(Form.SEARCH)
 async def search(message: Message, state: FSMContext, bot: Bot) -> None:
     global number_path

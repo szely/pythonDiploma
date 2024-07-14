@@ -20,7 +20,7 @@ def db_table_val(user_id: int, user_name: str, user_surname: str, username: str,
 	connection.close()
 
 
-# Проверка регестрации пользователя в БД
+# Проверка регистрации пользователя в БД
 def find_user_id(user_id):
 	load_dotenv('.env')
 	bd = os.getenv("BD")

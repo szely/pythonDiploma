@@ -28,7 +28,7 @@ buttons = {}
 message_choose = ''
 
 
-# Стартовая компанда. Осуществляется проверка регестрации пользователя в БД.
+# Стартовая команда. Осуществляется проверка регистрации пользователя в БД.
 @router.message(Command("start"))
 async def cmd_start(message: types.Message, state: FSMContext) -> None:
     logger.info("Пользователь %s id %s начал разговор.", message.from_user.first_name, message.from_user.id)

@@ -1521,3 +1521,49 @@ NameError: name 'e' is not defined
 2024-07-13 20:04:59,005 - aiogram.dispatcher - WARNING - Received SIGINT signal
 2024-07-13 20:04:59,007 - aiogram.dispatcher - INFO - Polling stopped for bot @ourhandy_bot id=6594000811 - 'HandyBOT'
 2024-07-13 20:04:59,007 - aiogram.dispatcher - INFO - Polling stopped
+2024-07-13 21:50:52,739 - aiogram.dispatcher - INFO - Start polling
+2024-07-13 21:50:52,796 - aiogram.dispatcher - INFO - Run polling for bot @ourhandy_bot id=6594000811 - 'HandyBOT'
+2024-07-13 21:50:56,232 - bot.handlers.user_handlers - INFO - Пользователь Sergei id 1071020716 начал разговор.
+2024-07-13 21:50:56,232 - aiogram.event - INFO - Update id=174659990 is handled. Duration 330 ms by bot id=6594000811
+2024-07-13 21:59:43,649 - bot.handlers.file_manager_handlers - INFO - Пользователь Sergei id 1071020716 зашел в раздел 'Отчетность'
+2024-07-13 21:59:43,822 - aiogram.event - INFO - Update id=174659991 is handled. Duration 277 ms by bot id=6594000811
+2024-07-13 22:02:03,446 - bot.handlers.file_manager_handlers - INFO - Пользователь Sergei id 1071020716 выбрал метод отправки 'В бот'
+2024-07-13 22:02:03,734 - aiogram.event - INFO - Update id=174659992 is handled. Duration 291 ms by bot id=6594000811
+2024-07-13 22:02:45,486 - aiogram.event - INFO - Update id=174659993 is handled. Duration 574 ms by bot id=6594000811
+2024-07-13 22:02:46,953 - bot.handlers.analitics_handlers - INFO - Пользователь Sergei id 1071020716 зашел в раздел 'Аналитика'
+2024-07-13 22:02:48,317 - aiogram.event - INFO - Update id=174659994 is handled. Duration 1412 ms by bot id=6594000811
+2024-07-13 22:02:49,711 - aiogram.event - INFO - Update id=174659995 is handled. Duration 86 ms by bot id=6594000811
+2024-07-13 22:02:51,521 - bot.handlers.macro_info_handlers - INFO - Пользователь Sergei id 1071020716 зашел в раздел 'Информация о вагоне'
+2024-07-13 22:02:51,649 - aiogram.event - INFO - Update id=174659996 is handled. Duration 130 ms by bot id=6594000811
+2024-07-13 22:02:54,074 - aiogram.event - INFO - Update id=174659997 is handled. Duration 125 ms by bot id=6594000811
+2024-07-13 22:02:54,966 - bot.handlers.wagon_valuation_handlers - INFO - Пользователь Sergei id 1071020716 зашел в раздел 'Оценить вагон'
+2024-07-13 22:02:55,146 - aiogram.event - INFO - Update id=174659998 is handled. Duration 181 ms by bot id=6594000811
+2024-07-13 22:02:56,406 - aiogram.event - INFO - Update id=174659999 is handled. Duration 108 ms by bot id=6594000811
+2024-07-13 22:02:57,702 - bot.handlers.wagon_valuation_handlers - INFO - Пользователь Sergei id 1071020716 зашел в раздел 'Сканер номера вагона'
+2024-07-13 22:02:57,774 - aiogram.event - INFO - Update id=174660000 is handled. Duration 74 ms by bot id=6594000811
+2024-07-13 22:02:58,880 - aiogram.event - INFO - Update id=174660001 is handled. Duration 66 ms by bot id=6594000811
+2024-07-13 22:02:59,711 - bot.handlers.macro_info_handlers - INFO - Пользователь Sergei id 1071020716 зашел в раздел 'Макроинформация'
+2024-07-13 22:02:59,850 - aiogram.event - INFO - Update id=174660002 is handled. Duration 308 ms by bot id=6594000811
+2024-07-13 22:20:52,080 - bot.handlers.user_handlers - INFO - Пользователь Sergei id 1071020716 начал разговор.
+2024-07-13 22:20:52,082 - aiogram.event - INFO - Update id=174660003 is handled. Duration 330 ms by bot id=6594000811
+2024-07-13 23:06:13,648 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2024-07-13 23:06:13,654 - aiogram.dispatcher - INFO - Polling stopped for bot @ourhandy_bot id=6594000811 - 'HandyBOT'
+2024-07-13 23:06:13,654 - aiogram.dispatcher - INFO - Polling stopped
+2024-07-14 17:09:05,737 - aiogram.dispatcher - INFO - Start polling
+2024-07-14 17:09:05,796 - aiogram.dispatcher - INFO - Run polling for bot @ourhandy_bot id=6594000811 - 'HandyBOT'
+2024-07-14 17:09:38,072 - bot.handlers.user_handlers - INFO - Пользователь Sergei id 1071020716 начал разговор.
+2024-07-14 17:09:38,588 - aiogram.event - INFO - Update id=174660004 is handled. Duration 516 ms by bot id=6594000811
+2024-07-14 17:10:59,383 - bot.handlers.user_handlers - INFO - Пользователь Sergei id 1071020716 начал разговор.
+2024-07-14 17:10:59,925 - aiogram.event - INFO - Update id=174660005 is handled. Duration 542 ms by bot id=6594000811
+2024-07-14 17:17:12,709 - bot.handlers.user_handlers - INFO - Пользователь Sergei id 1071020716 зарегистрировал адрес электронной почты.
+2024-07-14 17:17:12,994 - aiogram.event - INFO - Update id=174660006 is handled. Duration 290 ms by bot id=6594000811
+2024-07-14 17:29:54,548 - bot.handlers.user_handlers - INFO - Пользователь Sergei id 1071020716 начал разговор.
+2024-07-14 17:29:54,549 - aiogram.event - INFO - Update id=174660007 is handled. Duration 201 ms by bot id=6594000811
+2024-07-14 19:15:00,960 - bot.handlers.analitics_handlers - INFO - Пользователь Sergei id 1071020716 зашел в раздел 'Аналитика'
+2024-07-14 19:15:04,470 - aiogram.event - INFO - Update id=174660008 is handled. Duration 3550 ms by bot id=6594000811
+2024-07-14 19:46:26,335 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2024-07-14 19:46:26,337 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 6594000811)
+2024-07-14 19:46:37,498 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 6594000811)
+2024-07-14 19:51:27,306 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2024-07-14 19:51:27,308 - aiogram.dispatcher - INFO - Polling stopped for bot @ourhandy_bot id=6594000811 - 'HandyBOT'
+2024-07-14 19:51:27,308 - aiogram.dispatcher - INFO - Polling stopped
