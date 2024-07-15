@@ -47,7 +47,7 @@ async def wagon_number(message: types.Message, state: FSMContext):
                     await state.clear()
                 else:
                     wagon_type = get_wagon_type(number)
-                    await message.answer(f'Информация по вагону {message.text} в базе данных не найдена! Этот вагон отностится к типу {wagon_type}.')
+                    await message.answer(f'Информация по вагону {message.text} в базе данных не найдена! Этот вагон относится к типу {wagon_type}.')
                     await message.answer("Запустите поиск заново или вернитесь в меню:", reply_markup=back_menu_info().as_markup(one_time_keyboard=True, resize_keyboard=True))
                     await state.clear()
             else:
@@ -58,7 +58,7 @@ async def wagon_number(message: types.Message, state: FSMContext):
                     await state.clear()
         except Exception as e:
             logger.error(f"Пользователь {message.from_user.first_name} id {message.from_user.id} ввел неверный формат данных: {e}")
-            await message.reply('Номер вагона должен быть введенн в числовом вормате! Длина введенного номера должна быть равна 8!')
+            await message.reply('Номер вагона должен быть введен в числовом формате! Длина введенного номера должна быть равна 8!')
             await message.answer("Введите номер вагона или вернитесь в меню:",
                                  reply_markup=back_menu().as_markup(one_time_keyboard=True, resize_keyboard=True))
             if message.text == 'Назад в меню ↩️':

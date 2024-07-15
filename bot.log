@@ -1567,3 +1567,69 @@ NameError: name 'e' is not defined
 2024-07-14 19:51:27,306 - aiogram.dispatcher - WARNING - Received SIGINT signal
 2024-07-14 19:51:27,308 - aiogram.dispatcher - INFO - Polling stopped for bot @ourhandy_bot id=6594000811 - 'HandyBOT'
 2024-07-14 19:51:27,308 - aiogram.dispatcher - INFO - Polling stopped
+2024-07-15 17:09:28,341 - aiogram.dispatcher - INFO - Start polling
+2024-07-15 17:09:28,397 - aiogram.dispatcher - INFO - Run polling for bot @ourhandy_bot id=6594000811 - 'HandyBOT'
+2024-07-15 17:10:08,434 - aiogram.event - INFO - Update id=174660009 is handled. Duration 401 ms by bot id=6594000811
+2024-07-15 17:10:23,172 - bot.handlers.macro_info_handlers - INFO - Пользователь Sergei id 1071020716 зашел в раздел 'Макроинформация'
+2024-07-15 17:10:23,342 - aiogram.event - INFO - Update id=174660010 is handled. Duration 311 ms by bot id=6594000811
+2024-07-15 17:11:29,060 - aiogram.event - INFO - Update id=174660011 is handled. Duration 218 ms by bot id=6594000811
+2024-07-15 17:11:31,135 - aiogram.event - INFO - Update id=174660012 is handled. Duration 107 ms by bot id=6594000811
+2024-07-15 17:11:34,183 - bot.handlers.macro_info_handlers - ERROR - Пользователь Sergei id 1071020716 ввел неверную валюту 1000
+2024-07-15 17:11:34,348 - aiogram.event - INFO - Update id=174660013 is handled. Duration 169 ms by bot id=6594000811
+2024-07-15 17:11:36,760 - aiogram.event - INFO - Update id=174660014 is handled. Duration 89 ms by bot id=6594000811
+2024-07-15 17:11:42,660 - bot.handlers.user_handlers - INFO - Пользователь Sergei id 1071020716 начал разговор.
+2024-07-15 17:11:42,660 - aiogram.event - INFO - Update id=174660015 is handled. Duration 74 ms by bot id=6594000811
+2024-07-15 17:11:46,427 - bot.handlers.macro_info_handlers - INFO - Пользователь Sergei id 1071020716 зашел в раздел 'Макроинформация'
+2024-07-15 17:11:46,561 - aiogram.event - INFO - Update id=174660016 is handled. Duration 319 ms by bot id=6594000811
+2024-07-15 17:11:58,975 - aiogram.event - INFO - Update id=174660017 is handled. Duration 73 ms by bot id=6594000811
+2024-07-15 17:12:00,977 - aiogram.event - INFO - Update id=174660018 is handled. Duration 76 ms by bot id=6594000811
+2024-07-15 17:12:06,687 - aiogram.event - INFO - Update id=174660019 is handled. Duration 75 ms by bot id=6594000811
+2024-07-15 17:12:09,964 - aiogram.event - INFO - Update id=174660020 is handled. Duration 499 ms by bot id=6594000811
+2024-07-15 17:12:14,229 - aiogram.event - INFO - Update id=174660021 is handled. Duration 132 ms by bot id=6594000811
+2024-07-15 17:12:18,333 - aiogram.event - INFO - Update id=174660022 is handled. Duration 135 ms by bot id=6594000811
+2024-07-15 17:12:19,516 - aiogram.event - INFO - Update id=174660023 is handled. Duration 87 ms by bot id=6594000811
+2024-07-15 17:12:24,280 - aiogram.event - INFO - Update id=174660024 is handled. Duration 354 ms by bot id=6594000811
+2024-07-15 17:29:31,753 - aiogram.event - INFO - Update id=174660025 is handled. Duration 188 ms by bot id=6594000811
+2024-07-15 17:29:33,336 - bot.handlers.macro_info_handlers - INFO - Пользователь Sergei id 1071020716 зашел в раздел 'Информация о вагоне'
+2024-07-15 17:29:33,411 - aiogram.event - INFO - Update id=174660026 is handled. Duration 79 ms by bot id=6594000811
+2024-07-15 17:29:40,296 - bot.handlers.wagon_info_handlers - ERROR - Пользователь Sergei id 1071020716 ввел неверный формат данных: invalid literal for int() with base 10: 'тооаовта'
+2024-07-15 17:29:40,510 - aiogram.event - INFO - Update id=174660027 is handled. Duration 221 ms by bot id=6594000811
+2024-07-15 17:29:47,070 - aiogram.event - INFO - Update id=174660028 is handled. Duration 1393 ms by bot id=6594000811
+2024-07-15 17:29:53,077 - aiogram.event - INFO - Update id=174660029 is handled. Duration 248 ms by bot id=6594000811
+2024-07-15 17:30:03,913 - bot.handlers.macro_info_handlers - INFO - Пользователь Sergei id 1071020716 зашел в раздел 'Информация о вагоне'
+2024-07-15 17:30:04,090 - aiogram.event - INFO - Update id=174660030 is handled. Duration 180 ms by bot id=6594000811
+2024-07-15 17:30:06,360 - aiogram.event - INFO - Update id=174660031 is handled. Duration 463 ms by bot id=6594000811
+2024-07-15 17:30:26,311 - bot.handlers.macro_info_handlers - INFO - Пользователь Sergei id 1071020716 зашел в раздел 'Информация о вагоне'
+2024-07-15 17:30:26,507 - aiogram.event - INFO - Update id=174660032 is handled. Duration 196 ms by bot id=6594000811
+2024-07-15 17:30:29,757 - aiogram.event - INFO - Update id=174660033 is handled. Duration 351 ms by bot id=6594000811
+2024-07-15 17:30:32,832 - aiogram.event - INFO - Update id=174660034 is handled. Duration 186 ms by bot id=6594000811
+2024-07-15 17:30:38,567 - aiogram.event - INFO - Update id=174660035 is handled. Duration 262 ms by bot id=6594000811
+2024-07-15 17:31:30,242 - bot.handlers.macro_info_handlers - INFO - Пользователь Sergei id 1071020716 зашел в раздел 'Информация о вагоне'
+2024-07-15 17:31:30,484 - aiogram.event - INFO - Update id=174660036 is handled. Duration 246 ms by bot id=6594000811
+2024-07-15 17:31:32,718 - aiogram.event - INFO - Update id=174660037 is handled. Duration 204 ms by bot id=6594000811
+2024-07-15 17:38:58,568 - aiogram.event - INFO - Update id=174660038 is handled. Duration 229 ms by bot id=6594000811
+2024-07-15 17:39:00,553 - bot.handlers.wagon_valuation_handlers - INFO - Пользователь Sergei id 1071020716 зашел в раздел 'Сканер номера вагона'
+2024-07-15 17:39:00,676 - aiogram.event - INFO - Update id=174660039 is handled. Duration 124 ms by bot id=6594000811
+2024-07-15 17:39:32,291 - aiogram.event - INFO - Update id=174660040 is handled. Duration 3191 ms by bot id=6594000811
+2024-07-15 17:39:40,409 - bot.handlers.wagon_valuation_handlers - INFO - Пользователь Sergei id 1071020716 зашел в раздел 'Сканер номера вагона'
+2024-07-15 17:39:40,523 - aiogram.event - INFO - Update id=174660041 is handled. Duration 118 ms by bot id=6594000811
+2024-07-15 17:39:48,188 - aiogram.event - INFO - Update id=174660042 is handled. Duration 2862 ms by bot id=6594000811
+2024-07-15 17:50:24,911 - aiogram.event - INFO - Update id=174660043 is handled. Duration 197 ms by bot id=6594000811
+2024-07-15 17:50:26,983 - bot.handlers.wagon_valuation_handlers - INFO - Пользователь Sergei id 1071020716 зашел в раздел 'Оценить вагон'
+2024-07-15 17:50:27,102 - aiogram.event - INFO - Update id=174660044 is handled. Duration 122 ms by bot id=6594000811
+2024-07-15 17:50:29,872 - aiogram.event - INFO - Update id=174660045 is handled. Duration 125 ms by bot id=6594000811
+2024-07-15 17:50:32,643 - aiogram.event - INFO - Update id=174660046 is handled. Duration 111 ms by bot id=6594000811
+2024-07-15 17:50:38,305 - aiogram.event - INFO - Update id=174660047 is handled. Duration 120 ms by bot id=6594000811
+2024-07-15 17:50:44,618 - aiogram.event - INFO - Update id=174660048 is handled. Duration 108 ms by bot id=6594000811
+2024-07-15 17:50:48,208 - aiogram.event - INFO - Update id=174660049 is handled. Duration 165 ms by bot id=6594000811
+2024-07-15 17:50:51,623 - aiogram.event - INFO - Update id=174660050 is handled. Duration 80 ms by bot id=6594000811
+2024-07-15 17:50:56,158 - aiogram.event - INFO - Update id=174660051 is handled. Duration 169 ms by bot id=6594000811
+2024-07-15 18:25:45,345 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2024-07-15 18:25:45,346 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 6594000811)
+2024-07-15 18:25:56,566 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 6594000811)
+2024-07-15 18:47:58,050 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2024-07-15 18:47:58,052 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 6594000811)
+2024-07-15 18:48:09,287 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 6594000811)
+2024-07-15 19:21:05,625 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2024-07-15 19:21:05,627 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 6594000811)
+2024-07-15 19:21:16,865 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 6594000811)
