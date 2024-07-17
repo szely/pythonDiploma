@@ -3,7 +3,7 @@ import os
 import speech_recognition as sr
 
 
-# Модель конвертации в wav формат, необходимый для работы распознования по аудио
+# Модель конвертации в wav формат, необходимый для работы распознавания по аудио
 def convert_to_wav(filename):
     audio = AudioSegment.from_file(filename, format="ogg")
     file_name, file_extension = os.path.splitext(filename)
@@ -12,7 +12,7 @@ def convert_to_wav(filename):
     return output_filename
 
 
-# Модель распознования аудио в текст
+# Модель распознавания аудио в текст
 def speach_rec(file):
     r = sr.Recognizer()
     with sr.AudioFile(file) as sourse:

@@ -3,7 +3,7 @@ import os
 import plotly.express as px
 
 
-# Создание диаграмы "Водопад"
+# Создание диаграммы "Водопад"
 def paint_waterfall_chart(data, name):
     y_list = list(data.values())[2:-1]
     x_list = list(data.keys())[2:]

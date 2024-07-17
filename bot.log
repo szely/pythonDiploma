@@ -1633,3 +1633,33 @@ NameError: name 'e' is not defined
 2024-07-15 19:21:05,625 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
 2024-07-15 19:21:05,627 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 6594000811)
 2024-07-15 19:21:16,865 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 6594000811)
+2024-07-15 19:55:23,751 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2024-07-15 19:55:23,752 - aiogram.dispatcher - INFO - Polling stopped for bot @ourhandy_bot id=6594000811 - 'HandyBOT'
+2024-07-15 19:55:23,752 - aiogram.dispatcher - INFO - Polling stopped
+2024-07-15 22:03:12,806 - aiogram.dispatcher - INFO - Start polling
+2024-07-15 22:03:12,859 - aiogram.dispatcher - INFO - Run polling for bot @ourhandy_bot id=6594000811 - 'HandyBOT'
+2024-07-15 22:03:16,950 - bot.handlers.user_handlers - INFO - Пользователь Sergei id 1071020716 начал разговор.
+2024-07-15 22:03:16,950 - aiogram.event - INFO - Update id=174660053 is handled. Duration 349 ms by bot id=6594000811
+2024-07-15 22:03:18,645 - bot.handlers.file_manager_handlers - INFO - Пользователь Sergei id 1071020716 зашел в раздел 'Отчетность'
+2024-07-15 22:03:18,747 - aiogram.event - INFO - Update id=174660054 is handled. Duration 187 ms by bot id=6594000811
+2024-07-15 22:03:25,484 - bot.handlers.file_manager_handlers - INFO - Пользователь Sergei id 1071020716 выбрал метод отправки 'В бот'
+2024-07-15 22:03:25,777 - aiogram.event - INFO - Update id=174660055 is handled. Duration 294 ms by bot id=6594000811
+2024-07-15 22:03:28,713 - aiogram.event - INFO - Update id=174660056 is handled. Duration 208 ms by bot id=6594000811
+2024-07-15 22:03:32,221 - aiogram.event - INFO - Update id=174660057 is handled. Duration 375 ms by bot id=6594000811
+2024-07-15 22:03:33,876 - aiogram.event - INFO - Update id=174660058 is handled. Duration 332 ms by bot id=6594000811
+2024-07-15 22:03:36,096 - bot.handlers.file_manager_handlers - INFO - Пользователь Sergei id 1071020716 получил файл '/Users/szely/Yandex.Disk.localized/Финансовый департамент/ОТЧЕТНОСТЬ/04. Бух. отчетность/2023/Год/БО_2023.pdf' в бот
+2024-07-15 22:03:36,399 - aiogram.event - INFO - Update id=174660059 is handled. Duration 303 ms by bot id=6594000811
+2024-07-15 22:03:44,592 - aiogram.event - INFO - Update id=174660060 is handled. Duration 140 ms by bot id=6594000811
+2024-07-15 22:03:45,724 - aiogram.event - INFO - Update id=174660061 is handled. Duration 155 ms by bot id=6594000811
+2024-07-15 22:03:46,941 - aiogram.event - INFO - Update id=174660062 is handled. Duration 212 ms by bot id=6594000811
+2024-07-15 22:03:54,051 - aiogram.event - INFO - Update id=174660063 is handled. Duration 110 ms by bot id=6594000811
+2024-07-15 22:03:55,162 - bot.handlers.file_manager_handlers - INFO - Пользователь Sergei id 1071020716 выбрал метод отправки 'На почту'
+2024-07-15 22:03:55,342 - aiogram.event - INFO - Update id=174660064 is handled. Duration 184 ms by bot id=6594000811
+2024-07-15 22:04:03,078 - aiogram.event - INFO - Update id=174660065 is handled. Duration 179 ms by bot id=6594000811
+2024-07-15 22:04:04,601 - aiogram.event - INFO - Update id=174660066 is handled. Duration 277 ms by bot id=6594000811
+2024-07-15 22:04:05,941 - aiogram.event - INFO - Update id=174660067 is handled. Duration 253 ms by bot id=6594000811
+2024-07-15 22:04:07,452 - bot.handlers.file_manager_handlers - INFO - Статус отправки файла '/Users/szely/Yandex.Disk.localized/Финансовый департамент/ОТЧЕТНОСТЬ/01. Парк/2023/08. Август/8. Август Парк.pdf' на почту для пользователя  Sergei id 1071020716 - 'На Вашу почту szely@yandex.ru успешно отправлен файл '
+2024-07-15 22:04:07,569 - aiogram.event - INFO - Update id=174660068 is handled. Duration 548 ms by bot id=6594000811
+2024-07-15 22:16:51,528 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2024-07-15 22:16:51,530 - aiogram.dispatcher - INFO - Polling stopped for bot @ourhandy_bot id=6594000811 - 'HandyBOT'
+2024-07-15 22:16:51,530 - aiogram.dispatcher - INFO - Polling stopped
