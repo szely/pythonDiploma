@@ -1663,3 +1663,174 @@ NameError: name 'e' is not defined
 2024-07-15 22:16:51,528 - aiogram.dispatcher - WARNING - Received SIGINT signal
 2024-07-15 22:16:51,530 - aiogram.dispatcher - INFO - Polling stopped for bot @ourhandy_bot id=6594000811 - 'HandyBOT'
 2024-07-15 22:16:51,530 - aiogram.dispatcher - INFO - Polling stopped
+2024-07-17 15:42:17,117 - aiogram.dispatcher - INFO - Start polling
+2024-07-17 15:42:17,177 - aiogram.dispatcher - INFO - Run polling for bot @ourhandy_bot id=6594000811 - 'HandyBOT'
+2024-07-17 15:42:48,305 - aiogram.event - INFO - Update id=174660069 is handled. Duration 330 ms by bot id=6594000811
+2024-07-17 15:42:49,795 - bot.handlers.file_manager_handlers - INFO - Пользователь Sergei id 1071020716 зашел в раздел 'Отчетность'
+2024-07-17 15:42:49,886 - aiogram.event - INFO - Update id=174660070 is handled. Duration 176 ms by bot id=6594000811
+2024-07-17 15:42:52,289 - bot.handlers.file_manager_handlers - INFO - Пользователь Sergei id 1071020716 выбрал метод отправки 'В бот'
+2024-07-17 15:42:52,684 - aiogram.event - INFO - Update id=174660071 is handled. Duration 395 ms by bot id=6594000811
+2024-07-17 15:44:00,200 - bot.handlers.file_manager_handlers - INFO - Пользователь Sergei id 1071020716 запустил поиск файлов
+2024-07-17 15:44:00,465 - aiogram.event - INFO - Update id=174660072 is handled. Duration 268 ms by bot id=6594000811
+2024-07-17 15:44:04,557 - bot.handlers.file_manager_handlers - INFO - Пользователь Sergei id 1071020716 ищет файл(ы) 'бюджет' через текстовое сообщение
+2024-07-17 15:44:04,784 - bot.handlers.file_manager_handlers - INFO - Для пользователя Sergei id 1071020716 найден(ы) файл(ы) '/Users/szely/Yandex.Disk.localized/Финансовый департамент/ОТЧЕТНОСТЬ/02. Отчеты/01. Бюджет/2022/02. Скорректированный/Корректировка бюджета 2022_.pptx'
+2024-07-17 15:44:05,295 - bot.handlers.file_manager_handlers - INFO - Для пользователя Sergei id 1071020716 найден(ы) файл(ы) '/Users/szely/Yandex.Disk.localized/Финансовый департамент/ОТЧЕТНОСТЬ/02. Отчеты/01. Бюджет/2022/02. Скорректированный/Корректировка бюджета 2022.pdf'
+2024-07-17 15:44:05,762 - bot.handlers.file_manager_handlers - INFO - Для пользователя Sergei id 1071020716 найден(ы) файл(ы) '/Users/szely/Yandex.Disk.localized/Финансовый департамент/ОТЧЕТНОСТЬ/02. Отчеты/01. Бюджет/2022/01. Первоначальный/Бюджет.pdf'
+2024-07-17 15:44:06,061 - bot.handlers.file_manager_handlers - INFO - Для пользователя Sergei id 1071020716 найден(ы) файл(ы) '/Users/szely/Yandex.Disk.localized/Финансовый департамент/ОТЧЕТНОСТЬ/02. Отчеты/01. Бюджет/2024/01. Первоначальный/Презентация_Бюджет 2024.pdf'
+2024-07-17 15:44:06,331 - bot.handlers.file_manager_handlers - INFO - Для пользователя Sergei id 1071020716 найден(ы) файл(ы) '/Users/szely/Yandex.Disk.localized/Финансовый департамент/ОТЧЕТНОСТЬ/02. Отчеты/01. Бюджет/2024/01. Первоначальный/Бюджет 2024_утвержденный.pdf'
+2024-07-17 15:44:06,582 - bot.handlers.file_manager_handlers - INFO - Для пользователя Sergei id 1071020716 найден(ы) файл(ы) '/Users/szely/Yandex.Disk.localized/Финансовый департамент/ОТЧЕТНОСТЬ/02. Отчеты/01. Бюджет/2024/01. Первоначальный/Презентация_Бюджет 2024.pptx'
+2024-07-17 15:44:06,731 - bot.handlers.file_manager_handlers - INFO - Для пользователя Sergei id 1071020716 найден(ы) файл(ы) '/Users/szely/Yandex.Disk.localized/Финансовый департамент/ОТЧЕТНОСТЬ/02. Отчеты/01. Бюджет/2023/01. Первоначальный/Бюджет 2023 подписанный.pdf'
+2024-07-17 15:44:06,910 - bot.handlers.file_manager_handlers - INFO - Для пользователя Sergei id 1071020716 найден(ы) файл(ы) '/Users/szely/Yandex.Disk.localized/Финансовый департамент/ОТЧЕТНОСТЬ/02. Отчеты/01. Бюджет/2023/01. Первоначальный/Презентация_Бюджет 2023.pdf'
+2024-07-17 15:44:07,338 - aiogram.event - INFO - Update id=174660073 is handled. Duration 2783 ms by bot id=6594000811
+2024-07-17 15:44:17,122 - bot.handlers.file_manager_handlers - INFO - Пользователь Sergei id 1071020716 запустил поиск файлов
+2024-07-17 15:44:17,215 - aiogram.event - INFO - Update id=174660074 is handled. Duration 95 ms by bot id=6594000811
+2024-07-17 15:44:24,167 - bot.handlers.file_manager_handlers - INFO - Пользователь Sergei id 1071020716 ищет файл(ы) 'None' через аудио сообщение
+2024-07-17 15:44:24,935 - bot.handlers.file_manager_handlers - INFO - Для пользователя Sergei id 1071020716 найден(ы) файл(ы) '/Users/szely/Yandex.Disk.localized/Финансовый департамент/ОТЧЕТНОСТЬ/02. Отчеты/01. Бюджет/2022/02. Скорректированный/Корректировка бюджета 2022_.pptx'
+2024-07-17 15:44:25,078 - bot.handlers.file_manager_handlers - INFO - Для пользователя Sergei id 1071020716 найден(ы) файл(ы) '/Users/szely/Yandex.Disk.localized/Финансовый департамент/ОТЧЕТНОСТЬ/02. Отчеты/01. Бюджет/2022/02. Скорректированный/Корректировка бюджета 2022.pdf'
+2024-07-17 15:44:25,304 - bot.handlers.file_manager_handlers - INFO - Для пользователя Sergei id 1071020716 найден(ы) файл(ы) '/Users/szely/Yandex.Disk.localized/Финансовый департамент/ОТЧЕТНОСТЬ/02. Отчеты/01. Бюджет/2022/01. Первоначальный/Бюджет.pdf'
+2024-07-17 15:44:25,527 - bot.handlers.file_manager_handlers - INFO - Для пользователя Sergei id 1071020716 найден(ы) файл(ы) '/Users/szely/Yandex.Disk.localized/Финансовый департамент/ОТЧЕТНОСТЬ/02. Отчеты/01. Бюджет/2024/01. Первоначальный/Презентация_Бюджет 2024.pdf'
+2024-07-17 15:44:25,776 - bot.handlers.file_manager_handlers - INFO - Для пользователя Sergei id 1071020716 найден(ы) файл(ы) '/Users/szely/Yandex.Disk.localized/Финансовый департамент/ОТЧЕТНОСТЬ/02. Отчеты/01. Бюджет/2024/01. Первоначальный/Бюджет 2024_утвержденный.pdf'
+2024-07-17 15:44:25,966 - bot.handlers.file_manager_handlers - INFO - Для пользователя Sergei id 1071020716 найден(ы) файл(ы) '/Users/szely/Yandex.Disk.localized/Финансовый департамент/ОТЧЕТНОСТЬ/02. Отчеты/01. Бюджет/2024/01. Первоначальный/Презентация_Бюджет 2024.pptx'
+2024-07-17 15:44:26,158 - bot.handlers.file_manager_handlers - INFO - Для пользователя Sergei id 1071020716 найден(ы) файл(ы) '/Users/szely/Yandex.Disk.localized/Финансовый департамент/ОТЧЕТНОСТЬ/02. Отчеты/01. Бюджет/2023/01. Первоначальный/Бюджет 2023 подписанный.pdf'
+2024-07-17 15:44:26,401 - bot.handlers.file_manager_handlers - INFO - Для пользователя Sergei id 1071020716 найден(ы) файл(ы) '/Users/szely/Yandex.Disk.localized/Финансовый департамент/ОТЧЕТНОСТЬ/02. Отчеты/01. Бюджет/2023/01. Первоначальный/Презентация_Бюджет 2023.pdf'
+2024-07-17 15:44:26,732 - aiogram.event - INFO - Update id=174660075 is handled. Duration 5319 ms by bot id=6594000811
+2024-07-17 15:46:41,534 - aiogram.event - INFO - Update id=174660076 is handled. Duration 328 ms by bot id=6594000811
+2024-07-17 15:46:42,833 - bot.handlers.file_manager_handlers - INFO - Пользователь Sergei id 1071020716 зашел в раздел 'Отчетность'
+2024-07-17 15:46:42,978 - aiogram.event - INFO - Update id=174660077 is handled. Duration 248 ms by bot id=6594000811
+2024-07-17 15:46:44,338 - bot.handlers.file_manager_handlers - INFO - Пользователь Sergei id 1071020716 выбрал метод отправки 'В бот'
+2024-07-17 15:46:44,508 - aiogram.event - INFO - Update id=174660078 is handled. Duration 175 ms by bot id=6594000811
+2024-07-17 15:46:45,366 - bot.handlers.file_manager_handlers - INFO - Пользователь Sergei id 1071020716 запустил поиск файлов
+2024-07-17 15:46:45,449 - aiogram.event - INFO - Update id=174660079 is handled. Duration 87 ms by bot id=6594000811
+2024-07-17 15:46:48,124 - bot.handlers.file_manager_handlers - INFO - Пользователь Sergei id 1071020716 ищет файл(ы) 'бюджет' через текстовое сообщение
+2024-07-17 15:46:48,318 - bot.handlers.file_manager_handlers - INFO - Для пользователя Sergei id 1071020716 найден(ы) файл(ы) '/Users/szely/Yandex.Disk.localized/Финансовый департамент/ОТЧЕТНОСТЬ/02. Отчеты/01. Бюджет/2022/02. Скорректированный/Корректировка бюджета 2022_.pptx'
+2024-07-17 15:46:48,466 - bot.handlers.file_manager_handlers - INFO - Для пользователя Sergei id 1071020716 найден(ы) файл(ы) '/Users/szely/Yandex.Disk.localized/Финансовый департамент/ОТЧЕТНОСТЬ/02. Отчеты/01. Бюджет/2022/02. Скорректированный/Корректировка бюджета 2022.pdf'
+2024-07-17 15:46:48,694 - bot.handlers.file_manager_handlers - INFO - Для пользователя Sergei id 1071020716 найден(ы) файл(ы) '/Users/szely/Yandex.Disk.localized/Финансовый департамент/ОТЧЕТНОСТЬ/02. Отчеты/01. Бюджет/2022/01. Первоначальный/Бюджет.pdf'
+2024-07-17 15:46:48,914 - bot.handlers.file_manager_handlers - INFO - Для пользователя Sergei id 1071020716 найден(ы) файл(ы) '/Users/szely/Yandex.Disk.localized/Финансовый департамент/ОТЧЕТНОСТЬ/02. Отчеты/01. Бюджет/2024/01. Первоначальный/Презентация_Бюджет 2024.pdf'
+2024-07-17 15:46:49,119 - bot.handlers.file_manager_handlers - INFO - Для пользователя Sergei id 1071020716 найден(ы) файл(ы) '/Users/szely/Yandex.Disk.localized/Финансовый департамент/ОТЧЕТНОСТЬ/02. Отчеты/01. Бюджет/2024/01. Первоначальный/Бюджет 2024_утвержденный.pdf'
+2024-07-17 15:46:49,342 - bot.handlers.file_manager_handlers - INFO - Для пользователя Sergei id 1071020716 найден(ы) файл(ы) '/Users/szely/Yandex.Disk.localized/Финансовый департамент/ОТЧЕТНОСТЬ/02. Отчеты/01. Бюджет/2024/01. Первоначальный/Презентация_Бюджет 2024.pptx'
+2024-07-17 15:46:49,467 - bot.handlers.file_manager_handlers - INFO - Для пользователя Sergei id 1071020716 найден(ы) файл(ы) '/Users/szely/Yandex.Disk.localized/Финансовый департамент/ОТЧЕТНОСТЬ/02. Отчеты/01. Бюджет/2023/01. Первоначальный/Бюджет 2023 подписанный.pdf'
+2024-07-17 15:46:49,736 - bot.handlers.file_manager_handlers - INFO - Для пользователя Sergei id 1071020716 найден(ы) файл(ы) '/Users/szely/Yandex.Disk.localized/Финансовый департамент/ОТЧЕТНОСТЬ/02. Отчеты/01. Бюджет/2023/01. Первоначальный/Презентация_Бюджет 2023.pdf'
+2024-07-17 15:46:50,081 - aiogram.event - INFO - Update id=174660080 is handled. Duration 1960 ms by bot id=6594000811
+2024-07-17 15:46:56,137 - bot.handlers.file_manager_handlers - INFO - Пользователь Sergei id 1071020716 запустил поиск файлов
+2024-07-17 15:46:56,290 - aiogram.event - INFO - Update id=174660081 is handled. Duration 155 ms by bot id=6594000811
+2024-07-17 15:47:01,895 - bot.handlers.file_manager_handlers - INFO - Пользователь Sergei id 1071020716 ищет файл(ы) 'None' через аудио сообщение
+2024-07-17 15:47:02,671 - bot.handlers.file_manager_handlers - INFO - Для пользователя Sergei id 1071020716 найден(ы) файл(ы) '/Users/szely/Yandex.Disk.localized/Финансовый департамент/ОТЧЕТНОСТЬ/02. Отчеты/01. Бюджет/2022/02. Скорректированный/Корректировка бюджета 2022_.pptx'
+2024-07-17 15:47:02,802 - bot.handlers.file_manager_handlers - INFO - Для пользователя Sergei id 1071020716 найден(ы) файл(ы) '/Users/szely/Yandex.Disk.localized/Финансовый департамент/ОТЧЕТНОСТЬ/02. Отчеты/01. Бюджет/2022/02. Скорректированный/Корректировка бюджета 2022.pdf'
+2024-07-17 15:47:03,022 - bot.handlers.file_manager_handlers - INFO - Для пользователя Sergei id 1071020716 найден(ы) файл(ы) '/Users/szely/Yandex.Disk.localized/Финансовый департамент/ОТЧЕТНОСТЬ/02. Отчеты/01. Бюджет/2022/01. Первоначальный/Бюджет.pdf'
+2024-07-17 15:47:03,262 - bot.handlers.file_manager_handlers - INFO - Для пользователя Sergei id 1071020716 найден(ы) файл(ы) '/Users/szely/Yandex.Disk.localized/Финансовый департамент/ОТЧЕТНОСТЬ/02. Отчеты/01. Бюджет/2024/01. Первоначальный/Презентация_Бюджет 2024.pdf'
+2024-07-17 15:47:03,542 - bot.handlers.file_manager_handlers - INFO - Для пользователя Sergei id 1071020716 найден(ы) файл(ы) '/Users/szely/Yandex.Disk.localized/Финансовый департамент/ОТЧЕТНОСТЬ/02. Отчеты/01. Бюджет/2024/01. Первоначальный/Бюджет 2024_утвержденный.pdf'
+2024-07-17 15:47:03,865 - bot.handlers.file_manager_handlers - INFO - Для пользователя Sergei id 1071020716 найден(ы) файл(ы) '/Users/szely/Yandex.Disk.localized/Финансовый департамент/ОТЧЕТНОСТЬ/02. Отчеты/01. Бюджет/2024/01. Первоначальный/Презентация_Бюджет 2024.pptx'
+2024-07-17 15:47:04,391 - bot.handlers.file_manager_handlers - INFO - Для пользователя Sergei id 1071020716 найден(ы) файл(ы) '/Users/szely/Yandex.Disk.localized/Финансовый департамент/ОТЧЕТНОСТЬ/02. Отчеты/01. Бюджет/2023/01. Первоначальный/Бюджет 2023 подписанный.pdf'
+2024-07-17 15:47:04,801 - bot.handlers.file_manager_handlers - INFO - Для пользователя Sergei id 1071020716 найден(ы) файл(ы) '/Users/szely/Yandex.Disk.localized/Финансовый департамент/ОТЧЕТНОСТЬ/02. Отчеты/01. Бюджет/2023/01. Первоначальный/Презентация_Бюджет 2023.pdf'
+2024-07-17 15:47:05,161 - aiogram.event - INFO - Update id=174660082 is handled. Duration 3849 ms by bot id=6594000811
+2024-07-17 16:26:46,882 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2024-07-17 16:26:46,883 - aiogram.dispatcher - INFO - Polling stopped for bot @ourhandy_bot id=6594000811 - 'HandyBOT'
+2024-07-17 16:26:46,883 - aiogram.dispatcher - INFO - Polling stopped
+2024-07-18 09:45:57,815 - asyncio - ERROR - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x3180f37a0>
+2024-07-18 09:46:07,268 - asyncio - ERROR - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x17b7727e0>
+2024-07-18 09:46:55,027 - aiogram.dispatcher - INFO - Start polling
+2024-07-18 09:46:55,085 - aiogram.dispatcher - INFO - Run polling for bot @ourhandy_bot id=6594000811 - 'HandyBOT'
+2024-07-18 09:47:40,695 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2024-07-18 09:47:40,696 - aiogram.dispatcher - INFO - Polling stopped for bot @ourhandy_bot id=6594000811 - 'HandyBOT'
+2024-07-18 09:47:40,696 - aiogram.dispatcher - INFO - Polling stopped
+2024-07-18 09:48:24,347 - aiogram.dispatcher - INFO - Start polling
+2024-07-18 09:48:24,408 - aiogram.dispatcher - INFO - Run polling for bot @ourhandy_bot id=6594000811 - 'HandyBOT'
+2024-07-18 09:48:34,005 - bot.handlers.user_handlers - INFO - Пользователь Sergei id 1071020716 начал разговор.
+2024-07-18 09:48:34,536 - aiogram.event - INFO - Update id=174660083 is handled. Duration 531 ms by bot id=6594000811
+2024-07-18 09:48:42,647 - bot.handlers.user_handlers - INFO - Пользователь Sergei id 1071020716 зарегистрировал адрес электронной почты.
+2024-07-18 09:48:42,820 - aiogram.event - INFO - Update id=174660084 is handled. Duration 175 ms by bot id=6594000811
+2024-07-18 09:48:54,930 - bot.handlers.file_manager_handlers - INFO - Пользователь Sergei id 1071020716 зашел в раздел 'Отчетность'
+2024-07-18 09:48:55,036 - aiogram.event - INFO - Update id=174660085 is handled. Duration 219 ms by bot id=6594000811
+2024-07-18 09:48:57,261 - bot.handlers.file_manager_handlers - INFO - Пользователь Sergei id 1071020716 выбрал метод отправки 'В бот'
+2024-07-18 09:48:57,469 - aiogram.event - INFO - Update id=174660086 is handled. Duration 209 ms by bot id=6594000811
+2024-07-18 09:49:08,649 - aiogram.event - INFO - Update id=174660087 is handled. Duration 180 ms by bot id=6594000811
+2024-07-18 09:49:10,414 - aiogram.event - INFO - Update id=174660088 is handled. Duration 150 ms by bot id=6594000811
+2024-07-18 09:49:11,618 - aiogram.event - INFO - Update id=174660089 is handled. Duration 161 ms by bot id=6594000811
+2024-07-18 09:49:13,053 - bot.handlers.file_manager_handlers - INFO - Пользователь Sergei id 1071020716 получил файл '/Users/szely/Yandex.Disk.localized/Финансовый департамент/ОТЧЕТНОСТЬ/01. Парк/2023/07. Июль/7. Июль Парк.pdf' в бот
+2024-07-18 09:49:13,343 - aiogram.event - INFO - Update id=174660090 is handled. Duration 289 ms by bot id=6594000811
+2024-07-18 09:49:25,764 - aiogram.event - INFO - Update id=174660091 is handled. Duration 98 ms by bot id=6594000811
+2024-07-18 09:49:27,435 - bot.handlers.file_manager_handlers - INFO - Пользователь Sergei id 1071020716 выбрал метод отправки 'На почту'
+2024-07-18 09:49:27,729 - aiogram.event - INFO - Update id=174660092 is handled. Duration 298 ms by bot id=6594000811
+2024-07-18 09:49:30,167 - aiogram.event - INFO - Update id=174660093 is handled. Duration 358 ms by bot id=6594000811
+2024-07-18 09:49:31,212 - aiogram.event - INFO - Update id=174660094 is handled. Duration 240 ms by bot id=6594000811
+2024-07-18 09:49:32,360 - aiogram.event - INFO - Update id=174660095 is handled. Duration 305 ms by bot id=6594000811
+2024-07-18 09:49:34,083 - bot.handlers.file_manager_handlers - INFO - Статус отправки файла '/Users/szely/Yandex.Disk.localized/Финансовый департамент/ОТЧЕТНОСТЬ/04. Бух. отчетность/2023/Год/БО_2023.pdf' на почту для пользователя  Sergei id 1071020716 - 'На Вашу почту szely@yandex.ru успешно отправлен файл '
+2024-07-18 09:49:34,164 - aiogram.event - INFO - Update id=174660096 is handled. Duration 471 ms by bot id=6594000811
+2024-07-18 09:49:52,818 - bot.handlers.file_manager_handlers - INFO - Пользователь Sergei id 1071020716 запустил поиск файлов
+2024-07-18 09:49:53,009 - aiogram.event - INFO - Update id=174660097 is handled. Duration 193 ms by bot id=6594000811
+2024-07-18 09:49:57,203 - bot.handlers.file_manager_handlers - INFO - Пользователь Sergei id 1071020716 ищет файл(ы) 'бюджет' через текстовое сообщение
+2024-07-18 09:49:58,138 - bot.handlers.file_manager_handlers - INFO - Для пользователя Sergei id 1071020716 найден(ы) файл(ы) '/Users/szely/Yandex.Disk.localized/Финансовый департамент/ОТЧЕТНОСТЬ/02. Отчеты/01. Бюджет/2022/02. Скорректированный/Корректировка бюджета 2022_.pptx'
+2024-07-18 09:49:58,856 - bot.handlers.file_manager_handlers - INFO - Для пользователя Sergei id 1071020716 найден(ы) файл(ы) '/Users/szely/Yandex.Disk.localized/Финансовый департамент/ОТЧЕТНОСТЬ/02. Отчеты/01. Бюджет/2022/02. Скорректированный/Корректировка бюджета 2022.pdf'
+2024-07-18 09:49:59,337 - bot.handlers.file_manager_handlers - INFO - Для пользователя Sergei id 1071020716 найден(ы) файл(ы) '/Users/szely/Yandex.Disk.localized/Финансовый департамент/ОТЧЕТНОСТЬ/02. Отчеты/01. Бюджет/2022/01. Первоначальный/Бюджет.pdf'
+2024-07-18 09:49:59,780 - bot.handlers.file_manager_handlers - INFO - Для пользователя Sergei id 1071020716 найден(ы) файл(ы) '/Users/szely/Yandex.Disk.localized/Финансовый департамент/ОТЧЕТНОСТЬ/02. Отчеты/01. Бюджет/2024/01. Первоначальный/Презентация_Бюджет 2024.pdf'
+2024-07-18 09:50:00,342 - bot.handlers.file_manager_handlers - INFO - Для пользователя Sergei id 1071020716 найден(ы) файл(ы) '/Users/szely/Yandex.Disk.localized/Финансовый департамент/ОТЧЕТНОСТЬ/02. Отчеты/01. Бюджет/2024/01. Первоначальный/Бюджет 2024_утвержденный.pdf'
+2024-07-18 09:50:00,774 - bot.handlers.file_manager_handlers - INFO - Для пользователя Sergei id 1071020716 найден(ы) файл(ы) '/Users/szely/Yandex.Disk.localized/Финансовый департамент/ОТЧЕТНОСТЬ/02. Отчеты/01. Бюджет/2024/01. Первоначальный/Презентация_Бюджет 2024.pptx'
+2024-07-18 09:50:01,145 - bot.handlers.file_manager_handlers - INFO - Для пользователя Sergei id 1071020716 найден(ы) файл(ы) '/Users/szely/Yandex.Disk.localized/Финансовый департамент/ОТЧЕТНОСТЬ/02. Отчеты/01. Бюджет/2023/01. Первоначальный/Бюджет 2023 подписанный.pdf'
+2024-07-18 09:50:01,722 - bot.handlers.file_manager_handlers - INFO - Для пользователя Sergei id 1071020716 найден(ы) файл(ы) '/Users/szely/Yandex.Disk.localized/Финансовый департамент/ОТЧЕТНОСТЬ/02. Отчеты/01. Бюджет/2023/01. Первоначальный/Презентация_Бюджет 2023.pdf'
+2024-07-18 09:50:01,942 - aiogram.event - INFO - Update id=174660098 is handled. Duration 4741 ms by bot id=6594000811
+2024-07-18 09:50:17,972 - aiogram.event - INFO - Update id=174660099 is handled. Duration 301 ms by bot id=6594000811
+2024-07-18 09:50:18,892 - bot.handlers.file_manager_handlers - INFO - Пользователь Sergei id 1071020716 выбрал метод отправки 'В бот'
+2024-07-18 09:50:19,073 - aiogram.event - INFO - Update id=174660100 is handled. Duration 186 ms by bot id=6594000811
+2024-07-18 09:50:20,110 - bot.handlers.file_manager_handlers - INFO - Пользователь Sergei id 1071020716 запустил поиск файлов
+2024-07-18 09:50:20,216 - aiogram.event - INFO - Update id=174660101 is handled. Duration 108 ms by bot id=6594000811
+2024-07-18 09:50:26,334 - bot.handlers.file_manager_handlers - INFO - Пользователь Sergei id 1071020716 ищет файл(ы) 'None' через аудио сообщение
+2024-07-18 09:50:27,188 - bot.handlers.file_manager_handlers - INFO - Для пользователя Sergei id 1071020716 найден(ы) файл(ы) '/Users/szely/Yandex.Disk.localized/Финансовый департамент/ОТЧЕТНОСТЬ/02. Отчеты/01. Бюджет/2022/02. Скорректированный/Корректировка бюджета 2022_.pptx'
+2024-07-18 09:50:27,629 - bot.handlers.file_manager_handlers - INFO - Для пользователя Sergei id 1071020716 найден(ы) файл(ы) '/Users/szely/Yandex.Disk.localized/Финансовый департамент/ОТЧЕТНОСТЬ/02. Отчеты/01. Бюджет/2022/02. Скорректированный/Корректировка бюджета 2022.pdf'
+2024-07-18 09:50:28,008 - bot.handlers.file_manager_handlers - INFO - Для пользователя Sergei id 1071020716 найден(ы) файл(ы) '/Users/szely/Yandex.Disk.localized/Финансовый департамент/ОТЧЕТНОСТЬ/02. Отчеты/01. Бюджет/2022/01. Первоначальный/Бюджет.pdf'
+2024-07-18 09:50:28,509 - bot.handlers.file_manager_handlers - INFO - Для пользователя Sergei id 1071020716 найден(ы) файл(ы) '/Users/szely/Yandex.Disk.localized/Финансовый департамент/ОТЧЕТНОСТЬ/02. Отчеты/01. Бюджет/2024/01. Первоначальный/Презентация_Бюджет 2024.pdf'
+2024-07-18 09:50:28,853 - bot.handlers.file_manager_handlers - INFO - Для пользователя Sergei id 1071020716 найден(ы) файл(ы) '/Users/szely/Yandex.Disk.localized/Финансовый департамент/ОТЧЕТНОСТЬ/02. Отчеты/01. Бюджет/2024/01. Первоначальный/Бюджет 2024_утвержденный.pdf'
+2024-07-18 09:50:29,168 - bot.handlers.file_manager_handlers - INFO - Для пользователя Sergei id 1071020716 найден(ы) файл(ы) '/Users/szely/Yandex.Disk.localized/Финансовый департамент/ОТЧЕТНОСТЬ/02. Отчеты/01. Бюджет/2024/01. Первоначальный/Презентация_Бюджет 2024.pptx'
+2024-07-18 09:50:29,310 - bot.handlers.file_manager_handlers - INFO - Для пользователя Sergei id 1071020716 найден(ы) файл(ы) '/Users/szely/Yandex.Disk.localized/Финансовый департамент/ОТЧЕТНОСТЬ/02. Отчеты/01. Бюджет/2023/01. Первоначальный/Бюджет 2023 подписанный.pdf'
+2024-07-18 09:50:29,535 - bot.handlers.file_manager_handlers - INFO - Для пользователя Sergei id 1071020716 найден(ы) файл(ы) '/Users/szely/Yandex.Disk.localized/Финансовый департамент/ОТЧЕТНОСТЬ/02. Отчеты/01. Бюджет/2023/01. Первоначальный/Презентация_Бюджет 2023.pdf'
+2024-07-18 09:50:29,917 - aiogram.event - INFO - Update id=174660102 is handled. Duration 4690 ms by bot id=6594000811
+2024-07-18 09:50:32,583 - aiogram.event - INFO - Update id=174660103 is handled. Duration 159 ms by bot id=6594000811
+2024-07-18 09:50:35,714 - aiogram.event - INFO - Update id=174660104 is handled. Duration 97 ms by bot id=6594000811
+2024-07-18 09:50:41,362 - bot.handlers.analitics_handlers - INFO - Пользователь Sergei id 1071020716 зашел в раздел 'Аналитика'
+2024-07-18 09:50:41,575 - aiogram.event - INFO - Update id=174660105 is handled. Duration 254 ms by bot id=6594000811
+2024-07-18 09:51:13,406 - aiogram.event - INFO - Update id=174660106 is handled. Duration 262 ms by bot id=6594000811
+2024-07-18 09:51:14,645 - bot.handlers.analitics_handlers - INFO - Пользователь Sergei id 1071020716 зашел в раздел 'Аналитика'
+2024-07-18 09:51:18,256 - aiogram.event - INFO - Update id=174660107 is handled. Duration 3642 ms by bot id=6594000811
+2024-07-18 09:51:21,922 - aiogram.event - INFO - Update id=174660108 is handled. Duration 89 ms by bot id=6594000811
+2024-07-18 09:51:26,283 - bot.handlers.macro_info_handlers - INFO - Пользователь Sergei id 1071020716 зашел в раздел 'Информация о вагоне'
+2024-07-18 09:51:26,490 - aiogram.event - INFO - Update id=174660109 is handled. Duration 209 ms by bot id=6594000811
+2024-07-18 09:51:45,900 - aiogram.event - INFO - Update id=174660110 is handled. Duration 378 ms by bot id=6594000811
+2024-07-18 09:51:50,403 - bot.handlers.macro_info_handlers - INFO - Пользователь Sergei id 1071020716 зашел в раздел 'Информация о вагоне'
+2024-07-18 09:51:50,494 - aiogram.event - INFO - Update id=174660111 is handled. Duration 93 ms by bot id=6594000811
+2024-07-18 09:52:09,164 - aiogram.event - INFO - Update id=174660112 is handled. Duration 370 ms by bot id=6594000811
+2024-07-18 09:52:18,323 - bot.handlers.macro_info_handlers - INFO - Пользователь Sergei id 1071020716 зашел в раздел 'Информация о вагоне'
+2024-07-18 09:52:18,422 - aiogram.event - INFO - Update id=174660113 is handled. Duration 101 ms by bot id=6594000811
+2024-07-18 09:52:20,270 - aiogram.event - INFO - Update id=174660114 is handled. Duration 255 ms by bot id=6594000811
+2024-07-18 09:52:23,082 - aiogram.event - INFO - Update id=174660115 is handled. Duration 112 ms by bot id=6594000811
+2024-07-18 09:52:25,132 - bot.handlers.wagon_valuation_handlers - INFO - Пользователь Sergei id 1071020716 зашел в раздел 'Оценить вагон'
+2024-07-18 09:52:25,224 - aiogram.event - INFO - Update id=174660116 is handled. Duration 94 ms by bot id=6594000811
+2024-07-18 09:52:28,034 - aiogram.event - INFO - Update id=174660117 is handled. Duration 131 ms by bot id=6594000811
+2024-07-18 09:52:30,672 - aiogram.event - INFO - Update id=174660118 is handled. Duration 162 ms by bot id=6594000811
+2024-07-18 09:52:35,228 - aiogram.event - INFO - Update id=174660119 is handled. Duration 115 ms by bot id=6594000811
+2024-07-18 09:52:37,560 - aiogram.event - INFO - Update id=174660120 is handled. Duration 168 ms by bot id=6594000811
+2024-07-18 09:52:42,461 - aiogram.event - INFO - Update id=174660121 is handled. Duration 107 ms by bot id=6594000811
+2024-07-18 09:52:45,375 - aiogram.event - INFO - Update id=174660122 is handled. Duration 90 ms by bot id=6594000811
+2024-07-18 09:52:49,034 - aiogram.event - INFO - Update id=174660123 is handled. Duration 267 ms by bot id=6594000811
+2024-07-18 09:52:56,768 - aiogram.event - INFO - Update id=174660124 is handled. Duration 83 ms by bot id=6594000811
+2024-07-18 09:53:07,775 - bot.handlers.wagon_valuation_handlers - INFO - Пользователь Sergei id 1071020716 зашел в раздел 'Сканер номера вагона'
+2024-07-18 09:53:07,872 - aiogram.event - INFO - Update id=174660125 is handled. Duration 100 ms by bot id=6594000811
+2024-07-18 09:53:26,348 - aiogram.event - INFO - Update id=174660126 is handled. Duration 3041 ms by bot id=6594000811
+2024-07-18 09:53:28,681 - bot.handlers.wagon_valuation_handlers - INFO - Пользователь Sergei id 1071020716 зашел в раздел 'Сканер номера вагона'
+2024-07-18 09:53:28,753 - aiogram.event - INFO - Update id=174660127 is handled. Duration 77 ms by bot id=6594000811
+2024-07-18 09:53:40,475 - aiogram.event - INFO - Update id=174660128 is handled. Duration 2726 ms by bot id=6594000811
+2024-07-18 09:53:44,135 - aiogram.event - INFO - Update id=174660129 is handled. Duration 95 ms by bot id=6594000811
+2024-07-18 09:53:47,124 - bot.handlers.macro_info_handlers - INFO - Пользователь Sergei id 1071020716 зашел в раздел 'Макроинформация'
+2024-07-18 09:53:47,277 - aiogram.event - INFO - Update id=174660130 is handled. Duration 287 ms by bot id=6594000811
+2024-07-18 09:53:50,034 - aiogram.event - INFO - Update id=174660131 is handled. Duration 177 ms by bot id=6594000811
+2024-07-18 09:53:52,353 - aiogram.event - INFO - Update id=174660132 is handled. Duration 178 ms by bot id=6594000811
+2024-07-18 09:53:55,364 - aiogram.event - INFO - Update id=174660133 is handled. Duration 124 ms by bot id=6594000811
+2024-07-18 09:54:01,625 - aiogram.event - INFO - Update id=174660134 is handled. Duration 274 ms by bot id=6594000811
+2024-07-18 09:54:09,360 - aiogram.event - INFO - Update id=174660135 is handled. Duration 82 ms by bot id=6594000811
+2024-07-18 09:54:14,246 - aiogram.event - INFO - Update id=174660136 is handled. Duration 93 ms by bot id=6594000811
+2024-07-18 09:54:17,539 - aiogram.event - INFO - Update id=174660137 is handled. Duration 134 ms by bot id=6594000811
+2024-07-18 09:54:22,843 - aiogram.event - INFO - Update id=174660138 is handled. Duration 336 ms by bot id=6594000811
+2024-07-18 09:54:31,451 - aiogram.event - INFO - Update id=174660139 is handled. Duration 87 ms by bot id=6594000811
+2024-07-18 09:55:45,847 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2024-07-18 09:55:45,848 - aiogram.dispatcher - INFO - Polling stopped for bot @ourhandy_bot id=6594000811 - 'HandyBOT'
+2024-07-18 09:55:45,848 - aiogram.dispatcher - INFO - Polling stopped
